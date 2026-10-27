@@ -130,7 +130,7 @@ const crumbs = (items) => ({ "@type": "BreadcrumbList", itemListElement: items.m
 const breadcrumb = (items) => `<nav class="crumbs" aria-label="Breadcrumb"><ol>${items.map(([n, p], i) => `<li>${i < items.length - 1 ? `<a href="${U(p)}">${esc(n)}</a>` : `<span aria-current="page">${esc(n)}</span>`}</li>`).join("")}</ol></nav>`;
 
 const art = (l) => l.art.img
-  ? `<img class="art" src="${U(`/assets/img/${l.art.img}.jpg`)}" alt="${esc(l.art.alt)}" width="540" height="960" loading="lazy" decoding="async">`
+  ? `<img class="art" src="${U(`/assets/img/${l.art.img}.${l.art.ext || "jpg"}`)}" alt="${esc(l.art.alt)}" width="540" height="960" loading="lazy" decoding="async">`
   : `<div class="art emoji" role="img" aria-label="${esc(l.art.alt)}"><span aria-hidden="true">${l.art.emoji}</span></div>`;
 const lessonCard = (l) => `<article class="card lesson-card" data-id="${l.id}" data-level="${esc(l.level)}" data-type="${esc(l.type)}" data-topics="${esc(l.topics.join("|"))}" data-search="${esc(norm([l.title, l.fr, l.description, l.topics.join(" "), l.vocab.map((v) => v.fr + " " + v.en).join(" ")].join(" ")))}">
  <a class="card-art" href="${U(l.url)}" tabindex="-1" aria-hidden="true">${art(l)}</a>

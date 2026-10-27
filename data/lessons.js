@@ -5,7 +5,7 @@ export const lessons = [
 {
  id: "meeting-for-the-first-time", number: 1, title: "Meeting for the First Time", fr: "Faire connaissance",
  type: "Short dialogue", level: "Absolute beginner", topics: ["Absolute Beginner", "Greetings and Introductions", "Listening and Conversation"],
- minutes: 6, art: { img: "story-cafe", alt: "Tiny French café scene" },
+ minutes: 6, art: { img: "story-cafe", ext: "png", alt: "Tiny French café scene" },
  description: "Say hello, tell someone your name and offer a coffee in your very first French conversation.",
  objectives: ["Greet someone with “Bonjour”", "Say “My name is…” with Je m'appelle", "Be polite with s'il te plaît and merci beaucoup"],
  intro: "Marinette and Adrien meet in a café. It is the shortest, friendliest first conversation you can have in French.",
@@ -81,7 +81,7 @@ export const lessons = [
 {
  id: "un-croissant-pour-adrien", number: 3, title: "A Croissant for Adrien", fr: "Un croissant pour Adrien",
  type: "Story", level: "Absolute beginner", topics: ["Absolute Beginner", "Everyday French", "Food and Cafés", "Listening and Conversation"],
- minutes: 8, art: { img: "03-cover", alt: "Tiny French lesson cover: Croissant Time" },
+ minutes: 8, art: { img: "03-cover", ext: "png", alt: "Tiny French lesson cover: Croissant Time" },
  description: "The last croissant is gone! Learn to order politely, say you are hungry and share with a friend.",
  objectives: ["Order politely with s'il vous plaît", "Say “there is no more…” with Il n'y a plus de…", "Tell tu (friends) and vous (shops) apart"],
  intro: "Adrien arrives at the bakery just too late. Marinette shares her croissant, and you learn how polite French sounds in a real shop.",
@@ -122,7 +122,7 @@ export const lessons = [
 {
  id: "une-journee-a-paris", number: 4, title: "A Day in Paris", fr: "Une journée à Paris",
  type: "Story", level: "Beginner (A1)", topics: ["Everyday French", "Travel French", "Food and Cafés", "Listening and Conversation"],
- minutes: 10, art: { img: "story-street", alt: "Tiny French Paris street scene" },
+ minutes: 10, art: { img: "story-street", ext: "png", alt: "Tiny French Paris street scene" },
  description: "Follow Marinette and Adrien from a Paris street to the bakery, a café and the park. Greet a friend, order food and say goodbye.",
  objectives: ["Ask “How are you?” with Ça va ?", "Order with Je voudrais… and s'il vous plaît", "Point things out with Il y a… and Regarde !"],
  intro: "Four places, one friendly day. This longer story shows how the phrases from earlier lessons work together.",
