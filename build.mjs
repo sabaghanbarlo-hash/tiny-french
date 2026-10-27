@@ -177,7 +177,7 @@ function roadmapHTML() {
   <p class="fine">No sign-up. Real French with English translations. ${lessons.length} lessons and counting.</p>
  </div>
  <div class="hero-art" aria-label="A Tiny French lesson preview">
-  <div class="phone"><img src="${U("/assets/img/03-cover.jpg")}" alt="A Tiny French lesson video cover with Marinette and Adrien" width="540" height="960" fetchpriority="high"></div>
+  <div class="phone"><img src="${U("/assets/img/03-cover.png")}" alt="A Tiny French lesson video cover with Marinette and Adrien" width="540" height="960" fetchpriority="high"></div>
   <div class="bubble"><p class="b-fr" lang="fr">Bonjour ! Je m’appelle Marinette.</p><p class="b-en">Hello! My name is Marinette.</p></div>
   <span class="float f1" aria-hidden="true">🥐</span><span class="float f2" aria-hidden="true">🗼</span><span class="float f3" aria-hidden="true">☕</span>
  </div>
