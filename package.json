@@ -1,0 +1,13 @@
+{
+  "name": "tiny-french",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Tiny French - free beginner French lessons. Static site, zero dependencies.",
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node build.mjs && node test.mjs",
+    "serve": "node serve.mjs"
+  },
+  "engines": { "node": ">=18" }
+}
