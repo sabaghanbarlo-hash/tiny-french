@@ -19,6 +19,9 @@ jobs:
         with:
           node-version: 20
       - name: Build and test
+        env:
+          BASE_PATH: /tiny-french
+          SITE_URL: https://sabaghanbarlo-hash.github.io/tiny-french
         run: npm test
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

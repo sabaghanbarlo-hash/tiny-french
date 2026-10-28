@@ -5,14 +5,13 @@ export const SITE = {
   // Production origin used for canonical URLs, the sitemap and social previews.
   // Override at build time with the SITE_URL environment variable. Leave empty to build without canonical URLs / sitemap.
   url: "https://sabaghanbarlo-hash.github.io/tiny-french",
-  // Folder the site is served from. "/tiny-french" for a GitHub project page, "" for a custom domain.
+  // Default to root hosting (Cloudflare Workers, custom domains, local preview).
+  // GitHub Pages sets BASE_PATH=/tiny-french in its workflow.
   // Override at build time with BASE_PATH.
-  basePath: "/tiny-french",
+  basePath: "",
   instagramUrl: "https://www.instagram.com/tiny.french/",
   instagramHandle: "@tiny.french",
-  youtubeUrl: "",          // fill in when the channel exists
-  email: "",               // optional public contact e-mail
-  // Newsletter: leave formAction empty until you have a real provider (Buttondown, MailerLite, Brevo, Kit...).
-  // Paste the provider's hosted form POST URL here and the signup box appears automatically.
+  youtubeUrl: "",
+  email: "",
   newsletter: { formAction: "", emailField: "email", provider: "" }
 };
