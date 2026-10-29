@@ -20,7 +20,7 @@ for (const l of [...lessons, ...courseLessons]) {
     if (q.type === "mc") { ok(q.options.length >= 3 && new Set(q.options).size === q.options.length, `${w} options unique`); ok(q.options.filter((o) => o === q.answer).length === 1, `${w} exactly one correct option`); }
     else ok(q.q.includes("___"), `${w} fill has a blank`);
   });
-  if (l.video) for (const f of [l.video.src, l.video.poster, l.video.src.replace(/\.mp4$/, ".vtt")]) ok(fs.existsSync(f), `${l.id} video asset exists: ${f}`);
+  if (l.video) for (const f of [l.video.src, l.video.poster, l.video.vtt || l.video.src.replace(/\.mp4$/, ".vtt")]) if (!/^https?:/.test(f)) ok(fs.existsSync(f), `${l.id} video asset exists: ${f}`);
   if (l.art.img) ok(fs.existsSync(`assets/img/${l.art.img}.jpg`), `${l.id} image exists`);
 }
 for (const l of courseLessons) ok(courses.some((c) => c.id === l.course), `${l.id} belongs to a known course`);

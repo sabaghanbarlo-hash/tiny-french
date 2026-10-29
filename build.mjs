@@ -21,6 +21,9 @@ const esc = (s) => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").
 const J = (o) => JSON.stringify(o).replace(/</g, "\\u003c");
 const U = (p) => BASE + p;
 const abs = (p) => (ORIGIN ? ORIGIN + p : U(p));
+const isUrl = (p) => /^https?:/.test(p);
+const V = (p) => (isUrl(p) ? p : U("/" + p));      // video files: a site path or a full URL
+const AV = (p) => (isUrl(p) ? p : abs("/" + p));
 const slug = (s) => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const norm = (s) => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[’']/g, "'");
 const write = (rel, data) => { const f = path.join(OUT, rel); fs.mkdirSync(path.dirname(f), { recursive: true }); fs.writeFileSync(f, data); };
@@ -248,7 +251,7 @@ add("/lessons/", page({
 const speakerClass = (w) => ({ Adrien: "adrien", Marinette: "marinette" }[w] || "other");
 function renderLesson(l, X) {
   const prev = byId[l.prev], next = byId[l.next], rel = X.rel;
-  const video = X.hideVideo ? "" : l.video ? `<section class="block" aria-labelledby="v-h"><h2 id="v-h">Watch the lesson</h2><div class="video"><video controls preload="metadata" playsinline poster="${U("/" + l.video.poster)}"><source src="${U("/" + l.video.src)}" type="video/mp4"><track kind="captions" srclang="fr" label="Français + English" src="${U("/" + l.video.src.replace(/\.mp4$/, ".vtt"))}" default>Your browser can't play this video.</video></div><p class="small muted center">${esc(l.video.note)}</p></section>`
+  const video = X.hideVideo ? "" : l.video ? `<section class="block" aria-labelledby="v-h"><h2 id="v-h">Watch the lesson</h2><div class="video"><video controls preload="metadata" playsinline poster="${V(l.video.poster)}"><source src="${V(l.video.src)}" type="video/mp4"><track kind="captions" srclang="fr" label="Français + English" src="${V(l.video.vtt || l.video.src.replace(/\.mp4$/, ".vtt"))}" default>Your browser can't play this video.</video></div><p class="small muted center">${esc(l.video.note)}</p></section>`
     : `<section class="block" aria-labelledby="v-h"><h2 id="v-h">Video</h2><div class="card novideo"><p><b>No video for this lesson yet.</b> Read the dialogue below${IG ? ` and follow <a href="${IG}" target="_blank" rel="noopener">${esc(SITE.instagramHandle)}</a> for new videos` : ""}.</p></div></section>`;
   const ig = l.instagram ? `<p><a class="btn ghost small" href="${esc(l.instagram)}" target="_blank" rel="noopener">${igIcon} See this lesson on Instagram</a></p>` : "";
   const lessonQuiz = { id: l.id, title: l.title, questions: l.quiz };
@@ -275,11 +278,11 @@ function renderLesson(l, X) {
  ${rel.length ? `<section class="block" aria-labelledby="r-h"><h2 id="r-h">Related lessons</h2><div class="grid3">${rel.map(lessonCard).join("")}</div></section>` : ""}
 </article>`;
   const ld = [crumbs(X.crumbs), { "@type": "LearningResource", name: `${l.title} (${l.fr})`, description: l.description, url: abs(l.url), inLanguage: "en", teaches: "French language", educationalLevel: l.level, learningResourceType: l.type === "Story" ? "Story lesson" : "Dialogue", timeRequired: `PT${l.minutes}M`, isAccessibleForFree: true, publisher: orgLd }];
-  if (l.video) ld.push({ "@type": "VideoObject", name: l.title, description: l.description, thumbnailUrl: abs("/" + l.video.poster), contentUrl: abs("/" + l.video.src), uploadDate: l.video.uploaded, duration: l.video.duration, inLanguage: "fr" });
+  if (l.video) ld.push({ "@type": "VideoObject", name: l.title, description: l.description, thumbnailUrl: AV(l.video.poster), contentUrl: AV(l.video.src), uploadDate: l.video.uploaded, ...(l.video.duration ? { duration: l.video.duration } : {}), inLanguage: "fr" });
   add(l.url, page({ title: X.title, desc: `${l.description} Free beginner French lesson with dialogue and English translations, vocabulary, grammar and a quiz.`, path: l.url, cur: X.cur, body, jsonld: ld, type: "article" }));
 }
 for (const l of lessons) renderLesson(l, { rel: related(l), crumbs: [["Home", "/"], ["Lessons", "/lessons/"], [l.title, l.url]], chip: `Episode ${l.number}`, more: ["/lessons/", "All lessons"], title: `${l.title}: Learn French (Episode ${l.number})`, cur: "lessons" });
-for (const c of courses) for (const l of c.lessonList) renderLesson(l, { rel: [], hideVideo: true, crumbs: [["Home", "/"], ["Courses", "/courses/"], [c.title, `/courses/${c.id}/`], [l.title, l.url]], chip: `Lesson ${l.number} of ${c.lessonList.length}`, more: [`/courses/${c.id}/`, "Course overview"], title: `${l.title}: ${c.title} (Lesson ${l.number})`, cur: "courses" });
+for (const c of courses) for (const l of c.lessonList) renderLesson(l, { rel: [], hideVideo: !l.video, crumbs: [["Home", "/"], ["Courses", "/courses/"], [c.title, `/courses/${c.id}/`], [l.title, l.url]], chip: `Lesson ${l.number} of ${c.lessonList.length}`, more: [`/courses/${c.id}/`, "Course overview"], title: `${l.title}: ${c.title} (Lesson ${l.number})`, cur: "courses" });
 
 // Vocabulary
 add("/vocabulary/", page({
