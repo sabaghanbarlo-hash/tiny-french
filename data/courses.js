@@ -11,6 +11,30 @@ export const courses = [
   cta: { label: "Start learning free", href: "/start/" }
  },
  {
+  id: "first-conversations", title: "First Conversations", kind: "Free course", status: "available",
+  level: "Absolute beginner (A1)", free: true, price: null, currency: "USD", checkoutUrl: "", art: "story-street",
+  summary: "Five short dialogue lessons for your first real conversations: greetings, introductions, numbers and prices, ordering at a café and asking for directions.",
+  outcomes: ["Greet people at any time of day", "Introduce yourself and say where you live and where you are from", "Count to 20, ask prices and order politely", "Ask for directions and understand the answer"],
+  modules: [],
+  cta: { label: "Start Lesson 1", href: "/courses/first-conversations/greetings-through-the-day/" }
+ },
+ {
+  id: "french-sounds-starter", title: "French Sounds Starter", kind: "Free course", status: "available",
+  level: "Absolute beginner (A1)", free: true, price: null, currency: "USD", checkoutUrl: "", art: "story-bakery",
+  summary: "Five lessons on the sounds and spelling that surprise English speakers: the alphabet and accents, silent letters and liaison, nasal vowels, the French u and r, and reading real signs and menus.",
+  outcomes: ["Spell words aloud with the French alphabet", "Read accents and silent letters correctly", "Say nasal vowels, the French u and the French r", "Read signs and a short menu with confidence"],
+  modules: [],
+  cta: { label: "Start Lesson 1", href: "/courses/french-sounds-starter/accents-and-the-alphabet/" }
+ },
+ {
+  id: "everyday-french", title: "Everyday French: Time and Plans", kind: "Free course", status: "available",
+  level: "Beginner (A1)", free: true, price: null, currency: "USD", checkoutUrl: "", art: "story-cafe",
+  summary: "Five lessons for daily life: days of the week, telling the time, likes and dislikes, making plans with the verb aller and asking for help when you do not understand.",
+  outcomes: ["Name the days and tell the time", "Say what you like, love and hate", "Invite a friend and agree a time and place", "Ask someone to repeat or slow down"],
+  modules: [],
+  cta: { label: "Start Lesson 1", href: "/courses/everyday-french/days-and-today/" }
+ },
+ {
   id: "from-zero-to-first-conversations", title: "Tiny French: From Zero to Your First Conversations", kind: "Paid beginner course", status: "planned",
   level: "Absolute beginner (A1)", free: false, price: null, currency: "USD", checkoutUrl: "", art: "story-bakery",
   summary: "A structured, step-by-step beginner course that builds on the free lessons. Still in planning: nothing here is for sale yet.",

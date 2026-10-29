@@ -1,6 +1,6 @@
 // Extra vocabulary that is not (yet) tied to a lesson. Words that appear in lessons are collected automatically.
 // To add a word: copy a line. cat must be one of CATEGORIES (or add a new category). Related lessons are found automatically.
-export const CATEGORIES = ["Greetings", "Introductions", "Numbers", "Family", "Food & Drink", "Travel", "Shopping", "Common Verbs", "Everyday Expressions"];
+export const CATEGORIES = ["Greetings", "Introductions", "Numbers", "Family", "Food & Drink", "Travel", "Shopping", "Common Verbs", "Everyday Expressions", "Time & Days", "Directions", "Sounds & Spelling"];
 const w = (cat, fr, en, say, ex, exEn) => ({ cat, fr, en, say, ex, exEn });
 export const extraVocab = [
  w("Greetings", "bonsoir", "good evening", "bohn-SWAHR", "Bonsoir, madame !", "Good evening, madam!"),

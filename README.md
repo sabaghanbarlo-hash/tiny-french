@@ -14,6 +14,7 @@ For a different base path or domain: `BASE_PATH="" SITE_URL="https://tinyfrench.
 | Path | What it is |
 |---|---|
 | `data/lessons.js` | **All lessons** (dialogue, vocabulary, grammar, quiz). |
+| `data/course-lessons.js` | **Course lessons** (same shape as lessons). Written in `data/course-conversations.js`, `data/course-sounds.js` and `data/course-everyday.js`; helpers in `data/course-tools.js`. |
 | `data/vocab.js` | Extra vocabulary not tied to a lesson. Lesson vocabulary is collected automatically. |
 | `data/courses.js` | Courses/products, prices, checkout links. |
 | `data/content.js` | Roadmap, numbers sheet, pronunciation guide text. |
@@ -30,6 +31,14 @@ For a different base path or domain: `BASE_PATH="" SITE_URL="https://tinyfrench.
 2. Fill in `dialogue` (`{ who, fr, en }`, or `{ scene: "…" }` separators), `vocab`, `grammar` and `quiz`.
 3. Quiz questions: `mc` (`options` must contain `answer` exactly once) or `fill` (question contains `___`; accents are checked softly).
 4. `npm test` validates the structure. Commit and push: cards, navigation, vocabulary, revision and the sitemap update automatically.
+
+## Add a course
+Courses are free, ordered sets of lessons, like the courses on Tiny Japanese. Course lessons use the same fields as normal lessons (dialogue, vocab, grammar, quiz) and get their own pages at `/courses/<course-id>/<lesson-id>/`, plus their words and questions in the vocabulary library, quizzes and revision.
+1. Write the lessons in a `data/course-*.js` file (copy one of the existing files). Every lesson needs `course` (the course id), `number` (its position inside the course) and a globally unique `id`. The helpers in `data/course-tools.js` keep this short.
+2. Export them from `data/course-lessons.js`.
+3. Add the course to `data/courses.js` with `status: "available"`, `modules: []` and a `cta.href` pointing at lesson 1 (`/courses/<course-id>/<lesson-id>/`). Use an existing image name for `art`.
+4. New vocabulary categories go in `CATEGORIES` in `data/vocab.js`.
+5. `npm test` validates structure, links and HTML. Commit and push to deploy.
 
 ## Add vocabulary
 Words listed in a lesson's `vocab` appear in the library automatically. For other words add a line to `data/vocab.js` (`w(category, french, english, pronunciation, example, exampleEnglish)`).

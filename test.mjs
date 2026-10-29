@@ -1,15 +1,15 @@
 // Zero-dependency checks: content integrity, built HTML sanity, internal links.  npm test
 import fs from "node:fs"; import path from "node:path"; import { execFileSync } from "node:child_process";
-import { lessons } from "./data/lessons.js"; import { extraVocab, CATEGORIES } from "./data/vocab.js"; import { courses } from "./data/courses.js"; import { SITE } from "./data/site.js";
+import { lessons } from "./data/lessons.js"; import { extraVocab, CATEGORIES } from "./data/vocab.js"; import { courses } from "./data/courses.js"; import { courseLessons } from "./data/course-lessons.js"; import { SITE } from "./data/site.js";
 const BASE = (process.env.BASE_PATH ?? SITE.basePath ?? "").replace(/\/+$/, "");
 const dist = path.resolve("dist"); let fails = 0, checks = 0;
 const ok = (c, m) => { checks++; if (!c) { fails++; console.error("FAIL:", m); } };
 
 // 1. content integrity
 const ids = new Set(), nums = new Set();
-for (const l of lessons) {
+for (const l of [...lessons, ...courseLessons]) {
   ok(!ids.has(l.id) && /^[a-z0-9-]+$/.test(l.id), `lesson id ok/unique: ${l.id}`); ids.add(l.id);
-  ok(!nums.has(l.number), `lesson number unique: ${l.number}`); nums.add(l.number);
+  const nk = `${l.course || "core"}:${l.number}`; ok(!nums.has(nk), `lesson number unique: ${nk}`); nums.add(nk);
   for (const k of ["title", "fr", "description", "intro", "level", "type", "minutes"]) ok(l[k], `${l.id}.${k} present`);
   ok(l.objectives.length >= 2 && l.dialogue.some((d) => d.who) && l.vocab.length && l.grammar.length && l.quiz.length >= 4, `${l.id} has objectives/dialogue/vocab/grammar/quiz`);
   for (const d of l.dialogue.filter((x) => x.who)) ok(d.fr && d.en, `${l.id} dialogue line has fr+en`);
@@ -23,8 +23,9 @@ for (const l of lessons) {
   if (l.video) for (const f of [l.video.src, l.video.poster, l.video.src.replace(/\.mp4$/, ".vtt")]) ok(fs.existsSync(f), `${l.id} video asset exists: ${f}`);
   if (l.art.img) ok(fs.existsSync(`assets/img/${l.art.img}.jpg`), `${l.id} image exists`);
 }
+for (const l of courseLessons) ok(courses.some((c) => c.id === l.course), `${l.id} belongs to a known course`);
 for (const v of extraVocab) ok(v.fr && v.en && v.say && v.ex && v.exEn && CATEGORIES.includes(v.cat), `extra vocab complete: ${v.fr}`);
-for (const c of courses) { ok(!c.checkoutUrl || /^https:\/\//.test(c.checkoutUrl), `${c.id} checkoutUrl must be https`); ok(c.status === "available" || !c.checkoutUrl, `${c.id} unfinished course must not have a checkout link`); }
+for (const c of courses) { ok(c.status !== "available" || c.modules.length || courseLessons.some((l) => l.course === c.id), `${c.id} available course has lessons or modules`); ok(!c.cta?.href?.startsWith("/courses/") || /^\/courses\/[a-z0-9-]+\/[a-z0-9-]+\/$/.test(c.cta.href), `${c.id} cta link shape`); ok(!c.checkoutUrl || /^https:\/\//.test(c.checkoutUrl), `${c.id} checkoutUrl must be https`); ok(c.status === "available" || !c.checkoutUrl, `${c.id} unfinished course must not have a checkout link`); }
 for (const f of fs.readdirSync(".", { recursive: true }).filter((f) => /\.(js|mjs|html|json|md)$/.test(f) && !/node_modules|dist|\.git|^test\.mjs$/.test(f))) { const t = fs.readFileSync(f, "utf8"); ok(!/(sk_live|secret_key|api[_-]?key\s*[:=]\s*["'][A-Za-z0-9]{12,})/i.test(t), `no secrets in ${f}`); }
 try { execFileSync("node", ["--check", "assets/js/app.js"]); ok(true, ""); } catch (e) { ok(false, "app.js syntax"); }
 

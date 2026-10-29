@@ -6,6 +6,7 @@ import { SITE } from "./data/site.js";
 import { lessons as rawLessons } from "./data/lessons.js";
 import { CATEGORIES, extraVocab } from "./data/vocab.js";
 import { courses, futureProducts } from "./data/courses.js";
+import { courseLessons as rawCourseLessons } from "./data/course-lessons.js";
 import { roadmap, numbers, sounds } from "./data/content.js";
 
 const root = path.dirname(fileURLToPath(import.meta.url));
@@ -36,8 +37,21 @@ lessons.forEach((l, i) => {
 const byId = Object.fromEntries(lessons.map((l) => [l.id, l]));
 const related = (l) => lessons.filter((o) => o.id !== l.id).map((o) => ({ o, s: o.topics.filter((t) => l.topics.includes(t)).length * 10 - Math.abs(o.number - l.number) })).sort((a, b) => b.s - a.s).slice(0, 3).map((x) => x.o);
 
+// Course lessons: same shape as lessons, grouped under a course. They live at /courses/<course>/<lesson>/ and are not in the main lesson library.
+const cLessons = ty(rawCourseLessons);
+for (const c of courses) {
+  c.lessonList = cLessons.filter((l) => l.course === c.id).sort((a, b) => a.number - b.number);
+  c.lessonList.forEach((l, i) => {
+    l.url = `/courses/${c.id}/${l.id}/`;
+    l.prev = c.lessonList[i - 1]?.id || null; l.next = c.lessonList[i + 1]?.id || null;
+    l.quiz.forEach((q, n) => { q.id = `${l.id}-q${n + 1}`; q.lesson = l.id; });
+    byId[l.id] = l;
+  });
+}
+for (const l of cLessons) if (!l.url) throw new Error(`Course lesson ${l.id} has an unknown course: ${l.course}`);
+
 const vmap = new Map();
-for (const l of lessons) for (const v of l.vocab) {
+for (const l of [...lessons, ...cLessons]) for (const v of l.vocab) {
   const k = slug(v.fr);
   if (!vmap.has(k)) vmap.set(k, { id: k, ...v, lessons: [] });
   const e = vmap.get(k); if (!e.lessons.includes(l.id)) e.lessons.push(l.id);
@@ -51,7 +65,7 @@ for (const v of ty(extraVocab)) {
 }
 const vocab = [...vmap.values()].sort((a, b) => CATEGORIES.indexOf(a.cat) - CATEGORIES.indexOf(b.cat) || a.fr.localeCompare(b.fr, "fr"));
 const cats = CATEGORIES.filter((c) => vocab.some((v) => v.cat === c));
-const questions = lessons.flatMap((l) => l.quiz.map((q) => ({ ...q, lessonTitle: l.title })));
+const questions = [...lessons, ...cLessons].flatMap((l) => l.quiz.map((q) => ({ ...q, lessonTitle: l.title })));
 const allTopics = ["Absolute Beginner", "Greetings and Introductions", "Everyday French", "Travel French", "Food and Cafés", "Numbers and Time", "Vocabulary", "Grammar", "Listening and Conversation", "French Culture"].filter((t) => lessons.some((l) => l.topics.includes(t)));
 const allLevels = [...new Set(lessons.map((l) => l.level))];
 const allTypes = [...new Set(lessons.map((l) => l.type))];
@@ -258,16 +272,16 @@ add("/lessons/", page({
 
 // Lesson pages
 const speakerClass = (w) => ({ Adrien: "adrien", Marinette: "marinette" }[w] || "other");
-for (const l of lessons) {
-  const prev = byId[l.prev], next = byId[l.next], rel = related(l);
-  const video = l.video ? `<section class="block" aria-labelledby="v-h"><h2 id="v-h">Watch the lesson</h2><div class="video"><video controls preload="metadata" playsinline poster="${U("/" + l.video.poster)}"><source src="${U("/" + l.video.src)}" type="video/mp4"><track kind="captions" srclang="fr" label="Français + English" src="${U("/" + l.video.src.replace(/\.mp4$/, ".vtt"))}" default>Your browser can't play this video.</video></div><p class="small muted center">${esc(l.video.note)}</p></section>`
+function renderLesson(l, X) {
+  const prev = byId[l.prev], next = byId[l.next], rel = X.rel;
+  const video = X.hideVideo ? "" : l.video ? `<section class="block" aria-labelledby="v-h"><h2 id="v-h">Watch the lesson</h2><div class="video"><video controls preload="metadata" playsinline poster="${U("/" + l.video.poster)}"><source src="${U("/" + l.video.src)}" type="video/mp4"><track kind="captions" srclang="fr" label="Français + English" src="${U("/" + l.video.src.replace(/\.mp4$/, ".vtt"))}" default>Your browser can't play this video.</video></div><p class="small muted center">${esc(l.video.note)}</p></section>`
     : `<section class="block" aria-labelledby="v-h"><h2 id="v-h">Video</h2><div class="card novideo"><p><b>No video for this lesson yet.</b> Read the dialogue below${IG ? ` and follow <a href="${IG}" target="_blank" rel="noopener">${esc(SITE.instagramHandle)}</a> for new videos` : ""}.</p></div></section>`;
   const ig = l.instagram ? `<p><a class="btn ghost small" href="${esc(l.instagram)}" target="_blank" rel="noopener">${igIcon} See this lesson on Instagram</a></p>` : "";
   const lessonQuiz = { id: l.id, title: l.title, questions: l.quiz };
   const body = `<article class="wrap lesson" data-lesson="${l.id}">
- ${breadcrumb([["Home", "/"], ["Lessons", "/lessons/"], [l.title, l.url]])}
+ ${breadcrumb(X.crumbs)}
  <header class="lesson-head">
-  <div class="chips"><span class="chip ep">Episode ${l.number}</span><span class="chip">${esc(l.level)}</span><span class="chip">${esc(l.type)}</span><span class="chip">⏱ ${l.minutes} min</span><span class="chip ok" data-done hidden>✓ Completed</span></div>
+  <div class="chips"><span class="chip ep">${esc(X.chip)}</span><span class="chip">${esc(l.level)}</span><span class="chip">${esc(l.type)}</span><span class="chip">⏱ ${l.minutes} min</span><span class="chip ok" data-done hidden>✓ Completed</span></div>
   <h1>${esc(l.title)}</h1><p class="fr-title" lang="fr">${esc(l.fr)}</p><p class="lead">${esc(l.description)}</p>
   <div class="card goals-box"><h2 class="h-small">By the end of this lesson you can…</h2><ul>${l.objectives.map((o) => `<li>${esc(o)}</li>`).join("")}</ul></div>
   ${ig}
@@ -283,13 +297,15 @@ for (const l of lessons) {
   <script type="application/json" id="quiz-data">${J(lessonQuiz)}</script><script type="application/json" id="vocab-data">${J(l.vocab.map((v) => ({ ...v, id: slug(v.fr) })))}</script></section>
  <section class="block complete" aria-labelledby="c-h"><h2 id="c-h">Finished?</h2><p>Mark this lesson as complete to track your progress. It is saved in this browser only.</p><button type="button" class="btn big" data-complete aria-pressed="false">Mark lesson as complete</button><p class="small muted" role="status" data-complete-msg></p></section>
  ${share(l.title)}
- <nav class="prevnext" aria-label="Lesson navigation">${prev ? `<a class="pn prev" href="${U(prev.url)}"><span>← Previous</span><b>${esc(prev.title)}</b></a>` : "<span></span>"}${next ? `<a class="pn next" href="${U(next.url)}"><span>Next →</span><b>${esc(next.title)}</b></a>` : `<a class="pn next" href="${U("/lessons/")}"><span>More →</span><b>All lessons</b></a>`}</nav>
- <section class="block" aria-labelledby="r-h"><h2 id="r-h">Related lessons</h2><div class="grid3">${rel.map(lessonCard).join("")}</div></section>
+ <nav class="prevnext" aria-label="Lesson navigation">${prev ? `<a class="pn prev" href="${U(prev.url)}"><span>← Previous</span><b>${esc(prev.title)}</b></a>` : "<span></span>"}${next ? `<a class="pn next" href="${U(next.url)}"><span>Next →</span><b>${esc(next.title)}</b></a>` : `<a class="pn next" href="${U(X.more[0])}"><span>More →</span><b>${esc(X.more[1])}</b></a>`}</nav>
+ ${rel.length ? `<section class="block" aria-labelledby="r-h"><h2 id="r-h">Related lessons</h2><div class="grid3">${rel.map(lessonCard).join("")}</div></section>` : ""}
 </article>`;
-  const ld = [crumbs([["Home", "/"], ["Lessons", "/lessons/"], [l.title, l.url]]), { "@type": "LearningResource", name: `${l.title} (${l.fr})`, description: l.description, url: abs(l.url), inLanguage: "en", teaches: "French language", educationalLevel: l.level, learningResourceType: l.type === "Story" ? "Story lesson" : "Dialogue", timeRequired: `PT${l.minutes}M`, isAccessibleForFree: true, publisher: orgLd }];
+  const ld = [crumbs(X.crumbs), { "@type": "LearningResource", name: `${l.title} (${l.fr})`, description: l.description, url: abs(l.url), inLanguage: "en", teaches: "French language", educationalLevel: l.level, learningResourceType: l.type === "Story" ? "Story lesson" : "Dialogue", timeRequired: `PT${l.minutes}M`, isAccessibleForFree: true, publisher: orgLd }];
   if (l.video) ld.push({ "@type": "VideoObject", name: l.title, description: l.description, thumbnailUrl: abs("/" + l.video.poster), contentUrl: abs("/" + l.video.src), uploadDate: l.video.uploaded, duration: l.video.duration, inLanguage: "fr" });
-  add(l.url, page({ title: `${l.title}: Learn French (Episode ${l.number})`, desc: `${l.description} Free beginner French lesson with dialogue and English translations, vocabulary, grammar and a quiz.`, path: l.url, cur: "lessons", body, jsonld: ld, type: "article" }));
+  add(l.url, page({ title: X.title, desc: `${l.description} Free beginner French lesson with dialogue and English translations, vocabulary, grammar and a quiz.`, path: l.url, cur: X.cur, body, jsonld: ld, type: "article" }));
 }
+for (const l of lessons) renderLesson(l, { rel: related(l), crumbs: [["Home", "/"], ["Lessons", "/lessons/"], [l.title, l.url]], chip: `Episode ${l.number}`, more: ["/lessons/", "All lessons"], title: `${l.title}: Learn French (Episode ${l.number})`, cur: "lessons" });
+for (const c of courses) for (const l of c.lessonList) renderLesson(l, { rel: [], hideVideo: true, crumbs: [["Home", "/"], ["Courses", "/courses/"], [c.title, `/courses/${c.id}/`], [l.title, l.url]], chip: `Lesson ${l.number} of ${c.lessonList.length}`, more: [`/courses/${c.id}/`, "Course overview"], title: `${l.title}: ${c.title} (Lesson ${l.number})`, cur: "courses" });
 
 // Vocabulary
 add("/vocabulary/", page({
@@ -369,7 +385,8 @@ for (const c of courses) {
  <header class="page-head"><div class="chips"><span class="chip ${c.free ? "ok2" : ""}">${c.free ? "Free" : "Paid"}</span><span class="chip st-${c.status === "available" ? "available" : "planned"}">${c.status === "available" ? "Available now" : "In planning — not for sale yet"}</span><span class="chip">${esc(c.level)}</span></div><h1>${esc(c.title)}</h1><p class="lead">${esc(c.summary)}</p><p class="price">${priceLabel(c)}</p>${cta ? `<p><a class="btn big" href="${esc(cta.href)}"${cta.ext ? ' target="_blank" rel="noopener"' : ""}>${esc(cta.label)}</a></p>` : ""}</header>
  <img class="art-wide big" src="${U(`/assets/img/${c.art}.jpg`)}" alt="" width="540" height="960" loading="lazy">
  <section class="block"><h2>What you will be able to do</h2><ul>${c.outcomes.map((o) => `<li>${esc(o)}</li>`).join("")}</ul></section>
- <section class="block"><h2>Modules</h2><ol class="modules">${c.modules.map((m) => `<li><b>${esc(m.title)}</b> <span class="chip st-${m.status === "available" ? "available" : "planned"}">${m.status === "available" ? "Available" : "Planned"}</span>${m.note ? `<p class="small muted">${esc(m.note)}</p>` : ""}</li>`).join("")}</ol></section></div>`
+ ${c.lessonList.length ? `<section class="block"><h2>Lessons</h2><ol class="modules course-lessons">${c.lessonList.map((l) => `<li><a href="${U(l.url)}"><b>${l.number}. ${esc(l.title)}</b></a> <span class="chip">⏱ ${l.minutes} min</span><p class="small muted">${esc(l.description)}</p></li>`).join("")}</ol></section>` : ""}
+ ${c.modules.length ? `<section class="block"><h2>Modules</h2><ol class="modules">${c.modules.map((m) => `<li><b>${esc(m.title)}</b> <span class="chip st-${m.status === "available" ? "available" : "planned"}">${m.status === "available" ? "Available" : "Planned"}</span>${m.note ? `<p class="small muted">${esc(m.note)}</p>` : ""}</li>`).join("")}</ol></section>` : ""}</div>`
   }));
 }
 
@@ -401,8 +418,8 @@ write("404.html", page({ title: "Page not found", desc: "This page could not be 
 copyDir(path.join(root, "assets"), path.join(OUT, "assets"));
 write("assets/data/vocab.json", JSON.stringify(vocab));
 write("assets/data/questions.json", JSON.stringify(questions));
-write("assets/data/lessons.json", JSON.stringify(lessons.map((l) => ({ id: l.id, number: l.number, title: l.title, fr: l.fr, url: l.url, topics: l.topics, level: l.level, type: l.type }))));
+write("assets/data/lessons.json", JSON.stringify([...lessons, ...cLessons].map((l) => ({ id: l.id, number: l.number, title: l.title, fr: l.fr, url: l.url, topics: l.topics, level: l.level, type: l.type }))));
 write(".nojekyll", "");
 write("robots.txt", `User-agent: *\nAllow: /\n${ORIGIN ? `Sitemap: ${ORIGIN}/sitemap.xml\n` : ""}`);
 if (ORIGIN) write("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${pages.filter((p) => p !== "/revise/").map((p) => `<url><loc>${ORIGIN}${p}</loc></url>`).join("\n")}\n</urlset>\n`);
-console.log(`Built ${pages.length} pages, ${lessons.length} lessons, ${vocab.length} vocabulary entries, ${questions.length} questions -> dist/ (base "${BASE}", origin "${ORIGIN || "none"}")`);
+console.log(`Built ${pages.length} pages, ${lessons.length} lessons + ${cLessons.length} course lessons, ${vocab.length} vocabulary entries, ${questions.length} questions -> dist/ (base "${BASE}", origin "${ORIGIN || "none"}")`);
