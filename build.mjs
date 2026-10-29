@@ -189,7 +189,7 @@ function roadmapHTML() {
   <p class="cta-row"><a class="btn big" href="${U("/lessons/" + first.id + "/")}">Start Learning <span aria-hidden="true">→</span></a></p>
  </div>
  <div class="hero-art" aria-label="Adrien and Marinette learning French in a Paris café">
-  <img class="hero-scene" src="${U("/assets/img/tiny-french-characters.svg")}" alt="Adrien with blond hair and Marinette with navy twin ponytails sitting together at a café" width="540" height="960" fetchpriority="high">
+  <img class="hero-scene" src="${U("/assets/img/tiny-french-hero.svg")}" alt="Adrien with blond hair and Marinette with navy twin ponytails sitting together at a café" width="540" height="960" fetchpriority="high">
  </div>
 </div></section>
 <section class="benefits-strip" aria-label="Tiny French benefits"><div class="wrap benefits-grid">
