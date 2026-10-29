@@ -208,5 +208,86 @@ lesson(C, 5, {
   mc("What does “C'est à cinq minutes à pied” mean?", "It's a five-minute walk", ["It's five kilometres away", "It's five stops by train"], "À pied means on foot."),
   fill("Complete: La poste est à ___ de la gare.", "côté", "“side”", "À côté de = next to.")
  ]
+}),
+lesson(C, 6, {
+ id: "family-and-friends", title: "Family and Friends", fr: "La famille et les amis",
+ topics: ["Absolute Beginner", "Greetings and Introductions", "Family"], minutes: 8, art: { emoji: "👨‍👩‍👧" },
+ description: "Talk about your family, say how many brothers and sisters you have and use mon, ma and mes.",
+ objectives: ["Name the main family members", "Say J'ai un frère / une sœur", "Use mon, ma and mes for “my”"],
+ intro: "Adrien shows Marinette a photo of his family. You will hear the family words and the verb avoir in a natural conversation.",
+ dialogue: [
+  D("Adrien", "Regarde cette photo ! C'est ma famille.", "Look at this photo! It's my family."),
+  D("Marinette", "Oh, c'est qui, là ?", "Oh, who's that, there?"),
+  D("Adrien", "C'est mon père, et là, c'est ma mère.", "That's my father, and there, that's my mother."),
+  D("Marinette", "Tu as des frères et sœurs ?", "Do you have brothers and sisters?"),
+  D("Adrien", "J'ai un frère et une sœur. Mon frère s'appelle Paul.", "I have a brother and a sister. My brother is called Paul."),
+  D("Adrien", "Et toi ? Tu as une grande famille ?", "And you? Do you have a big family?"),
+  D("Marinette", "Non, je suis fille unique. Mais j'ai beaucoup d'amis.", "No, I'm an only child. But I have lots of friends.")
+ ],
+ vocab: [
+  V("ma famille", "my family", "mah fah-MEEY", "Family", "C'est ma famille.", "This is my family."),
+  V("mon père", "my father", "mohn PEHR", "Family", "Mon père s'appelle Marc.", "My father is called Marc."),
+  V("ma mère", "my mother", "mah MEHR", "Family", "Ma mère habite à Lyon.", "My mother lives in Lyon."),
+  V("un frère", "a brother", "uhn FREHR", "Family", "J'ai un frère.", "I have a brother."),
+  V("une sœur", "a sister", "ewn SUHR", "Family", "J'ai une sœur.", "I have a sister."),
+  V("les parents", "the parents", "lay pah-RAHN", "Family", "Mes parents habitent à Paris.", "My parents live in Paris."),
+  V("un ami / une amie", "a friend (male / female)", "uhn ah-MEE / ewn ah-MEE", "Family", "Marinette est mon amie.", "Marinette is my friend."),
+  V("fille unique", "only child (girl)", "feey ew-NEEK", "Family", "Je suis fille unique.", "I'm an only child.")
+ ],
+ grammar: [
+  G("Mon, ma, mes = my", "My changes with the noun. Use mon before a masculine noun, ma before a feminine noun and mes before a plural. Before a vowel sound, use mon even for a feminine noun: mon amie.", ["mon père, mon frère", "my father, my brother"], ["ma mère, ma sœur", "my mother, my sister"], ["mes parents", "my parents"]),
+  G("Avoir: to have", "Avoir is irregular: j'ai, tu as, il / elle / on a, nous avons, vous avez, ils / elles ont. Use it to say what family you have.", ["J'ai un frère.", "I have a brother."], ["Tu as des amis ?", "Do you have friends?"]),
+  G("Un, une, des", "Un is masculine, une is feminine and des is plural. After a negative, un, une and des become de: je n'ai pas de frère.", ["J'ai une sœur.", "I have a sister."], ["Je n'ai pas de frère.", "I don't have a brother."])
+ ],
+ quiz: [
+  mc("What does “Ma mère” mean?", "My mother", ["My sister", "My aunt"], "Ma = my (feminine), mère = mother."),
+  mc("Which is correct?", "mon père", ["ma père", "mes père"], "Père is masculine, so use mon."),
+  fill("Complete: J'___ un frère.", "ai", "from avoir", "J'ai = I have."),
+  mc("What does “fille unique” mean?", "Only child (girl)", ["Only sister", "Youngest daughter"], "Fille unique = an only daughter."),
+  mc("Why do we say “mon amie” and not “ma amie”?", "Amie starts with a vowel sound", ["Amie is masculine", "It is a plural"], "Before a vowel sound, mon is used even for feminine nouns."),
+  fill("Complete: Tu ___ des frères et sœurs ?", "as", "from avoir, “you have”", "Tu as = you have.")
+ ]
+}),
+lesson(C, 7, {
+ id: "buying-a-train-ticket", title: "Buying a Train Ticket", fr: "Acheter un billet de train",
+ topics: ["Absolute Beginner", "Travel French", "Everyday French"], minutes: 9, art: { emoji: "🚆" },
+ description: "Buy a one-way or return train ticket and ask which platform the train leaves from.",
+ objectives: ["Ask for a ticket with Je voudrais un billet pour…", "Tell aller simple from aller-retour", "Ask about the day, the time and the platform"],
+ intro: "Adrien is at the ticket office. This is one of the most useful real-life dialogues for a trip to France.",
+ dialogue: [
+  D("Adrien", "Bonjour, madame. Je voudrais un billet pour Lyon, s'il vous plaît.", "Hello, madam. I would like a ticket to Lyon, please."),
+  D("L'employée", "Un aller simple ou un aller-retour ?", "A one-way or a return?"),
+  D("Adrien", "Un aller-retour, s'il vous plaît.", "A return, please."),
+  D("L'employée", "Pour quel jour ?", "For which day?"),
+  D("Adrien", "Pour demain, le matin.", "For tomorrow, in the morning."),
+  D("L'employée", "Il y a un train à neuf heures. Ça vous va ?", "There's a train at nine o'clock. Does that suit you?"),
+  D("Adrien", "Oui, parfait. C'est combien ?", "Yes, perfect. How much is it?"),
+  D("L'employée", "Vingt euros.", "Twenty euros."),
+  D("Adrien", "Voilà. De quel quai part le train ?", "Here you go. Which platform does the train leave from?"),
+  D("L'employée", "Quai numéro trois. Bon voyage !", "Platform number three. Have a good trip!")
+ ],
+ vocab: [
+  V("un billet", "a ticket", "uhn bee-YEH", "Travel", "Un billet pour Lyon.", "A ticket to Lyon."),
+  V("un aller simple", "a one-way ticket", "uhn ah-LAY SAN-pluh", "Travel", "Un aller simple pour Paris.", "A one-way ticket to Paris."),
+  V("un aller-retour", "a return ticket", "uhn ah-LAY ruh-TOOR", "Travel", "Un aller-retour, s'il vous plaît.", "A return ticket, please."),
+  V("pour quel jour ?", "for which day?", "poor kehl ZHOOR", "Travel", "Pour quel jour, monsieur ?", "For which day, sir?"),
+  V("un train", "a train", "uhn TRAN", "Travel", "Le train part à neuf heures.", "The train leaves at nine."),
+  V("un quai", "a platform", "uhn KEH", "Travel", "Le train est au quai trois.", "The train is at platform three."),
+  V("ça vous va ?", "does that suit you?", "sah voo VAH", "Everyday Expressions", "Neuf heures, ça vous va ?", "Nine o'clock, does that suit you?"),
+  V("bon voyage", "have a good trip", "bohn vwah-YAHZH", "Travel", "Merci, bon voyage !", "Thanks, have a good trip!")
+ ],
+ grammar: [
+  G("Un billet pour + place", "Use un billet pour and the name of the place to ask for a ticket. The word pour means “for” or “to” here.", ["Un billet pour Lyon.", "A ticket to Lyon."], ["Deux billets pour Paris.", "Two tickets to Paris."]),
+  G("Aller simple or aller-retour?", "An aller simple is one way. An aller-retour is a return ticket, literally “go and back”. Staff nearly always ask this question first.", ["Un aller simple, s'il vous plaît.", "A one-way ticket, please."], ["Un aller-retour pour Nice.", "A return ticket to Nice."]),
+  G("Quel + noun", "Quel means “which” or “what”. It agrees with the noun: quel jour, quel quai, but quelle heure and quelle gare. It always comes before the noun.", ["Quel quai ?", "Which platform?"], ["Quelle heure ?", "What time?"])
+ ],
+ quiz: [
+  mc("What does “aller-retour” mean?", "A return ticket", ["A one-way ticket", "A platform"], "Aller-retour = go and back."),
+  fill("Complete: Un billet ___ Lyon.", "pour", "“to / for”", "Un billet pour + place."),
+  mc("What does “Bon voyage !” mean?", "Have a good trip!", ["Good evening!", "See you soon!"], "Bon voyage is said to someone who is travelling."),
+  mc("How do you ask for a one-way ticket?", "Un aller simple, s'il vous plaît.", ["Un aller-retour, s'il vous plaît.", "Un quai, s'il vous plaît."], "Aller simple = one-way."),
+  mc("What is a “quai”?", "A platform", ["A ticket", "A train"], "Quai = platform."),
+  fill("Complete: De ___ quai part le train ?", "quel", "“which”", "Quai is masculine, so use quel.")
+ ]
 })
 ];

@@ -188,5 +188,87 @@ lesson(C, 5, {
   fill("Ouvert is the opposite of ___.", "fermé", "closed", "Ouvert (open) and fermé (closed)."),
   mc("Which word means “pull”?", "Tirez", ["Poussez", "Entrez"], "Tirez = pull, poussez = push.")
  ]
+}),
+lesson(C, 6, {
+ ...base, id: "vowel-combinations", title: "Letter Teams: oi, au, eu and ai", fr: "Les groupes de lettres", minutes: 8, art: { emoji: "🔠" },
+ description: "Learn the vowel teams that appear in nearly every French word: oi, ai, au, eau, eu and ou.",
+ objectives: ["Read oi as “wah”", "Read au and eau as “oh”", "Tell eu from ai and ou"],
+ intro: "Marinette teaches Adrien how groups of letters work together. Once you know these teams, you can read most French words.",
+ dialogue: [
+  D("Marinette", "Aujourd'hui, on lit des mots avec des groupes de lettres.", "Today we read words with groups of letters."),
+  D("Adrien", "Des groupes de lettres ?", "Groups of letters?"),
+  D("Marinette", "Oui. O-I fait « oua ». Regarde : moi, toi, trois.", "Yes. O-I makes “wah”. Look: moi, toi, trois."),
+  D("Adrien", "Moi, toi, trois ! Et A-U ?", "Moi, toi, trois! And A-U?"),
+  D("Marinette", "A-U fait « o » : jaune, au revoir. E-A-U aussi : beau, bateau.", "A-U makes “oh”: jaune, au revoir. E-A-U too: beau, bateau."),
+  D("Adrien", "Et E-U ?", "And E-U?"),
+  D("Marinette", "E-U, c'est comme « euh » : deux, bleu.", "E-U is like “uh”: deux, bleu."),
+  D("Adrien", "Et A-I ?", "And A-I?"),
+  D("Marinette", "A-I fait « è » : lait, j'aime.", "A-I makes “eh”: lait, j'aime."),
+  D("Adrien", "C'est logique !", "That's logical!")
+ ],
+ vocab: [
+  V("moi", "me", "MWAH", "Sounds & Spelling", "Moi, c'est Adrien.", "Me, I'm Adrien."),
+  V("trois", "three", "TRWAH", "Sounds & Spelling", "Il y a trois amis.", "There are three friends."),
+  V("jaune", "yellow", "ZHOHN", "Sounds & Spelling", "Le taxi est jaune.", "The taxi is yellow."),
+  V("beau", "beautiful / nice", "BOH", "Sounds & Spelling", "Il fait beau.", "The weather is nice."),
+  V("un bateau", "a boat", "uhn bah-TOH", "Sounds & Spelling", "Le bateau est blanc.", "The boat is white."),
+  V("deux", "two", "DUH", "Sounds & Spelling", "J'ai deux frères.", "I have two brothers."),
+  V("bleu", "blue", "BLUH", "Sounds & Spelling", "Le ciel est bleu.", "The sky is blue."),
+  V("le lait", "milk", "luh LEH", "Sounds & Spelling", "Un café au lait, s'il vous plaît.", "A coffee with milk, please.")
+ ],
+ grammar: [
+  G("oi sounds like “wah”", "The letters o and i together make a “wah” sound: moi, toi, trois, voiture. Do not say “oy” as in English.", ["moi, toi, trois", "me, you, three"]),
+  G("au and eau sound like “oh”", "Au and eau both make a closed “oh” sound. Eau appears in many everyday words: beau, bateau, eau (water), gâteau.", ["jaune, au revoir", "yellow, goodbye"], ["beau, bateau, eau", "nice, boat, water"]),
+  G("eu, ai and ou", "Eu is like “uh” with rounded lips: deux, bleu. Ai and ei sound like “eh”: lait, j'aime. Ou is “oo”: rouge, bonjour. Learning these four teams solves many spelling puzzles.", ["deux, bleu", "two, blue"], ["lait, j'aime", "milk, I like"], ["rouge, tout", "red, all"])
+ ],
+ quiz: [
+  mc("How is “oi” pronounced in “moi”?", "wah", ["oy", "ee"], "Oi = wah: MWAH."),
+  mc("Which spelling gives the “oh” sound?", "au or eau", ["ai", "oi"], "Beau and jaune both have an “oh” sound."),
+  mc("How do you say “lait”?", "leh", ["lite", "lay-it"], "Ai = eh, and the t is silent."),
+  mc("Which word rhymes with “deux”?", "bleu", ["beau", "moi"], "Both have the eu sound."),
+  fill("The word “bateau” ends in the letters ___, which sound like “oh”.", "eau", "three letters", "Eau = oh."),
+  mc("How is “ou” pronounced in “rouge”?", "oo", ["oh", "uh"], "Ou = oo.")
+ ]
+}),
+lesson(C, 7, {
+ ...base, id: "rhythm-and-questions", title: "French Rhythm and Questions", fr: "Le rythme et les questions", minutes: 8, art: { emoji: "🎵" },
+ description: "Speak with an even French rhythm and turn a sentence into a question with your voice.",
+ objectives: ["Say each syllable evenly", "Raise your voice for yes / no questions", "Use est-ce que to ask a question"],
+ intro: "Marinette explains the melody of French. The rhythm is simpler than English, and it makes you sound much more natural.",
+ dialogue: [
+  D("Marinette", "En français, chaque syllabe est presque égale.", "In French, every syllable is almost equal."),
+  D("Adrien", "Pas comme en anglais ?", "Not like in English?"),
+  D("Marinette", "Non. Écoute : bon-jour. Pas de syllabe très forte au milieu.", "No. Listen: bon-jour. No very strong syllable in the middle."),
+  D("Adrien", "Bon-jour. Cho-co-lat. Ma-ri-nette.", "Bon-jour. Cho-co-lat. Ma-ri-nette."),
+  D("Marinette", "Très bien ! Pour une question, la voix monte à la fin.", "Very good! For a question, the voice goes up at the end."),
+  D("Adrien", "Tu aimes le chocolat ?", "Do you like chocolate?"),
+  D("Marinette", "Oui, j'aime le chocolat.", "Yes, I like chocolate."),
+  D("Adrien", "Et avec est-ce que ?", "And with est-ce que?"),
+  D("Marinette", "Est-ce que tu aimes le thé ? C'est pareil, mais plus long.", "Est-ce que tu aimes le thé? It's the same, but longer."),
+  D("Adrien", "Maintenant, je parle comme un Français !", "Now I speak like a Frenchman!"),
+  D("Marinette", "Presque !", "Almost!")
+ ],
+ vocab: [
+  V("une syllabe", "a syllable", "ewn see-LAHB", "Sounds & Spelling", "Chaque syllabe est égale.", "Every syllable is equal."),
+  V("la voix", "the voice", "lah VWAH", "Sounds & Spelling", "La voix monte à la fin.", "The voice goes up at the end."),
+  V("monter", "to go up", "mohn-TAY", "Sounds & Spelling", "La voix monte.", "The voice goes up."),
+  V("une question", "a question", "ewn kehs-TYOHN", "Sounds & Spelling", "J'ai une question.", "I have a question."),
+  V("est-ce que", "(question marker)", "ehs kuh", "Sounds & Spelling", "Est-ce que tu aimes le thé ?", "Do you like tea?"),
+  V("pareil", "the same", "pah-REY", "Everyday Expressions", "C'est pareil.", "It's the same."),
+  V("presque", "almost", "PREHSK", "Everyday Expressions", "Presque !", "Almost!"),
+  V("chaque", "each / every", "SHAHK", "Everyday Expressions", "Chaque jour, je parle français.", "Every day I speak French.")
+ ],
+ grammar: [
+  G("Even rhythm", "French syllables are almost equal in length, and the only longer syllable is the last one of a group of words. Say cho-co-LAT and ma-ri-NETTE, with no strong stress in the middle.", ["bon-jour", "hello"], ["cho-co-lat", "chocolate"]),
+  G("Questions by intonation", "The easiest way to ask a yes / no question is to say a normal sentence and let your voice rise at the end. In writing, add a question mark.", ["Tu aimes le chocolat ?", "Do you like chocolate?"], ["Tu parles français ?", "Do you speak French?"]),
+  G("Est-ce que", "Put est-ce que in front of a normal sentence to make it a question. The rest of the sentence keeps its normal order. Que becomes qu' before a vowel.", ["Est-ce que tu aimes le thé ?", "Do you like tea?"], ["Est-ce qu'il parle anglais ?", "Does he speak English?"])
+ ],
+ quiz: [
+  mc("Where is the longer syllable in French?", "On the last syllable of a group of words", ["On the first syllable", "On the middle syllable"], "Say cho-co-LAT."),
+  mc("How do you turn “Tu aimes le thé.” into a question?", "Raise your voice at the end", ["Lower your voice", "Add the word pas"], "Rising intonation makes a yes / no question."),
+  fill("Complete: Est-ce ___ tu aimes le thé ?", "que", "three letters", "Est-ce que + sentence."),
+  mc("What does “presque” mean?", "Almost", ["Never", "Always"], "Presque = almost."),
+  mc("What does “C'est pareil” mean?", "It's the same", ["It's different", "It's long"], "Pareil = the same.")
+ ]
 })
 ];

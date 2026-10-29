@@ -200,5 +200,85 @@ lesson(C, 5, {
   mc("What does “Bien sûr” mean?", "Of course", ["I'm sorry", "No problem, thanks"], "Bien sûr = of course."),
   fill("Complete: Je ___ le train pour Lyon.", "cherche", "“I look for”", "Je cherche = I'm looking for.")
  ]
+}),
+lesson(C, 6, {
+ ...base, id: "weather-and-seasons", title: "Weather and Seasons", fr: "Le temps et les saisons", minutes: 8, art: { emoji: "⛅" },
+ description: "Talk about the weather and the four seasons, and learn the il fait… pattern.",
+ objectives: ["Ask Quel temps fait-il ?", "Say il fait beau, chaud, froid and il pleut", "Use au printemps, en été, en automne, en hiver"],
+ intro: "Adrien and Marinette chat about the weather in Paris through the year. Weather is the most common small-talk topic in any language.",
+ dialogue: [
+  D("Marinette", "Quel temps fait-il aujourd'hui ?", "What's the weather like today?"),
+  D("Adrien", "Il fait beau, mais il fait froid.", "It's nice, but it's cold."),
+  D("Marinette", "En hiver, il fait toujours froid à Paris.", "In winter, it's always cold in Paris."),
+  D("Adrien", "Et au printemps ?", "And in spring?"),
+  D("Marinette", "Au printemps, il pleut un peu. En été, il fait chaud.", "In spring it rains a little. In summer it's hot."),
+  D("Adrien", "Et en automne ?", "And in autumn?"),
+  D("Marinette", "En automne, il y a du vent.", "In autumn it's windy."),
+  D("Adrien", "Moi, j'aime l'été. Et toi ?", "Me, I like summer. And you?"),
+  D("Marinette", "Moi, je préfère le printemps.", "Me, I prefer spring.")
+ ],
+ vocab: [
+  V("quel temps fait-il ?", "what's the weather like?", "kehl tahn feh-TEEL", "Everyday Expressions", "Quel temps fait-il à Paris ?", "What's the weather like in Paris?"),
+  V("il fait beau", "the weather is nice", "eel feh BOH", "Everyday Expressions", "Aujourd'hui, il fait beau.", "Today the weather is nice."),
+  V("il fait chaud", "it's hot", "eel feh SHOH", "Everyday Expressions", "En été, il fait chaud.", "In summer it's hot."),
+  V("il fait froid", "it's cold", "eel feh FRWAH", "Everyday Expressions", "En hiver, il fait froid.", "In winter it's cold."),
+  V("il pleut", "it's raining", "eel PLUH", "Everyday Expressions", "Au printemps, il pleut.", "In spring it rains."),
+  V("il y a du vent", "it's windy", "eel ee ah dew VAHN", "Everyday Expressions", "En automne, il y a du vent.", "In autumn it's windy."),
+  V("le printemps", "spring", "luh pran-TAHN", "Time & Days", "J'aime le printemps.", "I like spring."),
+  V("l'été", "summer", "lay-TAY", "Time & Days", "L'été, je vais à la plage.", "In summer I go to the beach.")
+ ],
+ grammar: [
+  G("Il fait + adjective", "French describes the weather with il fait plus an adjective: il fait beau, il fait chaud, il fait froid, il fait mauvais. A few weather verbs stand alone: il pleut (it rains), il neige (it snows).", ["Il fait chaud.", "It's hot."], ["Il neige.", "It's snowing."]),
+  G("The seasons", "The four seasons are le printemps, l'été, l'automne and l'hiver. Use au with printemps and en with the others: au printemps, en été, en automne, en hiver.", ["Au printemps, il pleut.", "In spring it rains."], ["En été, il fait chaud.", "In summer it's hot."]),
+  G("Quel temps fait-il ?", "Ask Quel temps fait-il ? for the weather. Answer with il fait + adjective or il pleut. The same pattern works for other days: demain, il fait beau.", ["Quel temps fait-il demain ?", "What's the weather like tomorrow?"])
+ ],
+ quiz: [
+  mc("What does “Il fait chaud” mean?", "It's hot", ["It's cold", "It's raining"], "Chaud = hot."),
+  mc("What does “au printemps” mean?", "In spring", ["In summer", "In winter"], "Printemps = spring."),
+  fill("Complete: Il ___ froid en hiver.", "fait", "from faire", "Il fait froid = it's cold."),
+  mc("How do you ask about the weather?", "Quel temps fait-il ?", ["Quelle heure est-il ?", "Tu es libre ?"], "Temps means weather here."),
+  mc("Which phrase means “in summer”?", "En été", ["Au été", "Dans été"], "Use en with été."),
+  fill("Aujourd'hui, il ___. (It's raining.)", "pleut", "verb for rain", "Il pleut = it rains.")
+ ]
+}),
+lesson(C, 7, {
+ ...base, id: "at-the-hotel", title: "At the Hotel", fr: "À l'hôtel", minutes: 9, art: { emoji: "🏨" },
+ description: "Check in at a hotel: give your name, ask about your room, breakfast and the floor.",
+ objectives: ["Say J'ai une réservation au nom de…", "Understand une chambre pour deux nuits", "Ask when breakfast is and say de … à …"],
+ intro: "Adrien arrives at his hotel in the evening. Marinette works at the reception desk.",
+ dialogue: [
+  D("Adrien", "Bonsoir, madame. J'ai une réservation au nom de Martin.", "Good evening, madam. I have a reservation under the name Martin."),
+  D("Marinette", "Bonsoir, monsieur Martin. Une chambre pour deux nuits ?", "Good evening, Mr Martin. A room for two nights?"),
+  D("Adrien", "Oui, c'est ça. Une chambre pour une personne.", "Yes, that's right. A room for one person."),
+  D("Marinette", "Voici votre clé. C'est la chambre douze, au premier étage.", "Here is your key. It's room twelve, on the first floor."),
+  D("Adrien", "Le petit déjeuner est à quelle heure ?", "What time is breakfast?"),
+  D("Marinette", "De sept heures à dix heures.", "From seven to ten."),
+  D("Adrien", "Il y a le wifi dans la chambre ?", "Is there wifi in the room?"),
+  D("Marinette", "Oui, le code est dans la chambre.", "Yes, the code is in the room."),
+  D("Adrien", "Merci beaucoup. Bonne soirée !", "Thank you very much. Have a nice evening!")
+ ],
+ vocab: [
+  V("une réservation", "a reservation", "ewn ray-zehr-vah-SYOHN", "Travel", "J'ai une réservation.", "I have a reservation."),
+  V("une chambre", "a room (bedroom)", "ewn SHAHN-bruh", "Travel", "Une chambre pour deux nuits.", "A room for two nights."),
+  V("une nuit", "a night", "ewn NWEE", "Travel", "Pour deux nuits, s'il vous plaît.", "For two nights, please."),
+  V("une clé", "a key", "ewn KLAY", "Travel", "Voici votre clé.", "Here is your key."),
+  V("le petit déjeuner", "breakfast", "luh puh-TEE day-zhuh-NAY", "Food & Drink", "Le petit déjeuner est à sept heures.", "Breakfast is at seven."),
+  V("le premier étage", "the first floor", "luh pruh-MYAY ay-TAHZH", "Travel", "La chambre est au premier étage.", "The room is on the first floor."),
+  V("il y a… ?", "is there…? / there is…", "eel ee AH", "Everyday Expressions", "Il y a le wifi ?", "Is there wifi?"),
+  V("bonne soirée", "have a nice evening", "bun swah-RAY", "Greetings", "Merci, bonne soirée !", "Thanks, have a nice evening!")
+ ],
+ grammar: [
+  G("Une chambre pour + nights or people", "Use pour to say how long or for how many people: une chambre pour deux nuits, une chambre pour une personne. Chambre is feminine, so it takes une.", ["Une chambre pour deux nuits.", "A room for two nights."], ["Une chambre pour une personne.", "A room for one person."]),
+  G("Il y a = there is / there are", "Il y a means both “there is” and “there are”. Turn it into a question with a rising voice, or make it negative with il n'y a pas de.", ["Il y a le wifi ?", "Is there wifi?"], ["Il n'y a pas de parking.", "There is no car park."]),
+  G("De … à … = from … to …", "Use de and à with times or places to give a range: de sept heures à dix heures, de Paris à Lyon.", ["De sept heures à dix heures.", "From seven to ten."], ["De Paris à Lyon.", "From Paris to Lyon."])
+ ],
+ quiz: [
+  mc("What does “Une chambre pour deux nuits” mean?", "A room for two nights", ["Two rooms for one night", "A room for two people"], "Nuit = night."),
+  mc("What is “le petit déjeuner”?", "Breakfast", ["Lunch", "Dinner"], "Petit déjeuner = breakfast."),
+  fill("Complete: J'ai une ___ au nom de Martin.", "réservation", "booking", "Une réservation = a reservation."),
+  mc("What does “Il y a le wifi ?” ask?", "Is there wifi?", ["Where is the wifi?", "Do you have wifi?"], "Il y a… ? = Is there…?"),
+  fill("Complete: De sept heures ___ dix heures.", "à", "one letter", "De … à … = from … to …"),
+  mc("What is “une clé”?", "A key", ["A room", "A floor"], "Clé = key.")
+ ]
 })
 ];

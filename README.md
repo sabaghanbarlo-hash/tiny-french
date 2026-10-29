@@ -40,6 +40,9 @@ Courses are free, ordered sets of lessons, like the courses on Tiny Japanese. Co
 4. New vocabulary categories go in `CATEGORIES` in `data/vocab.js`.
 5. `npm test` validates structure, links and HTML. Commit and push to deploy.
 
+## Make videos for course lessons
+`node tools/make-video-scripts.mjs <folder>` turns every course lesson into a script for the Tiny French YouTube generator (`tiny-french-youtube`, folder `lessons/`). Those are landscape 1920x1080 long-format videos with story, vocabulary, grammar and quiz. Copy the scripts into that repo and run its **Render YouTube lesson** workflow.
+
 ## Add vocabulary
 Words listed in a lesson's `vocab` appear in the library automatically. For other words add a line to `data/vocab.js` (`w(category, french, english, pronunciation, example, exampleEnglish)`).
 

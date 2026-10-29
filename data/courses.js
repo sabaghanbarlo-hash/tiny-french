@@ -13,24 +13,24 @@ export const courses = [
  {
   id: "first-conversations", title: "First Conversations", kind: "Free course", status: "available",
   level: "Absolute beginner (A1)", free: true, price: null, currency: "USD", checkoutUrl: "", art: "tiny-french-characters",
-  summary: "Five short dialogue lessons for your first real conversations: greetings, introductions, numbers and prices, ordering at a café and asking for directions.",
-  outcomes: ["Greet people at any time of day", "Introduce yourself and say where you live and where you are from", "Count to 20, ask prices and order politely", "Ask for directions and understand the answer"],
+  summary: "Seven short dialogue lessons for your first real conversations: greetings, introductions, numbers and prices, ordering at a café, asking for directions, talking about your family and buying a train ticket.",
+  outcomes: ["Greet people at any time of day", "Introduce yourself and say where you live and where you are from", "Count to 20, ask prices and order politely", "Ask for directions and understand the answer", "Talk about your family and buy a train ticket"],
   modules: [],
   cta: { label: "Start Lesson 1", href: "/courses/first-conversations/greetings-through-the-day/" }
  },
  {
   id: "french-sounds-starter", title: "French Sounds Starter", kind: "Free course", status: "available",
   level: "Absolute beginner (A1)", free: true, price: null, currency: "USD", checkoutUrl: "", art: "tiny-french-characters",
-  summary: "Five lessons on the sounds and spelling that surprise English speakers: the alphabet and accents, silent letters and liaison, nasal vowels, the French u and r, and reading real signs and menus.",
-  outcomes: ["Spell words aloud with the French alphabet", "Read accents and silent letters correctly", "Say nasal vowels, the French u and the French r", "Read signs and a short menu with confidence"],
+  summary: "Seven lessons on the sounds and spelling that surprise English speakers: the alphabet and accents, silent letters and liaison, nasal vowels, the French u and r, reading signs and menus, letter teams like oi and eau, and French rhythm and questions.",
+  outcomes: ["Spell words aloud with the French alphabet", "Read accents and silent letters correctly", "Say nasal vowels, the French u and the French r", "Read signs and a short menu with confidence", "Use letter teams like oi, au and eu, and ask questions with the right melody"],
   modules: [],
   cta: { label: "Start Lesson 1", href: "/courses/french-sounds-starter/accents-and-the-alphabet/" }
  },
  {
   id: "everyday-french", title: "Everyday French: Time and Plans", kind: "Free course", status: "available",
   level: "Beginner (A1)", free: true, price: null, currency: "USD", checkoutUrl: "", art: "tiny-french-characters",
-  summary: "Five lessons for daily life: days of the week, telling the time, likes and dislikes, making plans with the verb aller and asking for help when you do not understand.",
-  outcomes: ["Name the days and tell the time", "Say what you like, love and hate", "Invite a friend and agree a time and place", "Ask someone to repeat or slow down"],
+  summary: "Seven lessons for daily life: days of the week, telling the time, likes and dislikes, making plans with the verb aller, asking for help, talking about the weather and checking in at a hotel.",
+  outcomes: ["Name the days and tell the time", "Say what you like, love and hate", "Invite a friend and agree a time and place", "Ask someone to repeat or slow down", "Talk about the weather and check in at a hotel"],
   modules: [],
   cta: { label: "Start Lesson 1", href: "/courses/everyday-french/days-and-today/" }
  },
