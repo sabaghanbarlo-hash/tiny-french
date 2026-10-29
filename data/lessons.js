@@ -5,7 +5,7 @@ export const lessons = [
 {
  id: "meeting-for-the-first-time", number: 1, title: "Meeting for the First Time", fr: "Faire connaissance",
  type: "Short dialogue", level: "Absolute beginner", topics: ["Absolute Beginner", "Greetings and Introductions", "Listening and Conversation"],
- minutes: 6, art: { img: "tiny-french-characters", ext: "svg", alt: "Tiny French café scene" },
+ minutes: 6, art: { img: "story-cafe", ext: "png", alt: "Tiny French café scene" },
  description: "Say hello, tell someone your name and offer a coffee in your very first French conversation.",
  objectives: ["Greet someone with “Bonjour”", "Say “My name is…” with Je m'appelle", "Be polite with s'il te plaît and merci beaucoup"],
  intro: "Marinette and Adrien meet in a café. It is the shortest, friendliest first conversation you can have in French.",
@@ -47,7 +47,7 @@ export const lessons = [
 {
  id: "a-la-boulangerie", number: 2, title: "At the Bakery", fr: "Marinette et Adrien à la boulangerie",
  type: "Story", level: "Absolute beginner", topics: ["Absolute Beginner", "Everyday French", "Food and Cafés"],
- minutes: 6, art: { img: "tiny-french-characters", ext: "svg", alt: "Tiny French bakery scene" },
+ minutes: 6, art: { img: "story-bakery", ext: "jpg", alt: "Tiny French bakery scene" },
  description: "Offer a croissant, accept it politely and say thank you — the three phrases you will use in every French bakery.",
  objectives: ["Offer something with Tu veux… ?", "Accept with Oui, s'il te plaît", "Say thank you and you're welcome (merci, de rien)"],
  intro: "Marinette buys a croissant for Adrien. Watch how polite French is built from a few small words.",

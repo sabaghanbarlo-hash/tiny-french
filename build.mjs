@@ -70,10 +70,10 @@ const allTopics = ["Absolute Beginner", "Greetings and Introductions", "Everyday
 const allLevels = [...new Set(lessons.map((l) => l.level))];
 const allTypes = [...new Set(lessons.map((l) => l.type))];
 const newest = [...lessons].sort((a, b) => b.number - a.number).slice(0, 3);
-const featured = lessons.filter((l) => [1, 3, 4].includes(l.number));
+const featured = lessons.filter((l) => [1, 2, 3, 4].includes(l.number));
 
 // ---------- layout ----------
-const NAV = [["home", "/", "Home"], ["start", "/start/", "Start Learning"], ["lessons", "/lessons/", "Lessons"], ["vocabulary", "/vocabulary/", "Vocabulary"], ["quizzes", "/quizzes/", "Quizzes"], ["about", "/about/", "About"], ["courses", "/courses/", "Courses"]];
+const NAV = [["home", "/", "Home"], ["courses", "/courses/", "Courses"], ["lessons", "/lessons/", "Lessons"], ["about", "/about/", "About"]];
 const igIcon = `<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>`;
 const ogImg = abs("/assets/img/og.png");
 
@@ -156,6 +156,7 @@ const lessonCard = (l) => `<article class="card lesson-card" data-id="${l.id}" d
   <a class="btn small" href="${U(l.url)}">Start lesson<span class="sr"> ${esc(l.title)}</span></a>
  </div>
 </article>`;
+const homeLessonCard = (l) => `<article class="card lesson-card home-lesson-card"><a class="card-art" href="${U(l.url)}" tabindex="-1" aria-hidden="true">${art(l)}</a><div class="card-body"><span class="chip ep">Lesson ${l.number}</span><h3><a href="${U(l.url)}">${esc(l.title)}</a></h3><p class="home-card-desc">${esc(l.description)}</p></div></article>`;
 const sayBtn = (t, label = "Listen") => `<button type="button" class="icon-btn say" data-say="${esc(t)}" aria-label="${label}: ${esc(t)}" hidden>🔊</button>`;
 const newsletter = () => SITE.newsletter.formAction
   ? `<form class="newsletter card" action="${esc(SITE.newsletter.formAction)}" method="post"><h3>Get new lessons by e-mail</h3><label for="nl-email">Your e-mail</label><div class="row"><input id="nl-email" type="email" name="${esc(SITE.newsletter.emailField)}" required autocomplete="email"><button class="btn" type="submit">Subscribe</button></div></form>`
@@ -181,56 +182,28 @@ function roadmapHTML() {
 {
   const first = lessons[0];
   const body = `
-<section class="hero"><div class="wrap hero-grid">
+<section class="hero home-hero"><div class="wrap hero-grid">
  <div class="hero-copy">
-  <p class="eyebrow">Free French lessons for beginners</p>
-  <h1>Your French Adventure Starts Here! 🇫🇷</h1>
-  <p class="lead">Learn French from zero with adorable stories, practical conversations, and bite-sized lessons that make every new word feel easy.</p>
-  <p class="cta-row"><a class="btn big" href="${U("/lessons/" + first.id + "/")}">Start Learning Free</a><a class="btn ghost big" href="${U("/lessons/")}">Explore Lessons</a></p>
-  <div class="continue" data-continue hidden></div>
-  <p class="fine">No sign-up. Real French with English translations. ${lessons.length} lessons and counting.</p>
+  <h1>Learn French<br>with Adrien &amp; Marinette</h1>
+  <p class="lead">Real conversations. Fun lessons.<br>Your French journey starts here!</p>
+  <p class="cta-row"><a class="btn big" href="${U("/lessons/" + first.id + "/")}">Start Learning <span aria-hidden="true">→</span></a></p>
  </div>
- <div class="hero-art" aria-label="A Tiny French lesson preview">
-  <div class="phone"><img src="${U("/assets/img/tiny-french-characters.svg")}" alt="A Tiny French lesson video cover with Marinette and Adrien" width="540" height="960" fetchpriority="high"></div>
-  <div class="bubble"><p class="b-fr" lang="fr">Bonjour ! Je m’appelle Marinette.</p><p class="b-en">Hello! My name is Marinette.</p></div>
-  <span class="float f1" aria-hidden="true">🥐</span><span class="float f2" aria-hidden="true">🗼</span><span class="float f3" aria-hidden="true">☕</span>
+ <div class="hero-art" aria-label="Adrien and Marinette learning French in a Paris café">
+  <img class="hero-scene" src="${U("/assets/img/tiny-french-characters.svg")}" alt="Adrien with blond hair and Marinette with navy twin ponytails sitting together at a café" width="540" height="960" fetchpriority="high">
  </div>
 </div></section>
-
-<section class="section"><div class="wrap">
- <h2 class="center">How Tiny French works</h2>
- <div class="grid3 steps">
-  <div class="card step"><span class="num">1</span><h3>Watch</h3><p>Follow Adrien and Marinette through short conversations set in cafés, bakeries and Paris streets.</p></div>
-  <div class="card step"><span class="num">2</span><h3>Learn</h3><p>Understand vocabulary, pronunciation and grammar, explained in simple English.</p></div>
-  <div class="card step"><span class="num">3</span><h3>Practice</h3><p>Answer quiz questions, flip flashcards and use the French you have learned.</p></div>
- </div>
+<section class="benefits-strip" aria-label="Tiny French benefits"><div class="wrap benefits-grid">
+ <div class="benefit"><span class="benefit-icon pink" aria-hidden="true">☏</span><div><h2>Real Life French</h2><p>Learn useful phrases for everyday situations.</p></div></div>
+ <div class="benefit"><span class="benefit-icon blue" aria-hidden="true">▶</span><div><h2>Short &amp; Fun Lessons</h2><p>Engaging videos with Adrien &amp; Marinette.</p></div></div>
+ <div class="benefit"><span class="benefit-icon purple" aria-hidden="true">▥</span><div><h2>Beginner Friendly</h2><p>Start from zero, grow at your own pace.</p></div></div>
+ <div class="benefit"><span class="benefit-icon green" aria-hidden="true">♡</span><div><h2>Meet New Friends</h2><p>Join a supportive learning community.</p></div></div>
 </div></section>
-
-<section class="section alt"><div class="wrap">
- <div class="head-row"><h2>Featured lessons</h2><a class="more" href="${U("/lessons/")}">View All Lessons →</a></div>
- <div class="grid3">${featured.map(lessonCard).join("")}</div>
+<section class="section popular-section"><div class="wrap">
+ <div class="head-row"><h2><span class="heart-mark" aria-hidden="true">♥</span> Popular Lessons</h2><a class="more" href="${U("/lessons/")}">View All Lessons <span aria-hidden="true">→</span></a></div>
+ <div class="home-lessons-grid">${featured.map(homeLessonCard).join("")}</div>
 </div></section>
-
-<section class="section"><div class="wrap">
- <h2 class="center">Why Tiny French?</h2>
- <div class="grid3 why">
-  ${[["🌱", "Beginner-friendly", "Every idea is explained from zero in plain English."], ["🇫🇷", "French + English", "Each French line comes with its translation right underneath."], ["☕", "Everyday conversations", "Phrases you can really use in a café, a shop or at the airport."], ["⏱️", "Short lessons", "Most lessons take 6–10 minutes, so they are easy to finish."], ["✅", "Quizzes and revision", "Instant feedback, retries and a revision page for tricky words."], ["🧭", "A path that grows", "A roadmap from first words to real-life conversations."]].map(([i, t, d]) => `<div class="card why-item"><span class="ico" aria-hidden="true">${i}</span><h3>${t}</h3><p>${d}</p></div>`).join("")}
- </div>
-</div></section>
-
-<section class="section alt"><div class="wrap">
- <h2 class="center">Your learning roadmap</h2>
- <p class="center muted">Lessons marked “Available now” are published. The others are on the way. We only mark something available when you can open it today.</p>
- ${roadmapHTML()}
-</div></section>
-
-<section class="section"><div class="wrap two">
- <div><h2>Follow the story on Instagram</h2><p>Tiny French starts as short videos with Adrien and Marinette. Each lesson here goes deeper: full dialogue, vocabulary, grammar and a quiz.</p>${IG ? `<p><a class="btn ghost" href="${IG}" target="_blank" rel="noopener">${igIcon} Follow ${esc(SITE.instagramHandle)}</a></p>` : ""}</div>
- <div><h3 class="h-small">Newest lessons</h3><ul class="plain-list">${newest.map((l) => `<li><a href="${U(l.url)}"><b>Episode ${l.number}:</b> ${esc(l.title)}</a> <span class="muted">· ${esc(l.fr)}</span></li>`).join("")}</ul>${newsletter()}</div>
-</div></section>
-
-<section class="cta-band"><div class="wrap center"><h2>Ready for your first French conversation?</h2><p>It takes about six minutes. Hello, your name, and a coffee.</p><p><a class="btn big light" href="${U("/lessons/" + first.id + "/")}">Start Lesson 1 — Free</a></p></div></section>`;
-  add("/", page({ title: "Tiny French | Learn French for Beginners with Stories and Quizzes", desc: "Learn French for beginners with Adrien and Marinette: short conversations with English translations, easy vocabulary, simple grammar and free interactive quizzes.", path: "/", cur: "home", body, jsonld: [orgLd, { "@type": "WebSite", name: "Tiny French", url: abs("/"), inLanguage: "en" }] }));
+<section class="section alt"><div class="wrap center"><h2>Your French journey, one tiny step at a time</h2><p class="lead">Short stories, clear English explanations, and friendly quizzes to help you practise what you learn.</p><p><a class="btn big" href="${U("/lessons/")}">Explore all lessons →</a></p></div></section>`;
+  add("/", page({ title: "Tiny French | Learn French with Adrien & Marinette", desc: "Learn French from zero with Adrien and Marinette through short conversations, practical phrases, and beginner-friendly lessons.", path: "/", cur: "home", body, jsonld: [orgLd, { "@type": "WebSite", name: "Tiny French", url: abs("/"), inLanguage: "en" }] }));
 }
 
 // Start
