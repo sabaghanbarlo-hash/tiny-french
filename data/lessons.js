@@ -81,7 +81,7 @@ export const lessons = [
 {
  id: "un-croissant-pour-adrien", number: 3, title: "A Croissant for Adrien", fr: "Un croissant pour Adrien",
  type: "Story", level: "Absolute beginner", topics: ["Absolute Beginner", "Everyday French", "Food and Cafés", "Listening and Conversation"],
- minutes: 8, art: { img: "tiny-french-characters", ext: "svg", alt: "Tiny French lesson cover: Croissant Time" },
+ minutes: 8, art: { img: "story-street", ext: "png", alt: "Tiny French Paris scene with Adrien and Marinette" },
  description: "The last croissant is gone! Learn to order politely, say you are hungry and share with a friend.",
  objectives: ["Order politely with s'il vous plaît", "Say “there is no more…” with Il n'y a plus de…", "Tell tu (friends) and vous (shops) apart"],
  intro: "Adrien arrives at the bakery just too late. Marinette shares her croissant, and you learn how polite French sounds in a real shop.",
@@ -122,7 +122,7 @@ export const lessons = [
 {
  id: "une-journee-a-paris", number: 4, title: "A Day in Paris", fr: "Une journée à Paris",
  type: "Story", level: "Beginner (A1)", topics: ["Everyday French", "Travel French", "Food and Cafés", "Listening and Conversation"],
- minutes: 10, art: { img: "tiny-french-characters", ext: "svg", alt: "Tiny French Paris street scene" },
+ minutes: 10, art: { img: "03-cover", ext: "png", alt: "Tiny French Paris lesson cover" },
  description: "Follow Marinette and Adrien from a Paris street to the bakery, a café and the park. Greet a friend, order food and say goodbye.",
  objectives: ["Ask “How are you?” with Ça va ?", "Order with Je voudrais… and s'il vous plaît", "Point things out with Il y a… and Regarde !"],
  intro: "Four places, one friendly day. This longer story shows how the phrases from earlier lessons work together.",
