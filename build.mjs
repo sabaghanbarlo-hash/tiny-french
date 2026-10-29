@@ -121,7 +121,8 @@ ${ld}
   <button class="burger" type="button" aria-expanded="false" aria-controls="menu" aria-label="Open menu"><span></span><span></span><span></span></button>
   <nav id="menu" aria-label="Main">
    ${NAV.map(([k, h, t]) => `<a href="${U(h)}"${k === cur ? ' aria-current="page"' : ""}>${t}</a>`).join("")}
-   <a class="btn small nav-cta" href="${U("/lessons/" + lessons[0].id + "/")}">Start Learning Free</a>
+   <a class="btn small nav-cta" href="${U("/lessons/" + lessons[0].id + "/")}">♥ Start Learning</a>
+   <a class="header-search" href="${U("/lessons/")}" aria-label="Search lessons"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 5 5"></path></svg></a>
    ${IG ? `<a class="ig-link" href="${IG}" target="_blank" rel="noopener" aria-label="Tiny French on Instagram">${igIcon}<span class="sr">Instagram</span></a>` : ""}
   </nav>
  </div>
