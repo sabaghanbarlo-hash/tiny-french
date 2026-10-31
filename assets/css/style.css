@@ -161,7 +161,7 @@ body{background:#fffafa;color:var(--navy);font-family:Nunito,system-ui,sans-seri
 .header-search svg{width:23px;height:23px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round}
 .nav-cta{order:3;margin-left:0;padding:10px 25px!important;min-height:44px!important;border-radius:999px;font-size:.95rem!important;white-space:nowrap}
 #menu .ig-link{display:none}
-.home-hero{position:relative;padding:0;min-height:395px;height:395px;background:#b9e2ff url('/assets/img/tiny-french-hero.svg') center center/cover no-repeat;overflow:hidden}
+.home-hero{position:relative;padding:0;min-height:395px;height:395px;background:#b9e2ff url('../img/hero-paris.webp') center center/cover no-repeat;overflow:hidden}
 .home-hero .wrap{width:100%;max-width:none}
 .home-hero .hero-grid{display:block;position:relative;height:395px;min-height:395px;width:100%;max-width:none;margin:0}
 .home-hero .hero-art{position:absolute;inset:0;width:100%;height:100%;min-height:0;max-height:none;padding:0;background:transparent;z-index:0;overflow:hidden}
@@ -199,3 +199,21 @@ body{background:#fffafa;color:var(--navy);font-family:Nunito,system-ui,sans-seri
 @media(max-width:980px){.site-header,.site-header .bar{height:68px;min-height:68px}.brand{font-size:1.55rem}.header-search{display:none}#menu{gap:10px}.home-hero,.home-hero .hero-grid{height:330px;min-height:330px}.home-hero .hero-copy{left:5%;width:48%}.home-hero .hero-copy h1{font-size:2rem}.home-hero .hero-copy .lead{font-size:1rem}.benefits-strip{height:auto;padding:24px 0}.benefits-grid{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:22px}.home-lessons-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:620px){.wrap{width:calc(100% - 32px)}.site-header .bar{width:calc(100% - 28px)}.brand{font-size:1.35rem}.brand img{width:30px;height:42px}.js #menu{top:100%;gap:4px}.home-hero,.home-hero .hero-grid{height:auto;min-height:480px}.home-hero{background-size:auto 300px;background-position:center bottom;background-repeat:no-repeat;background-color:#c9e9ff}.home-hero .hero-copy{top:24px;left:24px;right:24px;transform:none;width:auto}.home-hero .hero-copy h1{font-size:2rem;max-width:390px}.home-hero .hero-copy .lead{font-size:1rem}.home-hero .hero-copy .cta-row{margin-top:14px}.home-hero .hero-copy .btn.big{min-height:48px;padding:10px 20px;font-size:1rem}.benefits-grid{width:calc(100% - 32px);gap:18px 12px}.benefit{align-items:flex-start;gap:10px}.benefit-icon{width:44px;height:44px;font-size:1.25rem}.benefit h2{font-size:.86rem;margin-bottom:4px}.benefit p{font-size:.78rem}.popular-section{padding:22px 0 30px}.popular-section .head-row h2{font-size:1.5rem}.more{font-size:.78rem}.home-lessons-grid{gap:12px}.home-lesson-card .card-art{aspect-ratio:16/9}.home-lesson-card .card-body{padding:0 10px 12px}.home-lesson-card .card-body h3{font-size:.9rem}.home-lesson-card .home-card-desc{font-size:.8rem}}
 @media(max-width:390px){.benefits-grid,.home-lessons-grid{grid-template-columns:1fr}.home-lesson-card .card-art{aspect-ratio:16/9}}
+
+/* Screenshot match v2: real art from the reference, logo image, SVG icons. */
+.site-header{background:#f9f8f8}
+.site-header .brand{gap:0;margin-left:-4px;flex:none}
+.site-header .brand-logo{display:block;width:252px;height:64px;max-width:none;object-fit:contain}
+.site-header .bar{gap:0}
+@media(min-width:981px){#menu{flex:1;justify-content:flex-start;padding-left:clamp(24px,16.2vw,249px);gap:clamp(14px,2.5vw,38px)}.header-search{margin-left:auto}.nav-cta{margin-left:20px}}
+@media(min-width:981px) and (max-width:1250px){#menu{padding-left:clamp(16px,3vw,40px)}}
+@media(max-width:980px){.site-header .brand-logo{width:200px;height:auto}}
+.nav-cta,.btn{background:#f0587a;border-color:#f0587a}.btn:hover{background:#d93d6b;border-color:#d93d6b}
+.benefits-strip{background:#fdf9f8;height:163px}
+.benefit-icon svg{width:36px;height:36px;display:block}
+.benefit-icon.pink{background:#ffe1e6;color:#e64060}.benefit-icon.blue{background:#dcebfb;color:#3c8cf2}.benefit-icon.purple{background:#efe3fb;color:#8757ee}.benefit-icon.green{background:#d8f6e0;color:#14863c}
+@media(min-width:1101px){.benefits-grid{display:flex;justify-content:space-between;gap:24px;width:min(1320px,calc(100% - 100px));max-width:none;padding-left:30px;margin:0 auto}.benefit{flex:none;gap:22px}.benefit-icon{width:73px;height:73px}}
+.popular-section{background:#fcf3f3;padding:27px 0 42px}
+.home-lesson-card .card-art{aspect-ratio:334/170}
+.home-lesson-card .card-body{padding:0 18px 18px}
+.home-lesson-card .chip.ep{margin-left:-5px}
