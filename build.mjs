@@ -17,6 +17,7 @@ const OUT = path.join(root, "dist");
 const BASE = (process.env.BASE_PATH ?? SITE.basePath ?? "").replace(/\/+$/, "");
 const ORIGIN = (process.env.SITE_URL ?? SITE.url ?? "").replace(/\/+$/, "");
 const IG = SITE.instagramUrl;
+const YT = SITE.youtubeUrl;
 
 // ---------- helpers ----------
 const ty = (v) => typeof v === "string" ? v.replace(/'/g, "’") : Array.isArray(v) ? v.map(ty) : v && typeof v === "object" ? Object.fromEntries(Object.entries(v).map(([k, x]) => [k, ty(x)])) : v;
@@ -81,6 +82,8 @@ const featured = lessons.filter((l) => [1, 2, 3, 4].includes(l.number));
 // ---------- layout ----------
 const NAV = [["home", "/", "Home"], ["courses", "/courses/", "Courses"], ["lessons", "/lessons/", "Lessons"], ["about", "/about/", "About"]];
 const igIcon = `<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>`;
+const ytIcon = `<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><rect x="2.5" y="5" width="19" height="14" rx="4"/><path d="m10 9 5 3-5 3z" fill="currentColor"/></svg>`;
+const socialRow = () => (IG || YT) ? `<p class="social-row">${IG ? `<a class="btn ghost small" href="${IG}" target="_blank" rel="noopener">${igIcon} Follow ${esc(SITE.instagramHandle)}</a>` : ""}${YT ? `<a class="btn ghost small" href="${YT}" target="_blank" rel="noopener">${ytIcon} Subscribe on YouTube</a>` : ""}</p>` : "";
 const ogImg = abs("/assets/img/og.png");
 
 function page({ title, desc, path: p, cur = "", body, jsonld = [], noindex = false, type = "website" }) {
@@ -138,7 +141,7 @@ ${ld}
  <div class="wrap foot">
   <div><a class="brand" href="${U("/")}"><img src="${U("/assets/favicon.svg")}" alt="" width="32" height="32"><span>Tiny <b>French</b></span></a>
    <p>Learn French one tiny story at a time. Free beginner lessons with Adrien and Marinette.</p>
-   ${IG ? `<p><a class="btn ghost small" href="${IG}" target="_blank" rel="noopener">${igIcon} Follow ${esc(SITE.instagramHandle)}</a></p>` : ""}</div>
+   ${socialRow()}</div>
   <div><h2>Learn</h2><ul><li><a href="${U("/start/")}">Start learning</a></li><li><a href="${U("/lessons/")}">All lessons</a></li><li><a href="${U("/vocabulary/")}">Vocabulary</a></li><li><a href="${U("/quizzes/")}">Quizzes</a></li><li><a href="${U("/revise/")}">My revision</a></li></ul></div>
   <div><h2>More</h2><ul><li><a href="${U("/resources/")}">Free resources</a></li><li><a href="${U("/courses/")}">Courses</a></li><li><a href="${U("/about/")}">About</a></li></ul></div>
  </div>
@@ -150,7 +153,10 @@ ${ld}
 const crumbs = (items) => ({ "@type": "BreadcrumbList", itemListElement: items.map(([n, p], i) => ({ "@type": "ListItem", position: i + 1, name: n, item: abs(p) })) });
 const breadcrumb = (items) => `<nav class="crumbs" aria-label="Breadcrumb"><ol>${items.map(([n, p], i) => `<li>${i < items.length - 1 ? `<a href="${U(p)}">${esc(n)}</a>` : `<span aria-current="page">${esc(n)}</span>`}</li>`).join("")}</ol></nav>`;
 
-const art = (l) => l.art.img
+const HOME_ART = { 1: "lesson-cafe", 2: "lesson-bakery", 3: "lesson-directions", 4: "lesson-station" };
+const art = (l) => HOME_ART[l.number]
+  ? `<img class="art" src="${U(`/assets/img/${HOME_ART[l.number]}.webp`)}" alt="${esc(l.art.alt || l.title)}" width="334" height="170" loading="lazy" decoding="async">`
+  : l.art.img
   ? `<img class="art" src="${U(`/assets/img/${l.art.img}.${l.art.ext || "jpg"}`)}" alt="${esc(l.art.alt)}" width="540" height="960" loading="lazy" decoding="async">`
   : `<div class="art emoji" role="img" aria-label="${esc(l.art.alt)}"><span aria-hidden="true">${l.art.emoji}</span></div>`;
 const lessonCard = (l) => `<article class="card lesson-card" data-id="${l.id}" data-level="${esc(l.level)}" data-type="${esc(l.type)}" data-topics="${esc(l.topics.join("|"))}" data-search="${esc(norm([l.title, l.fr, l.description, l.topics.join(" "), l.vocab.map((v) => v.fr + " " + v.en).join(" ")].join(" ")))}">
@@ -163,8 +169,7 @@ const lessonCard = (l) => `<article class="card lesson-card" data-id="${l.id}" d
   <a class="btn small" href="${U(l.url)}">Start lesson<span class="sr"> ${esc(l.title)}</span></a>
  </div>
 </article>`;
-const HOME_ART = { 1: "lesson-cafe", 2: "lesson-bakery", 3: "lesson-directions", 4: "lesson-station" };
-const homeArt = (l) => HOME_ART[l.number] ? `<img class="art" src="${U(`/assets/img/${HOME_ART[l.number]}.webp`)}" alt="${esc(l.art.alt || l.title)}" width="334" height="170" loading="lazy" decoding="async">` : art(l);
+const homeArt = art;
 const homeLessonCard = (l) => `<article class="card lesson-card home-lesson-card"><a class="card-art" href="${U(l.url)}" tabindex="-1" aria-hidden="true">${homeArt(l)}</a><div class="card-body"><span class="chip ep">Lesson ${l.number}</span><h3><a href="${U(l.url)}">${esc(l.title)}</a></h3><p class="home-card-desc">${esc(l.description)}</p></div></article>`;
 const sayBtn = (t, label = "Listen") => `<button type="button" class="icon-btn say" data-say="${esc(t)}" aria-label="${label}: ${esc(t)}" hidden>🔊</button>`;
 const newsletter = () => SITE.newsletter.formAction
@@ -182,7 +187,7 @@ const statusLabel = { available: "Available now", partial: "Some lessons", plann
 // ---------- pages ----------
 const pages = [];
 const add = (p, html) => { pages.push(p); write(p === "/" ? "index.html" : `${p.replace(/^\//, "")}index.html`, html); };
-const orgLd = { "@type": "Organization", name: "Tiny French", url: abs("/"), logo: abs("/assets/favicon.svg"), ...(IG ? { sameAs: [IG] } : {}) };
+const orgLd = { "@type": "Organization", name: "Tiny French", url: abs("/"), logo: abs("/assets/favicon.svg"), ...(IG || YT ? { sameAs: [IG, YT].filter(Boolean) } : {}) };
 function roadmapHTML() {
   return `<ol class="roadmap">${roadmap.map((r, i) => `<li class="rm ${r.status}"><span class="rm-n">${i + 1}</span><div><h3>${esc(r.title)}</h3><p>${esc(r.text)}</p><span class="chip st-${r.status}">${statusLabel[r.status]}</span>${r.lessons ? `<p class="rm-l">${r.lessons.map((n) => { const l = lessons.find((x) => x.number === n); return l ? `<a href="${U(l.url)}">Episode ${n}</a>` : ""; }).join(" · ")}</p>` : ""}${r.note ? `<p class="small muted">${esc(r.note)}</p>` : ""}</div></li>`).join("")}</ol>`;
 }
@@ -340,7 +345,7 @@ add("/about/", page({
  <h2>What is Tiny French?</h2><p>Tiny French is a free place to learn beginner French through short, friendly conversations. Instead of starting with long grammar tables, you listen to real phrases first, then see why they work.</p>
  <h2>Meet Adrien and Marinette</h2><p>Adrien and Marinette are two cheerful friends who walk you through every lesson. They order croissants, meet in cafés and explore Paris, so every new word comes with a little story to remember it by.</p>
  <h2>Our beginner-first approach</h2><ul><li>Start with real phrases you can use today.</li><li>Always show French with the English translation beneath it.</li><li>Keep lessons short enough to finish.</li><li>Explain grammar only when a lesson needs it, in plain English.</li><li>Practise straight away with quizzes and revision.</li></ul>
- <h2>Website and social media</h2><p>Lessons usually begin life as short videos on social media. This website is the full classroom: the complete dialogue, vocabulary with pronunciation help, grammar notes and a quiz for each lesson.${IG ? ` Follow <a href="${IG}" target="_blank" rel="noopener">${esc(SITE.instagramHandle)}</a> on Instagram to see new videos first.` : ""}</p>
+ <h2>Website and social media</h2><p>Lessons usually begin life as short videos on social media. This website is the full classroom: the complete dialogue, vocabulary with pronunciation help, grammar notes and a quiz for each lesson.${IG ? ` Follow <a href="${IG}" target="_blank" rel="noopener">${esc(SITE.instagramHandle)}</a> on Instagram to see new videos first.` : ""}${YT ? ` You can also watch every video on <a href="${YT}" target="_blank" rel="noopener">our YouTube channel</a>.` : ""}</p>${socialRow()}
  <p><a class="btn" href="${U("/lessons/")}">Browse the lessons</a></p>
 </div>`
 }));
@@ -348,7 +353,11 @@ add("/about/", page({
 // Courses
 const priceLabel = (c) => c.free ? "Free" : c.price ? `${c.currency} ${c.price}` : "Price to be announced";
 const ctaFor = (c) => c.checkoutUrl ? { label: "Buy this course", href: c.checkoutUrl, ext: true } : c.cta.href === "instagram" ? (IG ? { label: c.cta.label, href: IG, ext: true } : null) : { label: c.cta.label, href: U(c.cta.href) };
-const courseCard = (c) => `<article class="card course-card"><img class="art-wide" src="${U(`/assets/img/${c.art}.svg`)}" alt="" width="540" height="960" loading="lazy"><div class="card-body"><div class="chips"><span class="chip ${c.free ? "ok2" : ""}">${c.free ? "Free" : "Paid"}</span><span class="chip st-${c.status === "available" ? "available" : "planned"}">${c.status === "available" ? "Available now" : "In planning"}</span></div><h3><a href="${U("/courses/" + c.id + "/")}">${esc(c.title)}</a></h3><p>${esc(c.summary)}</p><p class="small muted">${esc(c.level)} · ${priceLabel(c)}</p><a class="btn small" href="${U("/courses/" + c.id + "/")}">View details</a></div></article>`;
+const COURSE_ART = { "free-lessons": "lesson-directions", "first-conversations": "lesson-cafe", "french-sounds-starter": "lesson-bakery", "everyday-french": "lesson-station", "from-zero-to-first-conversations": "hero-paris" };
+const courseArt = (c, cls) => COURSE_ART[c.id]
+  ? `<img class="${cls}" src="${U(`/assets/img/${COURSE_ART[c.id]}.webp`)}" alt="" width="${c.id === "from-zero-to-first-conversations" ? 1536 : 334}" height="${c.id === "from-zero-to-first-conversations" ? 394 : 170}"${c.id === "from-zero-to-first-conversations" ? ' style="object-position:60% 50%"' : ""} loading="lazy">`
+  : `<img class="${cls}" src="${U(`/assets/img/${c.art}.svg`)}" alt="" width="540" height="960" loading="lazy">`;
+const courseCard = (c) => `<article class="card course-card">${courseArt(c, "art-wide")}<div class="card-body"><div class="chips"><span class="chip ${c.free ? "ok2" : ""}">${c.free ? "Free" : "Paid"}</span><span class="chip st-${c.status === "available" ? "available" : "planned"}">${c.status === "available" ? "Available now" : "In planning"}</span></div><h3><a href="${U("/courses/" + c.id + "/")}">${esc(c.title)}</a></h3><p>${esc(c.summary)}</p><p class="small muted">${esc(c.level)} · ${priceLabel(c)}</p><a class="btn small" href="${U("/courses/" + c.id + "/")}">View details</a></div></article>`;
 add("/courses/", page({
   title: "French Courses", cur: "courses", path: "/courses/",
   desc: "All Tiny French lessons are free. A structured paid beginner course is in planning: see the planned modules and follow for launch news.",
@@ -364,7 +373,7 @@ for (const c of courses) {
     jsonld: [crumbs([["Home", "/"], ["Courses", "/courses/"], [c.title, `/courses/${c.id}/`]]), ...(c.status === "available" ? [{ "@type": "Course", name: c.title, description: c.summary, provider: orgLd, isAccessibleForFree: true }] : [])],
     body: `<div class="wrap narrow">${breadcrumb([["Home", "/"], ["Courses", "/courses/"], [c.title, `/courses/${c.id}/`]])}
  <header class="page-head"><div class="chips"><span class="chip ${c.free ? "ok2" : ""}">${c.free ? "Free" : "Paid"}</span><span class="chip st-${c.status === "available" ? "available" : "planned"}">${c.status === "available" ? "Available now" : "In planning — not for sale yet"}</span><span class="chip">${esc(c.level)}</span></div><h1>${esc(c.title)}</h1><p class="lead">${esc(c.summary)}</p><p class="price">${priceLabel(c)}</p>${cta ? `<p><a class="btn big" href="${esc(cta.href)}"${cta.ext ? ' target="_blank" rel="noopener"' : ""}>${esc(cta.label)}</a></p>` : ""}</header>
- <img class="art-wide big" src="${U(`/assets/img/${c.art}.svg`)}" alt="" width="540" height="960" loading="lazy">
+ ${courseArt(c, "art-wide big")}
  <section class="block"><h2>What you will be able to do</h2><ul>${c.outcomes.map((o) => `<li>${esc(o)}</li>`).join("")}</ul></section>
  ${c.lessonList.length ? `<section class="block"><h2>Lessons</h2><ol class="modules course-lessons">${c.lessonList.map((l) => `<li><a href="${U(l.url)}"><b>${l.number}. ${esc(l.title)}</b></a> <span class="chip">⏱ ${l.minutes} min</span><p class="small muted">${esc(l.description)}</p></li>`).join("")}</ol></section>` : ""}
  ${c.modules.length ? `<section class="block"><h2>Modules</h2><ol class="modules">${c.modules.map((m) => `<li><b>${esc(m.title)}</b> <span class="chip st-${m.status === "available" ? "available" : "planned"}">${m.status === "available" ? "Available" : "Planned"}</span>${m.note ? `<p class="small muted">${esc(m.note)}</p>` : ""}</li>`).join("")}</ol></section>` : ""}</div>`
