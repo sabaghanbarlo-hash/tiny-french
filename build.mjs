@@ -110,7 +110,7 @@ ${canon}
 <meta name="twitter:image" content="${ogImg}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap">
 <link rel="stylesheet" href="${U("/assets/css/style.css")}">
 <script>document.documentElement.classList.add("js");window.TF={base:${J(BASE)},ig:${J(IG)}}</script>
 <script defer src="${U("/assets/js/app.js")}"></script>
@@ -120,7 +120,7 @@ ${ld}
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header">
  <div class="wrap bar">
-  <a class="brand" href="${U("/")}" aria-label="Tiny French home"><img src="${U("/assets/favicon.svg")}" alt="" width="36" height="36"><span>Tiny <b>French</b></span></a>
+  <a class="brand" href="${U("/")}" aria-label="Tiny French home"><img class="brand-logo" src="${U("/assets/img/logo.webp")}" alt="Tiny French" width="252" height="64"></a>
   <button class="burger" type="button" aria-expanded="false" aria-controls="menu" aria-label="Open menu"><span></span><span></span><span></span></button>
   <nav id="menu" aria-label="Main">
    ${NAV.map(([k, h, t]) => `<a href="${U(h)}"${k === cur ? ' aria-current="page"' : ""}>${t}</a>`).join("")}
@@ -160,7 +160,9 @@ const lessonCard = (l) => `<article class="card lesson-card" data-id="${l.id}" d
   <a class="btn small" href="${U(l.url)}">Start lesson<span class="sr"> ${esc(l.title)}</span></a>
  </div>
 </article>`;
-const homeLessonCard = (l) => `<article class="card lesson-card home-lesson-card"><a class="card-art" href="${U(l.url)}" tabindex="-1" aria-hidden="true">${art(l)}</a><div class="card-body"><span class="chip ep">Lesson ${l.number}</span><h3><a href="${U(l.url)}">${esc(l.title)}</a></h3><p class="home-card-desc">${esc(l.description)}</p></div></article>`;
+const HOME_ART = { 1: "lesson-cafe", 2: "lesson-bakery", 3: "lesson-directions", 4: "lesson-station" };
+const homeArt = (l) => HOME_ART[l.number] ? `<img class="art" src="${U(`/assets/img/${HOME_ART[l.number]}.webp`)}" alt="${esc(l.art.alt || l.title)}" width="334" height="170" loading="lazy" decoding="async">` : art(l);
+const homeLessonCard = (l) => `<article class="card lesson-card home-lesson-card"><a class="card-art" href="${U(l.url)}" tabindex="-1" aria-hidden="true">${homeArt(l)}</a><div class="card-body"><span class="chip ep">Lesson ${l.number}</span><h3><a href="${U(l.url)}">${esc(l.title)}</a></h3><p class="home-card-desc">${esc(l.description)}</p></div></article>`;
 const sayBtn = (t, label = "Listen") => `<button type="button" class="icon-btn say" data-say="${esc(t)}" aria-label="${label}: ${esc(t)}" hidden>🔊</button>`;
 const newsletter = () => SITE.newsletter.formAction
   ? `<form class="newsletter card" action="${esc(SITE.newsletter.formAction)}" method="post"><h3>Get new lessons by e-mail</h3><label for="nl-email">Your e-mail</label><div class="row"><input id="nl-email" type="email" name="${esc(SITE.newsletter.emailField)}" required autocomplete="email"><button class="btn" type="submit">Subscribe</button></div></form>`
@@ -192,15 +194,14 @@ function roadmapHTML() {
   <p class="lead">Real conversations. Fun lessons.<br>Your French journey starts here!</p>
   <p class="cta-row"><a class="btn big" href="${U("/lessons/" + first.id + "/")}">Start Learning <span aria-hidden="true">→</span></a></p>
  </div>
- <div class="hero-art" aria-label="Adrien and Marinette learning French in a Paris café">
-  <img class="hero-scene" src="${U("/assets/img/tiny-french-hero.svg")}" alt="Adrien with blond hair and Marinette with navy twin ponytails sitting together at a café" width="540" height="960" fetchpriority="high">
+ <div class="hero-art" role="img" aria-label="Adrien and Marinette learning French in a Paris café">
  </div>
 </div></section>
 <section class="benefits-strip" aria-label="Tiny French benefits"><div class="wrap benefits-grid">
- <div class="benefit"><span class="benefit-icon pink" aria-hidden="true">☏</span><div><h2>Real Life French</h2><p>Learn useful phrases for everyday situations.</p></div></div>
- <div class="benefit"><span class="benefit-icon blue" aria-hidden="true">▶</span><div><h2>Short &amp; Fun Lessons</h2><p>Engaging videos with Adrien &amp; Marinette.</p></div></div>
- <div class="benefit"><span class="benefit-icon purple" aria-hidden="true">▥</span><div><h2>Beginner Friendly</h2><p>Start from zero, grow at your own pace.</p></div></div>
- <div class="benefit"><span class="benefit-icon green" aria-hidden="true">♡</span><div><h2>Meet New Friends</h2><p>Join a supportive learning community.</p></div></div>
+ <div class="benefit"><span class="benefit-icon pink" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M16 5.5c-6.4 0-11.5 4.1-11.5 9.3 0 2.8 1.5 5.3 3.9 7L7.2 27l5-2.5c1.2.3 2.5.5 3.8.5 6.4 0 11.5-4.1 11.5-9.2S22.4 5.5 16 5.5z"/><circle cx="11" cy="15" r="1" fill="currentColor"/><circle cx="16" cy="15" r="1" fill="currentColor"/><circle cx="21" cy="15" r="1" fill="currentColor"/></svg></span><div><h2>Real Life French</h2><p>Learn useful phrases for everyday situations.</p></div></div>
+ <div class="benefit"><span class="benefit-icon blue" aria-hidden="true"><svg viewBox="0 0 32 32"><rect x="3.5" y="6.5" width="25" height="19" rx="4.5" fill="currentColor"/><path d="M13.2 11.6v8.8l7.4-4.4z" fill="#fff"/></svg></span><div><h2>Short &amp; Fun Lessons</h2><p>Engaging videos with Adrien &amp; Marinette.</p></div></div>
+ <div class="benefit"><span class="benefit-icon purple" aria-hidden="true"><svg viewBox="0 0 32 32" fill="currentColor"><rect x="5" y="17" width="5.5" height="10" rx="1.8"/><rect x="13.2" y="11" width="5.5" height="16" rx="1.8"/><rect x="21.5" y="5" width="5.5" height="22" rx="1.8"/></svg></span><div><h2>Beginner Friendly</h2><p>Start from zero,<br>grow at your own pace.</p></div></div>
+ <div class="benefit"><span class="benefit-icon green" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linejoin="round"><path d="M16 27C6 20 4 14.5 4 11.2 4 7.6 6.7 5 10 5c2.5 0 4.7 1.4 6 3.6C17.3 6.4 19.5 5 22 5c3.3 0 6 2.6 6 6.2 0 3.3-2 8.8-12 15.8z"/></svg></span><div><h2>Meet New Friends</h2><p>Join a supportive learning community.</p></div></div>
 </div></section>
 <section class="section popular-section"><div class="wrap">
  <div class="head-row"><h2><span class="heart-mark" aria-hidden="true">♥</span> Popular Lessons</h2><a class="more" href="${U("/lessons/")}">View All Lessons <span aria-hidden="true">→</span></a></div>
