@@ -217,3 +217,8 @@ body{background:#fffafa;color:var(--navy);font-family:Nunito,system-ui,sans-seri
 .home-lesson-card .card-art{aspect-ratio:334/170}
 .home-lesson-card .card-body{padding:0 18px 18px}
 .home-lesson-card .chip.ep{margin-left:-5px}
+/* Covers on the lessons and courses pages use the same landscape art as the homepage. */
+.lesson-card .card-art{aspect-ratio:334/170}
+.course-card .art-wide{height:auto;aspect-ratio:334/170}
+.art-wide.big{width:min(100%,560px);height:auto;max-height:none;display:block;margin:16px auto 16px 0}
+.social-row{display:flex;flex-wrap:wrap;gap:10px}
