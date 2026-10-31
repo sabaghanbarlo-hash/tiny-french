@@ -1,5 +1,6 @@
 // Tiny French static site generator. Zero dependencies:  npm run build  ->  dist/
 import fs from "node:fs";
+import crypto from "node:crypto";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { SITE } from "./data/site.js";
@@ -10,6 +11,8 @@ import { courseLessons as rawCourseLessons } from "./data/course-lessons.js";
 import { roadmap, numbers, sounds } from "./data/content.js";
 
 const root = path.dirname(fileURLToPath(import.meta.url));
+// Cache-busting: the version changes whenever the file content changes, so browsers never keep a stale stylesheet or script.
+const ver = (p) => crypto.createHash("md5").update(fs.readFileSync(path.join(root, p))).digest("hex").slice(0, 8);
 const OUT = path.join(root, "dist");
 const BASE = (process.env.BASE_PATH ?? SITE.basePath ?? "").replace(/\/+$/, "");
 const ORIGIN = (process.env.SITE_URL ?? SITE.url ?? "").replace(/\/+$/, "");
@@ -111,9 +114,9 @@ ${canon}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap">
-<link rel="stylesheet" href="${U("/assets/css/style.css")}">
+<link rel="stylesheet" href="${U("/assets/css/style.css")}?v=${ver("assets/css/style.css")}">
 <script>document.documentElement.classList.add("js");window.TF={base:${J(BASE)},ig:${J(IG)}}</script>
-<script defer src="${U("/assets/js/app.js")}"></script>
+<script defer src="${U("/assets/js/app.js")}?v=${ver("assets/js/app.js")}"></script>
 ${ld}
 </head>
 <body data-page="${cur}">
