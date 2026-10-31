@@ -222,3 +222,23 @@ body{background:#fffafa;color:var(--navy);font-family:Nunito,system-ui,sans-seri
 .course-card .art-wide{height:auto;aspect-ratio:334/170}
 .art-wide.big{width:min(100%,560px);height:auto;max-height:none;display:block;margin:16px auto 16px 0}
 .social-row{display:flex;flex-wrap:wrap;gap:10px}
+/* Premium lock panel and unlocked states (shared). Uses the site's own colour variables where they exist. */
+.pm-box{border:2px solid var(--accent,#b8475c);border-radius:16px;padding:1.25rem 1.25rem 1rem;background:var(--card,#fff);margin:1.25rem 0}
+.pm-box h2{margin-top:0}
+.pm-price{margin:.25rem 0 .75rem}
+.pm-actions{margin:.5rem 0 1rem}
+.pm-form label{display:block;font-weight:700;margin:.6rem 0 .25rem}
+.pm-form label input{display:block;width:100%;margin-top:.25rem;font-weight:400}
+.pm-form input{font:inherit;padding:.65rem .8rem;border:1.5px solid #cdbfb2;border-radius:10px;background:#fff;color:inherit;min-width:0}
+.pm-row{display:flex;gap:.5rem;flex-wrap:wrap}
+.pm-row input{flex:1 1 12rem;letter-spacing:.06em;text-transform:uppercase}
+.pm-msg{min-height:1.4em;margin:.4rem 0 0;font-weight:700}
+.pm-msg.ok{color:#2d7a4b}.pm-msg.no{color:#b3261e}
+.pm-pay{margin-top:1rem;border-top:1px dashed #cdbfb2;padding-top:.75rem}
+.pm-pay summary{cursor:pointer;font-weight:700}
+.pm-pay ol{padding-left:1.2rem}
+.pm-pay form .btn{margin-top:.75rem}
+.pm-lock-tag{display:inline-block;font-size:.78rem;font-weight:800;padding:.1rem .5rem;border-radius:99px;background:#f3e3e6;color:#8d2f43;margin-left:.4rem;vertical-align:middle}
+.pm-unlocked-tag{display:inline-block;font-size:.78rem;font-weight:800;padding:.1rem .5rem;border-radius:99px;background:#e0f1e6;color:#25663f}
+.pm-note{font-size:.9rem;opacity:.85}
+.is-premium-lesson.is-unlocked .pm-lock-tag{display:none}

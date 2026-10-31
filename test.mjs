@@ -7,7 +7,7 @@ const ok = (c, m) => { checks++; if (!c) { fails++; console.error("FAIL:", m); }
 
 // 1. content integrity
 const ids = new Set(), nums = new Set();
-for (const l of [...lessons, ...courseLessons]) {
+for (const l of [...lessons, ...courseLessons.filter((x) => !x.premium)]) {
   ok(!ids.has(l.id) && /^[a-z0-9-]+$/.test(l.id), `lesson id ok/unique: ${l.id}`); ids.add(l.id);
   const nk = `${l.course || "core"}:${l.number}`; ok(!nums.has(nk), `lesson number unique: ${nk}`); nums.add(nk);
   for (const k of ["title", "fr", "description", "intro", "level", "type", "minutes"]) ok(l[k], `${l.id}.${k} present`);

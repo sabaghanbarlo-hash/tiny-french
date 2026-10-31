@@ -72,3 +72,17 @@ The site is static, so it **cannot lock content by itself**. Do this when you ar
 * Lesson text comes from the Tiny French scripts in the `tiny-french-story` repository. Lessons 2–7 have no video yet.
 * The 🔊 buttons use the browser's Web Speech API (free). If a browser has no French voice, the buttons are hidden.
 * Pronunciation respellings are approximate English-friendly guides, not IPA.
+
+## Premium courses (selling the courses)
+
+The three courses are "free preview + premium": the first 2 lessons of each (`freeLessons` in `data/site.js`) are free, the rest are premium. A premium lesson's dialogue, vocabulary, grammar, quiz, video and captions are **not in this repo**: they live on the server (Supabase project `tiny-courses`, function `premium`) and are sent only after a valid access code is checked. The public pages for premium lessons are locked shells (title, goals and description only), and premium lessons are left out of the vocabulary library, quizzes and revision pages.
+
+**How a sale works** (the payment link has no webhook, so this step is manual):
+1. The visitor presses "Buy this course" and pays through the link in `data/site.js` (`premium.payUrl`).
+2. They send their email and payment reference with the form under "I've paid".
+3. Open the admin page (`/admin.html` on the Tiny Japanese site; it manages both sites), sign in with the admin secret, check the payment arrived, press "Payment received: make code". Copy the ready-made message and send it to the buyer.
+4. The buyer enters the code and the course unlocks on that device (up to 3 devices per code; revoke it in the admin page).
+
+**Prices** are in `data/courses.js` (`price`, `currency`).
+
+**Changing premium lessons.** The full source (all lessons, with videos and captions) is in the private repo `tiny-courses-source`. Run the build there with `PREMIUM_EXPORT=<dir> node build.mjs` to render the premium lessons to JSON, upload them with the admin function, then run `node tools/split-fr.mjs` to refresh the public stubs here. Lesson videos for premium lessons are still hosted by the `tiny-french-youtube` site, so their file URLs are public if someone knows the address; the lesson text and quiz are what the code protects.

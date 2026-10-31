@@ -203,6 +203,7 @@ if (grid) {
 }
 
 // ---------- lesson page ----------
+function initLesson() {
 const lessonEl = $("article.lesson[data-lesson]");
 if (lessonEl) {
   const id = lessonEl.dataset.lesson, title = $("h1", lessonEl).textContent;
@@ -222,6 +223,9 @@ if (lessonEl) {
   const fcRoot = $("[data-flash=lesson]"), det = $(".fc-wrap");
   if (fcRoot && det) { let inst; det.addEventListener("toggle", () => { if (det.open && !inst) inst = flash(fcRoot, vd); }); }
 }
+}
+initLesson();
+window.TF.initLesson = initLesson;
 
 // ---------- share ----------
 const shareBox = $(".share");
