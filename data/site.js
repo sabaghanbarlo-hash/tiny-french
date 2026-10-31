@@ -11,7 +11,8 @@ export const SITE = {
   basePath: "",
   instagramUrl: "https://www.instagram.com/tiny.french/",
   instagramHandle: "@tiny.french",
-  youtubeUrl: "",
+  youtubeUrl: "https://www.youtube.com/@tinyfrench9",
+  youtubeHandle: "@tinyfrench9",
   email: "",
   newsletter: { formAction: "", emailField: "email", provider: "" }
 };
