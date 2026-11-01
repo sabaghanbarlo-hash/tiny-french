@@ -126,6 +126,7 @@ ${canon}
 <link rel="stylesheet" href="${U("/assets/css/style.css")}?v=${ver("assets/css/style.css")}">
 <script>document.documentElement.classList.add("js");window.TF={base:${J(BASE)},ig:${J(IG)}}</script>
 <script defer src="${U("/assets/js/app.js")}?v=${ver("assets/js/app.js")}"></script>
+<script type="module" src="${U("/assets/js/auth.js")}?v=${ver("assets/js/auth.js")}"></script>
 ${premium ? `<script>window.TFP=${J({ ...SITE.premium, site: "tiny-french", ...premium })}</script>\n<script type="module" src="${U("/assets/js/premium.js")}?v=${ver("assets/js/premium.js")}"></script>` : ""}
 ${ld}
 </head>
@@ -152,7 +153,7 @@ ${ld}
   <div><h2>Learn</h2><ul><li><a href="${U("/start/")}">Start learning</a></li><li><a href="${U("/lessons/")}">All lessons</a></li><li><a href="${U("/vocabulary/")}">Vocabulary</a></li><li><a href="${U("/quizzes/")}">Quizzes</a></li><li><a href="${U("/revise/")}">My revision</a></li></ul></div>
   <div><h2>More</h2><ul><li><a href="${U("/resources/")}">Free resources</a></li><li><a href="${U("/courses/")}">Courses</a></li><li><a href="${U("/about/")}">About</a></li></ul></div>
  </div>
- <div class="wrap legal"><p>Your progress is saved in this browser only (not an account), so it will not follow you to another device. © Tiny French</p></div>
+ <div class="wrap legal"><p>Your progress is saved in this browser only, even if you have an account, so it will not follow you to another device. © Tiny French</p></div>
 </footer>
 </body>
 </html>`;
@@ -348,6 +349,16 @@ add("/revise/", page({
 <script type="application/json" id="vocab-data">${J(vocab)}</script><script type="application/json" id="questions-data">${J(questions)}</script>`
 }));
 
+// Account (email + password; see assets/js/auth.js)
+add("/account/", page({
+  title: "Log in or create an account", cur: "account", path: "/account/", noindex: true,
+  desc: "Log in or create a free Tiny French account with your email.",
+  body: `<link rel="stylesheet" href="${U("/assets/css/account.css")}?v=${ver("assets/css/account.css")}">
+<div class="wrap narrow page-head center"><h1>Your Tiny French account</h1><p class="lead">Log in, or create a free account with your email.</p></div>
+<div class="acct" data-account-page><div id="account-root"><noscript><p>Logging in needs JavaScript turned on.</p></noscript></div></div>
+<script type="module" src="${U("/assets/js/account.js")}?v=${ver("assets/js/account.js")}"></script>`
+}));
+
 // About
 add("/about/", page({
   title: "About Tiny French", cur: "about", path: "/about/",
@@ -425,5 +436,5 @@ write("assets/data/questions.json", JSON.stringify(questions));
 write("assets/data/lessons.json", JSON.stringify([...lessons, ...cLessons].map((l) => ({ id: l.id, number: l.number, title: l.title, fr: l.fr, url: l.url, topics: l.topics, level: l.level, type: l.type }))));
 write(".nojekyll", "");
 write("robots.txt", `User-agent: *\nAllow: /\n${ORIGIN ? `Sitemap: ${ORIGIN}/sitemap.xml\n` : ""}`);
-if (ORIGIN) write("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${pages.filter((p) => p !== "/revise/").map((p) => `<url><loc>${ORIGIN}${p}</loc></url>`).join("\n")}\n</urlset>\n`);
+if (ORIGIN) write("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${pages.filter((p) => p !== "/revise/" && p !== "/account/").map((p) => `<url><loc>${ORIGIN}${p}</loc></url>`).join("\n")}\n</urlset>\n`);
 console.log(`Built ${pages.length} pages, ${lessons.length} lessons + ${cLessons.length} course lessons, ${vocab.length} vocabulary entries, ${questions.length} questions -> dist/ (base "${BASE}", origin "${ORIGIN || "none"}")`);
