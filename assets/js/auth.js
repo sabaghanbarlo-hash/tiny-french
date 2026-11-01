@@ -1,6 +1,7 @@
 // Tiny accounts (shared by Tiny Japanese and Tiny French): sign up and log in with email + password.
 // Powered by Supabase Auth. The key below is a *publishable* key: it is meant to be public and is safe in front-end code.
 // Lesson progress is still saved in each visitor's own browser; an account does not sync it (yet).
+import "./track.js";
 const SB = "https://pwenjqeclxxpfryxygzb.supabase.co";
 const KEY = "sb_publishable_zqkjcNltzjgrACSiARNPIw_0HXOg-hK";
 const SK = "tiny:auth";
@@ -53,7 +54,7 @@ const redirect = (to) => (to ? "?redirect_to=" + encodeURIComponent(to) : "");
 
 /** Create an account. Returns { signedIn } (false means a confirmation email was sent). */
 export async function signUp(email, password, redirectTo = ACCOUNT_URL) {
-  const d = await api("/signup" + redirect(redirectTo), { body: { email, password } });
+  const d = await api("/signup" + redirect(redirectTo), { body: { email, password, data: { site: "tiny-french" } } });
   if (d && d.access_token) { write(toSession(d)); emit(); return { signedIn: true }; }
   return { signedIn: false };
 }
