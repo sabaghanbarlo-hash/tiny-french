@@ -1,0 +1,16 @@
+/* Account page (shared by Tiny Japanese and Tiny French). Uses each site's own colour variables when they exist. */
+.acct{max-width:480px;margin:0 auto;padding:0 20px 56px}
+.acct-card{background:#fff;border:1px solid var(--line,#eadfe2);border-radius:var(--r,20px);padding:24px;box-shadow:0 10px 30px #0000001a;color:var(--ink,var(--navy,#2d2a2e))}
+.acct-card h2{margin-top:0}
+.acct-tabs{display:flex;gap:6px;background:var(--sakura,var(--sky-l,#f3e8ea));padding:5px;border-radius:999px;margin-bottom:8px}
+.acct-tabs button{flex:1;min-height:44px;border:0;border-radius:999px;background:transparent;font-family:inherit;font-weight:700;font-size:1rem;color:inherit;cursor:pointer}
+.acct-tabs button[aria-selected=true]{background:#fff;box-shadow:0 2px 8px #0000001f}
+.acct label{display:block;font-weight:700;margin:14px 0 6px}
+.acct input{display:block;width:100%;box-sizing:border-box;font:inherit;min-height:48px;padding:10px 14px;border:2px solid var(--line,#d9cdd0);border-radius:12px;background:#fff;color:inherit}
+.acct input:focus{outline:3px solid #8cc9ec88;outline-offset:1px;border-color:var(--rose,var(--navy,#b8475c))}
+.acct .btn{width:100%;margin-top:18px}
+.acct .btn[disabled]{opacity:.65;cursor:progress}
+.acct-msg{min-height:1.4em;margin:12px 0 0;font-weight:700}
+.acct-msg.ok{color:#25663f}.acct-msg.no{color:#b3261e}
+.acct-fine{font-size:.9rem;opacity:.85;margin:14px 0 0}
+.acct-link{background:none;border:0;padding:0;font:inherit;color:var(--rose,var(--coral-d,#b8475c));text-decoration:underline;cursor:pointer}
