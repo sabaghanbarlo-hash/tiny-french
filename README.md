@@ -89,3 +89,6 @@ The three courses are "free preview + premium": the first 2 lessons of each (`fr
 
 ## Accounts (email + password)
 `assets/js/auth.js` (log in, sign up, log out, password reset via Supabase Auth, plain `fetch`) is loaded on every page and adds a "Log in / My account" link to the menu. `/account/` is built from `build.mjs` and uses `assets/js/account.js` + `assets/css/account.css`. It shares the Supabase project (and so the user list) with Tiny Japanese and the premium codes. The key in `auth.js` is a publishable key, safe to commit. In the Supabase dashboard, Authentication → URL Configuration must list this site's `/account/` URL as a redirect URL, and Authentication → SMTP should use a real mail provider, or confirmation emails only reach team members. Lesson progress is still saved per browser; it is not synced to the account.
+
+## Visit counting
+`assets/js/track.js` (imported by `auth.js`) sends one anonymous page view per page to the Supabase function `dashboard`: site, path and referring site name only, no cookies, no IP address stored. The numbers are shown, together with sign-ups and course sales for both sites, on `dashboard.html` of the Tiny Japanese site (private, needs the admin secret).
