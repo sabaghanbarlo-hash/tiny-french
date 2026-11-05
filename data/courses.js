@@ -36,6 +36,22 @@ export const courses = [
   cta: { label: "Start Lesson 1", href: "/courses/everyday-french/days-and-today/" }
  },
  {
+  id: "french-grammar-starter", title: "French Grammar Starter", kind: "Free preview + premium course", status: "available",
+  level: "Absolute beginner (A1)", free: false, premium: true, price: 9, currency: "USD", checkoutUrl: "", art: "tiny-french-characters",
+  summary: "Seven short dialogue lessons on the grammar a beginner needs first: être and avoir, articles and gender, regular -er verbs, saying no with ne … pas, asking questions and describing things with adjectives.",
+  outcomes: ["Use être and avoir to say who you are, what you have and how old you are", "Pick the right article and understand masculine and feminine nouns", "Conjugate regular -er verbs and make sentences negative", "Ask questions in three ways and describe people and things"],
+  modules: [],
+  cta: { label: "Start Lesson 1", href: "/courses/french-grammar-starter/the-verb-etre/" }
+ },
+ {
+  id: "real-life-french", title: "Real-Life French: Daily Routines and Errands", kind: "Free preview + premium course", status: "available",
+  level: "Beginner (A1 to A2)", free: false, premium: true, price: 9, currency: "USD", checkoutUrl: "", art: "tiny-french-characters",
+  summary: "Seven lessons for real situations: your morning routine, shopping at the market, the pharmacy, phone calls and invitations, talking about work and study, telling a friend about your weekend in the past tense, and booking a table.",
+  outcomes: ["Describe your daily routine with reflexive verbs", "Buy food at a market and get help at a pharmacy", "Make phone calls and invitations", "Talk about your job, your studies and what you did last weekend", "Book a table and ask for the bill"],
+  modules: [],
+  cta: { label: "Start Lesson 1", href: "/courses/real-life-french/my-morning-routine/" }
+ },
+ {
   id: "from-zero-to-first-conversations", title: "Tiny French: From Zero to Your First Conversations", kind: "Paid beginner course", status: "planned",
   level: "Absolute beginner (A1)", free: false, price: null, currency: "USD", checkoutUrl: "", art: "tiny-french-characters",
   summary: "A structured, step-by-step beginner course that builds on the free lessons. Still in planning: nothing here is for sale yet.",
