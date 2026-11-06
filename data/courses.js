@@ -52,6 +52,14 @@ export const courses = [
   cta: { label: "Start Lesson 1", href: "/courses/real-life-french/my-morning-routine/" }
  },
  {
+  id: "travel-french", title: "Travel French: Getting Around and Getting Help", kind: "Free preview + premium course", status: "available",
+  level: "Beginner (A1 to A2)", free: false, premium: true, price: 9, currency: "USD", checkoutUrl: "", art: "tiny-french-characters",
+  summary: "Seven lessons for trips: taking a taxi, shopping for clothes, visiting a museum, reporting a lost wallet, using the post office, renting a bike, and getting Wi-Fi or a SIM card.",
+  outcomes: ["Take a taxi and ask about distance and price", "Buy clothes and understand sizes and sales", "Buy museum tickets and find your way around", "Report a lost item and understand the next steps", "Send mail, rent a bike and get online"],
+  modules: [],
+  cta: { label: "Start Lesson 1", href: "/courses/travel-french/taking-a-taxi/" }
+ },
+ {
   id: "from-zero-to-first-conversations", title: "Tiny French: From Zero to Your First Conversations", kind: "Paid beginner course", status: "planned",
   level: "Absolute beginner (A1)", free: false, price: null, currency: "USD", checkoutUrl: "", art: "tiny-french-characters",
   summary: "A structured, step-by-step beginner course that builds on the free lessons. Still in planning: nothing here is for sale yet.",

@@ -3176,5 +3176,665 @@ export const courseLessons = [
   "instagram": "",
   "video": null,
   "premium": true
+ },
+ {
+  "course": "travel-french",
+  "number": 1,
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 8,
+  "video": null,
+  "instagram": "",
+  "art": {
+   "emoji": "🚕"
+  },
+  "topics": [
+   "Travel French",
+   "Everyday French",
+   "Listening and Conversation"
+  ],
+  "id": "taking-a-taxi",
+  "title": "Taking a Taxi",
+  "fr": "Prendre un taxi",
+  "description": "Give an address, ask how far it is and how much it costs, and pay the driver.",
+  "objectives": [
+   "Ask for a destination with à + place, s'il vous plaît",
+   "Ask how far and how much with loin and environ",
+   "Use vous pouvez + infinitive and simple commands"
+  ],
+  "intro": "Marinette arrives at the station with two suitcases and takes a taxi to her hotel.",
+  "dialogue": [
+   {
+    "who": "Marinette",
+    "fr": "Bonjour, monsieur. À l'hôtel Bellevue, rue Victor Hugo, s'il vous plaît.",
+    "en": "Hello, sir. To the Hôtel Bellevue, rue Victor Hugo, please."
+   },
+   {
+    "who": "Le chauffeur",
+    "fr": "Bien sûr. Vous avez des bagages ?",
+    "en": "Of course. Do you have any luggage?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Oui, deux valises. Vous pouvez m'aider ?",
+    "en": "Yes, two suitcases. Can you help me?"
+   },
+   {
+    "who": "Le chauffeur",
+    "fr": "Avec plaisir. Montez, madame.",
+    "en": "With pleasure. Get in, madam."
+   },
+   {
+    "who": "Marinette",
+    "fr": "C'est loin d'ici ?",
+    "en": "Is it far from here?"
+   },
+   {
+    "who": "Le chauffeur",
+    "fr": "Non, c'est à dix minutes. Il y a un peu de circulation.",
+    "en": "No, it's ten minutes away. There's a bit of traffic."
+   },
+   {
+    "who": "Marinette",
+    "fr": "Ça coûte combien, environ ?",
+    "en": "How much does it cost, roughly?"
+   },
+   {
+    "who": "Le chauffeur",
+    "fr": "Environ quinze euros.",
+    "en": "About fifteen euros."
+   },
+   {
+    "who": "Marinette",
+    "fr": "Arrêtez-vous devant l'hôtel, s'il vous plaît. Vous acceptez la carte ?",
+    "en": "Stop in front of the hotel, please. Do you take cards?"
+   },
+   {
+    "who": "Le chauffeur",
+    "fr": "Oui, pas de problème. Voilà, nous sommes arrivés.",
+    "en": "Yes, no problem. Here we are, we've arrived."
+   }
+  ],
+  "vocab": [
+   {
+    "fr": "un taxi",
+    "en": "a taxi",
+    "say": "uhn tahk-SEE",
+    "cat": "Travel",
+    "ex": "Je prends un taxi.",
+    "exEn": "I'm taking a taxi."
+   },
+   {
+    "fr": "les bagages (m. pl.)",
+    "en": "luggage",
+    "say": "lay bah-GAZH",
+    "cat": "Travel",
+    "ex": "Vous avez des bagages ?",
+    "exEn": "Do you have luggage?"
+   },
+   {
+    "fr": "une valise",
+    "en": "a suitcase",
+    "say": "ewn vah-LEEZ",
+    "cat": "Travel",
+    "ex": "J'ai deux valises.",
+    "exEn": "I have two suitcases."
+   },
+   {
+    "fr": "c'est loin ?",
+    "en": "is it far?",
+    "say": "seh LWAN",
+    "cat": "Directions",
+    "ex": "C'est loin d'ici ?",
+    "exEn": "Is it far from here?"
+   },
+   {
+    "fr": "à dix minutes",
+    "en": "ten minutes away",
+    "say": "ah dee mee-NEWT",
+    "cat": "Directions",
+    "ex": "L'hôtel est à dix minutes.",
+    "exEn": "The hotel is ten minutes away."
+   },
+   {
+    "fr": "la circulation",
+    "en": "traffic",
+    "say": "lah seer-kew-lah-SYOHN",
+    "cat": "Travel",
+    "ex": "Il y a de la circulation.",
+    "exEn": "There's traffic."
+   },
+   {
+    "fr": "environ",
+    "en": "about, roughly",
+    "say": "ahn-vee-ROHN",
+    "cat": "Everyday Expressions",
+    "ex": "Environ quinze euros.",
+    "exEn": "About fifteen euros."
+   },
+   {
+    "fr": "accepter la carte",
+    "en": "to accept cards",
+    "say": "ak-sep-TAY lah KART",
+    "cat": "Shopping",
+    "ex": "Vous acceptez la carte ?",
+    "exEn": "Do you take cards?"
+   },
+   {
+    "fr": "s'arrêter",
+    "en": "to stop",
+    "say": "sah-reh-TAY",
+    "cat": "Common Verbs",
+    "ex": "Arrêtez-vous ici.",
+    "exEn": "Stop here."
+   },
+   {
+    "fr": "nous sommes arrivés",
+    "en": "we have arrived",
+    "say": "noo som zah-ree-VAY",
+    "cat": "Travel",
+    "ex": "Voilà, nous sommes arrivés.",
+    "exEn": "Here we are, we've arrived."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Giving a destination",
+    "body": "Use à + the place and s'il vous plaît: À la gare, s'il vous plaît. À l'aéroport, s'il vous plaît. For a hotel or street give the name: À l'hôtel Bellevue, rue Victor Hugo.",
+    "examples": [
+     {
+      "fr": "À la gare, s'il vous plaît.",
+      "en": "To the station, please."
+     },
+     {
+      "fr": "À l'aéroport, s'il vous plaît.",
+      "en": "To the airport, please."
+     }
+    ]
+   },
+   {
+    "title": "How far? How long?",
+    "body": "Use loin (far) and près (near): C'est loin ? C'est près d'ici. To say how long it takes, use à + minutes: C'est à dix minutes. Add environ for “about”.",
+    "examples": [
+     {
+      "fr": "C'est à dix minutes.",
+      "en": "It's ten minutes away."
+     },
+     {
+      "fr": "Environ quinze euros.",
+      "en": "About fifteen euros."
+     }
+    ]
+   },
+   {
+    "title": "Polite requests and commands",
+    "body": "Vous pouvez + infinitive is a polite request: Vous pouvez m'aider ? The vous command drops vous: Montez ! Arrêtez-vous ici ! Add s'il vous plaît to keep it polite.",
+    "examples": [
+     {
+      "fr": "Vous pouvez m'aider ?",
+      "en": "Can you help me?"
+     },
+     {
+      "fr": "Arrêtez-vous ici, s'il vous plaît.",
+      "en": "Stop here, please."
+     }
+    ]
+   }
+  ],
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "How do you ask for the station?",
+    "options": [
+     "À la gare, s'il vous plaît.",
+     "La gare à, merci.",
+     "Je gare, s'il vous plaît."
+    ],
+    "answer": "À la gare, s'il vous plaît.",
+    "explain": "À + place + s'il vous plaît."
+   },
+   {
+    "type": "mc",
+    "q": "What does “C'est à dix minutes” mean?",
+    "options": [
+     "It's at ten o'clock",
+     "It's ten minutes away",
+     "It costs ten euros"
+    ],
+    "answer": "It's ten minutes away",
+    "explain": "À + minutes = distance in time."
+   },
+   {
+    "type": "fill",
+    "q": "Complete: C'est ___ d'ici ? (far)",
+    "hint": "the opposite of près",
+    "answer": "loin",
+    "explain": "Loin = far."
+   },
+   {
+    "type": "mc",
+    "q": "What does “environ” mean?",
+    "options": [
+     "exactly",
+     "never",
+     "about"
+    ],
+    "answer": "about",
+    "explain": "Environ = about, roughly."
+   },
+   {
+    "type": "fill",
+    "q": "Complete: Vous ___ la carte ? (accept)",
+    "hint": "accepter with vous",
+    "answer": "acceptez",
+    "explain": "Vous acceptez."
+   },
+   {
+    "type": "mc",
+    "q": "How do you politely ask a driver to stop?",
+    "options": [
+     "Arrêtez-vous ici, s'il vous plaît.",
+     "Je m'arrête ici.",
+     "Ils arrêtent ici."
+    ],
+    "answer": "Arrêtez-vous ici, s'il vous plaît.",
+    "explain": "Use the vous command."
+   }
+  ]
+ },
+ {
+  "course": "travel-french",
+  "number": 2,
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 9,
+  "video": null,
+  "instagram": "",
+  "art": {
+   "emoji": "👗"
+  },
+  "topics": [
+   "Travel French",
+   "Everyday French",
+   "Listening and Conversation"
+  ],
+  "id": "shopping-for-clothes",
+  "title": "Shopping for Clothes",
+  "fr": "Acheter des vêtements",
+  "description": "Ask for a size and colour, try something on and understand sales and prices.",
+  "objectives": [
+   "Say je cherche and ask for a size or colour",
+   "Use le, la, l' and les as object pronouns (je la prends)",
+   "Understand soldes and percentages"
+  ],
+  "intro": "Marinette is looking for a jacket. The shop assistant helps her find the right size.",
+  "dialogue": [
+   {
+    "who": "Marinette",
+    "fr": "Excusez-moi, je cherche une veste.",
+    "en": "Excuse me, I'm looking for a jacket."
+   },
+   {
+    "who": "La vendeuse",
+    "fr": "Quelle taille faites-vous ?",
+    "en": "What size are you?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Je fais du 38. Vous l'avez en bleu ?",
+    "en": "I'm a 38. Do you have it in blue?"
+   },
+   {
+    "who": "La vendeuse",
+    "fr": "Oui, la voici. Vous voulez l'essayer ? Les cabines sont au fond.",
+    "en": "Yes, here it is. Would you like to try it on? The fitting rooms are at the back."
+   },
+   {
+    "who": "Marinette",
+    "fr": "Elle est un peu grande. Vous l'avez en 36 ?",
+    "en": "It's a bit big. Do you have it in a 36?"
+   },
+   {
+    "who": "La vendeuse",
+    "fr": "Je regarde… Oui, voilà un 36.",
+    "en": "I'll check… Yes, here's a 36."
+   },
+   {
+    "who": "Marinette",
+    "fr": "Elle me va bien ! Elle coûte combien ?",
+    "en": "It suits me! How much is it?"
+   },
+   {
+    "who": "La vendeuse",
+    "fr": "Quatre-vingt-neuf euros, mais c'est les soldes : moins vingt pour cent.",
+    "en": "Eighty-nine euros, but it's the sales: twenty percent off."
+   },
+   {
+    "who": "Marinette",
+    "fr": "Super, je la prends.",
+    "en": "Great, I'll take it."
+   }
+  ],
+  "vocab": [
+   {
+    "fr": "je cherche",
+    "en": "I'm looking for",
+    "say": "zhuh SHERSH",
+    "cat": "Shopping",
+    "ex": "Je cherche une veste.",
+    "exEn": "I'm looking for a jacket."
+   },
+   {
+    "fr": "une veste",
+    "en": "a jacket",
+    "say": "ewn VEST",
+    "cat": "Shopping",
+    "ex": "Une veste bleue.",
+    "exEn": "A blue jacket."
+   },
+   {
+    "fr": "la taille",
+    "en": "the size",
+    "say": "lah TIE",
+    "cat": "Shopping",
+    "ex": "Quelle taille faites-vous ?",
+    "exEn": "What size are you?"
+   },
+   {
+    "fr": "essayer",
+    "en": "to try on",
+    "say": "ay-say-YAY",
+    "cat": "Shopping",
+    "ex": "Je peux l'essayer ?",
+    "exEn": "Can I try it on?"
+   },
+   {
+    "fr": "la cabine d'essayage",
+    "en": "the fitting room",
+    "say": "lah kah-BEEN day-say-AZH",
+    "cat": "Shopping",
+    "ex": "Les cabines sont au fond.",
+    "exEn": "The fitting rooms are at the back."
+   },
+   {
+    "fr": "trop grand / trop petit",
+    "en": "too big / too small",
+    "say": "troh GRAHN / troh puh-TEE",
+    "cat": "Shopping",
+    "ex": "C'est trop grand.",
+    "exEn": "It's too big."
+   },
+   {
+    "fr": "ça me va bien",
+    "en": "it suits me, it fits me",
+    "say": "sah muh vah bee-AN",
+    "cat": "Shopping",
+    "ex": "Elle me va bien.",
+    "exEn": "It suits me."
+   },
+   {
+    "fr": "les soldes (m. pl.)",
+    "en": "the sales",
+    "say": "lay SOLD",
+    "cat": "Shopping",
+    "ex": "C'est les soldes.",
+    "exEn": "It's the sales."
+   },
+   {
+    "fr": "moins vingt pour cent",
+    "en": "twenty percent off",
+    "say": "mwan van poor SAHN",
+    "cat": "Shopping",
+    "ex": "Moins vingt pour cent.",
+    "exEn": "Twenty percent off."
+   },
+   {
+    "fr": "je la prends",
+    "en": "I'll take it",
+    "say": "zhuh lah PRAHN",
+    "cat": "Shopping",
+    "ex": "Super, je la prends.",
+    "exEn": "Great, I'll take it."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Object pronouns: le, la, l', les",
+    "body": "To avoid repeating a noun, replace it with le (masculine), la (feminine), l' (before a vowel) or les (plural) and put it before the verb: Je la prends (I'll take it). Vous l'avez en bleu ? (Do you have it in blue?). Je les cherche (I'm looking for them).",
+    "examples": [
+     {
+      "fr": "Je la prends.",
+      "en": "I'll take it."
+     },
+     {
+      "fr": "Vous l'avez en bleu ?",
+      "en": "Do you have it in blue?"
+     }
+    ]
+   },
+   {
+    "title": "Sizes and fit",
+    "body": "Say your size with je fais du + number for clothes: Je fais du 38. For shoes use je fais du 40 or je chausse du 40. Ça me va bien means it suits or fits me. Trop means too: trop grand, trop petit.",
+    "examples": [
+     {
+      "fr": "Je fais du 38.",
+      "en": "I'm a size 38."
+     },
+     {
+      "fr": "Elle est trop petite.",
+      "en": "It's too small."
+     }
+    ]
+   },
+   {
+    "title": "Numbers 70 to 99",
+    "body": "French counts 70 as soixante-dix (60 + 10), 80 as quatre-vingts (4 × 20) and 90 as quatre-vingt-dix (4 × 20 + 10). So 89 is quatre-vingt-neuf and 75 is soixante-quinze. Percentages: vingt pour cent.",
+    "examples": [
+     {
+      "fr": "quatre-vingt-neuf euros",
+      "en": "eighty-nine euros"
+     },
+     {
+      "fr": "soixante-quinze",
+      "en": "seventy-five"
+     }
+    ]
+   }
+  ],
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "What does “Je cherche une veste” mean?",
+    "options": [
+     "I'm selling a jacket",
+     "I'm looking for a jacket",
+     "I'm wearing a jacket"
+    ],
+    "answer": "I'm looking for a jacket",
+    "explain": "Chercher = to look for."
+   },
+   {
+    "type": "fill",
+    "q": "Complete: Je ___ prends. (it, feminine)",
+    "hint": "feminine object pronoun",
+    "answer": "la",
+    "explain": "Je la prends."
+   },
+   {
+    "type": "mc",
+    "q": "How do you say “It's too big”?",
+    "options": [
+     "C'est très petit.",
+     "C'est assez cher.",
+     "C'est trop grand."
+    ],
+    "answer": "C'est trop grand.",
+    "explain": "Trop = too."
+   },
+   {
+    "type": "mc",
+    "q": "What is 80 in French?",
+    "options": [
+     "quatre-vingts",
+     "soixante-dix",
+     "quatre-dix"
+    ],
+    "answer": "quatre-vingts",
+    "explain": "80 = 4 × 20."
+   },
+   {
+    "type": "mc",
+    "q": "What does “les soldes” mean?",
+    "options": [
+     "the sizes",
+     "the sales",
+     "the shoes"
+    ],
+    "answer": "the sales",
+    "explain": "Les soldes = the sales."
+   },
+   {
+    "type": "fill",
+    "q": "Complete: Elle me ___ bien. (suits)",
+    "hint": "aller in the sense of fitting",
+    "answer": "va",
+    "explain": "Ça me va bien."
+   }
+  ]
+ },
+ {
+  "course": "travel-french",
+  "number": 3,
+  "id": "at-the-museum",
+  "title": "At the Museum",
+  "fr": "Au musée",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 8,
+  "topics": [
+   "Travel French",
+   "Everyday French",
+   "Listening and Conversation"
+  ],
+  "description": "Buy tickets, ask about opening hours and find an exhibition inside a museum.",
+  "objectives": [
+   "Ask for tickets and reduced prices",
+   "Understand floors, left and right, and opening hours",
+   "Use ordinal numbers: premier, deuxième, troisième"
+  ],
+  "art": {
+   "emoji": "🖼️"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "travel-french",
+  "number": 4,
+  "id": "lost-wallet",
+  "title": "I've Lost My Wallet",
+  "fr": "J'ai perdu mon portefeuille",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 9,
+  "topics": [
+   "Travel French",
+   "Everyday French",
+   "Listening and Conversation"
+  ],
+  "description": "Report a lost item, describe it and understand the steps to block a bank card.",
+  "objectives": [
+   "Say j'ai perdu and describe an object",
+   "Say how long ago with il y a",
+   "Understand simple instructions from an official"
+  ],
+  "art": {
+   "emoji": "👛"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "travel-french",
+  "number": 5,
+  "id": "at-the-post-office",
+  "title": "At the Post Office",
+  "fr": "À la poste",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 8,
+  "topics": [
+   "Travel French",
+   "Everyday French",
+   "Listening and Conversation"
+  ],
+  "description": "Send a letter or a parcel, buy stamps and ask how long delivery takes.",
+  "objectives": [
+   "Ask to send a letter abroad",
+   "Use il faut + infinitive and il faut + time",
+   "Say countries with en, au and aux"
+  ],
+  "art": {
+   "emoji": "📮"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "travel-french",
+  "number": 6,
+  "id": "renting-a-bike",
+  "title": "Renting a Bike",
+  "fr": "Louer un vélo",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 9,
+  "topics": [
+   "Travel French",
+   "Everyday French",
+   "Listening and Conversation"
+  ],
+  "description": "Rent bikes for the day, ask about the price and the return time and hear safety advice.",
+  "objectives": [
+   "Rent something with je voudrais louer",
+   "Use devoir (must) and vouloir (want) in the present",
+   "Understand return times with avant and après"
+  ],
+  "art": {
+   "emoji": "🚲"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "travel-french",
+  "number": 7,
+  "id": "wifi-and-sim",
+  "title": "Wi-Fi and SIM Cards",
+  "fr": "Le wifi et la carte SIM",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 8,
+  "topics": [
+   "Travel French",
+   "Everyday French",
+   "Listening and Conversation"
+  ],
+  "description": "Ask for the Wi-Fi password, say your phone isn't working and buy a SIM card.",
+  "objectives": [
+   "Ask for Wi-Fi and understand the answer",
+   "Say ça ne marche pas and j'ai besoin de",
+   "Buy a SIM card for a number of days or weeks"
+  ],
+  "art": {
+   "emoji": "📶"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
  }
 ];
