@@ -1871,5 +1871,1310 @@ export const courseLessons = [
   "instagram": "",
   "video": null,
   "premium": true
+ },
+ {
+  "course": "french-grammar-starter",
+  "number": 1,
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 8,
+  "video": null,
+  "instagram": "",
+  "art": {
+   "emoji": "🙋"
+  },
+  "topics": [
+   "Beginner Grammar",
+   "Everyday French",
+   "Listening and Conversation"
+  ],
+  "id": "the-verb-etre",
+  "title": "The Verb Être (to be)",
+  "fr": "Le verbe être",
+  "description": "Say who you are and what things are with je suis, tu es and il est.",
+  "objectives": [
+   "Use all six forms of être: je suis, tu es, il est, nous sommes, vous êtes, ils sont",
+   "Describe people with être plus an adjective or a job",
+   "Choose between tu and vous, and between c'est and il est"
+  ],
+  "intro": "Marinette and Adrien meet at a party. Marinette's brother and his friend Léa are across the room. Listen for every form of être.",
+  "dialogue": [
+   {
+    "who": "Marinette",
+    "fr": "Salut Adrien ! Je suis contente de te voir.",
+    "en": "Hi Adrien! I'm happy to see you."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Moi aussi, je suis très content ! Vous êtes fatigués ?",
+    "en": "Me too, I'm very happy! Are you (all) tired?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Nous sommes un peu fatigués, mais c'est une belle soirée.",
+    "en": "We're a little tired, but it's a lovely evening."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Qui est la fille avec ton frère ?",
+    "en": "Who is the girl with your brother?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "C'est Léa. Elle est étudiante. Elle est canadienne.",
+    "en": "That's Léa. She's a student. She's Canadian."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Et ton frère ? Il est étudiant aussi ?",
+    "en": "And your brother? Is he a student too?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Non, il est professeur. Ils sont amis depuis l'école.",
+    "en": "No, he's a teacher. They've been friends since school."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Super ! Tu es prête ? On va leur dire bonjour.",
+    "en": "Great! Are you ready? Let's go and say hello to them."
+   }
+  ],
+  "vocab": [
+   {
+    "fr": "je suis",
+    "en": "I am",
+    "say": "zhuh SWEE",
+    "cat": "Common Verbs",
+    "ex": "Je suis français.",
+    "exEn": "I am French."
+   },
+   {
+    "fr": "tu es",
+    "en": "you are (informal)",
+    "say": "tew EH",
+    "cat": "Common Verbs",
+    "ex": "Tu es mon ami.",
+    "exEn": "You are my friend."
+   },
+   {
+    "fr": "il est / elle est",
+    "en": "he is / she is",
+    "say": "eel EH / ehl EH",
+    "cat": "Common Verbs",
+    "ex": "Elle est étudiante.",
+    "exEn": "She is a student."
+   },
+   {
+    "fr": "nous sommes",
+    "en": "we are",
+    "say": "noo SOM",
+    "cat": "Common Verbs",
+    "ex": "Nous sommes amis.",
+    "exEn": "We are friends."
+   },
+   {
+    "fr": "vous êtes",
+    "en": "you are (formal or plural)",
+    "say": "vooz EHT",
+    "cat": "Common Verbs",
+    "ex": "Vous êtes madame Dupont ?",
+    "exEn": "Are you Mrs Dupont?"
+   },
+   {
+    "fr": "ils sont / elles sont",
+    "en": "they are",
+    "say": "eel SOHN / ehl SOHN",
+    "cat": "Common Verbs",
+    "ex": "Ils sont de Paris.",
+    "exEn": "They are from Paris."
+   },
+   {
+    "fr": "content / contente",
+    "en": "happy",
+    "say": "kohn-TAHN / kohn-TAHNT",
+    "cat": "Everyday Expressions",
+    "ex": "Je suis contente de te voir.",
+    "exEn": "I'm happy to see you."
+   },
+   {
+    "fr": "fatigué / fatiguée",
+    "en": "tired",
+    "say": "fah-tee-GAY",
+    "cat": "Everyday Expressions",
+    "ex": "Nous sommes un peu fatigués.",
+    "exEn": "We are a little tired."
+   },
+   {
+    "fr": "étudiant / étudiante",
+    "en": "student",
+    "say": "ay-tew-dee-AHN / ay-tew-dee-AHNT",
+    "cat": "Introductions",
+    "ex": "Elle est étudiante.",
+    "exEn": "She is a student."
+   },
+   {
+    "fr": "canadien / canadienne",
+    "en": "Canadian",
+    "say": "kah-nah-dee-AN / kah-nah-dee-EN",
+    "cat": "Introductions",
+    "ex": "Elle est canadienne.",
+    "exEn": "She is Canadian."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Être in the present",
+    "body": "Être is the most important verb in French. The six forms are: je suis, tu es, il / elle / on est, nous sommes, vous êtes, ils / elles sont. Say them aloud until they feel automatic; you will use them every day.",
+    "examples": [
+     {
+      "fr": "Je suis français.",
+      "en": "I am French."
+     },
+     {
+      "fr": "Nous sommes amis.",
+      "en": "We are friends."
+     }
+    ]
+   },
+   {
+    "title": "Tu or vous?",
+    "body": "Use tu with friends, family and children. Use vous with one person you do not know well, or with several people. The verb changes with it: tu es, but vous êtes.",
+    "examples": [
+     {
+      "fr": "Tu es mon ami.",
+      "en": "You are my friend."
+     },
+     {
+      "fr": "Vous êtes madame Dupont ?",
+      "en": "Are you Mrs Dupont?"
+     }
+    ]
+   },
+   {
+    "title": "C'est or il est?",
+    "body": "Use c'est + a noun with an article to identify someone or something: C'est un café. Use il est / elle est + an adjective or a job with no article: Elle est étudiante. Il est grand.",
+    "examples": [
+     {
+      "fr": "C'est Léa.",
+      "en": "That is Léa."
+     },
+     {
+      "fr": "Elle est étudiante.",
+      "en": "She is a student."
+     }
+    ]
+   }
+  ],
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "What does “je suis” mean?",
+    "options": [
+     "I have",
+     "I am",
+     "I go"
+    ],
+    "answer": "I am",
+    "explain": "Je suis = I am."
+   },
+   {
+    "type": "mc",
+    "q": "Which form of être goes with “nous”?",
+    "options": [
+     "êtes",
+     "sont",
+     "sommes"
+    ],
+    "answer": "sommes",
+    "explain": "Nous sommes = we are."
+   },
+   {
+    "type": "fill",
+    "q": "Complete: Vous ___ fatigués ? (are)",
+    "hint": "the form for vous",
+    "answer": "êtes",
+    "explain": "Vous êtes = you are (formal or plural)."
+   },
+   {
+    "type": "mc",
+    "q": "How do you say “She is a student”?",
+    "options": [
+     "Elle est étudiante.",
+     "Elle suis étudiante.",
+     "Elle es étudiante."
+    ],
+    "answer": "Elle est étudiante.",
+    "explain": "Elle goes with est."
+   },
+   {
+    "type": "fill",
+    "q": "Complete: Ils ___ amis. (are)",
+    "hint": "the form for ils",
+    "answer": "sont",
+    "explain": "Ils sont = they are."
+   },
+   {
+    "type": "mc",
+    "q": "Which sentence points something out?",
+    "options": [
+     "Il est un café.",
+     "C'est un café.",
+     "Elle est café."
+    ],
+    "answer": "C'est un café.",
+    "explain": "Use c'est + article + noun to identify something."
+   }
+  ]
+ },
+ {
+  "course": "french-grammar-starter",
+  "number": 2,
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 8,
+  "video": null,
+  "instagram": "",
+  "art": {
+   "emoji": "🎒"
+  },
+  "topics": [
+   "Beginner Grammar",
+   "Everyday French",
+   "Listening and Conversation"
+  ],
+  "id": "the-verb-avoir",
+  "title": "The Verb Avoir (to have)",
+  "fr": "Le verbe avoir",
+  "description": "Say what you have, how old you are and how you feel with j'ai, tu as and il a.",
+  "objectives": [
+   "Use all six forms of avoir: j'ai, tu as, il a, nous avons, vous avez, ils ont",
+   "Say your age with avoir",
+   "Use avoir faim, avoir soif, avoir chaud and avoir froid"
+  ],
+  "intro": "Adrien and Marinette look through family photos. Listen for avoir, and for how French says your age.",
+  "dialogue": [
+   {
+    "who": "Marinette",
+    "fr": "Tu as des frères et sœurs, Adrien ?",
+    "en": "Do you have any brothers and sisters, Adrien?"
+   },
+   {
+    "who": "Adrien",
+    "fr": "J'ai un frère et deux sœurs. Mon frère a vingt ans.",
+    "en": "I have a brother and two sisters. My brother is twenty."
+   },
+   {
+    "who": "Marinette",
+    "fr": "Quel âge as-tu ?",
+    "en": "How old are you?"
+   },
+   {
+    "who": "Adrien",
+    "fr": "J'ai vingt-deux ans. Et toi ?",
+    "en": "I'm twenty-two. And you?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "J'ai vingt et un ans. Nous avons presque le même âge !",
+    "en": "I'm twenty-one. We're almost the same age!"
+   },
+   {
+    "who": "Adrien",
+    "fr": "Tu as un animal à la maison ?",
+    "en": "Do you have a pet at home?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Oui, nous avons un chat. Il a trois ans.",
+    "en": "Yes, we have a cat. He's three."
+   },
+   {
+    "who": "Adrien",
+    "fr": "J'ai faim. Tu as faim aussi ?",
+    "en": "I'm hungry. Are you hungry too?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Oui, j'ai très faim ! On mange ?",
+    "en": "Yes, I'm very hungry! Shall we eat?"
+   }
+  ],
+  "vocab": [
+   {
+    "fr": "j'ai",
+    "en": "I have",
+    "say": "zhay",
+    "cat": "Common Verbs",
+    "ex": "J'ai un frère.",
+    "exEn": "I have a brother."
+   },
+   {
+    "fr": "tu as",
+    "en": "you have (informal)",
+    "say": "tew AH",
+    "cat": "Common Verbs",
+    "ex": "Tu as un chat ?",
+    "exEn": "Do you have a cat?"
+   },
+   {
+    "fr": "il a / elle a",
+    "en": "he has / she has",
+    "say": "eel AH / ehl AH",
+    "cat": "Common Verbs",
+    "ex": "Il a trois ans.",
+    "exEn": "He is three."
+   },
+   {
+    "fr": "nous avons",
+    "en": "we have",
+    "say": "noo zah-VOHN",
+    "cat": "Common Verbs",
+    "ex": "Nous avons un chat.",
+    "exEn": "We have a cat."
+   },
+   {
+    "fr": "vous avez",
+    "en": "you have (formal or plural)",
+    "say": "voo zah-VAY",
+    "cat": "Common Verbs",
+    "ex": "Vous avez une table ?",
+    "exEn": "Do you have a table?"
+   },
+   {
+    "fr": "ils ont / elles ont",
+    "en": "they have",
+    "say": "eel ZOHN / ehl ZOHN",
+    "cat": "Common Verbs",
+    "ex": "Ils ont une grande maison.",
+    "exEn": "They have a big house."
+   },
+   {
+    "fr": "avoir … ans",
+    "en": "to be … years old",
+    "say": "ah-VWAHR … ahn",
+    "cat": "Everyday Expressions",
+    "ex": "J'ai vingt-deux ans.",
+    "exEn": "I am twenty-two."
+   },
+   {
+    "fr": "avoir faim",
+    "en": "to be hungry",
+    "say": "ah-VWAHR fan",
+    "cat": "Everyday Expressions",
+    "ex": "J'ai très faim.",
+    "exEn": "I'm very hungry."
+   },
+   {
+    "fr": "avoir soif",
+    "en": "to be thirsty",
+    "say": "ah-VWAHR swahf",
+    "cat": "Everyday Expressions",
+    "ex": "Tu as soif ?",
+    "exEn": "Are you thirsty?"
+   },
+   {
+    "fr": "un frère / une sœur",
+    "en": "a brother / a sister",
+    "say": "uhn FRAIR / ewn SUHR",
+    "cat": "Family",
+    "ex": "J'ai un frère et une sœur.",
+    "exEn": "I have a brother and a sister."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Avoir in the present",
+    "body": "The six forms are: j'ai, tu as, il / elle / on a, nous avons, vous avez, ils / elles ont. Je becomes j' before a vowel. Liaison links nous avons (noo-za-VOHN), vous avez (voo-za-VAY) and ils ont (eel-ZOHN).",
+    "examples": [
+     {
+      "fr": "J'ai un frère.",
+      "en": "I have a brother."
+     },
+     {
+      "fr": "Ils ont un chat.",
+      "en": "They have a cat."
+     }
+    ]
+   },
+   {
+    "title": "Age uses avoir",
+    "body": "French does not say “I am twenty”. It says “I have twenty years”: J'ai vingt ans. Never use être for age. To ask, say Quel âge as-tu ? or Tu as quel âge ?",
+    "examples": [
+     {
+      "fr": "J'ai vingt-deux ans.",
+      "en": "I'm twenty-two."
+     },
+     {
+      "fr": "Il a trois ans.",
+      "en": "He is three."
+     }
+    ]
+   },
+   {
+    "title": "Feelings with avoir",
+    "body": "Several feelings use avoir + a noun where English uses “to be”: avoir faim (hungry), avoir soif (thirsty), avoir chaud (hot), avoir froid (cold), avoir sommeil (sleepy). Add très to say “very”.",
+    "examples": [
+     {
+      "fr": "J'ai très faim.",
+      "en": "I'm very hungry."
+     },
+     {
+      "fr": "Elle a froid.",
+      "en": "She is cold."
+     }
+    ]
+   }
+  ],
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "What does “nous avons” mean?",
+    "options": [
+     "we are",
+     "you have",
+     "we have"
+    ],
+    "answer": "we have",
+    "explain": "Nous avons = we have."
+   },
+   {
+    "type": "fill",
+    "q": "Complete: Tu ___ un chat ? (have)",
+    "hint": "the form for tu",
+    "answer": "as",
+    "explain": "Tu as = you have."
+   },
+   {
+    "type": "mc",
+    "q": "How do you say “I am twenty years old”?",
+    "options": [
+     "J'ai vingt ans.",
+     "Je suis vingt ans.",
+     "Je vingt ans."
+    ],
+    "answer": "J'ai vingt ans.",
+    "explain": "French uses avoir for age."
+   },
+   {
+    "type": "mc",
+    "q": "What does “J'ai très faim” mean?",
+    "options": [
+     "I'm very hot",
+     "I'm very hungry",
+     "I'm very happy"
+    ],
+    "answer": "I'm very hungry",
+    "explain": "Avoir faim = to be hungry."
+   },
+   {
+    "type": "fill",
+    "q": "Complete: Ils ___ une grande maison. (have)",
+    "hint": "the form for ils",
+    "answer": "ont",
+    "explain": "Ils ont = they have."
+   },
+   {
+    "type": "mc",
+    "q": "Which sentence is correct?",
+    "options": [
+     "Elle est froid.",
+     "Elle froid.",
+     "Elle a froid."
+    ],
+    "answer": "Elle a froid.",
+    "explain": "Cold uses avoir: avoir froid."
+   }
+  ]
+ },
+ {
+  "course": "french-grammar-starter",
+  "number": 3,
+  "id": "articles-and-gender",
+  "title": "Articles and Gender",
+  "fr": "Les articles",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 9,
+  "topics": [
+   "Beginner Grammar",
+   "Everyday French",
+   "Listening and Conversation"
+  ],
+  "description": "Use un, une, le, la, l' and les, and learn why every French noun is masculine or feminine.",
+  "objectives": [
+   "Say that every noun is masculine or feminine",
+   "Use un / une (a) and le / la / l' / les (the)",
+   "Make simple plurals with les and des"
+  ],
+  "art": {
+   "emoji": "🥖"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "french-grammar-starter",
+  "number": 4,
+  "id": "regular-er-verbs",
+  "title": "Regular -er Verbs",
+  "fr": "Les verbes en -er",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 9,
+  "topics": [
+   "Beginner Grammar",
+   "Everyday French",
+   "Listening and Conversation"
+  ],
+  "description": "Learn the pattern that works for about nine out of ten French verbs: parler, habiter, aimer and more.",
+  "objectives": [
+   "Use the endings -e, -es, -e, -ons, -ez, -ent",
+   "Talk about where you live, work and what you like",
+   "Use aimer with a noun or another verb"
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "french-grammar-starter",
+  "number": 5,
+  "id": "saying-no",
+  "title": "Saying No: ne … pas",
+  "fr": "La négation",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 8,
+  "topics": [
+   "Beginner Grammar",
+   "Everyday French",
+   "Listening and Conversation"
+  ],
+  "description": "Make any sentence negative with ne … pas, and learn when pas de replaces un, une and des.",
+  "objectives": [
+   "Build negative sentences with ne … pas",
+   "Use n' before a vowel and pas de after a negative",
+   "Say non merci and je préfère politely"
+  ],
+  "art": {
+   "emoji": "🙅"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "french-grammar-starter",
+  "number": 6,
+  "id": "asking-questions",
+  "title": "Asking Questions",
+  "fr": "Poser des questions",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 9,
+  "topics": [
+   "Beginner Grammar",
+   "Everyday French",
+   "Listening and Conversation"
+  ],
+  "description": "Ask questions three ways and use où, quand, comment, combien, pourquoi and qui.",
+  "objectives": [
+   "Ask yes/no questions with rising intonation and est-ce que",
+   "Use the main question words",
+   "Answer pourquoi with parce que"
+  ],
+  "art": {
+   "emoji": "❓"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "french-grammar-starter",
+  "number": 7,
+  "id": "adjectives-and-agreement",
+  "title": "Describing Things",
+  "fr": "Les adjectifs",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 9,
+  "topics": [
+   "Beginner Grammar",
+   "Everyday French",
+   "Listening and Conversation"
+  ],
+  "description": "Describe people and things with adjectives that match in gender and number.",
+  "objectives": [
+   "Make adjectives feminine and plural",
+   "Put most adjectives after the noun",
+   "Describe a room using colours and sizes"
+  ],
+  "art": {
+   "emoji": "🏠"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "real-life-french",
+  "number": 1,
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 9,
+  "video": null,
+  "instagram": "",
+  "art": {
+   "emoji": "🌅"
+  },
+  "topics": [
+   "Real-Life Conversations",
+   "Everyday French",
+   "Listening and Conversation"
+  ],
+  "id": "my-morning-routine",
+  "title": "My Morning Routine",
+  "fr": "Ma routine du matin",
+  "description": "Describe your morning with reflexive verbs: se lever, se doucher, s'habiller and more.",
+  "objectives": [
+   "Use reflexive verbs such as se lever and se coucher",
+   "Say what time you do things",
+   "Order a routine with d'abord, puis and ensuite"
+  ],
+  "intro": "Marinette and Adrien compare their mornings. French uses a little extra word, me, te or se, for actions you do to yourself.",
+  "dialogue": [
+   {
+    "who": "Marinette",
+    "fr": "À quelle heure est-ce que tu te lèves, Adrien ?",
+    "en": "What time do you get up, Adrien?"
+   },
+   {
+    "who": "Adrien",
+    "fr": "Je me lève à sept heures. Je me douche et je m'habille.",
+    "en": "I get up at seven. I shower and I get dressed."
+   },
+   {
+    "who": "Marinette",
+    "fr": "Et le petit-déjeuner ?",
+    "en": "And breakfast?"
+   },
+   {
+    "who": "Adrien",
+    "fr": "Je prends un café et un croissant. Puis je me brosse les dents.",
+    "en": "I have a coffee and a croissant. Then I brush my teeth."
+   },
+   {
+    "who": "Marinette",
+    "fr": "Moi, je me lève plus tard, à huit heures. Je me dépêche toujours !",
+    "en": "I get up later, at eight. I always hurry!"
+   },
+   {
+    "who": "Adrien",
+    "fr": "Tu te couches tôt le soir ?",
+    "en": "Do you go to bed early in the evening?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Non, je me couche tard, vers minuit.",
+    "en": "No, I go to bed late, around midnight."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Moi, je me couche à dix heures. Je suis très sérieux !",
+    "en": "I go to bed at ten. I'm very serious!"
+   }
+  ],
+  "vocab": [
+   {
+    "fr": "se lever",
+    "en": "to get up",
+    "say": "suh luh-VAY",
+    "cat": "Daily Life",
+    "ex": "Je me lève à sept heures.",
+    "exEn": "I get up at seven."
+   },
+   {
+    "fr": "se doucher",
+    "en": "to take a shower",
+    "say": "suh doo-SHAY",
+    "cat": "Daily Life",
+    "ex": "Je me douche le matin.",
+    "exEn": "I shower in the morning."
+   },
+   {
+    "fr": "s'habiller",
+    "en": "to get dressed",
+    "say": "sah-bee-YAY",
+    "cat": "Daily Life",
+    "ex": "Elle s'habille vite.",
+    "exEn": "She gets dressed quickly."
+   },
+   {
+    "fr": "se brosser les dents",
+    "en": "to brush your teeth",
+    "say": "suh bro-SAY lay DAHN",
+    "cat": "Daily Life",
+    "ex": "Je me brosse les dents.",
+    "exEn": "I brush my teeth."
+   },
+   {
+    "fr": "se coucher",
+    "en": "to go to bed",
+    "say": "suh koo-SHAY",
+    "cat": "Daily Life",
+    "ex": "Il se couche à dix heures.",
+    "exEn": "He goes to bed at ten."
+   },
+   {
+    "fr": "se dépêcher",
+    "en": "to hurry",
+    "say": "suh day-peh-SHAY",
+    "cat": "Daily Life",
+    "ex": "Je me dépêche toujours.",
+    "exEn": "I'm always in a hurry."
+   },
+   {
+    "fr": "le petit-déjeuner",
+    "en": "breakfast",
+    "say": "luh puh-tee day-zhuh-NAY",
+    "cat": "Food & Drink",
+    "ex": "Je prends le petit-déjeuner à huit heures.",
+    "exEn": "I have breakfast at eight."
+   },
+   {
+    "fr": "tôt / tard",
+    "en": "early / late",
+    "say": "toh / tar",
+    "cat": "Time & Days",
+    "ex": "Je me couche tard.",
+    "exEn": "I go to bed late."
+   },
+   {
+    "fr": "puis",
+    "en": "then",
+    "say": "pwee",
+    "cat": "Everyday Expressions",
+    "ex": "Je me douche, puis je m'habille.",
+    "exEn": "I shower, then I get dressed."
+   },
+   {
+    "fr": "vers minuit",
+    "en": "around midnight",
+    "say": "vehr mee-NWEE",
+    "cat": "Time & Days",
+    "ex": "Je me couche vers minuit.",
+    "exEn": "I go to bed around midnight."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Reflexive verbs",
+    "body": "A reflexive verb has an extra pronoun that points back to the subject: je me lève, tu te lèves, il / elle se lève, nous nous levons, vous vous levez, ils / elles se lèvent. Many daily routine verbs are reflexive in French: se lever, se laver, s'habiller, se coucher.",
+    "examples": [
+     {
+      "fr": "Je me lève à sept heures.",
+      "en": "I get up at seven."
+     },
+     {
+      "fr": "Elle se couche tard.",
+      "en": "She goes to bed late."
+     }
+    ]
+   },
+   {
+    "title": "Me becomes m'",
+    "body": "Before a vowel or silent h, me, te and se shorten to m', t' and s': je m'habille, tu t'habilles, il s'habille.",
+    "examples": [
+     {
+      "fr": "Je m'habille.",
+      "en": "I get dressed."
+     },
+     {
+      "fr": "Il s'habille vite.",
+      "en": "He gets dressed quickly."
+     }
+    ]
+   },
+   {
+    "title": "Putting a routine in order",
+    "body": "Use d'abord (first), puis or ensuite (then) and enfin (finally) to link actions: D'abord je me lève, puis je me douche, enfin je prends mon petit-déjeuner. Say the time with à + hour: à sept heures.",
+    "examples": [
+     {
+      "fr": "D'abord je me lève, puis je me douche.",
+      "en": "First I get up, then I shower."
+     },
+     {
+      "fr": "Je me couche à dix heures.",
+      "en": "I go to bed at ten."
+     }
+    ]
+   }
+  ],
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "What does “je me lève” mean?",
+    "options": [
+     "I wash",
+     "I go to bed",
+     "I get up"
+    ],
+    "answer": "I get up",
+    "explain": "Se lever = to get up."
+   },
+   {
+    "type": "fill",
+    "q": "Complete: Elle ___ couche tard. (herself)",
+    "hint": "the pronoun for elle",
+    "answer": "se",
+    "explain": "Elle se couche."
+   },
+   {
+    "type": "mc",
+    "q": "How do you say “I get dressed”?",
+    "options": [
+     "Je m'habille.",
+     "Je me habille.",
+     "Je habille moi."
+    ],
+    "answer": "Je m'habille.",
+    "explain": "Me becomes m' before a vowel or silent h."
+   },
+   {
+    "type": "mc",
+    "q": "What does “tôt” mean?",
+    "options": [
+     "late",
+     "early",
+     "later"
+    ],
+    "answer": "early",
+    "explain": "Tôt = early, tard = late."
+   },
+   {
+    "type": "fill",
+    "q": "Complete: Tu te ___ à quelle heure ? (get up)",
+    "hint": "se lever with tu",
+    "answer": "lèves",
+    "explain": "Tu te lèves."
+   },
+   {
+    "type": "mc",
+    "q": "Which word means “then”?",
+    "options": [
+     "tôt",
+     "vers",
+     "puis"
+    ],
+    "answer": "puis",
+    "explain": "Puis = then."
+   }
+  ]
+ },
+ {
+  "course": "real-life-french",
+  "number": 2,
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 9,
+  "video": null,
+  "instagram": "",
+  "art": {
+   "emoji": "🍓"
+  },
+  "topics": [
+   "Real-Life Conversations",
+   "Everyday French",
+   "Listening and Conversation"
+  ],
+  "id": "at-the-market",
+  "title": "At the Market",
+  "fr": "Au marché",
+  "description": "Buy fruit and vegetables by the kilo, ask what's fresh and pay at a French market stall.",
+  "objectives": [
+   "Order with Je voudrais … and quantities with de",
+   "Understand Et avec ça ? and Ça fait …",
+   "Ask whether something is fresh"
+  ],
+  "intro": "Marinette shops at the Sunday market. The seller's questions follow a pattern you can learn.",
+  "dialogue": [
+   {
+    "who": "La marchande",
+    "fr": "Bonjour mademoiselle ! Qu'est-ce que je vous sers ?",
+    "en": "Hello miss! What can I get you?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Bonjour ! Je voudrais un kilo de pommes, s'il vous plaît.",
+    "en": "Hello! I'd like a kilo of apples, please."
+   },
+   {
+    "who": "La marchande",
+    "fr": "Voilà. Et avec ça ?",
+    "en": "Here you are. Anything else?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Cinq cents grammes de tomates et une barquette de fraises.",
+    "en": "Five hundred grams of tomatoes and a punnet of strawberries."
+   },
+   {
+    "who": "Marinette",
+    "fr": "Elles sont fraîches, les fraises ?",
+    "en": "Are the strawberries fresh?"
+   },
+   {
+    "who": "La marchande",
+    "fr": "Oui, elles sont du jour ! Quatre euros la barquette.",
+    "en": "Yes, they're from today! Four euros a punnet."
+   },
+   {
+    "who": "Marinette",
+    "fr": "Parfait. C'est tout, merci.",
+    "en": "Perfect. That's all, thank you."
+   },
+   {
+    "who": "La marchande",
+    "fr": "Ça fait neuf euros cinquante.",
+    "en": "That comes to nine euros fifty."
+   },
+   {
+    "who": "Marinette",
+    "fr": "Voilà dix euros.",
+    "en": "Here's ten euros."
+   },
+   {
+    "who": "La marchande",
+    "fr": "Et voilà cinquante centimes. Bonne journée !",
+    "en": "And here's fifty cents. Have a good day!"
+   }
+  ],
+  "vocab": [
+   {
+    "fr": "je voudrais",
+    "en": "I would like",
+    "say": "zhuh voo-DRAY",
+    "cat": "Shopping",
+    "ex": "Je voudrais un kilo de pommes.",
+    "exEn": "I'd like a kilo of apples."
+   },
+   {
+    "fr": "un kilo de",
+    "en": "a kilo of",
+    "say": "uhn kee-LOH duh",
+    "cat": "Shopping",
+    "ex": "Un kilo de pommes.",
+    "exEn": "A kilo of apples."
+   },
+   {
+    "fr": "cinq cents grammes de",
+    "en": "five hundred grams of",
+    "say": "sank sahn GRAM duh",
+    "cat": "Shopping",
+    "ex": "Cinq cents grammes de tomates.",
+    "exEn": "Five hundred grams of tomatoes."
+   },
+   {
+    "fr": "une barquette de",
+    "en": "a punnet of",
+    "say": "ewn bar-KET duh",
+    "cat": "Shopping",
+    "ex": "Une barquette de fraises.",
+    "exEn": "A punnet of strawberries."
+   },
+   {
+    "fr": "et avec ça ?",
+    "en": "anything else?",
+    "say": "ay ah-VEK sah",
+    "cat": "Shopping",
+    "ex": "Et avec ça, madame ?",
+    "exEn": "Anything else, madam?"
+   },
+   {
+    "fr": "ça fait …",
+    "en": "that comes to …",
+    "say": "sah FAY",
+    "cat": "Shopping",
+    "ex": "Ça fait neuf euros cinquante.",
+    "exEn": "That's nine euros fifty."
+   },
+   {
+    "fr": "la fraise",
+    "en": "strawberry",
+    "say": "lah FREZ",
+    "cat": "Food & Drink",
+    "ex": "Les fraises sont fraîches.",
+    "exEn": "The strawberries are fresh."
+   },
+   {
+    "fr": "la tomate",
+    "en": "tomato",
+    "say": "lah toh-MAHT",
+    "cat": "Food & Drink",
+    "ex": "Des tomates rouges.",
+    "exEn": "Red tomatoes."
+   },
+   {
+    "fr": "frais / fraîche",
+    "en": "fresh",
+    "say": "fray / fresh",
+    "cat": "Food & Drink",
+    "ex": "Le poisson est frais.",
+    "exEn": "The fish is fresh."
+   },
+   {
+    "fr": "le marché",
+    "en": "the market",
+    "say": "luh mar-SHAY",
+    "cat": "Shopping",
+    "ex": "Je vais au marché le dimanche.",
+    "exEn": "I go to the market on Sundays."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Quantities use de",
+    "body": "After an amount (a kilo, a litre, a punnet, a lot) use de, with no article: un kilo de pommes, une bouteille d'eau, beaucoup de fruits. Before a vowel, de becomes d'.",
+    "examples": [
+     {
+      "fr": "un kilo de pommes",
+      "en": "a kilo of apples"
+     },
+     {
+      "fr": "une bouteille d'eau",
+      "en": "a bottle of water"
+     }
+    ]
+   },
+   {
+    "title": "Je voudrais is the polite way to ask",
+    "body": "Je voudrais means “I would like”. It is softer and politer than je veux (“I want”). Add s'il vous plaît and you sound like a regular.",
+    "examples": [
+     {
+      "fr": "Je voudrais des tomates, s'il vous plaît.",
+      "en": "I'd like some tomatoes, please."
+     },
+     {
+      "fr": "Je voudrais un café.",
+      "en": "I'd like a coffee."
+     }
+    ]
+   },
+   {
+    "title": "Du, de la, des: “some”",
+    "body": "To talk about an amount you cannot count, use du (masculine), de la (feminine), de l' (before a vowel) and des (plural): du pain, de la salade, de l'eau, des fraises. Prices: quatre euros la barquette, “four euros per punnet”.",
+    "examples": [
+     {
+      "fr": "du pain, de la salade",
+      "en": "some bread, some salad"
+     },
+     {
+      "fr": "des fraises",
+      "en": "some strawberries"
+     }
+    ]
+   }
+  ],
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "How do you politely say “I'd like a kilo of apples”?",
+    "options": [
+     "Je voudrais un kilo de pommes.",
+     "Je veux un kilo des pommes.",
+     "Je voudrais un kilo pommes."
+    ],
+    "answer": "Je voudrais un kilo de pommes.",
+    "explain": "Je voudrais + quantity + de + noun."
+   },
+   {
+    "type": "fill",
+    "q": "Complete: Un kilo ___ pommes. (of)",
+    "hint": "after a quantity",
+    "answer": "de",
+    "explain": "Quantities use de."
+   },
+   {
+    "type": "mc",
+    "q": "What does “Et avec ça ?” mean?",
+    "options": [
+     "How much is it?",
+     "Anything else?",
+     "Is it fresh?"
+    ],
+    "answer": "Anything else?",
+    "explain": "It is what the seller asks next."
+   },
+   {
+    "type": "mc",
+    "q": "What does “Ça fait neuf euros” mean?",
+    "options": [
+     "It costs nine euros each",
+     "It was nine euros",
+     "That comes to nine euros"
+    ],
+    "answer": "That comes to nine euros",
+    "explain": "Ça fait = that comes to."
+   },
+   {
+    "type": "fill",
+    "q": "Complete: Les fraises sont ___ . (fresh, feminine plural)",
+    "hint": "frais in the feminine plural",
+    "answer": "fraîches",
+    "explain": "Fraîches."
+   },
+   {
+    "type": "mc",
+    "q": "Which means “some bread”?",
+    "options": [
+     "du pain",
+     "de la pain",
+     "des pain"
+    ],
+    "answer": "du pain",
+    "explain": "Pain is masculine, so du pain."
+   }
+  ]
+ },
+ {
+  "course": "real-life-french",
+  "number": 3,
+  "id": "at-the-pharmacy",
+  "title": "At the Pharmacy",
+  "fr": "À la pharmacie",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 9,
+  "topics": [
+   "Real-Life Conversations",
+   "Everyday French",
+   "Listening and Conversation"
+  ],
+  "description": "Say where it hurts, understand simple instructions and buy medicine at a French pharmacy.",
+  "objectives": [
+   "Say j'ai mal à + body part",
+   "Understand basic instructions like prenez and trois fois par jour",
+   "Use depuis to say how long something has hurt"
+  ],
+  "art": {
+   "emoji": "💊"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "real-life-french",
+  "number": 4,
+  "id": "on-the-phone",
+  "title": "On the Phone",
+  "fr": "Au téléphone",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 8,
+  "topics": [
+   "Real-Life Conversations",
+   "Everyday French",
+   "Listening and Conversation"
+  ],
+  "description": "Answer and make phone calls, invite a friend and ask someone to repeat.",
+  "objectives": [
+   "Answer and start a call with Allô and c'est …",
+   "Invite someone and accept with avec plaisir",
+   "Ask Tu peux répéter ? when you don't understand"
+  ],
+  "art": {
+   "emoji": "📞"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "real-life-french",
+  "number": 5,
+  "id": "work-and-study",
+  "title": "Work and Study",
+  "fr": "Le travail et les études",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 9,
+  "topics": [
+   "Real-Life Conversations",
+   "Everyday French",
+   "Listening and Conversation"
+  ],
+  "description": "Talk about your job, your studies and your colleagues, and use mon, ma and mes.",
+  "objectives": [
+   "Say what you do for a living",
+   "Talk about where and when you work or study",
+   "Use mon, ma and mes for “my”"
+  ],
+  "art": {
+   "emoji": "💼"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "real-life-french",
+  "number": 6,
+  "id": "what-did-you-do",
+  "title": "What Did You Do?",
+  "fr": "Le week-end dernier",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 10,
+  "topics": [
+   "Real-Life Conversations",
+   "Everyday French",
+   "Listening and Conversation"
+  ],
+  "description": "Talk about the past with the passé composé: j'ai mangé, j'ai fini, j'ai pris.",
+  "objectives": [
+   "Build the passé composé with avoir + past participle",
+   "Make participles of -er, -ir and common irregular verbs",
+   "Say what you did not do"
+  ],
+  "art": {
+   "emoji": "📅"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "real-life-french",
+  "number": 7,
+  "id": "booking-a-table",
+  "title": "Booking a Table",
+  "fr": "Réserver une table",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 9,
+  "topics": [
+   "Real-Life Conversations",
+   "Everyday French",
+   "Listening and Conversation"
+  ],
+  "description": "Reserve a table by phone, give your name, and ask for the bill at the end of the meal.",
+  "objectives": [
+   "Book a table for a day, a time and a number of people",
+   "Give your name and ask about vegetarian dishes",
+   "Ask for the bill and say how you will pay"
+  ],
+  "art": {
+   "emoji": "🍽️"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
  }
 ];
