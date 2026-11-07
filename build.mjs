@@ -377,9 +377,18 @@ add("/about/", page({
 // Courses
 const priceLabel = (c) => c.free ? "Free" : c.premium ? `First ${FREE} lessons free, full course ${money(c)}` : c.price ? `${c.currency} ${c.price}` : "Price to be announced";
 const ctaFor = (c) => c.checkoutUrl ? { label: "Buy this course", href: c.checkoutUrl, ext: true } : c.cta.href === "instagram" ? (IG ? { label: c.cta.label, href: IG, ext: true } : null) : { label: c.cta.label, href: U(c.cta.href) };
-const COURSE_ART = { "free-lessons": "lesson-directions", "first-conversations": "lesson-cafe", "french-sounds-starter": "lesson-bakery", "everyday-french": "lesson-station", "from-zero-to-first-conversations": "hero-paris" };
+const COURSE_ART = {
+  "free-lessons": "cover-free-lessons.png",
+  "first-conversations": "cover-first-conversations.png",
+  "french-sounds-starter": "cover-french-sounds.png",
+  "everyday-french": "cover-everyday-french.png",
+  "french-grammar-starter": "cover-french-grammar.png",
+  "real-life-french": "cover-real-life-french.png",
+  "travel-french": "cover-travel-french.png",
+  "from-zero-to-first-conversations": "cover-zero-to-conversations.png"
+};
 const courseArt = (c, cls) => COURSE_ART[c.id]
-  ? `<img class="${cls}" src="${U(`/assets/img/${COURSE_ART[c.id]}.webp`)}" alt="" width="${c.id === "from-zero-to-first-conversations" ? 1536 : 334}" height="${c.id === "from-zero-to-first-conversations" ? 394 : 170}"${c.id === "from-zero-to-first-conversations" ? ' style="object-position:60% 50%"' : ""} loading="lazy">`
+  ? `<img class="${cls}" src="${U(`/assets/img/${COURSE_ART[c.id]}`)}" alt="" width="1200" height="675" loading="lazy">`
   : `<img class="${cls}" src="${U(`/assets/img/${c.art}.svg`)}" alt="" width="540" height="960" loading="lazy">`;
 const courseCard = (c) => `<article class="card course-card">${courseArt(c, "art-wide")}<div class="card-body"><div class="chips"><span class="chip ${c.free ? "ok2" : ""}">${c.free ? "Free" : c.premium ? "Free preview + premium" : "Paid"}</span><span class="chip st-${c.status === "available" ? "available" : "planned"}">${c.status === "available" ? "Available now" : "In planning"}</span></div><h3><a href="${U("/courses/" + c.id + "/")}">${esc(c.title)}</a></h3><p>${esc(c.summary)}</p><p class="small muted">${esc(c.level)} · ${priceLabel(c)}</p><a class="btn small" href="${U("/courses/" + c.id + "/")}">View details</a></div></article>`;
 add("/courses/", page({
