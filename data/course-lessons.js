@@ -1878,7 +1878,13 @@ export const courseLessons = [
   "type": "Short dialogue",
   "level": "Absolute beginner",
   "minutes": 8,
-  "video": null,
+  "video": {
+   "src": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/fg-01-the-verb-etre.mp4",
+   "poster": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/fg-01-the-verb-etre.thumbnail.png",
+   "vtt": "assets/video/fg-01-the-verb-etre.vtt",
+   "uploaded": "2026-11-06",
+   "note": "Long-format lesson video (16:9) with the story, vocabulary, grammar and a quiz. French and English subtitles."
+  },
   "instagram": "",
   "art": {
    "emoji": "🙋"
@@ -2133,7 +2139,13 @@ export const courseLessons = [
   "type": "Short dialogue",
   "level": "Absolute beginner",
   "minutes": 8,
-  "video": null,
+  "video": {
+   "src": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/fg-02-the-verb-avoir.mp4",
+   "poster": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/fg-02-the-verb-avoir.thumbnail.png",
+   "vtt": "assets/video/fg-02-the-verb-avoir.vtt",
+   "uploaded": "2026-11-06",
+   "note": "Long-format lesson video (16:9) with the story, vocabulary, grammar and a quiz. French and English subtitles."
+  },
   "instagram": "",
   "art": {
    "emoji": "🎒"
@@ -2528,7 +2540,13 @@ export const courseLessons = [
   "type": "Short dialogue",
   "level": "Absolute beginner",
   "minutes": 9,
-  "video": null,
+  "video": {
+   "src": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/rl-01-my-morning-routine.mp4",
+   "poster": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/rl-01-my-morning-routine.thumbnail.png",
+   "vtt": "assets/video/rl-01-my-morning-routine.vtt",
+   "uploaded": "2026-11-06",
+   "note": "Long-format lesson video (16:9) with the story, vocabulary, grammar and a quiz. French and English subtitles."
+  },
   "instagram": "",
   "art": {
    "emoji": "🌅"
@@ -2783,7 +2801,13 @@ export const courseLessons = [
   "type": "Short dialogue",
   "level": "Absolute beginner",
   "minutes": 9,
-  "video": null,
+  "video": {
+   "src": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/rl-02-at-the-market.mp4",
+   "poster": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/rl-02-at-the-market.thumbnail.png",
+   "vtt": "assets/video/rl-02-at-the-market.vtt",
+   "uploaded": "2026-11-06",
+   "note": "Long-format lesson video (16:9) with the story, vocabulary, grammar and a quiz. French and English subtitles."
+  },
   "instagram": "",
   "art": {
    "emoji": "🍓"
@@ -3183,7 +3207,13 @@ export const courseLessons = [
   "type": "Short dialogue",
   "level": "Absolute beginner",
   "minutes": 8,
-  "video": null,
+  "video": {
+   "src": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/tf-01-taking-a-taxi.mp4",
+   "poster": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/tf-01-taking-a-taxi.thumbnail.png",
+   "vtt": "assets/video/tf-01-taking-a-taxi.vtt",
+   "uploaded": "2026-11-06",
+   "note": "Long-format lesson video (16:9) with the story, vocabulary, grammar and a quiz. French and English subtitles."
+  },
   "instagram": "",
   "art": {
    "emoji": "🚕"
@@ -3448,7 +3478,13 @@ export const courseLessons = [
   "type": "Short dialogue",
   "level": "Absolute beginner",
   "minutes": 9,
-  "video": null,
+  "video": {
+   "src": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/tf-02-shopping-for-clothes.mp4",
+   "poster": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/tf-02-shopping-for-clothes.thumbnail.png",
+   "vtt": "assets/video/tf-02-shopping-for-clothes.vtt",
+   "uploaded": "2026-11-06",
+   "note": "Long-format lesson video (16:9) with the story, vocabulary, grammar and a quiz. French and English subtitles."
+  },
   "instagram": "",
   "art": {
    "emoji": "👗"
