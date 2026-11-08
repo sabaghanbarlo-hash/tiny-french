@@ -9,7 +9,7 @@ export const lessons = [
  description: "Say hello, tell someone your name and offer a coffee in your very first French conversation.",
  objectives: ["Greet someone with “Bonjour”", "Say “My name is…” with Je m'appelle", "Be polite with s'il te plaît and merci beaucoup"],
  intro: "Marinette and Adrien meet in a café. It is the shortest, friendliest first conversation you can have in French.",
- video: { src: "assets/video/meeting-for-the-first-time.mp4", poster: "assets/img/story-cafe.jpg", duration: "PT25S", uploaded: "2026-10-27", note: "Vertical 9:16 lesson video with French audio and subtitles." },
+ video: { src: "assets/video/meeting-for-the-first-time.mp4", poster: "assets/img/poster-meeting-for-the-first-time.png", duration: "PT25S", uploaded: "2026-10-27", note: "Vertical 9:16 lesson video with French audio and subtitles." },
  instagram: "",
  dialogue: [
   { who: "Adrien", fr: "Bonjour !", en: "Hello!" },

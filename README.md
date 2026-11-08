@@ -92,3 +92,7 @@ The three courses are "free preview + premium": the first 2 lessons of each (`fr
 
 ## Visit counting
 `assets/js/track.js` (imported by `auth.js`) sends one anonymous page view per page to the Supabase function `dashboard`: site, path and referring site name only, no cookies, no IP address stored. The numbers are shown, together with sign-ups and course sales for both sites, on `dashboard.html` of the Tiny Japanese site (private, needs the admin secret).
+
+## Credits (course art)
+
+Course covers and lesson thumbnails were drawn with the generator in the `tiny-french-youtube` repo (`course_art.py`). Fonts: Poppins (SIL OFL 1.1). Lesson icons: Twemoji by Twitter / jdecked, licensed CC-BY 4.0 (https://github.com/jdecked/twemoji).
