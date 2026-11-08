@@ -3872,5 +3872,4612 @@ export const courseLessons = [
   "instagram": "",
   "video": null,
   "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 1,
+  "type": "Vocabulary lesson",
+  "level": "Absolute beginner",
+  "minutes": 15,
+  "video": null,
+  "instagram": "",
+  "art": {
+   "emoji": "📚"
+  },
+  "id": "pronouns-and-etre-avoir",
+  "title": "Pronouns and Être/Avoir",
+  "fr": "Pronoms et verbes essentiels",
+  "topics": [
+   "Tiny 1000",
+   "Words 1-10"
+  ],
+  "description": "Apprenez dix mots essentiels pour parler de vous et utiliser être et avoir.",
+  "objectives": [
+   "Dire « je », « tu » et « vous » en français.",
+   "Reconnaître les pronoms pour parler d’une ou de plusieurs personnes.",
+   "Comprendre être et avoir dans de courtes phrases."
+  ],
+  "intro": "À Paris, Adrien et Marinette se retrouvent avant leur cours de français. Ils parlent de leurs affaires et de leurs amis.",
+  "dialogue": [
+   {
+    "who": "Adrien",
+    "fr": "Bonjour, Marinette ! Tu es prête ?",
+    "en": "Hello, Marinette! Are you ready?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Oui, je suis prête. Et toi, tu as ton cahier ?",
+    "en": "Yes, I’m ready. And you, do you have your notebook?"
+   },
+   {
+    "who": "Adrien",
+    "fr": "Oui, il est dans mon sac, et j’ai un stylo.",
+    "en": "Yes, it’s in my bag, and I have a pen."
+   },
+   {
+    "who": "Marinette",
+    "fr": "Nous sommes en avance. Vous êtes aussi dans le groupe ?",
+    "en": "We’re early. Are you also in the group?"
+   },
+   {
+    "who": "Adrien",
+    "fr": "Oui, nous sommes là. Ils sont avec nous.",
+    "en": "Yes, we’re here. They’re with us."
+   },
+   {
+    "who": "Marinette",
+    "fr": "Et les filles ? Elles sont où ?",
+    "en": "And the girls? Where are they?"
+   },
+   {
+    "who": "Adrien",
+    "fr": "Lina ? Elle est ici, avec moi.",
+    "en": "Lina? She’s here, with me."
+   },
+   {
+    "who": "Marinette",
+    "fr": "Super ! J’ai aussi mon livre.",
+    "en": "Great! I have my book too."
+   }
+  ],
+  "vocab": [
+   {
+    "fr": "je",
+    "en": "I",
+    "say": "ZHUH",
+    "cat": "Introductions",
+    "ex": "Je suis ici.",
+    "exEn": "I am here."
+   },
+   {
+    "fr": "tu",
+    "en": "you (singular)",
+    "say": "TEW",
+    "cat": "Introductions",
+    "ex": "Tu es gentil.",
+    "exEn": "You are kind."
+   },
+   {
+    "fr": "il",
+    "en": "he; it",
+    "say": "EEL",
+    "cat": "Introductions",
+    "ex": "Il est là.",
+    "exEn": "He is there."
+   },
+   {
+    "fr": "elle",
+    "en": "she; it",
+    "say": "ELL",
+    "cat": "Introductions",
+    "ex": "Elle est là.",
+    "exEn": "She is there."
+   },
+   {
+    "fr": "nous",
+    "en": "we",
+    "say": "NOO",
+    "cat": "Introductions",
+    "ex": "Nous sommes prêts.",
+    "exEn": "We are ready."
+   },
+   {
+    "fr": "vous",
+    "en": "you (plural or formal)",
+    "say": "VOO",
+    "cat": "Introductions",
+    "ex": "Vous êtes ici.",
+    "exEn": "You are here."
+   },
+   {
+    "fr": "ils",
+    "en": "they (masculine or mixed)",
+    "say": "EEL",
+    "cat": "Introductions",
+    "ex": "Ils sont contents.",
+    "exEn": "They are happy."
+   },
+   {
+    "fr": "elles",
+    "en": "they (feminine)",
+    "say": "ELL",
+    "cat": "Introductions",
+    "ex": "Elles sont ici.",
+    "exEn": "They are here."
+   },
+   {
+    "fr": "être",
+    "en": "to be",
+    "say": "eh-TRUH",
+    "cat": "Common Verbs",
+    "ex": "Je veux être calme.",
+    "exEn": "I want to be calm."
+   },
+   {
+    "fr": "avoir",
+    "en": "to have",
+    "say": "ah-VWAHR",
+    "cat": "Common Verbs",
+    "ex": "J'aime avoir du temps.",
+    "exEn": "I like having time."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Pronouns and verb forms",
+    "body": "In French, a subject pronoun usually comes before the verb. The verb form changes to match the subject, as with être in these examples.",
+    "examples": [
+     {
+      "fr": "Je suis prête.",
+      "en": "I am ready."
+     },
+     {
+      "fr": "Nous sommes en avance.",
+      "en": "We are early."
+     }
+    ]
+   }
+  ],
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "What does « tu » mean?",
+    "options": [
+     "I",
+     "you (singular)",
+     "we"
+    ],
+    "answer": "you (singular)",
+    "explain": "« Tu » is used to address one person informally."
+   },
+   {
+    "type": "mc",
+    "q": "Which French verb means “to have”?",
+    "options": [
+     "être",
+     "avoir",
+     "nous"
+    ],
+    "answer": "avoir",
+    "explain": "« Avoir » means “to have.”"
+   },
+   {
+    "type": "fill",
+    "q": "Nous ___ en avance.",
+    "hint": "We are early. Use the form of être for « nous ».",
+    "answer": "sommes",
+    "explain": "« Nous sommes » means “we are.”"
+   },
+   {
+    "type": "mc",
+    "q": "What does “il” mean?",
+    "options": [
+     "he",
+     "to be",
+     "she"
+    ],
+    "answer": "he",
+    "explain": "il means “he”."
+   },
+   {
+    "type": "mc",
+    "q": "What does “tu” mean?",
+    "options": [
+     "they (masculine or mixed)",
+     "he",
+     "you (singular)"
+    ],
+    "answer": "you (singular)",
+    "explain": "tu means “you (singular)”."
+   }
+  ]
+ },
+ {
+  "course": "tiny-1000",
+  "number": 2,
+  "type": "Vocabulary lesson",
+  "level": "Absolute beginner",
+  "minutes": 15,
+  "video": null,
+  "instagram": "",
+  "art": {
+   "emoji": "📚"
+  },
+  "id": "little-words",
+  "title": "Little Words",
+  "fr": "Les petits mots",
+  "topics": [
+   "Tiny 1000",
+   "Words 11-20"
+  ],
+  "description": "Learn ten useful little French words as Adrien and Marinette make plans for lunch.",
+  "objectives": [
+   "Recognize ten common French words.",
+   "Understand simple plans and choices.",
+   "Use ne...pas to make a sentence negative."
+  ],
+  "intro": "Adrien and Marinette are friends in France, planning lunch near their school. Listen for the little words that connect their ideas.",
+  "dialogue": [
+   {
+    "who": "Adrien",
+    "fr": "Bonjour, Marinette ! Tu vas à l'école avec moi ?",
+    "en": "Hello, Marinette! Are you going to school with me?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Oui ! Le livre de français est dans mon sac.",
+    "en": "Yes! The French book is in my bag."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Tu veux du pain ou une pomme pour le déjeuner ?",
+    "en": "Do you want bread or an apple for lunch?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Une pomme, merci, mais je ne veux pas de pain.",
+    "en": "An apple, thanks, but I don't want bread."
+   },
+   {
+    "who": "Adrien",
+    "fr": "D'accord. La boulangerie est à côté de l'école.",
+    "en": "Okay. The bakery is next to the school."
+   },
+   {
+    "who": "Marinette",
+    "fr": "C'est parfait pour moi !",
+    "en": "That's perfect for me!"
+   },
+   {
+    "who": "Adrien",
+    "fr": "Tu viens de Paris ?",
+    "en": "Are you from Paris?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Oui, et j'habite ici.",
+    "en": "Yes, and I live here."
+   }
+  ],
+  "vocab": [
+   {
+    "fr": "de",
+    "en": "of, from",
+    "say": "DUH",
+    "cat": "Introductions",
+    "ex": "Je viens de Paris.",
+    "exEn": "I come from Paris."
+   },
+   {
+    "fr": "à",
+    "en": "to, at",
+    "say": "AH",
+    "cat": "Directions",
+    "ex": "Je suis à la maison.",
+    "exEn": "I am at home."
+   },
+   {
+    "fr": "et",
+    "en": "and",
+    "say": "AY",
+    "cat": "Everyday Expressions",
+    "ex": "Paul et Marie parlent.",
+    "exEn": "Paul and Marie are talking."
+   },
+   {
+    "fr": "ou",
+    "en": "or",
+    "say": "OO",
+    "cat": "Food & Drink",
+    "ex": "Tu veux du thé ou du café ?",
+    "exEn": "Do you want tea or coffee?"
+   },
+   {
+    "fr": "mais",
+    "en": "but",
+    "say": "MEH",
+    "cat": "Everyday Expressions",
+    "ex": "Je veux sortir, mais il pleut.",
+    "exEn": "I want to go out, but it’s raining."
+   },
+   {
+    "fr": "dans",
+    "en": "in, inside",
+    "say": "DAHN",
+    "cat": "Daily Life",
+    "ex": "Le livre est dans le sac.",
+    "exEn": "The book is in the bag."
+   },
+   {
+    "fr": "pour",
+    "en": "for",
+    "say": "POOR",
+    "cat": "Food & Drink",
+    "ex": "Ce cadeau est pour toi.",
+    "exEn": "This gift is for you."
+   },
+   {
+    "fr": "avec",
+    "en": "with",
+    "say": "ah-VEK",
+    "cat": "Everyday Expressions",
+    "ex": "Je mange avec ma sœur.",
+    "exEn": "I eat with my sister."
+   },
+   {
+    "fr": "ne...pas",
+    "en": "not",
+    "say": "nuh PAH",
+    "cat": "Common Verbs",
+    "ex": "Je ne parle pas anglais.",
+    "exEn": "I don’t speak English."
+   },
+   {
+    "fr": "oui",
+    "en": "yes",
+    "say": "WEE",
+    "cat": "Greetings",
+    "ex": "Oui, je comprends.",
+    "exEn": "Yes, I understand."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Making a sentence negative",
+    "body": "To make a French sentence negative, put ne before the verb and pas after it. In « je ne veux pas », ne comes before veux and pas comes after it.",
+    "examples": [
+     {
+      "fr": "Je ne veux pas de pain.",
+      "en": "I don't want bread."
+     },
+     {
+      "fr": "Je ne parle pas français.",
+      "en": "I don't speak French."
+     }
+    ]
+   }
+  ],
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "What does ou mean?",
+    "options": [
+     "and",
+     "or",
+     "but"
+    ],
+    "answer": "or",
+    "explain": "Ou gives a choice between two things."
+   },
+   {
+    "type": "mc",
+    "q": "Which phrase means “I don't want bread”?",
+    "options": [
+     "Je veux du pain.",
+     "Je ne veux pas de pain.",
+     "Je veux une pomme."
+    ],
+    "answer": "Je ne veux pas de pain.",
+    "explain": "Ne...pas makes the sentence negative."
+   },
+   {
+    "type": "fill",
+    "q": "Je vais ___ l'école.",
+    "hint": "to",
+    "answer": "à",
+    "explain": "À can mean “to,” as in going to school."
+   },
+   {
+    "type": "mc",
+    "q": "What does “de” mean?",
+    "options": [
+     "to, at",
+     "not",
+     "of, from"
+    ],
+    "answer": "of, from",
+    "explain": "de means “of, from”."
+   },
+   {
+    "type": "mc",
+    "q": "What does “à” mean?",
+    "options": [
+     "of, from",
+     "and",
+     "to, at"
+    ],
+    "answer": "to, at",
+    "explain": "à means “to, at”."
+   }
+  ]
+ },
+ {
+  "course": "tiny-1000",
+  "number": 3,
+  "type": "Vocabulary lesson",
+  "level": "Absolute beginner",
+  "minutes": 15,
+  "video": null,
+  "instagram": "",
+  "art": {
+   "emoji": "📚"
+  },
+  "id": "questions-and-politeness",
+  "title": "Questions and Politeness",
+  "fr": "Questions et politesse",
+  "topics": [
+   "Tiny 1000",
+   "Words 21-30"
+  ],
+  "description": "Learn useful French question words and polite expressions for everyday conversations.",
+  "objectives": [
+   "Ask who, what, where, when, how, and why.",
+   "Greet someone and say thank you.",
+   "Use “please” and “sorry” politely."
+  ],
+  "intro": "Adrien and Marinette stop at a bakery on their way to school. They chat and decide what to order.",
+  "dialogue": [
+   {
+    "who": "Adrien",
+    "fr": "Bonjour, Marinette ! Où est la boulangerie ?",
+    "en": "Hello, Marinette! Where is the bakery?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Elle est près de l'école.",
+    "en": "It's near the school."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Merci. Quand ouvre-t-elle ?",
+    "en": "Thanks. When does it open?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "À neuf heures. Pourquoi ?",
+    "en": "At nine o'clock. Why?"
+   },
+   {
+    "who": "Adrien",
+    "fr": "Je veux du pain. Que veux-tu ?",
+    "en": "I want some bread. What do you want?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Un croissant, s'il te plaît.",
+    "en": "A croissant, please."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Pardon, Marinette, qui arrive ?",
+    "en": "Excuse me, Marinette, who's coming?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "C'est Alya ! Comment vas-tu ?",
+    "en": "It's Alya! How are you?"
+   }
+  ],
+  "vocab": [
+   {
+    "fr": "qui",
+    "en": "who",
+    "say": "KEE",
+    "cat": "Introductions",
+    "ex": "Qui est là ?",
+    "exEn": "Who is there?"
+   },
+   {
+    "fr": "que",
+    "en": "what",
+    "say": "KUH",
+    "cat": "Everyday Expressions",
+    "ex": "Que fais-tu ?",
+    "exEn": "What are you doing?"
+   },
+   {
+    "fr": "où",
+    "en": "where",
+    "say": "OO",
+    "cat": "Directions",
+    "ex": "Où est la gare ?",
+    "exEn": "Where is the station?"
+   },
+   {
+    "fr": "quand",
+    "en": "when",
+    "say": "KAHN",
+    "cat": "Time & Days",
+    "ex": "Tu pars quand ?",
+    "exEn": "When are you leaving?"
+   },
+   {
+    "fr": "comment",
+    "en": "how",
+    "say": "koh-MAHN",
+    "cat": "Introductions",
+    "ex": "Comment ça va ?",
+    "exEn": "How are you?"
+   },
+   {
+    "fr": "pourquoi",
+    "en": "why",
+    "say": "poor-KWAH",
+    "cat": "Everyday Expressions",
+    "ex": "Pourquoi tu pars ?",
+    "exEn": "Why are you leaving?"
+   },
+   {
+    "fr": "bonjour",
+    "en": "hello",
+    "say": "bohn-ZHOOR",
+    "cat": "Greetings",
+    "ex": "Bonjour, madame !",
+    "exEn": "Hello, madam!"
+   },
+   {
+    "fr": "merci",
+    "en": "thank you",
+    "say": "mehr-SEE",
+    "cat": "Everyday Expressions",
+    "ex": "Merci pour votre aide.",
+    "exEn": "Thank you for your help."
+   },
+   {
+    "fr": "s'il vous plaît",
+    "en": "please",
+    "say": "seel voo PLEH",
+    "cat": "Shopping",
+    "ex": "Un café, s'il vous plaît.",
+    "exEn": "A coffee, please."
+   },
+   {
+    "fr": "pardon",
+    "en": "sorry; excuse me",
+    "say": "par-DOHN",
+    "cat": "Everyday Expressions",
+    "ex": "Pardon, où est la sortie ?",
+    "exEn": "Excuse me, where is the exit?"
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Question words at the start",
+    "body": "French question words usually come at the beginning of a question. They can be followed by an inverted verb and subject, as in “Quand ouvre-t-elle ?”, or by a subject and verb in casual speech, as in “Pourquoi tu demandes ?”.",
+    "examples": [
+     {
+      "fr": "Où est la boulangerie ?",
+      "en": "Where is the bakery?"
+     },
+     {
+      "fr": "Comment tu vas ?",
+      "en": "How are you?"
+     }
+    ]
+   }
+  ],
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "Which French word means “where”?",
+    "options": [
+     "où",
+     "qui",
+     "quand"
+    ],
+    "answer": "où",
+    "explain": "“Où” means “where.”"
+   },
+   {
+    "type": "mc",
+    "q": "How do you say “thank you” in French?",
+    "options": [
+     "bonjour",
+     "merci",
+     "pardon"
+    ],
+    "answer": "merci",
+    "explain": "“Merci” means “thank you.”"
+   },
+   {
+    "type": "fill",
+    "q": "___ est la boulangerie ?",
+    "hint": "Where",
+    "answer": "Où",
+    "explain": "“Où” means “where” and begins this question."
+   },
+   {
+    "type": "mc",
+    "q": "What does “quand” mean?",
+    "options": [
+     "what",
+     "when",
+     "please"
+    ],
+    "answer": "when",
+    "explain": "quand means “when”."
+   },
+   {
+    "type": "mc",
+    "q": "What does “s'il vous plaît” mean?",
+    "options": [
+     "who",
+     "please",
+     "where"
+    ],
+    "answer": "please",
+    "explain": "s'il vous plaît means “please”."
+   }
+  ]
+ },
+ {
+  "course": "tiny-1000",
+  "number": 4,
+  "type": "Vocabulary lesson",
+  "level": "Absolute beginner",
+  "minutes": 15,
+  "video": null,
+  "instagram": "",
+  "art": {
+   "emoji": "📚"
+  },
+  "id": "first-verbs",
+  "title": "First Verbs",
+  "fr": "Les premiers verbes",
+  "topics": [
+   "Tiny 1000",
+   "Words 31-40"
+  ],
+  "description": "Learn common French verbs through a friendly conversation in Paris.",
+  "objectives": [
+   "Recognize common French verbs.",
+   "Understand the verbs in a short conversation.",
+   "Use aller + an infinitive to talk about the near future."
+  ],
+  "intro": "Adrien and Marinette are meeting after class in Paris. They make plans to visit a café and do their homework.",
+  "dialogue": [
+   {
+    "who": "Adrien",
+    "fr": "Salut, Marinette ! Tu veux aller au café avec moi ?",
+    "en": "Hi, Marinette! Do you want to go to the café with me?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Oui ! Je peux venir après les cours.",
+    "en": "Yes! I can come after class."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Super. On peut parler et prendre un chocolat chaud.",
+    "en": "Great. We can talk and get a hot chocolate."
+   },
+   {
+    "who": "Marinette",
+    "fr": "D’accord. Tu sais où il est ?",
+    "en": "Okay. Do you know where it is?"
+   },
+   {
+    "who": "Adrien",
+    "fr": "Oui, je le sais. Je vais te dire comment y aller.",
+    "en": "Yes, I know. I’m going to tell you how to get there."
+   },
+   {
+    "who": "Marinette",
+    "fr": "Merci ! Tu vois la boulangerie ? Le café est à côté.",
+    "en": "Thanks! Do you see the bakery? The café is next to it."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Oui. Qu’est-ce qu’on fait après ?",
+    "en": "Yes. What shall we do afterward?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "On va faire nos devoirs, puis je veux rentrer.",
+    "en": "We’re going to do our homework, then I want to go home."
+   }
+  ],
+  "vocab": [
+   {
+    "fr": "aller",
+    "en": "to go",
+    "say": "ah-LAY",
+    "cat": "Travel",
+    "ex": "Je vais à l'école.",
+    "exEn": "I go to school."
+   },
+   {
+    "fr": "faire",
+    "en": "to do; to make",
+    "say": "FEHR",
+    "cat": "Daily Life",
+    "ex": "Je fais du café.",
+    "exEn": "I make coffee."
+   },
+   {
+    "fr": "dire",
+    "en": "to say; to tell",
+    "say": "DEER",
+    "cat": "Everyday Expressions",
+    "ex": "Il dit bonjour.",
+    "exEn": "He says hello."
+   },
+   {
+    "fr": "voir",
+    "en": "to see",
+    "say": "VWAR",
+    "cat": "Common Verbs",
+    "ex": "Je vois un chien.",
+    "exEn": "I see a dog."
+   },
+   {
+    "fr": "pouvoir",
+    "en": "to be able to; can",
+    "say": "poo-VWAR",
+    "cat": "Common Verbs",
+    "ex": "Tu peux venir ?",
+    "exEn": "Can you come?"
+   },
+   {
+    "fr": "vouloir",
+    "en": "to want",
+    "say": "voo-LWAR",
+    "cat": "Common Verbs",
+    "ex": "Je veux de l'eau.",
+    "exEn": "I want some water."
+   },
+   {
+    "fr": "savoir",
+    "en": "to know",
+    "say": "sah-VWAR",
+    "cat": "Common Verbs",
+    "ex": "Je sais la réponse.",
+    "exEn": "I know the answer."
+   },
+   {
+    "fr": "venir",
+    "en": "to come",
+    "say": "vuh-NEER",
+    "cat": "Travel",
+    "ex": "Elle vient ce soir.",
+    "exEn": "She is coming tonight."
+   },
+   {
+    "fr": "prendre",
+    "en": "to take",
+    "say": "PRAHNDR",
+    "cat": "Common Verbs",
+    "ex": "Nous prenons le bus.",
+    "exEn": "We take the bus."
+   },
+   {
+    "fr": "parler",
+    "en": "to speak; to talk",
+    "say": "par-LAY",
+    "cat": "Common Verbs",
+    "ex": "Ils parlent français.",
+    "exEn": "They speak French."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Aller + infinitive",
+    "body": "Use the present tense of aller followed by an infinitive to express an intended or upcoming action (the near future). In the dialogue, vais dire means “am going to tell,” and on va faire means “we are going to do.”",
+    "examples": [
+     {
+      "fr": "Je vais parler avec Adrien.",
+      "en": "I am going to talk with Adrien."
+     },
+     {
+      "fr": "On va prendre un café.",
+      "en": "We are going to have a coffee."
+     }
+    ]
+   }
+  ],
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "What does pouvoir mean?",
+    "options": [
+     "to see",
+     "to be able to; can",
+     "to come"
+    ],
+    "answer": "to be able to; can",
+    "explain": "Pouvoir means “to be able to” or “can.”"
+   },
+   {
+    "type": "mc",
+    "q": "Which sentence means “I want to go”?",
+    "options": [
+     "Je veux aller.",
+     "Je sais venir.",
+     "Je peux voir."
+    ],
+    "answer": "Je veux aller.",
+    "explain": "Je veux means “I want,” and aller means “to go.”"
+   },
+   {
+    "type": "fill",
+    "q": "Je ___ te dire le chemin.",
+    "hint": "I am going to (near future)",
+    "answer": "vais",
+    "explain": "Use vais, the je form of aller, before an infinitive to express the near future."
+   },
+   {
+    "type": "mc",
+    "q": "What does “voir” mean?",
+    "options": [
+     "to say",
+     "to know",
+     "to see"
+    ],
+    "answer": "to see",
+    "explain": "voir means “to see”."
+   },
+   {
+    "type": "mc",
+    "q": "What does “pouvoir” mean?",
+    "options": [
+     "to be able to",
+     "to do",
+     "to take"
+    ],
+    "answer": "to be able to",
+    "explain": "pouvoir means “to be able to”."
+   },
+   {
+    "type": "mc",
+    "q": "What does “je” mean?",
+    "options": [
+     "I",
+     "they (masculine or mixed)",
+     "you (singular)"
+    ],
+    "answer": "I",
+    "explain": "je means “I”."
+   }
+  ]
+ },
+ {
+  "course": "tiny-1000",
+  "number": 5,
+  "type": "Vocabulary lesson",
+  "level": "Absolute beginner",
+  "minutes": 15,
+  "video": null,
+  "instagram": "",
+  "art": {
+   "emoji": "📚"
+  },
+  "id": "people-and-family",
+  "title": "People and Family",
+  "fr": "Les personnes et la famille",
+  "topics": [
+   "Tiny 1000",
+   "Words 41-50"
+  ],
+  "description": "Learn ten French words for people and family members through a short conversation between friends.",
+  "objectives": [
+   "Recognize ten words for people and family members.",
+   "Use un and une with common nouns.",
+   "Understand a simple conversation about a family."
+  ],
+  "intro": "Adrien and Marinette meet in a park in France. They see a family nearby and talk about the people around them.",
+  "dialogue": [
+   {
+    "who": "Adrien",
+    "fr": "Bonjour, Marinette ! Tu vois un homme ?",
+    "en": "Hello, Marinette! Do you see a man?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Oui, et une femme avec lui.",
+    "en": "Yes, and a woman with him."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Leur enfant est très gentil.",
+    "en": "Their child is very nice."
+   },
+   {
+    "who": "Marinette",
+    "fr": "C’est un ami de mon frère.",
+    "en": "He’s a friend of my brother."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Voici une famille. Le père est là.",
+    "en": "Here is a family. The father is there."
+   },
+   {
+    "who": "Marinette",
+    "fr": "Oui, une personne attend sa sœur.",
+    "en": "Yes, someone is waiting for their sister."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Où est la mère ?",
+    "en": "Where is the mother?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Elle est ici, avec son frère.",
+    "en": "She is here, with her brother."
+   }
+  ],
+  "vocab": [
+   {
+    "fr": "un homme",
+    "en": "man",
+    "say": "uhn OHM",
+    "cat": "Introductions",
+    "ex": "L'homme parle avec son fils.",
+    "exEn": "The man talks with his son."
+   },
+   {
+    "fr": "une femme",
+    "en": "woman",
+    "say": "ewn FAM",
+    "cat": "Introductions",
+    "ex": "La femme travaille ici.",
+    "exEn": "The woman works here."
+   },
+   {
+    "fr": "un enfant",
+    "en": "child",
+    "say": "uhn ahn-FAHN",
+    "cat": "Family",
+    "ex": "L'enfant joue dans le jardin.",
+    "exEn": "The child plays in the garden."
+   },
+   {
+    "fr": "un ami",
+    "en": "friend",
+    "say": "uhn ah-MEE",
+    "cat": "Introductions",
+    "ex": "Mon ami arrive ce soir.",
+    "exEn": "My friend is arriving this evening."
+   },
+   {
+    "fr": "une mère",
+    "en": "mother",
+    "say": "ewn MEHR",
+    "cat": "Family",
+    "ex": "Ma mère cuisine.",
+    "exEn": "My mother is cooking."
+   },
+   {
+    "fr": "un père",
+    "en": "father",
+    "say": "uhn PEHR",
+    "cat": "Family",
+    "ex": "Mon père lit.",
+    "exEn": "My father is reading."
+   },
+   {
+    "fr": "une famille",
+    "en": "family",
+    "say": "ewn fah-MEE",
+    "cat": "Family",
+    "ex": "Ma famille habite en France.",
+    "exEn": "My family lives in France."
+   },
+   {
+    "fr": "une personne",
+    "en": "person",
+    "say": "ewn pair-SOHN",
+    "cat": "Introductions",
+    "ex": "Cette personne parle français.",
+    "exEn": "This person speaks French."
+   },
+   {
+    "fr": "un frère",
+    "en": "brother",
+    "say": "uhn FREHR",
+    "cat": "Family",
+    "ex": "Mon frère aime le football.",
+    "exEn": "My brother likes football."
+   },
+   {
+    "fr": "une sœur",
+    "en": "sister",
+    "say": "ewn SUHR",
+    "cat": "Family",
+    "ex": "Ma sœur chante bien.",
+    "exEn": "My sister sings well."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Un and une",
+    "body": "French nouns are masculine or feminine, and the word for “a” changes to match. Use un with masculine nouns and une with feminine nouns.",
+    "examples": [
+     {
+      "fr": "un homme",
+      "en": "a man"
+     },
+     {
+      "fr": "une femme",
+      "en": "a woman"
+     }
+    ]
+   }
+  ],
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "Which French word means “mother”?",
+    "options": [
+     "un père",
+     "une mère",
+     "une sœur"
+    ],
+    "answer": "une mère",
+    "explain": "Une mère means “a mother.”"
+   },
+   {
+    "type": "mc",
+    "q": "What does un ami mean?",
+    "options": [
+     "a friend",
+     "a child",
+     "a father"
+    ],
+    "answer": "a friend",
+    "explain": "Un ami means “a friend.”"
+   },
+   {
+    "type": "fill",
+    "q": "C’est une ___.",
+    "hint": "family",
+    "answer": "famille",
+    "explain": "Une famille means “a family.”"
+   },
+   {
+    "type": "mc",
+    "q": "What does “une sœur” mean?",
+    "options": [
+     "mother",
+     "sister",
+     "child"
+    ],
+    "answer": "sister",
+    "explain": "une sœur means “sister”."
+   },
+   {
+    "type": "mc",
+    "q": "What does “une mère” mean?",
+    "options": [
+     "sister",
+     "mother",
+     "child"
+    ],
+    "answer": "mother",
+    "explain": "une mère means “mother”."
+   },
+   {
+    "type": "mc",
+    "q": "What does “et” mean?",
+    "options": [
+     "not",
+     "and",
+     "in, inside"
+    ],
+    "answer": "and",
+    "explain": "et means “and”."
+   }
+  ]
+ },
+ {
+  "course": "tiny-1000",
+  "number": 6,
+  "type": "Vocabulary lesson",
+  "level": "Absolute beginner",
+  "minutes": 15,
+  "video": null,
+  "instagram": "",
+  "art": {
+   "emoji": "📚"
+  },
+  "id": "time-words",
+  "title": "Time Words",
+  "fr": "Les mots du temps",
+  "topics": [
+   "Tiny 1000",
+   "Words 51-60"
+  ],
+  "description": "Learn useful French words for talking about today, tomorrow, and other times.",
+  "objectives": [
+   "Say when something happens.",
+   "Recognize words for parts of the day.",
+   "Talk about days, weeks, and years."
+  ],
+  "intro": "In Paris, friends Adrien and Marinette are making plans. Listen for the French words they use to talk about time.",
+  "dialogue": [
+   {
+    "who": "Adrien",
+    "fr": "Bonjour, Marinette ! Qu'est-ce que tu fais aujourd'hui ?",
+    "en": "Hi, Marinette! What are you doing today?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Je vais au café le matin. Et toi ?",
+    "en": "I go to the café in the morning. And you?"
+   },
+   {
+    "who": "Adrien",
+    "fr": "Je travaille maintenant, mais je suis libre ce soir.",
+    "en": "I'm working now, but I'm free this evening."
+   },
+   {
+    "who": "Marinette",
+    "fr": "Super ! On peut se voir demain après le cours.",
+    "en": "Great! We can see each other tomorrow after class."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Oui. Hier, j'ai étudié toute la journée.",
+    "en": "Yes. Yesterday, I studied all day."
+   },
+   {
+    "who": "Marinette",
+    "fr": "Tu étudies beaucoup chaque semaine !",
+    "en": "You study a lot every week!"
+   },
+   {
+    "who": "Adrien",
+    "fr": "Oui, mais j'aime prendre du temps pour mes amis.",
+    "en": "Yes, but I like to make time for my friends."
+   },
+   {
+    "who": "Marinette",
+    "fr": "Moi aussi ! Un an, ça passe vite !",
+    "en": "Me too! A year goes by fast!"
+   }
+  ],
+  "vocab": [
+   {
+    "fr": "aujourd'hui",
+    "en": "today",
+    "say": "oh-zhoor-DWEE",
+    "cat": "Time & Days",
+    "ex": "Aujourd'hui, je travaille.",
+    "exEn": "Today, I’m working."
+   },
+   {
+    "fr": "demain",
+    "en": "tomorrow",
+    "say": "duh-MAN",
+    "cat": "Time & Days",
+    "ex": "Demain, je pars tôt.",
+    "exEn": "Tomorrow, I’m leaving early."
+   },
+   {
+    "fr": "hier",
+    "en": "yesterday",
+    "say": "YAIR",
+    "cat": "Time & Days",
+    "ex": "Hier, j'ai travaillé.",
+    "exEn": "Yesterday, I worked."
+   },
+   {
+    "fr": "maintenant",
+    "en": "now",
+    "say": "mant-NAHN",
+    "cat": "Time & Days",
+    "ex": "Maintenant, je comprends.",
+    "exEn": "Now, I understand."
+   },
+   {
+    "fr": "le jour",
+    "en": "day",
+    "say": "luh ZHOOR",
+    "cat": "Time & Days",
+    "ex": "Le jour commence tôt.",
+    "exEn": "The day starts early."
+   },
+   {
+    "fr": "le matin",
+    "en": "morning",
+    "say": "luh ma-TAN",
+    "cat": "Time & Days",
+    "ex": "Le matin, je bois du café.",
+    "exEn": "In the morning, I drink coffee."
+   },
+   {
+    "fr": "le soir",
+    "en": "evening",
+    "say": "luh SWAHR",
+    "cat": "Time & Days",
+    "ex": "Le soir, nous mangeons ensemble.",
+    "exEn": "In the evening, we eat together."
+   },
+   {
+    "fr": "un an",
+    "en": "year",
+    "say": "uh NAHN",
+    "cat": "Time & Days",
+    "ex": "Un an passe vite.",
+    "exEn": "A year goes by quickly."
+   },
+   {
+    "fr": "le temps",
+    "en": "time",
+    "say": "luh TAHN",
+    "cat": "Time & Days",
+    "ex": "Le temps passe vite.",
+    "exEn": "Time goes by quickly."
+   },
+   {
+    "fr": "la semaine",
+    "en": "week",
+    "say": "lah suh-MEN",
+    "cat": "Time & Days",
+    "ex": "La semaine commence lundi.",
+    "exEn": "The week starts on Monday."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "French noun articles",
+    "body": "French nouns often appear with an article, which shows their grammatical gender. Use le with masculine nouns and la with feminine nouns; learn the article together with each noun.",
+    "examples": [
+     {
+      "fr": "le matin",
+      "en": "the morning"
+     },
+     {
+      "fr": "la semaine",
+      "en": "the week"
+     }
+    ]
+   }
+  ],
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "What does demain mean?",
+    "options": [
+     "today",
+     "tomorrow",
+     "yesterday"
+    ],
+    "answer": "tomorrow",
+    "explain": "Demain means tomorrow."
+   },
+   {
+    "type": "mc",
+    "q": "What does le soir mean?",
+    "options": [
+     "the morning",
+     "the evening",
+     "the week"
+    ],
+    "answer": "the evening",
+    "explain": "Le soir means the evening."
+   },
+   {
+    "type": "fill",
+    "q": "Je suis libre ___.",
+    "hint": "today",
+    "answer": "aujourd'hui",
+    "explain": "Aujourd'hui means today."
+   },
+   {
+    "type": "mc",
+    "q": "What does “la semaine” mean?",
+    "options": [
+     "week",
+     "morning",
+     "time"
+    ],
+    "answer": "week",
+    "explain": "la semaine means “week”."
+   },
+   {
+    "type": "mc",
+    "q": "What does “demain” mean?",
+    "options": [
+     "evening",
+     "now",
+     "tomorrow"
+    ],
+    "answer": "tomorrow",
+    "explain": "demain means “tomorrow”."
+   },
+   {
+    "type": "mc",
+    "q": "What does “bonjour” mean?",
+    "options": [
+     "hello",
+     "who",
+     "please"
+    ],
+    "answer": "hello",
+    "explain": "bonjour means “hello”."
+   }
+  ]
+ },
+ {
+  "course": "tiny-1000",
+  "number": 7,
+  "type": "Vocabulary lesson",
+  "level": "Absolute beginner",
+  "minutes": 15,
+  "video": null,
+  "instagram": "",
+  "art": {
+   "emoji": "📚"
+  },
+  "id": "first-adjectives",
+  "title": "First Adjectives",
+  "fr": "Premiers adjectifs",
+  "topics": [
+   "Tiny 1000",
+   "Words 61-70"
+  ],
+  "description": "Learn eleven useful French adjectives for describing people, places, and things.",
+  "objectives": [
+   "Recognize eleven common French adjectives.",
+   "Describe a person, place, or thing.",
+   "Use a few adjectives in short sentences."
+  ],
+  "intro": "Adrien and Marinette are walking through their neighborhood in France. They compare a new café with an older one.",
+  "dialogue": [
+   {
+    "who": "Adrien",
+    "fr": "Bonjour, Marinette ! Ce café est bon, tu trouves ?",
+    "en": "Hi, Marinette! This café is good, don't you think?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Oui ! Et le grand jardin est très beau.",
+    "en": "Yes! And the big garden is very beautiful."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Le petit café près d’ici est nouveau ?",
+    "en": "Is the little café nearby new?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Oui, et le jeune serveur est très gentil.",
+    "en": "Yes, and the young waiter is very kind."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Le vieux café, c’est au même endroit que le nouveau ?",
+    "en": "Is the old café in the same place as the new one?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Non, c’est un autre café, juste là-bas.",
+    "en": "No, it’s another café, just over there."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Ah ! Leur café est mauvais ?",
+    "en": "Oh! Is their coffee bad?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Non, pas du tout ! Il est bon aussi.",
+    "en": "No, not at all! It’s good too."
+   }
+  ],
+  "vocab": [
+   {
+    "fr": "bon",
+    "en": "good",
+    "say": "BOHN",
+    "cat": "Food & Drink",
+    "ex": "C'est un bon café.",
+    "exEn": "It's a good coffee."
+   },
+   {
+    "fr": "grand",
+    "en": "big; tall",
+    "say": "GRAHN",
+    "cat": "Daily Life",
+    "ex": "Mon frère est grand.",
+    "exEn": "My brother is tall."
+   },
+   {
+    "fr": "petit",
+    "en": "small; little",
+    "say": "puh-TEE",
+    "cat": "Daily Life",
+    "ex": "Le chat est petit.",
+    "exEn": "The cat is small."
+   },
+   {
+    "fr": "nouveau",
+    "en": "new",
+    "say": "noo-VOH",
+    "cat": "Shopping",
+    "ex": "C'est un nouveau livre.",
+    "exEn": "It's a new book."
+   },
+   {
+    "fr": "beau",
+    "en": "beautiful; handsome",
+    "say": "BOH",
+    "cat": "Daily Life",
+    "ex": "C'est un beau jardin.",
+    "exEn": "It's a beautiful garden."
+   },
+   {
+    "fr": "jeune",
+    "en": "young",
+    "say": "ZHUHN",
+    "cat": "Introductions",
+    "ex": "Mon fils est jeune.",
+    "exEn": "My son is young."
+   },
+   {
+    "fr": "vieux",
+    "en": "old",
+    "say": "VYUH",
+    "cat": "Daily Life",
+    "ex": "Mon père est vieux.",
+    "exEn": "My father is old."
+   },
+   {
+    "fr": "même",
+    "en": "same",
+    "say": "MEM",
+    "cat": "Everyday Expressions",
+    "ex": "Nous avons le même livre.",
+    "exEn": "We have the same book."
+   },
+   {
+    "fr": "autre",
+    "en": "other; another",
+    "say": "OHTR",
+    "cat": "Shopping",
+    "ex": "Je prends un autre café.",
+    "exEn": "I'll have another coffee."
+   },
+   {
+    "fr": "mauvais",
+    "en": "bad",
+    "say": "moh-VAY",
+    "cat": "Food & Drink",
+    "ex": "Ce film est mauvais.",
+    "exEn": "This film is bad."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Adjective agreement",
+    "body": "French adjectives often change to agree with the gender of the noun they describe. Many add -e in the feminine, while vieux becomes vieille.",
+    "examples": [
+     {
+      "fr": "Le grand jardin est très beau.",
+      "en": "The big garden is very beautiful."
+     },
+     {
+      "fr": "La vieille maison est ici.",
+      "en": "The old house is here."
+     }
+    ]
+   }
+  ],
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "What does bon mean?",
+    "options": [
+     "good",
+     "old",
+     "small"
+    ],
+    "answer": "good",
+    "explain": "Bon means good."
+   },
+   {
+    "type": "mc",
+    "q": "What does nouveau mean?",
+    "options": [
+     "same",
+     "new",
+     "bad"
+    ],
+    "answer": "new",
+    "explain": "Nouveau means new."
+   },
+   {
+    "type": "fill",
+    "q": "Le ___ café est très beau.",
+    "hint": "small",
+    "answer": "petit",
+    "explain": "Petit means small and describes café."
+   },
+   {
+    "type": "mc",
+    "q": "What does “jeune” mean?",
+    "options": [
+     "old",
+     "big",
+     "young"
+    ],
+    "answer": "young",
+    "explain": "jeune means “young”."
+   },
+   {
+    "type": "mc",
+    "q": "What does “petit” mean?",
+    "options": [
+     "old",
+     "small",
+     "new"
+    ],
+    "answer": "small",
+    "explain": "petit means “small”."
+   },
+   {
+    "type": "mc",
+    "q": "What does “voir” mean?",
+    "options": [
+     "to say",
+     "to see",
+     "to want"
+    ],
+    "answer": "to see",
+    "explain": "voir means “to see”."
+   }
+  ]
+ },
+ {
+  "course": "tiny-1000",
+  "number": 8,
+  "type": "Vocabulary lesson",
+  "level": "Absolute beginner",
+  "minutes": 15,
+  "video": null,
+  "instagram": "",
+  "art": {
+   "emoji": "📚"
+  },
+  "id": "places-and-things",
+  "title": "Places and Things",
+  "fr": "En ville",
+  "topics": [
+   "Tiny 1000",
+   "Words 71-80"
+  ],
+  "description": "Learn ten useful French words for places and everyday things around town.",
+  "objectives": [
+   "Name common places in French.",
+   "Recognize words for everyday things.",
+   "Ask and answer simple questions about going places."
+  ],
+  "intro": "Adrien and Marinette are planning an afternoon in town. They talk about where they are going and what they need.",
+  "dialogue": [
+   {
+    "who": "Adrien",
+    "fr": "Bonjour, Marinette ! Tu vas à l'école ?",
+    "en": "Hi, Marinette! Are you going to school?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Oui, puis je vais au magasin en ville.",
+    "en": "Yes, then I'm going to the shop in town."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Tu veux acheter un livre ?",
+    "en": "Do you want to buy a book?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Oui, je vais acheter un livre.",
+    "en": "Yes, I'm going to buy a book."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Après, on rentre à la maison en voiture ?",
+    "en": "Later, shall we go home by car?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Oui. Je prends aussi de l'eau pour la route.",
+    "en": "Yes. I'll also take some water for the road."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Mon lieu de travail se trouve dans cette rue.",
+    "en": "My workplace is on this street."
+   },
+   {
+    "who": "Marinette",
+    "fr": "À bientôt, Adrien !",
+    "en": "See you soon, Adrien!"
+   }
+  ],
+  "vocab": [
+   {
+    "fr": "la maison",
+    "en": "house",
+    "say": "lah meh-ZOHN",
+    "cat": "Daily Life",
+    "ex": "J'habite dans une maison.",
+    "exEn": "I live in a house."
+   },
+   {
+    "fr": "la ville",
+    "en": "city",
+    "say": "lah VEEL",
+    "cat": "Travel",
+    "ex": "Je vais en ville.",
+    "exEn": "I'm going into town."
+   },
+   {
+    "fr": "la voiture",
+    "en": "car",
+    "say": "lah vwah-TYUR",
+    "cat": "Travel",
+    "ex": "Ma voiture est rouge.",
+    "exEn": "My car is red."
+   },
+   {
+    "fr": "un livre",
+    "en": "book",
+    "say": "uhn LEE-vruh",
+    "cat": "Daily Life",
+    "ex": "Je lis un livre.",
+    "exEn": "I'm reading a book."
+   },
+   {
+    "fr": "l'eau",
+    "en": "water",
+    "say": "LOH",
+    "cat": "Food & Drink",
+    "ex": "Je bois de l'eau.",
+    "exEn": "I drink water."
+   },
+   {
+    "fr": "le pain",
+    "en": "bread",
+    "say": "luh PAN",
+    "cat": "Food & Drink",
+    "ex": "Je mange du pain.",
+    "exEn": "I eat bread."
+   },
+   {
+    "fr": "le travail",
+    "en": "work",
+    "say": "luh trah-VAI",
+    "cat": "Work & School",
+    "ex": "Je vais au travail.",
+    "exEn": "I'm going to work."
+   },
+   {
+    "fr": "l'école",
+    "en": "school",
+    "say": "lay-KOHL",
+    "cat": "Work & School",
+    "ex": "Les enfants vont à l'école.",
+    "exEn": "The children go to school."
+   },
+   {
+    "fr": "le magasin",
+    "en": "shop",
+    "say": "luh mah-gah-ZAN",
+    "cat": "Shopping",
+    "ex": "Le magasin est ouvert.",
+    "exEn": "The shop is open."
+   },
+   {
+    "fr": "la rue",
+    "en": "street",
+    "say": "lah ROO",
+    "cat": "Directions",
+    "ex": "La rue est calme.",
+    "exEn": "The street is quiet."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Articles with nouns",
+    "body": "French nouns usually appear with an article. Articles agree with a noun's gender and number and show whether it is definite or indefinite. Le and la mean “the” with singular masculine and feminine nouns; un and une mean “a” or “an.”",
+    "examples": [
+     {
+      "fr": "la maison",
+      "en": "the house"
+     },
+     {
+      "fr": "un livre",
+      "en": "a book"
+     }
+    ]
+   }
+  ],
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "What does « l'eau » mean?",
+    "options": [
+     "water",
+     "bread",
+     "book"
+    ],
+    "answer": "water",
+    "explain": "« L'eau » means “water.”"
+   },
+   {
+    "type": "mc",
+    "q": "Which French word means “shop”?",
+    "options": [
+     "la rue",
+     "le magasin",
+     "la maison"
+    ],
+    "answer": "le magasin",
+    "explain": "« Le magasin » means “the shop.”"
+   },
+   {
+    "type": "fill",
+    "q": "Je lis un ___.",
+    "hint": "book",
+    "answer": "livre",
+    "explain": "« Un livre » means “a book.”"
+   },
+   {
+    "type": "mc",
+    "q": "What does “un livre” mean?",
+    "options": [
+     "shop",
+     "street",
+     "book"
+    ],
+    "answer": "book",
+    "explain": "un livre means “book”."
+   },
+   {
+    "type": "mc",
+    "q": "What does “le pain” mean?",
+    "options": [
+     "bread",
+     "car",
+     "shop"
+    ],
+    "answer": "bread",
+    "explain": "le pain means “bread”."
+   },
+   {
+    "type": "mc",
+    "q": "What does “une personne” mean?",
+    "options": [
+     "family",
+     "brother",
+     "person"
+    ],
+    "answer": "person",
+    "explain": "une personne means “person”."
+   }
+  ]
+ },
+ {
+  "course": "tiny-1000",
+  "number": 9,
+  "type": "Vocabulary lesson",
+  "level": "Absolute beginner",
+  "minutes": 15,
+  "video": null,
+  "instagram": "",
+  "art": {
+   "emoji": "📚"
+  },
+  "id": "numbers-1-to-10",
+  "title": "Numbers 1 to 10",
+  "fr": "Les nombres de 1 à 10",
+  "topics": [
+   "Tiny 1000",
+   "Words 81-90"
+  ],
+  "description": "Apprenez à compter de un à dix en français avec Adrien et Marinette.",
+  "objectives": [
+   "Compter de un à dix en français.",
+   "Reconnaître les nombres écrits en français.",
+   "Utiliser un nombre pour compter des objets."
+  ],
+  "intro": "Adrien et Marinette montent un escalier à Paris. Ils comptent les marches ensemble.",
+  "dialogue": [
+   {
+    "who": "Adrien",
+    "fr": "On compte les marches ? Un, deux, trois.",
+    "en": "Shall we count the steps? One, two, three."
+   },
+   {
+    "who": "Marinette",
+    "fr": "Oui ! Quatre, cinq, six.",
+    "en": "Yes! Four, five, six."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Sept, huit, neuf...",
+    "en": "Seven, eight, nine..."
+   },
+   {
+    "who": "Marinette",
+    "fr": "Et dix ! Voilà, dix marches.",
+    "en": "And ten! There we go, ten steps."
+   },
+   {
+    "who": "Adrien",
+    "fr": "C'était facile, non ?",
+    "en": "That was easy, wasn't it?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Oui, comptons encore !",
+    "en": "Yes, let's count again!"
+   },
+   {
+    "who": "Adrien",
+    "fr": "Un, deux, trois !",
+    "en": "One, two, three!"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Merci, Adrien !",
+    "en": "Thank you, Adrien!"
+   }
+  ],
+  "vocab": [
+   {
+    "fr": "un",
+    "en": "one",
+    "say": "UH(n)",
+    "cat": "Numbers",
+    "ex": "J'ai un frère.",
+    "exEn": "I have one brother."
+   },
+   {
+    "fr": "deux",
+    "en": "two",
+    "say": "DUH",
+    "cat": "Numbers",
+    "ex": "Elle a deux chats.",
+    "exEn": "She has two cats."
+   },
+   {
+    "fr": "trois",
+    "en": "three",
+    "say": "TRWAH",
+    "cat": "Numbers",
+    "ex": "Nous avons trois pommes.",
+    "exEn": "We have three apples."
+   },
+   {
+    "fr": "quatre",
+    "en": "four",
+    "say": "KATR",
+    "cat": "Numbers",
+    "ex": "Il y a quatre livres.",
+    "exEn": "There are four books."
+   },
+   {
+    "fr": "cinq",
+    "en": "five",
+    "say": "SANK",
+    "cat": "Numbers",
+    "ex": "J'ai cinq euros.",
+    "exEn": "I have five euros."
+   },
+   {
+    "fr": "six",
+    "en": "six",
+    "say": "SEESS",
+    "cat": "Numbers",
+    "ex": "Les six enfants jouent.",
+    "exEn": "The six children are playing."
+   },
+   {
+    "fr": "sept",
+    "en": "seven",
+    "say": "SET",
+    "cat": "Numbers",
+    "ex": "Il y a sept jours.",
+    "exEn": "There are seven days."
+   },
+   {
+    "fr": "huit",
+    "en": "eight",
+    "say": "WEET",
+    "cat": "Numbers",
+    "ex": "Huit heures, c'est tôt.",
+    "exEn": "Eight o'clock is early."
+   },
+   {
+    "fr": "neuf",
+    "en": "nine",
+    "say": "NUHF",
+    "cat": "Numbers",
+    "ex": "Il a neuf ans.",
+    "exEn": "He is nine years old."
+   },
+   {
+    "fr": "dix",
+    "en": "ten",
+    "say": "DEESS",
+    "cat": "Numbers",
+    "ex": "Dix élèves arrivent.",
+    "exEn": "Ten students are arriving."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Numbers before nouns",
+    "body": "In French, a number usually comes before the noun it counts, as in dix marches (ten steps). When counting aloud, you can also say the numbers on their own.",
+    "examples": [
+     {
+      "fr": "Il y a trois marches.",
+      "en": "There are three steps."
+     },
+     {
+      "fr": "Je vois cinq vélos.",
+      "en": "I see five bicycles."
+     }
+    ]
+   }
+  ],
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "What does deux mean?",
+    "options": [
+     "one",
+     "two",
+     "three"
+    ],
+    "answer": "two",
+    "explain": "Deux is the French word for two."
+   },
+   {
+    "type": "mc",
+    "q": "Which French word means eight?",
+    "options": [
+     "six",
+     "sept",
+     "huit"
+    ],
+    "answer": "huit",
+    "explain": "Huit means eight."
+   },
+   {
+    "type": "fill",
+    "q": "Je compte : sept, ___, neuf.",
+    "hint": "eight",
+    "answer": "huit",
+    "explain": "Huit comes between sept and neuf."
+   },
+   {
+    "type": "mc",
+    "q": "What does “huit” mean?",
+    "options": [
+     "seven",
+     "ten",
+     "eight"
+    ],
+    "answer": "eight",
+    "explain": "huit means “eight”."
+   },
+   {
+    "type": "mc",
+    "q": "What does “six” mean?",
+    "options": [
+     "five",
+     "six",
+     "nine"
+    ],
+    "answer": "six",
+    "explain": "six means “six”."
+   },
+   {
+    "type": "mc",
+    "q": "What does “maintenant” mean?",
+    "options": [
+     "year",
+     "day",
+     "now"
+    ],
+    "answer": "now",
+    "explain": "maintenant means “now”."
+   }
+  ]
+ },
+ {
+  "course": "tiny-1000",
+  "number": 10,
+  "type": "Vocabulary lesson",
+  "level": "Absolute beginner",
+  "minutes": 15,
+  "video": null,
+  "instagram": "",
+  "art": {
+   "emoji": "📚"
+  },
+  "id": "degree-words-and-connectors",
+  "title": "Degree Words and Connectors",
+  "fr": "Plus, moins et encore",
+  "topics": [
+   "Tiny 1000",
+   "Words 91-100"
+  ],
+  "description": "Learn useful French words for describing degree, frequency, and reasons.",
+  "objectives": [
+   "Understand common degree words",
+   "Talk about how often things happen",
+   "Give a simple reason with parce que"
+  ],
+  "intro": "Adrien meets his friend Marinette at a café in France. They chat about her homework and when she likes to work there.",
+  "dialogue": [
+   {
+    "who": "Adrien",
+    "fr": "Tu as déjà fini tes devoirs ?",
+    "en": "Have you already finished your homework?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Oui, parce que c'était très facile.",
+    "en": "Yes, because it was very easy."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Tu travailles toujours ici ?",
+    "en": "Do you still work here?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Oui, et je peux aussi t'aider.",
+    "en": "Yes, and I can help you too."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Merci ! J'aime beaucoup ce café.",
+    "en": "Thanks! I like this café a lot."
+   },
+   {
+    "who": "Marinette",
+    "fr": "Il est plus calme et moins bruyant le matin.",
+    "en": "It's calmer and less noisy in the morning."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Tu viens encore demain ?",
+    "en": "Are you coming again tomorrow?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Oui, sauf le dimanche : je ne viens jamais ce jour-là.",
+    "en": "Yes, except on Sundays: I never come that day."
+   }
+  ],
+  "vocab": [
+   {
+    "fr": "très",
+    "en": "very",
+    "say": "TREH",
+    "cat": "Everyday Expressions",
+    "ex": "Il est très gentil.",
+    "exEn": "He is very kind."
+   },
+   {
+    "fr": "plus",
+    "en": "more",
+    "say": "PLÜ",
+    "cat": "Everyday Expressions",
+    "ex": "Il est plus grand que moi.",
+    "exEn": "He is taller than me."
+   },
+   {
+    "fr": "moins",
+    "en": "less",
+    "say": "MWAHN",
+    "cat": "Everyday Expressions",
+    "ex": "Je parle moins vite maintenant.",
+    "exEn": "I speak less quickly now."
+   },
+   {
+    "fr": "beaucoup",
+    "en": "a lot",
+    "say": "boh-KOO",
+    "cat": "Numbers",
+    "ex": "Elle travaille beaucoup.",
+    "exEn": "She works a lot."
+   },
+   {
+    "fr": "aussi",
+    "en": "also; too",
+    "say": "oh-SEE",
+    "cat": "Everyday Expressions",
+    "ex": "Elle est aussi grande que moi.",
+    "exEn": "She is as tall as me."
+   },
+   {
+    "fr": "toujours",
+    "en": "always; still",
+    "say": "too-ZHOOR",
+    "cat": "Time & Days",
+    "ex": "Il habite toujours ici.",
+    "exEn": "He still lives here."
+   },
+   {
+    "fr": "jamais",
+    "en": "never",
+    "say": "zhah-MEH",
+    "cat": "Time & Days",
+    "ex": "Je ne mange jamais ici.",
+    "exEn": "I never eat here."
+   },
+   {
+    "fr": "déjà",
+    "en": "already",
+    "say": "day-ZHAH",
+    "cat": "Time & Days",
+    "ex": "Je connais déjà cette chanson.",
+    "exEn": "I already know this song."
+   },
+   {
+    "fr": "encore",
+    "en": "again; still; more",
+    "say": "ahn-KOR",
+    "cat": "Time & Days",
+    "ex": "Je veux encore du pain.",
+    "exEn": "I want some more bread."
+   },
+   {
+    "fr": "parce que",
+    "en": "because",
+    "say": "pars-KUH",
+    "cat": "Everyday Expressions",
+    "ex": "Je reste parce que j'attends Marie.",
+    "exEn": "I stay because I am waiting for Marie."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Saying “never”",
+    "body": "In standard French, put ne before the verb and jamais after it to say “never.” In everyday speech, people sometimes leave out ne, but it is helpful to learn the full form.",
+    "examples": [
+     {
+      "fr": "Je ne viens jamais le dimanche.",
+      "en": "I never come on Sundays."
+     },
+     {
+      "fr": "Il ne travaille jamais le soir.",
+      "en": "He never works in the evening."
+     }
+    ]
+   }
+  ],
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "What does « parce que » mean?",
+    "options": [
+     "because",
+     "again",
+     "always"
+    ],
+    "answer": "because",
+    "explain": "« Parce que » gives a reason and means “because.”"
+   },
+   {
+    "type": "mc",
+    "q": "Which phrase means “I never come on Sundays”?",
+    "options": [
+     "Je viens toujours le dimanche.",
+     "Je ne viens jamais le dimanche.",
+     "Je viens encore le dimanche."
+    ],
+    "answer": "Je ne viens jamais le dimanche.",
+    "explain": "« Ne... jamais » means “never.”"
+   },
+   {
+    "type": "fill",
+    "q": "Je ne viens ___ le dimanche.",
+    "hint": "never",
+    "answer": "jamais",
+    "explain": "Use « jamais » after the verb to say “never.”"
+   },
+   {
+    "type": "mc",
+    "q": "What does “parce que” mean?",
+    "options": [
+     "less",
+     "always",
+     "because"
+    ],
+    "answer": "because",
+    "explain": "parce que means “because”."
+   },
+   {
+    "type": "mc",
+    "q": "What does “très” mean?",
+    "options": [
+     "very",
+     "always",
+     "also"
+    ],
+    "answer": "very",
+    "explain": "très means “very”."
+   },
+   {
+    "type": "mc",
+    "q": "What does “vieux” mean?",
+    "options": [
+     "other",
+     "big",
+     "old"
+    ],
+    "answer": "old",
+    "explain": "vieux means “old”."
+   }
+  ]
+ },
+ {
+  "course": "tiny-1000",
+  "number": 11,
+  "id": "family-and-relatives",
+  "title": "Family and relatives",
+  "fr": "La famille",
+  "type": "Vocabulary lesson",
+  "level": "Absolute beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 101-110"
+  ],
+  "description": "Learn to name close family members and describe blended-family relationships in French.",
+  "objectives": [
+   "Name parents and grandparents.",
+   "Identify sons and daughters.",
+   "Describe half-siblings and stepparents."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 12,
+  "id": "daily-routine-verbs",
+  "title": "Daily routine verbs",
+  "fr": "Ma routine quotidienne",
+  "type": "Vocabulary lesson",
+  "level": "Absolute beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 111-120"
+  ],
+  "description": "Apprenez des verbes utiles pour parler de votre routine quotidienne.",
+  "objectives": [
+   "Comprendre des verbes de la routine quotidienne",
+   "Dire à quelle heure on se réveille",
+   "Utiliser des verbes pronominaux simples"
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 13,
+  "id": "days-of-the-week-and-date-words",
+  "title": "Days of the week and date words",
+  "fr": "Les jours et les dates",
+  "type": "Vocabulary lesson",
+  "level": "Absolute beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 121-130"
+  ],
+  "description": "Apprenez à parler des jours de la semaine et à situer une journée par rapport à une autre.",
+  "objectives": [
+   "Nommer les sept jours de la semaine.",
+   "Dire quel jour vient avant ou après un autre.",
+   "Parler d’un rendez-vous dans le temps."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 14,
+  "id": "colors-and-shapes",
+  "title": "Colors and shapes",
+  "fr": "Les couleurs et les formes",
+  "type": "Vocabulary lesson",
+  "level": "Absolute beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 131-140"
+  ],
+  "description": "Apprenez à nommer des couleurs et des formes en français.",
+  "objectives": [
+   "Nommer six couleurs courantes.",
+   "Reconnaître trois formes géométriques.",
+   "Décrire une forme avec une couleur."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 15,
+  "id": "body-parts",
+  "title": "Body parts",
+  "fr": "Le corps",
+  "type": "Vocabulary lesson",
+  "level": "Absolute beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 141-150"
+  ],
+  "description": "Learn ten French words for parts of the body.",
+  "objectives": [
+   "Name common parts of the body in French.",
+   "Recognize le, la, les, and l' before nouns.",
+   "Understand a short conversation about the body."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 16,
+  "id": "directions-and-positions",
+  "title": "Directions and positions",
+  "fr": "Où aller ?",
+  "type": "Vocabulary lesson",
+  "level": "Absolute beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 151-160"
+  ],
+  "description": "Apprends à demander et à donner des directions simples en français.",
+  "objectives": [
+   "Demander où se trouve un lieu.",
+   "Comprendre des directions simples.",
+   "Utiliser des mots pour indiquer une position."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 17,
+  "id": "weather-and-seasons",
+  "title": "Weather and seasons",
+  "fr": "Le temps et les saisons",
+  "type": "Vocabulary lesson",
+  "level": "Absolute beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 161-170"
+  ],
+  "description": "Leçon 17 sur 100 : apprenez les mots français pour parler de la météo et des saisons.",
+  "objectives": [
+   "Nommer les quatre saisons",
+   "Décrire le temps qu’il fait",
+   "Reconnaître dix mots de météo"
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 18,
+  "id": "basic-foods",
+  "title": "Basic foods",
+  "fr": "Les aliments de base",
+  "type": "Vocabulary lesson",
+  "level": "Absolute beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 171-180"
+  ],
+  "description": "Learn ten common French words for basic foods.",
+  "objectives": [
+   "Name ten basic foods in French.",
+   "Recognize food words with their articles.",
+   "Ask what to buy for dinner."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 19,
+  "id": "drinks-meals-and-eating-words",
+  "title": "Drinks, meals and eating words",
+  "fr": "À table !",
+  "type": "Vocabulary lesson",
+  "level": "Absolute beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 181-190"
+  ],
+  "description": "Learn everyday French words for drinks, meals, and tableware.",
+  "objectives": [
+   "Recognize ten words for drinks, meals, and tableware.",
+   "Ask a friend what they would like to drink.",
+   "Use French articles with common food and drink words."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 20,
+  "id": "common-adjectives",
+  "title": "Common adjectives",
+  "fr": "Des adjectifs courants",
+  "type": "Vocabulary lesson",
+  "level": "Absolute beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 191-200"
+  ],
+  "description": "Apprenez dix adjectifs français pour décrire des lieux, des objets et des situations.",
+  "objectives": [
+   "Comprendre dix adjectifs courants",
+   "Décrire un lieu ou un objet",
+   "Repérer l’accord d’un adjectif"
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 21,
+  "id": "shopping-and-money",
+  "title": "Shopping and money",
+  "fr": "Au magasin",
+  "type": "Vocabulary lesson",
+  "level": "Absolute beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 201-210"
+  ],
+  "description": "Learn useful French words for buying things and talking about prices.",
+  "objectives": [
+   "Ask how much an item costs.",
+   "Talk about prices and money.",
+   "Say how you want to pay."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 22,
+  "id": "clothes-and-accessories",
+  "title": "Clothes and accessories",
+  "fr": "Les vêtements",
+  "type": "Vocabulary lesson",
+  "level": "Absolute beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 211-220"
+  ],
+  "description": "Learn ten useful French words for clothes and accessories.",
+  "objectives": [
+   "Name common clothes in French.",
+   "Recognize le, la, and les with clothing words.",
+   "Ask and talk about clothes while shopping."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 23,
+  "id": "rooms-and-household-items",
+  "title": "Rooms and household items",
+  "fr": "Les pièces de la maison",
+  "type": "Vocabulary lesson",
+  "level": "Absolute beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 221-230"
+  ],
+  "description": "Apprenez à nommer les pièces et quelques objets de la maison en français.",
+  "objectives": [
+   "Nommer quatre pièces de la maison.",
+   "Identifier des objets du quotidien.",
+   "Dire où se trouvent des objets simples."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 24,
+  "id": "transportation",
+  "title": "Transportation",
+  "fr": "Les transports",
+  "type": "Vocabulary lesson",
+  "level": "Absolute beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 231-240"
+  ],
+  "description": "Learn ten useful French words for getting around town and traveling.",
+  "objectives": [
+   "Name common forms of transportation.",
+   "Ask about a ticket and a train station.",
+   "Understand simple travel plans."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 25,
+  "id": "animals-and-pets",
+  "title": "Animals and pets",
+  "fr": "Leçon 25 : Les animaux",
+  "type": "Vocabulary lesson",
+  "level": "Absolute beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 241-250"
+  ],
+  "description": "Learn useful French words for animals and pets.",
+  "objectives": [
+   "Name common animals and pets in French.",
+   "Recognize masculine and feminine articles.",
+   "Say that you want to take a dog for a walk."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 26,
+  "id": "nature-and-outdoor-places",
+  "title": "Nature and outdoor places",
+  "fr": "La nature",
+  "type": "Vocabulary lesson",
+  "level": "Absolute beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 251-260"
+  ],
+  "description": "Explorez les mots français pour parler des jardins, des paysages et des lieux en plein air.",
+  "objectives": [
+   "Nommer des lieux dans la nature.",
+   "Comprendre des mots pour décrire un paysage.",
+   "Parler simplement d’une promenade."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 27,
+  "id": "verbs-of-movement",
+  "title": "Verbs of movement",
+  "fr": "Les verbes de mouvement",
+  "type": "Vocabulary lesson",
+  "level": "Absolute beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 261-270"
+  ],
+  "description": "Apprenez dix verbes français pour parler des déplacements.",
+  "objectives": [
+   "Comprendre dix verbes de mouvement",
+   "Dire où l’on va",
+   "Utiliser des verbes au présent"
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 28,
+  "id": "verbs-of-giving-receiving-making-doing",
+  "title": "Verbs of giving, receiving, making, doing",
+  "fr": "Donner et créer",
+  "type": "Vocabulary lesson",
+  "level": "Absolute beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 271-280"
+  ],
+  "description": "Learn useful French verbs for giving, receiving, and making things.",
+  "objectives": [
+   "Recognize ten everyday verbs for giving and making.",
+   "Ask someone to bring or send something.",
+   "Use pouvoir with an infinitive verb."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 29,
+  "id": "hobbies-and-free-time",
+  "title": "Hobbies and free time",
+  "fr": "Les loisirs",
+  "type": "Vocabulary lesson",
+  "level": "Absolute beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 281-290"
+  ],
+  "description": "Learn how to talk about hobbies and free time in French.",
+  "objectives": [
+   "Name common hobbies in French.",
+   "Say what you like to do.",
+   "Ask a friend about their free time."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 30,
+  "id": "counters-and-quantity-words",
+  "title": "Counters and quantity words",
+  "fr": "Au pique-nique",
+  "type": "Vocabulary lesson",
+  "level": "Absolute beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 291-300"
+  ],
+  "description": "Apprenez à parler des quantités et de quelques contenants en français.",
+  "objectives": [
+   "Dire qu’il y a peu, assez ou trop de quelque chose.",
+   "Compter des objets avec quelques, plusieurs, chaque et tout.",
+   "Nommer une bouteille, une boîte et une tranche."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 31,
+  "id": "feelings-and-emotions",
+  "title": "Feelings and emotions",
+  "fr": "Les émotions",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 301-310"
+  ],
+  "description": "Learn to name common feelings and share how you feel in simple French.",
+  "objectives": [
+   "Name common feelings in French.",
+   "Say how you feel using être and an adjective.",
+   "Understand simple sentences about emotions."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 32,
+  "id": "opinions-and-thinking-words",
+  "title": "Opinions and thinking words",
+  "fr": "Penser et donner son avis",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 311-320"
+  ],
+  "description": "Apprenez des mots simples pour exprimer une idée, une opinion ou une pensée.",
+  "objectives": [
+   "Dire ce que vous pensez ou croyez.",
+   "Demander et donner un avis.",
+   "Dire si quelque chose est vrai ou faux."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 33,
+  "id": "opposite-adjectives",
+  "title": "Opposite adjectives",
+  "fr": "Adjectifs opposés — Leçon 33",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 321-330"
+  ],
+  "description": "Learn ten common French adjectives in opposite pairs.",
+  "objectives": [
+   "Recognize five pairs of opposite adjectives.",
+   "Describe everyday things in French.",
+   "Notice how adjectives agree with nouns."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 34,
+  "id": "grammar-like-words",
+  "title": "Grammar-like words",
+  "fr": "Les petits mots utiles",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 331-340"
+  ],
+  "description": "Learn ten small French words that help connect ideas and describe where and when things happen.",
+  "objectives": [
+   "Understand common French words like si and donc.",
+   "Say when and where you will meet a friend.",
+   "Use words for simple conditions and locations."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 35,
+  "id": "frequency-and-degree-adverbs",
+  "title": "Frequency and degree adverbs",
+  "fr": "Les adverbes de fréquence",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 341-350"
+  ],
+  "description": "Learn common French adverbs for saying how often or how much something happens.",
+  "objectives": [
+   "Say how often you do something.",
+   "Use adverbs to show degree or emphasis.",
+   "Understand common adverbs in a short conversation."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 36,
+  "id": "time-expressions",
+  "title": "Time expressions",
+  "fr": "Parler du temps",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 351-360"
+  ],
+  "description": "Learn ten French words for talking about time, from « tôt » to « aussitôt ».",
+  "objectives": [
+   "Ask about the time of an event.",
+   "Talk about when things happen.",
+   "Use « pendant » with a duration."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 37,
+  "id": "conversation-connectors-and-fillers",
+  "title": "Conversation connectors and fillers",
+  "fr": "Parler naturellement",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 361-370"
+  ],
+  "description": "Apprenez dix petits mots pour relier vos idées et parler plus naturellement en français.",
+  "objectives": [
+   "Comprendre des connecteurs courants",
+   "Utiliser des mots pour gagner du temps",
+   "Relier deux idées simplement"
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 38,
+  "id": "polite-expressions-and-greetings",
+  "title": "Polite expressions and greetings",
+  "fr": "Saluer avec politesse",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 371-380"
+  ],
+  "description": "Learn friendly and polite French greetings for meeting people and speaking on the phone.",
+  "objectives": [
+   "Greet someone and say goodbye in French.",
+   "Use polite words when meeting someone.",
+   "Recognize a greeting used on the phone."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 39,
+  "id": "verbs-of-communication",
+  "title": "Verbs of communication",
+  "fr": "Les verbes pour communiquer",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 381-390"
+  ],
+  "description": "Learn ten useful French verbs for asking, answering, and sharing information.",
+  "objectives": [
+   "Ask and answer simple questions.",
+   "Talk about calling and writing to someone.",
+   "Use verbs for sharing information."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 40,
+  "id": "verbs-of-change-and-state",
+  "title": "Verbs of change and state",
+  "fr": "Changer et grandir",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 391-400"
+  ],
+  "description": "Apprenez dix mots français pour parler du changement, des émotions et de l’état de santé.",
+  "objectives": [
+   "Comprendre dix mots sur le changement et l’état.",
+   "Dire comment quelqu’un se sent.",
+   "Parler d’un projet proche avec aller + infinitif."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 41,
+  "id": "work-and-jobs",
+  "title": "Work and jobs",
+  "fr": "Le travail",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 401-410"
+  ],
+  "description": "Learn ten useful French words for talking about jobs and the workplace.",
+  "objectives": [
+   "Ask someone about their job.",
+   "Name common professions and workplaces.",
+   "Recognize words for pay and coworkers."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 42,
+  "id": "school-and-study",
+  "title": "School and study",
+  "fr": "À l’école",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 411-420"
+  ],
+  "description": "Learn ten useful French words for talking about school and studying.",
+  "objectives": [
+   "Name common school items in French.",
+   "Ask and answer simple questions about class.",
+   "Recognize French articles for masculine and feminine nouns."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 43,
+  "id": "office-and-business-words",
+  "title": "Office and business words",
+  "fr": "Au bureau",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 421-430"
+  ],
+  "description": "Adrien et Marinette parlent du travail au bureau.",
+  "objectives": [
+   "Name common office items in French.",
+   "Talk about a meeting or appointment.",
+   "Recognize words for files and accounts."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 44,
+  "id": "phone-internet-and-technology",
+  "title": "Phone, internet and technology",
+  "fr": "Le téléphone et Internet — Leçon 44",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 431-440"
+  ],
+  "description": "Learn useful French words for using a phone, the internet, and other technology.",
+  "objectives": [
+   "Name common phone and computer items.",
+   "Talk about charging and downloading.",
+   "Ask and answer simple questions about technology."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 45,
+  "id": "city-places",
+  "title": "City places",
+  "fr": "En ville",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 441-450"
+  ],
+  "description": "Adrien et Marinette découvrent les lieux de la ville.",
+  "objectives": [
+   "Nommer des lieux en ville",
+   "Demander où aller",
+   "Utiliser au, à la et à l’"
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 46,
+  "id": "travel-and-sightseeing",
+  "title": "Travel and sightseeing",
+  "fr": "Le musée et le château — Leçon 46",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 451-460"
+  ],
+  "description": "Adrien et Marinette planifient une journée de voyage et de visites.",
+  "objectives": [
+   "Name common travel items and places.",
+   "Talk about visiting a museum or castle.",
+   "Say what you want to do using vouloir."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 47,
+  "id": "health-and-sickness",
+  "title": "Health and sickness",
+  "fr": "Santé et maladie",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 461-470"
+  ],
+  "description": "Learn ten useful French words for talking about health and sickness.",
+  "objectives": [
+   "Name common symptoms in French.",
+   "Ask about medicine and health.",
+   "Recognize words for sickness and recovery."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 48,
+  "id": "restaurant-and-ordering",
+  "title": "Restaurant and ordering",
+  "fr": "Au restaurant — Leçon 48",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 471-480"
+  ],
+  "description": "Apprenez à parler d’un repas au restaurant et à commander poliment en français.",
+  "objectives": [
+   "Reconnaître les mots du restaurant.",
+   "Commander un repas et une boisson.",
+   "Demander l’addition poliment."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 49,
+  "id": "services-and-daily-errands",
+  "title": "Services and daily errands",
+  "fr": "Leçon 49 : Les courses et les services",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 481-490"
+  ],
+  "description": "Apprenez dix mots utiles pour faire des courses et accomplir des tâches quotidiennes.",
+  "objectives": [
+   "Nommer des lieux de services en ville.",
+   "Dire où vous allez pour vos tâches quotidiennes.",
+   "Parler d’un colis et d’un retrait d’argent."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 50,
+  "id": "emergencies-and-asking-for-help",
+  "title": "Emergencies and asking for help",
+  "fr": "Urgences et aide",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 491-500"
+  ],
+  "description": "Learn useful French words for emergencies and asking for help.",
+  "objectives": [
+   "Recognize key emergency words in French.",
+   "Ask for help in a simple emergency.",
+   "Say that someone is injured."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 51,
+  "id": "people-and-relationships",
+  "title": "People and relationships",
+  "fr": "La famille et les amis",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 501-510"
+  ],
+  "description": "Adrien présente à Marinette plusieurs personnes de sa famille et de son entourage.",
+  "objectives": [
+   "Nommer des membres de la famille.",
+   "Parler d’un couple et de ses proches.",
+   "Dire que l’on veut rencontrer quelqu’un."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 52,
+  "id": "events-and-plans",
+  "title": "Events and plans",
+  "fr": "Une fête ce week-end",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 511-520"
+  ],
+  "description": "Learn useful French words for making plans and celebrating together.",
+  "objectives": [
+   "Talk about a birthday party.",
+   "Make a plan for an outing.",
+   "Ask about changing or canceling plans."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 53,
+  "id": "sports-and-games",
+  "title": "Sports and games",
+  "fr": "Au parc : sports et jeux",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 521-530"
+  ],
+  "description": "Adrien et Marinette parlent de sports et de jeux au parc.",
+  "objectives": [
+   "Nommer des sports et des jeux",
+   "Parler d’une équipe et d’un match",
+   "Dire que l’on veut gagner ou nager"
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 54,
+  "id": "music-movies-and-entertainment",
+  "title": "Music, movies and entertainment",
+  "fr": "Musique et spectacles",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 531-540"
+  ],
+  "description": "Apprenez des mots français pour parler de musique, de films et de divertissements.",
+  "objectives": [
+   "Nommer des divertissements courants.",
+   "Parler de ce qu’on aime regarder et écouter.",
+   "Utiliser le verbe chanter."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 55,
+  "id": "everyday-objects",
+  "title": "Everyday objects",
+  "fr": "Les objets du quotidien",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 541-550"
+  ],
+  "description": "Learn ten useful French words for everyday objects through a short conversation between friends.",
+  "objectives": [
+   "Name common objects in French.",
+   "Recognize le, la, un, and une with object words.",
+   "Ask where an object is."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 56,
+  "id": "cooking-and-kitchen",
+  "title": "Cooking and kitchen",
+  "fr": "En cuisine",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 551-560"
+  ],
+  "description": "Apprenez dix mots français utiles pour cuisiner et parler des ustensiles de cuisine.",
+  "objectives": [
+   "Nommer des ustensiles de cuisine et des ingrédients.",
+   "Comprendre des consignes simples pour cuisiner.",
+   "Utiliser des verbes pour décrire la préparation d’un repas."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 57,
+  "id": "verbs-open-close-put-take-bring-carry-turn-on",
+  "title": "Verbs: open, close, put, take, bring, carry, turn on...",
+  "fr": "Les gestes du quotidien",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 561-570"
+  ],
+  "description": "Apprenez dix verbes français pour ouvrir, déplacer et utiliser des objets.",
+  "objectives": [
+   "Demander à quelqu’un d’ouvrir ou de fermer quelque chose",
+   "Dire où l’on pose ou met un objet",
+   "Distinguer amener quelqu’un d’emmener quelqu’un"
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 58,
+  "id": "verbs-meet-start-finish-forget-remember-lose-find",
+  "title": "Verbs: meet, start, finish, forget, remember, lose, find...",
+  "fr": "Retrouvailles et rendez-vous",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 571-580"
+  ],
+  "description": "Learn everyday verbs for meeting people, remembering plans, and finishing activities.",
+  "objectives": [
+   "Say that you remember or forget something.",
+   "Talk about starting and finishing an activity.",
+   "Use verbs for greeting, introducing, and meeting up with people."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 59,
+  "id": "nouns-of-place-and-direction-2",
+  "title": "Nouns of place and direction 2",
+  "fr": "En ville et sur la route",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 581-590"
+  ],
+  "description": "Apprenez dix mots français pour parler des lieux et des directions.",
+  "objectives": [
+   "Nommer des lieux dans une ville et un pays.",
+   "Demander quel chemin prendre.",
+   "Indiquer des repères pour se déplacer."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 60,
+  "id": "quantity-and-amount-words",
+  "title": "Quantity and amount words",
+  "fr": "Au marché : les quantités",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 591-600"
+  ],
+  "description": "Learn useful French words for talking about amounts while shopping at a market.",
+  "objectives": [
+   "Name common quantities of food and drink.",
+   "Understand words like « la moitié » and « davantage ».",
+   "Ask for an amount politely."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 61,
+  "id": "months-years-and-calendar-words",
+  "title": "Months, years and calendar words",
+  "fr": "Les mois et le calendrier",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 601-610"
+  ],
+  "description": "Learn to talk about dates, months, seasons, vacations, and school terms in French.",
+  "objectives": [
+   "Ask and answer the date.",
+   "Name months and talk about what comes next or happened last.",
+   "Talk about seasons, vacations, and school terms."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 62,
+  "id": "abstract-nouns",
+  "title": "Abstract nouns",
+  "fr": "Les idées et les émotions",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 611-620"
+  ],
+  "description": "Learn common French abstract nouns through a friendly conversation in France.",
+  "objectives": [
+   "Recognize common abstract nouns.",
+   "Talk simply about feelings and ideas.",
+   "Use French articles with nouns."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 63,
+  "id": "describing-people",
+  "title": "Describing people",
+  "fr": "Décrire les gens",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 621-630"
+  ],
+  "description": "Learn ten French adjectives for describing people.",
+  "objectives": [
+   "Describe a person's character.",
+   "Describe someone's appearance.",
+   "Recognize adjective agreement."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 64,
+  "id": "describing-things",
+  "title": "Describing things",
+  "fr": "Décrire les objets",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 631-640"
+  ],
+  "description": "Learn useful French adjectives for describing the color, weight, and texture of everyday objects.",
+  "objectives": [
+   "Describe an object's color.",
+   "Say whether something is heavy or lightweight.",
+   "Describe how an object feels."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 65,
+  "id": "nature-and-weather-2",
+  "title": "Nature and weather 2",
+  "fr": "Au parc",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 641-650"
+  ],
+  "description": "Learn ten French words for nature and weather with Adrien and Marinette.",
+  "objectives": [
+   "Name common things in nature and the weather.",
+   "Understand a short conversation about a walk outdoors.",
+   "Use aller + infinitive to talk about what is going to happen."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 66,
+  "id": "society",
+  "title": "Society",
+  "fr": "La société — Leçon 66",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 651-660"
+  ],
+  "description": "Adrien et Marinette parlent de la société, des citoyens et de leurs droits.",
+  "objectives": [
+   "Name key parts of society.",
+   "Talk about voting and politics.",
+   "Understand how to say someone has the right to do something."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 67,
+  "id": "language-and-learning",
+  "title": "Language and learning",
+  "fr": "Apprendre le français",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 661-670"
+  ],
+  "description": "Adrien et Marinette parlent des mots et des outils pour apprendre une langue.",
+  "objectives": [
+   "Nommer des outils pour apprendre le français.",
+   "Poser une question simple sur la grammaire.",
+   "Parler de révision et de traduction."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 68,
+  "id": "verbs-try-decide-choose-change-prepare-practice",
+  "title": "Verbs: try, decide, choose, change, prepare, practice...",
+  "fr": "Faire des choix",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 671-680"
+  ],
+  "description": "Learn useful French verbs for trying, choosing, practicing, and making plans.",
+  "objectives": [
+   "Say what you want to try or choose.",
+   "Talk about practicing and changing a plan.",
+   "Use a few common verbs with an infinitive."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 69,
+  "id": "verbs-can-want-need-must-may-ability-and-desire",
+  "title": "Verbs: can, want, need, must, may, ability and desire",
+  "fr": "Peut-on faire des crêpes ?",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 681-690"
+  ],
+  "description": "Apprenez à parler de ce qu’on doit faire, de ce qu’on souhaite et de ce qu’on peut réussir.",
+  "objectives": [
+   "Dire ce qu’il faut faire.",
+   "Exprimer une préférence ou une envie.",
+   "Parler de ce qu’on espère pouvoir faire."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 70,
+  "id": "comparison-and-degree-words",
+  "title": "Comparison and degree words",
+  "fr": "Comparer et nuancer",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 691-700"
+  ],
+  "description": "Apprenez à comparer des personnes et des choses avec dix mots français de comparaison et de degré.",
+  "objectives": [
+   "Dire qu’une chose est meilleure ou pire qu’une autre.",
+   "Comparer des objets avec des mots comme pareil et différent.",
+   "Comprendre des comparaisons de niveau ou de qualité."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 71,
+  "id": "money-and-prices-2",
+  "title": "Money and prices 2",
+  "fr": "À la caisse",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 701-710"
+  ],
+  "description": "Adrien et Marinette parlent de payer, d’économiser et de faire des achats en France.",
+  "objectives": [
+   "Comprendre des mots liés à l’argent et aux prix.",
+   "Parler de paiements en espèces.",
+   "Dire ce que l’on va faire avec aller + infinitif."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 72,
+  "id": "fashion-and-appearance",
+  "title": "Fashion and appearance",
+  "fr": "La mode et le style",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 711-720"
+  ],
+  "description": "Adrien et Marinette parlent de leurs vêtements et de leur apparence.",
+  "objectives": [
+   "Nommer des vêtements et des accessoires.",
+   "Parler des couleurs et du style.",
+   "Reconnaître dix mots sur la mode."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 73,
+  "id": "transportation-and-traffic-2",
+  "title": "Transportation and traffic 2",
+  "fr": "En route !",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 721-730"
+  ],
+  "description": "Adrien and Marinette talk about driving through traffic and getting to a parking lot.",
+  "objectives": [
+   "Say what you do while driving.",
+   "Name common vehicles and places on the road.",
+   "Understand a short conversation about traffic."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 74,
+  "id": "housing-and-neighborhood",
+  "title": "Housing and neighborhood",
+  "fr": "Logement et quartier",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 731-740"
+  ],
+  "description": "Adrien et Marinette parlent de l’appartement et du quartier de Marinette.",
+  "objectives": [
+   "Nommer des éléments d’un logement.",
+   "Parler de son appartement et de son voisin.",
+   "Dire si l’on loue ou si l’on déménage."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 75,
+  "id": "life-events",
+  "title": "Life events",
+  "fr": "Les étapes de la vie",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 741-750"
+  ],
+  "description": "Adrien et Marinette parlent de grands événements de la vie avec dix mots utiles en français.",
+  "objectives": [
+   "Recognize ten words for life events.",
+   "Talk about important events in family life.",
+   "Use aller plus an infinitive to discuss the near future."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 76,
+  "id": "news-and-information",
+  "title": "News and information",
+  "fr": "Les nouvelles",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 751-760"
+  ],
+  "description": "Learn useful French words for talking about news and information.",
+  "objectives": [
+   "Recognize common news vocabulary.",
+   "Talk about an article or report.",
+   "Use the passé composé to describe completed actions."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 77,
+  "id": "problems-and-trouble",
+  "title": "Problems and trouble",
+  "fr": "Les problèmes",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 761-770"
+  ],
+  "description": "Lesson 77 of a 100-lesson French vocabulary course about problems and trouble.",
+  "objectives": [
+   "Name common problems and accidents.",
+   "Talk about breaking and repairing things.",
+   "Describe a problem as difficult or serious."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 78,
+  "id": "requests-permission-and-invitations",
+  "title": "Requests, permission and invitations",
+  "fr": "Demandes et invitations",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 771-780"
+  ],
+  "description": "Learn useful French words for making requests, asking permission, and accepting invitations.",
+  "objectives": [
+   "Accept or refuse an invitation politely.",
+   "Ask to borrow something in French.",
+   "Make a simple request or offer."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 79,
+  "id": "emotions-2-and-personality",
+  "title": "Emotions 2 and personality",
+  "fr": "Les émotions et la personnalité",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 781-790"
+  ],
+  "description": "Adrien et Marinette parlent de leurs émotions et de leur personnalité.",
+  "objectives": [
+   "Name common emotions in French.",
+   "Describe someone's personality.",
+   "Use adjectives to talk about how people feel."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 80,
+  "id": "verbs-wait-call-return-borrow-lend-send-receive",
+  "title": "Verbs: wait, call, return, borrow, lend, send, receive...",
+  "fr": "Rappeler et retourner",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 791-800"
+  ],
+  "description": "Apprenez des verbes utiles pour attendre, contacter quelqu’un et récupérer ou envoyer un objet.",
+  "objectives": [
+   "Dire à quelqu’un d’attendre.",
+   "Parler d’un appel ou d’un contact.",
+   "Expliquer qu’on va envoyer ou récupérer un objet."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 81,
+  "id": "nature-3",
+  "title": "Nature 3",
+  "fr": "Dans la nature",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 801-810"
+  ],
+  "description": "Adrien et Marinette explore the countryside and learn words for the natural world.",
+  "objectives": [
+   "Name parts of the natural world.",
+   "Recognize words for plants and land.",
+   "Say what grows in a place."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 82,
+  "id": "body-and-health-2",
+  "title": "Body and health 2",
+  "fr": "Le corps et la santé 2",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 811-820"
+  ],
+  "description": "Adrien et Marinette parlent de petits problèmes de santé et révisent les mots du corps.",
+  "objectives": [
+   "Nommer des parties du corps",
+   "Parler simplement d’une douleur",
+   "Comprendre deux verbes liés à la santé"
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 83,
+  "id": "food-2",
+  "title": "Food 2",
+  "fr": "Au pique-nique",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 821-830"
+  ],
+  "description": "Adrien et Marinette partagent un pique-nique et découvrent des mots français pour parler de nourriture.",
+  "objectives": [
+   "Recognize 10 common food words.",
+   "Offer and share food politely.",
+   "Use du, de la, and des for unspecified amounts."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 84,
+  "id": "work-2",
+  "title": "Work 2",
+  "fr": "Au travail : entretien",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 831-840"
+  ],
+  "description": "Apprenez dix mots français utiles pour parler du travail et d'une recherche d'emploi.",
+  "objectives": [
+   "Nommer des personnes et des choses au travail.",
+   "Parler d'un entretien et d'une candidature.",
+   "Comprendre des mots liés aux horaires et aux tâches."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 85,
+  "id": "school-2",
+  "title": "School 2",
+  "fr": "À l’école",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 841-850"
+  ],
+  "description": "Learn useful French words for talking about school supplies, classes, and breaks.",
+  "objectives": [
+   "Name common school supplies in French.",
+   "Talk about classes and schoolwork.",
+   "Ask about tests and break time."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 86,
+  "id": "culture-and-france",
+  "title": "Culture and France",
+  "fr": "La France et sa culture",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 851-860"
+  ],
+  "description": "Découvrez des mots pour parler de la culture, de l’art et des traditions en France.",
+  "objectives": [
+   "Nommer des lieux et des éléments culturels.",
+   "Parler d’un monument ou d’un festival.",
+   "Utiliser quelques mots pour décrire la France."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 87,
+  "id": "verbs-8",
+  "title": "Verbs 8",
+  "fr": "Verbes 8 : préparer une sortie",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 861-870"
+  ],
+  "description": "Apprenez dix verbes utiles en préparant une sortie au parc avec Adrien et Marinette.",
+  "objectives": [
+   "Comprendre dix verbes du quotidien.",
+   "Donner de petites consignes en français.",
+   "Parler d’une préparation simple."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 88,
+  "id": "adjectives-3",
+  "title": "Adjectives 3",
+  "fr": "Adjectifs 3 : projets et plans",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 871-880"
+  ],
+  "description": "Learn ten useful French adjectives as Adrien and Marinette plan a school video project.",
+  "objectives": [
+   "Recognize ten common French adjectives.",
+   "Ask if someone is free or ready.",
+   "Describe a project, an object, or a sound."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 89,
+  "id": "adverbs-2",
+  "title": "Adverbs 2",
+  "fr": "Leçon 89 : Les adverbes 2",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 881-890"
+  ],
+  "description": "Apprenez à utiliser dix adverbes français courants dans des conversations de tous les jours.",
+  "objectives": [
+   "Dire comment on fait quelque chose.",
+   "Indiquer où se trouve quelque chose.",
+   "Exprimer l’ordre des actions."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 90,
+  "id": "nouns-miscellaneous-everyday",
+  "title": "Nouns: miscellaneous everyday",
+  "fr": "Les objets du quotidien",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 891-900"
+  ],
+  "description": "Apprenez dix noms français utiles pour parler des objets et des choses de tous les jours.",
+  "objectives": [
+   "Nommer des objets du quotidien.",
+   "Demander un nom et un numéro.",
+   "Comprendre des noms avec leurs articles."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 91,
+  "id": "verbs-9",
+  "title": "Verbs 9",
+  "fr": "Verbes 9",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 901-910"
+  ],
+  "description": "Learn ten useful French verbs for talking about life, fun, and what you enjoy.",
+  "objectives": [
+   "Say what you like to hear and do",
+   "Talk about having fun and laughing",
+   "Ask whether something is enough or how long it lasts"
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 92,
+  "id": "adjectives-4",
+  "title": "Adjectives 4",
+  "fr": "Adjectifs 4 : Au parc",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 911-920"
+  ],
+  "description": "Apprenez dix adjectifs français pour parler d’une sortie entre amis.",
+  "objectives": [
+   "Décrire une personne ou un lieu.",
+   "Dire si quelque chose est agréable ou dangereux.",
+   "Utiliser des adjectifs au masculin et au féminin."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 93,
+  "id": "nouns-4",
+  "title": "Nouns 4",
+  "fr": "Noms 4 : À la maison",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 921-930"
+  ],
+  "description": "Learn ten French nouns for parts of a home and things you find in it.",
+  "objectives": [
+   "Name common rooms and features of a home.",
+   "Recognize ten everyday French nouns.",
+   "Ask where something is in a home."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 94,
+  "id": "abstract-nouns-2",
+  "title": "Abstract nouns 2",
+  "fr": "Les idées et les émotions",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 931-940"
+  ],
+  "description": "Apprenez dix noms abstraits pour parler des émotions, des valeurs et des habitudes.",
+  "objectives": [
+   "Recognize ten abstract nouns.",
+   "Talk about trust and respect.",
+   "Use le, la, and l’ with nouns."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 95,
+  "id": "useful-fixed-expressions",
+  "title": "Useful fixed expressions",
+  "fr": "Expressions utiles — Leçon 95",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 941-950"
+  ],
+  "description": "Learn ten useful French expressions for making plans and reacting in everyday conversations.",
+  "objectives": [
+   "Recognize ten common fixed expressions.",
+   "React to plans in simple French.",
+   "Use expressions to agree, disagree, or set limits."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 96,
+  "id": "verbs-10",
+  "title": "Verbs 10",
+  "fr": "Verbes 10 : En route !",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 951-960"
+  ],
+  "description": "Apprenez dix verbes utiles pour vous déplacer, faire une pause et organiser une sortie.",
+  "objectives": [
+   "Dire à quelqu’un de s’arrêter ou de continuer.",
+   "Parler de repos, de stationnement et de déplacements.",
+   "Demander à emporter quelque chose et prévenir un ami."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 97,
+  "id": "nouns-5",
+  "title": "Nouns 5",
+  "fr": "Dans la maison",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 961-970"
+  ],
+  "description": "Adrien and Marinette practice useful French nouns around the house.",
+  "objectives": [
+   "Name common rooms and household items.",
+   "Ask where everyday items are.",
+   "Recognize masculine and feminine nouns."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 98,
+  "id": "adverbs-and-conjunctions-3",
+  "title": "Adverbs and conjunctions 3",
+  "fr": "Adverbes et conjonctions 3",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 971-980"
+  ],
+  "description": "Learn ten useful French words for ordering ideas, giving reasons, and making comparisons.",
+  "objectives": [
+   "Use words to say what happens first and next.",
+   "Connect ideas with words like “since” and “however.”",
+   "Understand how ni...ni expresses “neither...nor.”"
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 99,
+  "id": "verbs-11",
+  "title": "Verbs 11",
+  "fr": "Verbes 11",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 981-990"
+  ],
+  "description": "Practice ten useful French verbs with Adrien and Marinette as they get ready to cook together.",
+  "objectives": [
+   "Recognize ten common French verbs.",
+   "Use reflexive verbs like s’asseoir.",
+   "Understand a short everyday conversation."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-1000",
+  "number": 100,
+  "id": "essential-extras",
+  "title": "Essential extras",
+  "fr": "Les petits mots utiles",
+  "type": "Vocabulary lesson",
+  "level": "Beginner",
+  "minutes": 15,
+  "topics": [
+   "Tiny 1000",
+   "Words 991-1000"
+  ],
+  "description": "Learn ten useful French words for talking about people, things, and details.",
+  "objectives": [
+   "Recognize words for someone and something.",
+   "Ask and answer simple questions about everyday things.",
+   "Use words for giving a reason and an approximate amount."
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
  }
 ];
