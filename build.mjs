@@ -56,7 +56,7 @@ for (const c of courses) {
   c.lessonList.forEach((l, i) => {
     l.url = `/courses/${c.id}/${l.id}/`;
     l.prev = c.lessonList[i - 1]?.id || null; l.next = c.lessonList[i + 1]?.id || null;
-    l.premium = !!c.premium && l.number > FREE; l.locked = l.premium && !l.dialogue;
+    l.premium = !!c.premium && l.number > (c.freeLessons ?? FREE); l.locked = l.premium && !l.dialogue;
     (l.quiz || []).forEach((q, n) => { q.id = `${l.id}-q${n + 1}`; q.lesson = l.id; });
     byId[l.id] = l;
   });
@@ -286,7 +286,7 @@ function renderLesson(l, X) {
  <section class="block complete" aria-labelledby="c-h"><h2 id="c-h">Finished?</h2><p>Mark this lesson as complete to track your progress. It is saved in this browser only.</p><button type="button" class="btn big" data-complete aria-pressed="false">Mark lesson as complete</button><p class="small muted" role="status" data-complete-msg></p></section>
  ${share(l.title)}`;
   const cc = courses.find((x) => x.id === l.course);
-  const lockSlot = l.premium && cc ? `<div id="premium-slot" data-premium-lesson>${lockPanelHTML({ course: l.course, courseTitle: cc.title, price: money(cc), payUrl: SITE.premium.payUrl, site: "tiny-french", heading: "This lesson is part of the full course", intro: `The first ${FREE} lessons of each course are free. Unlock ${cc.title} to watch this lesson, practise the quiz and keep going.` })}</div>` : "";
+  const lockSlot = l.premium && cc ? `<div id="premium-slot" data-premium-lesson>${lockPanelHTML({ course: l.course, courseTitle: cc.title, price: money(cc), payUrl: SITE.premium.payUrl, site: "tiny-french", heading: "This lesson is part of the full course", intro: `The first ${cc.freeLessons ?? FREE} lessons of each course are free. Unlock ${cc.title} to watch this lesson, practise the quiz and keep going.` })}</div>` : "";
   if (EXPORT && l.premium && l.dialogue) { fs.mkdirSync(EXPORT, { recursive: true }); fs.writeFileSync(path.join(EXPORT, `${l.course}__${l.id}.json`), JSON.stringify({ course: l.course, lesson: l.id, payload: { html: inner } })); }
   const body = `<article class="wrap lesson" ${l.locked ? `data-locked-lesson="${l.id}"` : `data-lesson="${l.id}"`}>
  ${breadcrumb(X.crumbs)}
@@ -375,7 +375,7 @@ add("/about/", page({
 }));
 
 // Courses
-const priceLabel = (c) => c.free ? "Free" : c.premium ? `First ${FREE} lessons free, full course ${money(c)}` : c.price ? `${c.currency} ${c.price}` : "Price to be announced";
+const priceLabel = (c) => c.free ? "Free" : c.premium ? `First ${c.freeLessons ?? FREE} lessons free, full course ${money(c)}` : c.price ? `${c.currency} ${c.price}` : "Price to be announced";
 const ctaFor = (c) => c.checkoutUrl ? { label: "Buy this course", href: c.checkoutUrl, ext: true } : c.cta.href === "instagram" ? (IG ? { label: c.cta.label, href: IG, ext: true } : null) : { label: c.cta.label, href: U(c.cta.href) };
 const COURSE_ART = {
   "free-lessons": "cover-free-lessons.png",
@@ -406,7 +406,7 @@ for (const c of courses) {
     jsonld: [crumbs([["Home", "/"], ["Courses", "/courses/"], [c.title, `/courses/${c.id}/`]]), ...(c.status === "available" ? [{ "@type": "Course", name: c.title, description: c.summary, provider: orgLd, isAccessibleForFree: !c.premium }] : [])],
     body: `<div class="wrap narrow">${breadcrumb([["Home", "/"], ["Courses", "/courses/"], [c.title, `/courses/${c.id}/`]])}
  <header class="page-head"><div class="chips"><span class="chip ${c.free ? "ok2" : ""}">${c.free ? "Free" : c.premium ? "Free preview + premium" : "Paid"}</span><span class="chip st-${c.status === "available" ? "available" : "planned"}">${c.status === "available" ? "Available now" : "In planning — not for sale yet"}</span><span class="chip">${esc(c.level)}</span></div><h1>${esc(c.title)}</h1><p class="lead">${esc(c.summary)}</p><p class="price">${priceLabel(c)}</p>${cta ? `<p><a class="btn big" href="${esc(cta.href)}"${cta.ext ? ' target="_blank" rel="noopener"' : ""}>${esc(cta.label)}</a></p>` : ""}</header>
- ${c.premium ? `<div data-pm-panel>${lockPanelHTML({ course: c.id, courseTitle: c.title, price: money(c), payUrl: SITE.premium.payUrl, site: "tiny-french", heading: "Unlock the full course", intro: `The first ${FREE} lessons are free to try. The full course adds ${c.lessonList.length - FREE} more lessons with long videos, vocabulary, grammar and quizzes.` })}<p class="pm-unlocked" data-pm-unlocked hidden><span class="pm-unlocked-tag">✓ Premium unlocked</span> All lessons are open on this device.</p></div>` : ""}
+ ${c.premium ? `<div data-pm-panel>${lockPanelHTML({ course: c.id, courseTitle: c.title, price: money(c), payUrl: SITE.premium.payUrl, site: "tiny-french", heading: "Unlock the full course", intro: `The first ${c.freeLessons ?? FREE} lessons are free to try. The full course adds ${c.lessonList.length - (c.freeLessons ?? FREE)} more lessons with long videos, vocabulary, grammar and quizzes.` })}<p class="pm-unlocked" data-pm-unlocked hidden><span class="pm-unlocked-tag">✓ Premium unlocked</span> All lessons are open on this device.</p></div>` : ""}
  ${courseArt(c, "art-wide big")}
  <section class="block"><h2>What you will be able to do</h2><ul>${c.outcomes.map((o) => `<li>${esc(o)}</li>`).join("")}</ul></section>
  ${c.lessonList.length ? `<section class="block"><h2>Lessons</h2><ol class="modules course-lessons">${c.lessonList.map((l) => `<li><a href="${U(l.url)}"><b>${l.number}. ${esc(l.title)}</b></a>${l.premium ? ' <span class="pm-lock-tag">Premium</span>' : ""} <span class="chip">⏱ ${l.minutes} min</span><p class="small muted">${esc(l.description)}</p></li>`).join("")}</ol></section>` : ""}
