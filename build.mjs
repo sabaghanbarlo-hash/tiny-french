@@ -386,7 +386,8 @@ const COURSE_ART = {
   "real-life-french": "cover-real-life-french.png",
   "travel-french": "cover-travel-french.png",
   "from-zero-to-first-conversations": "cover-zero-to-conversations.png",
-  "tiny-1000": "cover-tiny-1000.png"
+  "tiny-1000": "cover-tiny-1000.png",
+  "tiny-conversations": "cover-tiny-conversations.png"
 };
 const courseArt = (c, cls) => COURSE_ART[c.id]
   ? `<img class="${cls}" src="${U(`/assets/img/${COURSE_ART[c.id]}`)}" alt="" width="1200" height="675" loading="lazy">`
