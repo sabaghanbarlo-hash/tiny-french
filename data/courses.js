@@ -12,6 +12,14 @@ export const courses = [
   cta: { label: "Start learning free", href: "/start/" }
  },
  {
+  id: "tiny-1000", title: "Tiny 1000", kind: "Free preview + premium course", status: "available",
+  level: "Absolute beginner to A2", free: false, premium: true, freeLessons: 10, price: 19, currency: "USD", checkoutUrl: "", art: "tiny-french-characters",
+  summary: "The 1,000 most useful French words in 100 short lessons, 10 words per lesson. Every lesson has a dialogue with Adrien and Marinette, pronunciation help, an example sentence for every word, one grammar point and a quiz that also reviews earlier words so they stick.",
+  outcomes: ["Learn the 1,000 most useful everyday French words", "See every word in a natural example sentence, with its article and a pronunciation guide", "Review earlier words automatically in every quiz", "Be ready for everyday conversations built from the words you know"],
+  modules: [],
+  cta: { label: "Start Lesson 1", href: "/courses/tiny-1000/pronouns-and-etre-avoir/" }
+ },
+ {
   id: "first-conversations", title: "First Conversations", kind: "Free preview + premium course", status: "available",
   level: "Absolute beginner (A1)", free: false, premium: true, price: 9, currency: "USD", checkoutUrl: "", art: "tiny-french-characters",
   summary: "Seven short dialogue lessons for your first real conversations: greetings, introductions, numbers and prices, ordering at a café, asking for directions, talking about your family and buying a train ticket.",
