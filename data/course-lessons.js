@@ -8479,5 +8479,4185 @@ export const courseLessons = [
   "instagram": "",
   "video": null,
   "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 1,
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "video": null,
+  "instagram": "",
+  "art": {
+   "emoji": "💬"
+  },
+  "id": "a-first-hello",
+  "title": "A First Hello",
+  "fr": "Bonjour, Marinette",
+  "topics": [
+   "Tiny Conversations",
+   "Meeting people"
+  ],
+  "description": "Adrien and Marinette meet at a neighborhood event and introduce themselves politely.",
+  "objectives": [
+   "Introduce yourself in French.",
+   "Ask where someone lives.",
+   "Talk about meeting neighbors."
+  ],
+  "intro": "Listen as two strangers exchange names and talk about living in the neighborhood. Notice how they ask polite questions and respond naturally.",
+  "dialogue": [
+   {
+    "who": "Adrien",
+    "fr": "Bonjour, je m'appelle Adrien. Et vous ?",
+    "en": "Hello, my name is Adrien. And you?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Bonjour, je m'appelle Marinette. Enchantée.",
+    "en": "Hello, my name is Marinette. Nice to meet you."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Vous habitez dans le quartier ?",
+    "en": "Do you live in the neighborhood?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Oui, j'habite ici, près du parc.",
+    "en": "Yes, I live here, near the park."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Vous venez souvent à la fête ?",
+    "en": "Do you often come to the party?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Je viens aujourd'hui. Et vous ?",
+    "en": "I'm coming today. And you?"
+   },
+   {
+    "who": "Adrien",
+    "fr": "Je viens aussi aujourd'hui. Vous connaissez des voisins ?",
+    "en": "I'm coming today too. Do you know any neighbors?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Mais je veux rencontrer des voisins.",
+    "en": "But I want to meet some neighbors."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Alors, parlons ensemble. Enchanté !",
+    "en": "Then let's talk together. Nice to meet you!"
+   }
+  ],
+  "vocab": [
+   {
+    "fr": "Bonjour, je m'appelle Adrien.",
+    "en": "Hello, my name is Adrien.",
+    "say": "bohn-ZHOOR, zhuh mah-PELL ah-dree-EHN",
+    "cat": "Introductions",
+    "ex": "Bonjour, je m'appelle Adrien.",
+    "exEn": "Hello, my name is Adrien."
+   },
+   {
+    "fr": "Et vous ?",
+    "en": "And you?",
+    "say": "ay VOO",
+    "cat": "Introductions",
+    "ex": "Bonjour, je m'appelle Marinette. Et vous ?",
+    "exEn": "Hello, my name is Marinette. And you?"
+   },
+   {
+    "fr": "Vous habitez dans le quartier ?",
+    "en": "Do you live in the neighborhood?",
+    "say": "voo zah-bee-TAY dahn luh kar-TYAY",
+    "cat": "Everyday Expressions",
+    "ex": "Vous habitez dans le quartier ?",
+    "exEn": "Do you live in the neighborhood?"
+   },
+   {
+    "fr": "Oui, j'habite ici, près du parc.",
+    "en": "Yes, I live here, near the park.",
+    "say": "wee, zhah-BEET ee-SEE, preh dew PARK",
+    "cat": "Everyday Expressions",
+    "ex": "Oui, j'habite ici, près du parc.",
+    "exEn": "Yes, I live here, near the park."
+   },
+   {
+    "fr": "Enchantée.",
+    "en": "Nice to meet you. (said by a woman)",
+    "say": "ahn-shahn-TAY",
+    "cat": "Introductions",
+    "ex": "Bonjour, je m'appelle Marinette. Enchantée.",
+    "exEn": "Hello, my name is Marinette. Nice to meet you."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Saying your name with « s'appeler »",
+    "body": "Use « Je m'appelle » to say your name. The verb changes to match the subject: « je m'appelle » means “my name is,” while « vous vous appelez » is the formal or plural form meaning “you are called” or, naturally, “your name is.”",
+    "examples": [
+     {
+      "fr": "Je m'appelle Adrien.",
+      "en": "My name is Adrien."
+     },
+     {
+      "fr": "Je m'appelle Marinette.",
+      "en": "My name is Marinette."
+     }
+    ]
+   }
+  ],
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "Where does Marinette live?",
+    "options": [
+     "Here, near the park",
+     "At the station",
+     "In the mountains"
+    ],
+    "answer": "Here, near the park",
+    "explain": "She says, « J'habite ici, près du parc. »"
+   },
+   {
+    "type": "mc",
+    "q": "What does Adrien ask Marinette after they exchange names?",
+    "options": [
+     "Whether she lives in the neighborhood",
+     "Whether she likes the park",
+     "Whether she knows his friend"
+    ],
+    "answer": "Whether she lives in the neighborhood",
+    "explain": "He asks, « Vous habitez dans le quartier ? »"
+   },
+   {
+    "type": "fill",
+    "q": "Oui, j'habite ___, près du parc.",
+    "hint": "Where you are; “here”",
+    "answer": "ici",
+    "explain": "« Ici » means “here.”"
+   },
+   {
+    "type": "mc",
+    "q": "What does “Vous habitez dans le quartier ?” mean?",
+    "options": [
+     "Yes, I live here, near the park.",
+     "Do you live in the neighborhood?",
+     "Are you resting?"
+    ],
+    "answer": "Do you live in the neighborhood?",
+    "explain": "Vous habitez dans le quartier ? means “Do you live in the neighborhood?”."
+   },
+   {
+    "type": "mc",
+    "q": "What does “Bonjour, je m'appelle Adrien.” mean?",
+    "options": [
+     "Nice to meet you. (said by a woman)",
+     "Hello, my name is Adrien.",
+     "Are you resting?"
+    ],
+    "answer": "Hello, my name is Adrien.",
+    "explain": "Bonjour, je m'appelle Adrien. means “Hello, my name is Adrien.”."
+   }
+  ]
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 2,
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "video": null,
+  "instagram": "",
+  "art": {
+   "emoji": "💬"
+  },
+  "id": "new-neighbor",
+  "title": "New Neighbor",
+  "fr": "Un nouveau voisin",
+  "topics": [
+   "Tiny Conversations",
+   "Meeting people"
+  ],
+  "description": "Adrien and Marinette meet politely in their apartment building and chat over coffee.",
+  "objectives": [
+   "Greet a new neighbor.",
+   "Say your name and ask a simple question.",
+   "Make a friendly coffee invitation."
+  ],
+  "intro": "Listen to two neighbors meet in the hallway. Notice how they use “vous” to be polite.",
+  "dialogue": [
+   {
+    "who": "Adrien",
+    "fr": "Bonjour, vous êtes ma nouvelle voisine ?",
+    "en": "Hello, are you my new neighbor?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Bonjour ! Oui, je suis Marinette.",
+    "en": "Hello! Yes, I’m Marinette."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Enchanté, je suis Adrien.",
+    "en": "Nice to meet you, I’m Adrien."
+   },
+   {
+    "who": "Marinette",
+    "fr": "Enchantée ! Vous habitez ici ?",
+    "en": "Nice to meet you! Do you live here?"
+   },
+   {
+    "who": "Adrien",
+    "fr": "Oui, dans cet immeuble, au même étage.",
+    "en": "Yes, in this building, on the same floor."
+   },
+   {
+    "who": "Marinette",
+    "fr": "Vous voulez que je vous aide ?",
+    "en": "Do you want me to help you?"
+   },
+   {
+    "who": "Adrien",
+    "fr": "Merci, c'est très gentil.",
+    "en": "Thank you, that’s very kind."
+   },
+   {
+    "who": "Marinette",
+    "fr": "Vous voulez prendre un café avec moi ?",
+    "en": "Would you like to have a coffee with me?"
+   },
+   {
+    "who": "Adrien",
+    "fr": "Oui, volontiers ! À bientôt !",
+    "en": "Yes, gladly! See you soon!"
+   }
+  ],
+  "vocab": [
+   {
+    "fr": "Bonjour !",
+    "en": "Hello!",
+    "say": "bon-ZHOOR",
+    "cat": "Greetings",
+    "ex": "Bonjour, Adrien !",
+    "exEn": "Hello, Adrien!"
+   },
+   {
+    "fr": "Je suis Marinette.",
+    "en": "I’m Marinette.",
+    "say": "zhuh swee mah-ree-NET",
+    "cat": "Introductions",
+    "ex": "Je suis Adrien.",
+    "exEn": "I’m Adrien."
+   },
+   {
+    "fr": "Vous habitez ici ?",
+    "en": "Do you live here?",
+    "say": "voo zah-bee-TAY ee-SEE",
+    "cat": "Daily Life",
+    "ex": "Vous habitez dans cet immeuble ?",
+    "exEn": "Do you live in this building?"
+   },
+   {
+    "fr": "Vous voulez que je vous aide ?",
+    "en": "Do you want me to help you?",
+    "say": "voo voo-LAY kuh zhuh voo-ZED",
+    "cat": "Common Verbs",
+    "ex": "Vous voulez que je vous aide ?",
+    "exEn": "Do you want me to help you?"
+   },
+   {
+    "fr": "Vous voulez prendre un café avec moi ?",
+    "en": "Would you like to have a coffee with me?",
+    "say": "voo voo-LAY prahndr un kah-FAY ah-vek MWAH",
+    "cat": "Food & Drink",
+    "ex": "Vous voulez prendre un café avec moi ?",
+    "exEn": "Would you like to have a coffee with me?"
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Polite questions with vous",
+    "body": "Use vous plus a verb to address someone politely, even if you are speaking to just one person. For a simple yes-or-no question, you can keep the usual word order and raise your voice at the end.",
+    "examples": [
+     {
+      "fr": "Vous habitez ici ?",
+      "en": "Do you live here?"
+     },
+     {
+      "fr": "Vous voulez que je vous aide ?",
+      "en": "Do you want me to help you?"
+     }
+    ]
+   }
+  ],
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "Where does Adrien live?",
+    "options": [
+     "In the same building and on the same floor",
+     "In another city",
+     "In Marinette’s apartment"
+    ],
+    "answer": "In the same building and on the same floor",
+    "explain": "Adrien says he lives in the building, on the same floor."
+   },
+   {
+    "type": "mc",
+    "q": "What does Marinette invite Adrien to have?",
+    "options": [
+     "A coffee",
+     "A meal",
+     "A book"
+    ],
+    "answer": "A coffee",
+    "explain": "She asks if he would like to have a coffee with her."
+   },
+   {
+    "type": "fill",
+    "q": "Oui, dans cet ___, au même étage.",
+    "hint": "building",
+    "answer": "immeuble",
+    "explain": "“Immeuble” means “building.”"
+   },
+   {
+    "type": "mc",
+    "q": "What does “Bonjour !” mean?",
+    "options": [
+     "Let's stay at home.",
+     "Hello!",
+     "Would you like to have a coffee with me?"
+    ],
+    "answer": "Hello!",
+    "explain": "Bonjour ! means “Hello!”."
+   },
+   {
+    "type": "mc",
+    "q": "What does “Vous habitez ici ?” mean?",
+    "options": [
+     "Would you like to have a coffee with me?",
+     "Do you live here?",
+     "Would you like to give me the phone number?"
+    ],
+    "answer": "Do you live here?",
+    "explain": "Vous habitez ici ? means “Do you live here?”."
+   }
+  ]
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 3,
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "video": null,
+  "instagram": "",
+  "art": {
+   "emoji": "💬"
+  },
+  "id": "meet-my-friend",
+  "title": "Meet My Friend",
+  "fr": "Rencontrer un ami au café",
+  "topics": [
+   "Tiny Conversations",
+   "Meeting people"
+  ],
+  "description": "Adrien est au café avec Marinette, une amie.",
+  "objectives": [
+   "Introduce a friend politely.",
+   "Ask what someone would like.",
+   "Talk about visiting a café."
+  ],
+  "intro": "Listen as Adrien introduces Marinette. They chat and order coffee.",
+  "dialogue": [
+   {
+    "who": "Adrien",
+    "fr": "Bonjour ! Voici Marinette, une amie.",
+    "en": "Hello! This is Marinette, a friend."
+   },
+   {
+    "who": "Marinette",
+    "fr": "Bonjour, enchantée. Je suis nouvelle ici.",
+    "en": "Hello, pleased to meet you. I’m new here."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Tu veux un café ?",
+    "en": "Would you like a coffee?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Oui, merci. Et toi ?",
+    "en": "Yes, thank you. And you?"
+   },
+   {
+    "who": "Adrien",
+    "fr": "Je prends un café aussi.",
+    "en": "I’ll have a coffee too."
+   },
+   {
+    "who": "Marinette",
+    "fr": "Tu viens souvent ici ?",
+    "en": "Do you come here often?"
+   },
+   {
+    "who": "Adrien",
+    "fr": "Oui, je viens souvent ici.",
+    "en": "Yes, I come here often."
+   },
+   {
+    "who": "Marinette",
+    "fr": "C'est très agréable ici !",
+    "en": "It’s very nice here!"
+   },
+   {
+    "who": "Adrien",
+    "fr": "Bienvenue au café, Marinette !",
+    "en": "Welcome to the café, Marinette!"
+   }
+  ],
+  "vocab": [
+   {
+    "fr": "Voici Marinette, une amie.",
+    "en": "This is Marinette, a friend.",
+    "say": "vwah-SEE ma-ree-NET, oon-na-MEE",
+    "cat": "Introductions",
+    "ex": "Voici Marinette, une amie.",
+    "exEn": "This is Marinette, a friend."
+   },
+   {
+    "fr": "Enchantée.",
+    "en": "Pleased to meet you.",
+    "say": "ahn-shahn-TAY",
+    "cat": "Greetings",
+    "ex": "Bonjour, enchantée.",
+    "exEn": "Hello, pleased to meet you."
+   },
+   {
+    "fr": "Tu veux un café ?",
+    "en": "Would you like a coffee?",
+    "say": "too vuh uhn kah-FAY",
+    "cat": "Food & Drink",
+    "ex": "Tu veux un café ?",
+    "exEn": "Would you like a coffee?"
+   },
+   {
+    "fr": "Je prends un café aussi.",
+    "en": "I’ll have a coffee too.",
+    "say": "zhuh prahn uhn kah-FAY oh-SEE",
+    "cat": "Food & Drink",
+    "ex": "Je prends un café aussi.",
+    "exEn": "I’ll have a coffee too."
+   },
+   {
+    "fr": "Tu viens souvent ici ?",
+    "en": "Do you come here often?",
+    "say": "too vyen soo-VAHN ee-SEE",
+    "cat": "Common Verbs",
+    "ex": "Tu viens souvent ici ?",
+    "exEn": "Do you come here often?"
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Offering with « Tu veux… ? »",
+    "body": "Use « Tu veux » followed by a noun to offer something informally. The verb vouloir changes to « veux » with « tu ».",
+    "examples": [
+     {
+      "fr": "Tu veux un café ?",
+      "en": "Would you like a coffee?"
+     },
+     {
+      "fr": "Tu veux un thé ?",
+      "en": "Would you like a tea?"
+     }
+    ]
+   }
+  ],
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "Where is Marinette new?",
+    "options": [
+     "At the café",
+     "At Adrien’s house",
+     "At the school"
+    ],
+    "answer": "At the café",
+    "explain": "Marinette says, « Je suis nouvelle ici », and Adrien welcomes her to the café."
+   },
+   {
+    "type": "mc",
+    "q": "What does Adrien order too?",
+    "options": [
+     "A coffee",
+     "A tea",
+     "Water"
+    ],
+    "answer": "A coffee",
+    "explain": "He says, « Je prends un café aussi. »"
+   },
+   {
+    "type": "fill",
+    "q": "Je prends un ___ aussi.",
+    "hint": "The drink Adrien orders.",
+    "answer": "café",
+    "explain": "Adrien says he’ll have a coffee too."
+   },
+   {
+    "type": "mc",
+    "q": "What does “Tu viens souvent ici ?” mean?",
+    "options": [
+     "Do you have a dish with fish?",
+     "I work with you.",
+     "Do you come here often?"
+    ],
+    "answer": "Do you come here often?",
+    "explain": "Tu viens souvent ici ? means “Do you come here often?”."
+   },
+   {
+    "type": "mc",
+    "q": "What does “Je prends un café aussi.” mean?",
+    "options": [
+     "This is Marinette, a friend.",
+     "Do you want to watch the film again with me?",
+     "I’ll have a coffee too."
+    ],
+    "answer": "I’ll have a coffee too.",
+    "explain": "Je prends un café aussi. means “I’ll have a coffee too.”."
+   }
+  ]
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 4,
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "video": null,
+  "instagram": "",
+  "art": {
+   "emoji": "💬"
+  },
+  "id": "where-are-you-from",
+  "title": "Where Are You From?",
+  "fr": "D’où viens-tu ?",
+  "topics": [
+   "Tiny Conversations",
+   "Meeting people"
+  ],
+  "description": "Two new classmates casually ask where each other is from before class.",
+  "objectives": [
+   "Greet a new classmate.",
+   "Ask where someone is from.",
+   "Say where you are from."
+  ],
+  "intro": "Adrien and Marinette meet in class and talk about where they are from. Listen for a simple way to ask and answer about someone’s origin.",
+  "dialogue": [
+   {
+    "who": "Adrien",
+    "fr": "Bonjour, tu es nouvelle dans la classe ?",
+    "en": "Hello, are you new in the class?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Oui, je suis nouvelle. Et toi ?",
+    "en": "Yes, I’m new. And you?"
+   },
+   {
+    "who": "Adrien",
+    "fr": "Je m'appelle Adrien. Tu viens d'où ?",
+    "en": "My name is Adrien. Where are you from?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Je viens de France. Et toi ?",
+    "en": "I’m from France. And you?"
+   },
+   {
+    "who": "Adrien",
+    "fr": "Je viens d'un petit village.",
+    "en": "I’m from a small village."
+   },
+   {
+    "who": "Marinette",
+    "fr": "C'est près de la ville ?",
+    "en": "Is it near the city?"
+   },
+   {
+    "who": "Adrien",
+    "fr": "Oui, c'est près de la ville.",
+    "en": "Yes, it’s near the city."
+   },
+   {
+    "who": "Marinette",
+    "fr": "Enchantée, Adrien. À bientôt !",
+    "en": "Nice to meet you, Adrien. See you soon!"
+   },
+   {
+    "who": "Adrien",
+    "fr": "Enchanté, Marinette. À bientôt !",
+    "en": "Nice to meet you, Marinette. See you soon!"
+   }
+  ],
+  "vocab": [
+   {
+    "fr": "Bonjour.",
+    "en": "Hello.",
+    "say": "bohn-ZHOOR",
+    "cat": "Greetings",
+    "ex": "Bonjour, tu es nouvelle ?",
+    "exEn": "Hello, are you new?"
+   },
+   {
+    "fr": "Tu viens d'où ?",
+    "en": "Where are you from?",
+    "say": "tyoo vyen DOO",
+    "cat": "Introductions",
+    "ex": "Tu viens d'où ?",
+    "exEn": "Where are you from?"
+   },
+   {
+    "fr": "Je viens de France.",
+    "en": "I’m from France.",
+    "say": "zhuh vyen duh FRAHNS",
+    "cat": "Introductions",
+    "ex": "Je viens de France.",
+    "exEn": "I’m from France."
+   },
+   {
+    "fr": "Et toi ?",
+    "en": "And you?",
+    "say": "ay TWAH",
+    "cat": "Everyday Expressions",
+    "ex": "Je viens de France. Et toi ?",
+    "exEn": "I’m from France. And you?"
+   },
+   {
+    "fr": "À bientôt !",
+    "en": "See you soon!",
+    "say": "ah byen-TOH",
+    "cat": "Everyday Expressions",
+    "ex": "Enchantée. À bientôt !",
+    "exEn": "Nice to meet you. See you soon!"
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Using venir de for origin",
+    "body": "Use venir de + a place to say where someone is from. The form used with a country depends on the country’s gender and its first sound: for example, de France, du Canada, and d’Italie.",
+    "examples": [
+     {
+      "fr": "Je viens de France.",
+      "en": "I’m from France."
+     },
+     {
+      "fr": "Tu viens d'où ?",
+      "en": "Where are you from?"
+     }
+    ]
+   }
+  ],
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "Where is Marinette from?",
+    "options": [
+     "France",
+     "A small village",
+     "The city"
+    ],
+    "answer": "France",
+    "explain": "Marinette says, “Je viens de France.”"
+   },
+   {
+    "type": "mc",
+    "q": "Where is Adrien from?",
+    "options": [
+     "A small village",
+     "France",
+     "The city"
+    ],
+    "answer": "A small village",
+    "explain": "Adrien says, “Je viens d'un petit village.”"
+   },
+   {
+    "type": "fill",
+    "q": "Je viens d'un ___ village.",
+    "hint": "A word meaning “small.”",
+    "answer": "petit",
+    "explain": "Adrien says he comes from a small village."
+   },
+   {
+    "type": "mc",
+    "q": "What does “Tu viens d'où ?” mean?",
+    "options": [
+     "Where are you from?",
+     "When are the emergency services arriving?",
+     "See you soon!"
+    ],
+    "answer": "Where are you from?",
+    "explain": "Tu viens d'où ? means “Where are you from?”."
+   },
+   {
+    "type": "mc",
+    "q": "What does “Bonjour.” mean?",
+    "options": [
+     "Hello, ma’am.",
+     "Hello.",
+     "When are the emergency services arriving?"
+    ],
+    "answer": "Hello.",
+    "explain": "Bonjour. means “Hello.”."
+   }
+  ]
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 5,
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "video": null,
+  "instagram": "",
+  "art": {
+   "emoji": "💬"
+  },
+  "id": "what-languages-do-you-speak",
+  "title": "What Languages Do You Speak?",
+  "fr": "Vous parlez français ?",
+  "topics": [
+   "Tiny Conversations",
+   "Meeting people"
+  ],
+  "description": "Adrien and Marinette meet at a language exchange and talk about speaking French.",
+  "objectives": [
+   "Ask whether someone speaks French.",
+   "Say that you speak French.",
+   "Suggest practicing French together."
+  ],
+  "intro": "Listen as Adrien and Marinette greet each other and talk about practicing French together. Notice how they ask about speaking French and offer to learn together.",
+  "dialogue": [
+   {
+    "who": "Adrien",
+    "fr": "Bonjour, je m'appelle Adrien. Tu parles français ?",
+    "en": "Hello, my name is Adrien. Do you speak French?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Bonjour, Adrien. Oui, je parle français. Et toi ?",
+    "en": "Hello, Adrien. Yes, I speak French. And you?"
+   },
+   {
+    "who": "Adrien",
+    "fr": "Je parle français.",
+    "en": "I speak French."
+   },
+   {
+    "who": "Marinette",
+    "fr": "Tu veux pratiquer avec moi ?",
+    "en": "Would you like to practice with me?"
+   },
+   {
+    "who": "Adrien",
+    "fr": "Oui, avec plaisir. Nous parlons français maintenant ?",
+    "en": "Yes, gladly. Shall we speak French now?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "D'accord. Tu peux répéter, s'il te plaît ?",
+    "en": "All right. Can you repeat, please?"
+   },
+   {
+    "who": "Adrien",
+    "fr": "Oui, bien sûr. Je peux répéter.",
+    "en": "Yes, of course. I can repeat."
+   },
+   {
+    "who": "Marinette",
+    "fr": "Merci, Adrien. Je veux aussi apprendre avec toi.",
+    "en": "Thank you, Adrien. I also want to learn with you."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Avec plaisir. À bientôt, Marinette !",
+    "en": "Gladly. See you soon, Marinette!"
+   }
+  ],
+  "vocab": [
+   {
+    "fr": "Bonjour.",
+    "en": "Hello.",
+    "say": "bohn-ZHOOR",
+    "cat": "Greetings",
+    "ex": "Bonjour, Adrien.",
+    "exEn": "Hello, Adrien."
+   },
+   {
+    "fr": "Tu parles français ?",
+    "en": "Do you speak French?",
+    "say": "tyoo parl frahn-SAY",
+    "cat": "Introductions",
+    "ex": "Tu parles français ?",
+    "exEn": "Do you speak French?"
+   },
+   {
+    "fr": "Je parle français.",
+    "en": "I speak French.",
+    "say": "zhuh parl frahn-SAY",
+    "cat": "Introductions",
+    "ex": "Je parle français.",
+    "exEn": "I speak French."
+   },
+   {
+    "fr": "Tu veux pratiquer avec moi ?",
+    "en": "Would you like to practice with me?",
+    "say": "tyoo vuh prahk-tee-KAY ah-vek MWAH",
+    "cat": "Common Verbs",
+    "ex": "Tu veux pratiquer avec moi ?",
+    "exEn": "Would you like to practice with me?"
+   },
+   {
+    "fr": "Avec plaisir.",
+    "en": "Gladly.",
+    "say": "ah-vek pleh-ZEER",
+    "cat": "Everyday Expressions",
+    "ex": "Oui, avec plaisir.",
+    "exEn": "Yes, gladly."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Speaking a language",
+    "body": "Use parler followed directly by the language name, without an article. For a question, you can keep the same word order and raise your voice at the end.",
+    "examples": [
+     {
+      "fr": "Je parle français.",
+      "en": "I speak French."
+     },
+     {
+      "fr": "Tu parles français ?",
+      "en": "Do you speak French?"
+     }
+    ]
+   }
+  ],
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "Which language does Marinette say she speaks?",
+    "options": [
+     "French",
+     "English",
+     "Spanish"
+    ],
+    "answer": "French",
+    "explain": "Marinette says, “Je parle français.”"
+   },
+   {
+    "type": "mc",
+    "q": "Which language does Adrien say he speaks?",
+    "options": [
+     "French",
+     "English",
+     "Spanish"
+    ],
+    "answer": "French",
+    "explain": "Adrien says, “Je parle français.”"
+   },
+   {
+    "type": "fill",
+    "q": "Je parle ___.",
+    "hint": "The language Adrien and Marinette say they speak.",
+    "answer": "français",
+    "explain": "Adrien and Marinette both say they speak French."
+   },
+   {
+    "type": "mc",
+    "q": "What does “Avec plaisir.” mean?",
+    "options": [
+     "Stay here; I’m with you.",
+     "I'll return it to you tomorrow morning.",
+     "Gladly."
+    ],
+    "answer": "Gladly.",
+    "explain": "Avec plaisir. means “Gladly.”."
+   },
+   {
+    "type": "mc",
+    "q": "What does “Bonjour.” mean?",
+    "options": [
+     "Stay here; I’m with you.",
+     "Hello.",
+     "I'll return it to you tomorrow morning."
+    ],
+    "answer": "Hello.",
+    "explain": "Bonjour. means “Hello.”."
+   }
+  ]
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 6,
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "video": null,
+  "instagram": "",
+  "art": {
+   "emoji": "💬"
+  },
+  "id": "first-day-in-class",
+  "title": "First Day in Class",
+  "fr": "Le jour en classe",
+  "topics": [
+   "Tiny Conversations",
+   "Meeting people"
+  ],
+  "description": "Adrien rencontre Marinette et cherche son cahier en classe.",
+  "objectives": [
+   "Se saluer avec respect en classe.",
+   "Se présenter et demander le nom de quelqu’un.",
+   "Demander où est une chose."
+  ],
+  "intro": "Écoutez un élève et Marinette se saluer le jour du cours. Apprenez à vous présenter et à demander où est une chose.",
+  "dialogue": [
+   {
+    "who": "Adrien",
+    "fr": "Bonjour, madame. Je suis nouveau dans la classe.",
+    "en": "Hello, ma’am. I’m new in the class."
+   },
+   {
+    "who": "Marinette",
+    "fr": "Bonjour, Adrien. Bienvenue au cours de français.",
+    "en": "Hello, Adrien. Welcome to French class."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Vous êtes professeur ?",
+    "en": "Are you a teacher?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Oui, je suis professeur. Comment vous appelez-vous ?",
+    "en": "Yes, I’m a teacher. What is your name?"
+   },
+   {
+    "who": "Adrien",
+    "fr": "Je m’appelle Adrien. Et vous ?",
+    "en": "My name is Adrien. And you?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Je m’appelle Marinette. Enchantée.",
+    "en": "My name is Marinette. Pleased to meet you."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Où est mon cahier, s’il vous plaît ?",
+    "en": "Where is my notebook, please?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Il est sur la table, près du livre.",
+    "en": "It’s on the table, near the book."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Merci, madame. Je suis prêt pour le cours.",
+    "en": "Thank you, ma’am. I’m ready for class."
+   }
+  ],
+  "vocab": [
+   {
+    "fr": "Bonjour, madame.",
+    "en": "Hello, ma’am.",
+    "say": "bohn-ZHOOR mah-DAM",
+    "cat": "Greetings",
+    "ex": "Bonjour, madame. Je suis Adrien.",
+    "exEn": "Hello, ma’am. I’m Adrien."
+   },
+   {
+    "fr": "Je m’appelle Adrien.",
+    "en": "My name is Adrien.",
+    "say": "zhuh mah-PELL ah-dree-YEN",
+    "cat": "Introductions",
+    "ex": "Je m’appelle Marinette.",
+    "exEn": "My name is Marinette."
+   },
+   {
+    "fr": "Comment vous appelez-vous ?",
+    "en": "What is your name?",
+    "say": "koh-MAHN voo zahp-LAY VOO",
+    "cat": "Introductions",
+    "ex": "Comment vous appelez-vous ?",
+    "exEn": "What is your name?"
+   },
+   {
+    "fr": "Où est mon cahier, s’il vous plaît ?",
+    "en": "Where is my notebook, please?",
+    "say": "OO eh mohn kah-YAY, seel voo PLEH",
+    "cat": "Work & School",
+    "ex": "Où est mon cahier, s’il vous plaît ?",
+    "exEn": "Where is my notebook, please?"
+   },
+   {
+    "fr": "Je suis prêt pour le cours.",
+    "en": "I’m ready for class.",
+    "say": "zhuh swee PREH poor luh KOOR",
+    "cat": "Work & School",
+    "ex": "Je suis prêt pour le cours.",
+    "exEn": "I’m ready for class."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Using être to identify yourself",
+    "body": "The verb être means “to be.” Use je suis for “I am” and vous êtes for “you are” when speaking politely to one person.",
+    "examples": [
+     {
+      "fr": "Je suis nouveau dans la classe.",
+      "en": "I’m new in the class."
+     },
+     {
+      "fr": "Vous êtes professeur ?",
+      "en": "Are you a teacher?"
+     }
+    ]
+   }
+  ],
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "Who is the teacher?",
+    "options": [
+     "Adrien",
+     "Marinette",
+     "The student"
+    ],
+    "answer": "Marinette",
+    "explain": "Marinette says she is the teacher."
+   },
+   {
+    "type": "mc",
+    "q": "Where is Adrien’s notebook?",
+    "options": [
+     "On the table, near the book",
+     "In the class",
+     "Near the door"
+    ],
+    "answer": "On the table, near the book",
+    "explain": "Marinette says it is sur la table, près du livre."
+   },
+   {
+    "type": "fill",
+    "q": "Je suis ___ dans la classe.",
+    "hint": "New (masculine).",
+    "answer": "nouveau",
+    "explain": "Adrien says he is new in the class."
+   },
+   {
+    "type": "mc",
+    "q": "What does “Comment vous appelez-vous ?” mean?",
+    "options": [
+     "What is your name?",
+     "I’m ready for class.",
+     "My name is Adrien."
+    ],
+    "answer": "What is your name?",
+    "explain": "Comment vous appelez-vous ? means “What is your name?”."
+   },
+   {
+    "type": "mc",
+    "q": "What does “Bonjour, madame.” mean?",
+    "options": [
+     "Hello",
+     "Hello, ma’am.",
+     "My name is Adrien."
+    ],
+    "answer": "Hello, ma’am.",
+    "explain": "Bonjour, madame. means “Hello, ma’am.”."
+   }
+  ]
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 7,
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "video": null,
+  "instagram": "",
+  "art": {
+   "emoji": "💬"
+  },
+  "id": "meeting-the-host",
+  "title": "Meeting the Host",
+  "fr": "Bonjour chez Marinette",
+  "topics": [
+   "Tiny Conversations",
+   "Meeting people"
+  ],
+  "description": "Adrien arrive chez Marinette et dit bonjour à la porte.",
+  "objectives": [
+   "Greet a host politely.",
+   "Ask if you may come in.",
+   "Accept an invitation to enter."
+  ],
+  "intro": "Adrien arrives at Marinette’s front door. They greet each other and go inside.",
+  "dialogue": [
+   {
+    "who": "Adrien",
+    "fr": "Bonjour, Marinette !",
+    "en": "Hello, Marinette!"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Bonjour, Adrien ! Bienvenue chez moi.",
+    "en": "Hello, Adrien! Welcome to my home."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Merci. Je peux entrer ?",
+    "en": "Thank you. May I come in?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Oui, bien sûr. Entrez, s'il vous plaît.",
+    "en": "Yes, of course. Come in, please."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Voici un petit cadeau pour vous.",
+    "en": "Here is a small gift for you."
+   },
+   {
+    "who": "Marinette",
+    "fr": "Merci, c'est très gentil.",
+    "en": "Thank you, that's very kind."
+   },
+   {
+    "who": "Adrien",
+    "fr": "La maison est très belle.",
+    "en": "The house is very beautiful."
+   },
+   {
+    "who": "Marinette",
+    "fr": "Vous voulez entrer dans le salon ?",
+    "en": "Would you like to come into the living room?"
+   },
+   {
+    "who": "Adrien",
+    "fr": "Oui, volontiers.",
+    "en": "Yes, gladly."
+   }
+  ],
+  "vocab": [
+   {
+    "fr": "Bonjour !",
+    "en": "Hello!",
+    "say": "bohn-ZHOOR",
+    "cat": "Greetings",
+    "ex": "Bonjour, Marinette !",
+    "exEn": "Hello, Marinette!"
+   },
+   {
+    "fr": "Bienvenue chez moi.",
+    "en": "Welcome to my home.",
+    "say": "byehn-vuh-NEW shay MWA",
+    "cat": "Everyday Expressions",
+    "ex": "Bienvenue chez moi.",
+    "exEn": "Welcome to my home."
+   },
+   {
+    "fr": "Je peux entrer ?",
+    "en": "May I come in?",
+    "say": "zhuh puh ahn-TRAY",
+    "cat": "Common Verbs",
+    "ex": "Je peux entrer ?",
+    "exEn": "May I come in?"
+   },
+   {
+    "fr": "Entrez, s'il vous plaît.",
+    "en": "Come in, please.",
+    "say": "ahn-TRAY seel voo PLEH",
+    "cat": "Everyday Expressions",
+    "ex": "Entrez, s'il vous plaît.",
+    "exEn": "Come in, please."
+   },
+   {
+    "fr": "Oui, volontiers.",
+    "en": "Yes, gladly.",
+    "say": "wee voh-lohn-TYAY",
+    "cat": "Everyday Expressions",
+    "ex": "Oui, volontiers.",
+    "exEn": "Yes, gladly."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "A conjugated verb plus an infinitive",
+    "body": "In French, a conjugated verb can be followed directly by an infinitive, with no word for “to.” In the dialogue, pouvoir and vouloir are followed by entrer.",
+    "examples": [
+     {
+      "fr": "Je peux entrer ?",
+      "en": "May I come in?"
+     },
+     {
+      "fr": "Vous voulez entrer dans le salon ?",
+      "en": "Would you like to come into the living room?"
+     }
+    ]
+   }
+  ],
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "What does Adrien ask before coming in?",
+    "options": [
+     "May I come in?",
+     "Where is the house?",
+     "Would you like a gift?"
+    ],
+    "answer": "May I come in?",
+    "explain": "Adrien asks, “Je peux entrer ?”"
+   },
+   {
+    "type": "mc",
+    "q": "What does Marinette invite Adrien to do?",
+    "options": [
+     "Enter the living room",
+     "Go to the store",
+     "Take a train"
+    ],
+    "answer": "Enter the living room",
+    "explain": "She asks if he wants to enter the salon."
+   },
+   {
+    "type": "fill",
+    "q": "Entrez, s'il vous ___.",
+    "hint": "Please",
+    "answer": "plaît",
+    "explain": "“S'il vous plaît” means “please.”"
+   },
+   {
+    "type": "mc",
+    "q": "What does “Bonjour !” mean?",
+    "options": [
+     "Hello!",
+     "Come in, please.",
+     "May I come in?"
+    ],
+    "answer": "Hello!",
+    "explain": "Bonjour ! means “Hello!”."
+   },
+   {
+    "type": "mc",
+    "q": "What does “Oui, volontiers.” mean?",
+    "options": [
+     "Please let me know.",
+     "Yes, gladly.",
+     "When does the train leave?"
+    ],
+    "answer": "Yes, gladly.",
+    "explain": "Oui, volontiers. means “Yes, gladly.”."
+   }
+  ]
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 8,
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "video": null,
+  "instagram": "",
+  "art": {
+   "emoji": "💬"
+  },
+  "id": "a-friendly-introduction",
+  "title": "A Friendly Introduction",
+  "fr": "Bonjour",
+  "topics": [
+   "Tiny Conversations",
+   "Meeting people"
+  ],
+  "description": "Adrien et Marinette attendent dans la ville.",
+  "objectives": [
+   "Greet someone politely.",
+   "Say your name and ask if someone lives in the city.",
+   "Ask if someone is waiting too."
+  ],
+  "intro": "Listen as two people politely introduce themselves while waiting. Notice how they ask simple questions and respond.",
+  "dialogue": [
+   {
+    "who": "Adrien",
+    "fr": "Bonjour, je m'appelle Adrien.",
+    "en": "Hello, my name is Adrien."
+   },
+   {
+    "who": "Marinette",
+    "fr": "Bonjour, je m'appelle Marinette.",
+    "en": "Hello, my name is Marinette."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Enchanté, Marinette. Vous attendez aussi ?",
+    "en": "Nice to meet you, Marinette. Are you waiting too?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Oui, et vous ?",
+    "en": "Yes, and you?"
+   },
+   {
+    "who": "Adrien",
+    "fr": "Oui. Vous habitez dans la ville ?",
+    "en": "Yes. Do you live in the city?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Oui, j'habite ici. Et vous ?",
+    "en": "Yes, I live here. And you?"
+   },
+   {
+    "who": "Adrien",
+    "fr": "Moi aussi. Je viens souvent ici.",
+    "en": "Me too. I come here often."
+   },
+   {
+    "who": "Marinette",
+    "fr": "Vous êtes très sympathique.",
+    "en": "You are very nice."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Merci, vous aussi.",
+    "en": "Thank you, you too."
+   }
+  ],
+  "vocab": [
+   {
+    "fr": "Bonjour.",
+    "en": "Hello.",
+    "say": "bohn-ZHOOR",
+    "cat": "Greetings",
+    "ex": "Bonjour, je m'appelle Marinette.",
+    "exEn": "Hello, my name is Marinette."
+   },
+   {
+    "fr": "Je m'appelle Adrien.",
+    "en": "My name is Adrien.",
+    "say": "zhuh mah-PELL ah-dree-YEN",
+    "cat": "Introductions",
+    "ex": "Bonjour, je m'appelle Adrien.",
+    "exEn": "Hello, my name is Adrien."
+   },
+   {
+    "fr": "Enchanté, Marinette.",
+    "en": "Nice to meet you, Marinette.",
+    "say": "ahn-shahn-TAY mah-ree-NET",
+    "cat": "Introductions",
+    "ex": "Enchanté, Marinette.",
+    "exEn": "Nice to meet you, Marinette."
+   },
+   {
+    "fr": "Vous attendez aussi ?",
+    "en": "Are you waiting too?",
+    "say": "voo zah-tahn-DAY oh-SEE",
+    "cat": "Common Verbs",
+    "ex": "Enchanté, Marinette. Vous attendez aussi ?",
+    "exEn": "Nice to meet you, Marinette. Are you waiting too?"
+   },
+   {
+    "fr": "J'habite ici.",
+    "en": "I live here.",
+    "say": "zhah-beet ee-SEE",
+    "cat": "Daily Life",
+    "ex": "Oui, j'habite ici.",
+    "exEn": "Yes, I live here."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Saying your name with « s'appeler »",
+    "body": "Use « je m'appelle » to say your name. The verb is reflexive, so « me » becomes « m' » before a vowel.",
+    "examples": [
+     {
+      "fr": "Je m'appelle Adrien.",
+      "en": "My name is Adrien."
+     },
+     {
+      "fr": "Je m'appelle Marinette.",
+      "en": "My name is Marinette."
+     }
+    ]
+   }
+  ],
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "Where does Marinette say she lives?",
+    "options": [
+     "In the city",
+     "Near the center",
+     "In the country"
+    ],
+    "answer": "In the city",
+    "explain": "She says, « J'habite ici », after Adrien asks if she lives in the city."
+   },
+   {
+    "type": "mc",
+    "q": "What does Adrien say he does often?",
+    "options": [
+     "He comes here",
+     "He works here",
+     "He waits here"
+    ],
+    "answer": "He comes here",
+    "explain": "He says, « Je viens souvent ici »—I come here often."
+   },
+   {
+    "type": "fill",
+    "q": "Je ___ souvent ici.",
+    "hint": "I come here often.",
+    "answer": "viens",
+    "explain": "« Je viens » means “I come.”"
+   },
+   {
+    "type": "mc",
+    "q": "What does “Bonjour.” mean?",
+    "options": [
+     "When would you like to reserve?",
+     "Hello.",
+     "Is it far from here?"
+    ],
+    "answer": "Hello.",
+    "explain": "Bonjour. means “Hello.”."
+   },
+   {
+    "type": "mc",
+    "q": "What does “J'habite ici.” mean?",
+    "options": [
+     "You can press here.",
+     "When would you like to reserve?",
+     "I live here."
+    ],
+    "answer": "I live here.",
+    "explain": "J'habite ici. means “I live here.”."
+   }
+  ]
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 9,
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "video": null,
+  "instagram": "",
+  "art": {
+   "emoji": "💬"
+  },
+  "id": "saying-goodbye",
+  "title": "Saying Goodbye",
+  "fr": "Dire au revoir",
+  "topics": [
+   "Tiny Conversations",
+   "Meeting people"
+  ],
+  "description": "Adrien et Marinette se disent au revoir.",
+  "objectives": [
+   "Say goodbye politely.",
+   "Say you enjoyed talking.",
+   "Ask if someone is going home."
+  ],
+  "intro": "Adrien and Marinette have just met. They say goodbye politely outside a café.",
+  "dialogue": [
+   {
+    "who": "Adrien",
+    "fr": "Au revoir, Marinette. Enchanté.",
+    "en": "Goodbye, Marinette. Nice to meet you."
+   },
+   {
+    "who": "Marinette",
+    "fr": "Au revoir, Adrien. Enchantée.",
+    "en": "Goodbye, Adrien. Nice to meet you."
+   },
+   {
+    "who": "Adrien",
+    "fr": "C'était un plaisir de parler avec vous.",
+    "en": "It was a pleasure talking with you."
+   },
+   {
+    "who": "Marinette",
+    "fr": "Merci, c'était un plaisir.",
+    "en": "Thank you, it was a pleasure."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Vous rentrez à la maison maintenant ?",
+    "en": "Are you going home now?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Oui, je rentre à la maison.",
+    "en": "Yes, I’m going home."
+   },
+   {
+    "who": "Adrien",
+    "fr": "À bientôt, alors.",
+    "en": "See you soon, then."
+   },
+   {
+    "who": "Marinette",
+    "fr": "À demain, peut-être.",
+    "en": "See you tomorrow, maybe."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Bonne journée, Marinette.",
+    "en": "Have a nice day, Marinette."
+   }
+  ],
+  "vocab": [
+   {
+    "fr": "Au revoir",
+    "en": "Goodbye",
+    "say": "oh ruh-VWAR",
+    "cat": "Greetings",
+    "ex": "Au revoir, Adrien.",
+    "exEn": "Goodbye, Adrien."
+   },
+   {
+    "fr": "Enchanté",
+    "en": "Nice to meet you (said by a man)",
+    "say": "ahn-shahn-TAY",
+    "cat": "Introductions",
+    "ex": "Enchantée, Adrien.",
+    "exEn": "Nice to meet you, Adrien. (said by a woman)"
+   },
+   {
+    "fr": "C'était un plaisir",
+    "en": "It was a pleasure",
+    "say": "say-TAY uhn pleh-ZEER",
+    "cat": "Everyday Expressions",
+    "ex": "C'était un plaisir de parler avec vous.",
+    "exEn": "It was a pleasure talking with you."
+   },
+   {
+    "fr": "À bientôt, alors",
+    "en": "See you soon, then",
+    "say": "ah byan-TOH ah-LOR",
+    "cat": "Everyday Expressions",
+    "ex": "À bientôt, alors.",
+    "exEn": "See you soon, then."
+   },
+   {
+    "fr": "À demain, peut-être",
+    "en": "See you tomorrow, maybe",
+    "say": "ah duh-MAN puh-TETR",
+    "cat": "Time & Days",
+    "ex": "À demain, peut-être.",
+    "exEn": "See you tomorrow, maybe."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "À + a time expression",
+    "body": "Use à before a time expression to say when you expect to meet again. In these farewells, bientôt means “soon” and demain means “tomorrow.”",
+    "examples": [
+     {
+      "fr": "À bientôt, alors.",
+      "en": "See you soon, then."
+     },
+     {
+      "fr": "À demain, peut-être.",
+      "en": "See you tomorrow, maybe."
+     }
+    ]
+   }
+  ],
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "Where is Marinette going?",
+    "options": [
+     "Home",
+     "To the store",
+     "To work"
+    ],
+    "answer": "Home",
+    "explain": "She says, « Je rentre à la maison. »"
+   },
+   {
+    "type": "mc",
+    "q": "What does Adrien say to wish Marinette well?",
+    "options": [
+     "Bonne journée",
+     "À demain",
+     "Enchanté"
+    ],
+    "answer": "Bonne journée",
+    "explain": "Bonne journée means “Have a nice day.”"
+   },
+   {
+    "type": "fill",
+    "q": "À ___, alors.",
+    "hint": "See you soon",
+    "answer": "bientôt",
+    "explain": "Bientôt means “soon.”"
+   },
+   {
+    "type": "mc",
+    "q": "What does “Au revoir” mean?",
+    "options": [
+     "Goodbye",
+     "Hello",
+     "See you tomorrow, maybe"
+    ],
+    "answer": "Goodbye",
+    "explain": "Au revoir means “Goodbye”."
+   },
+   {
+    "type": "mc",
+    "q": "What does “C'était un plaisir” mean?",
+    "options": [
+     "See you tomorrow, maybe",
+     "I don’t know.",
+     "It was a pleasure"
+    ],
+    "answer": "It was a pleasure",
+    "explain": "C'était un plaisir means “It was a pleasure”."
+   }
+  ]
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 10,
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "video": null,
+  "instagram": "",
+  "art": {
+   "emoji": "💬"
+  },
+  "id": "exchanging-numbers",
+  "title": "Exchanging Numbers",
+  "fr": "Donner les numéros",
+  "topics": [
+   "Tiny Conversations",
+   "Meeting people"
+  ],
+  "description": "Adrien and Marinette share phone numbers in the classroom.",
+  "objectives": [
+   "Ask someone to give a phone number.",
+   "Share a phone number digit by digit.",
+   "Ask what comes next."
+  ],
+  "intro": "Listen as two classmates share their phone numbers. Notice how they say the digits and ask what comes next.",
+  "dialogue": [
+   {
+    "who": "Adrien",
+    "fr": "Bonjour Marinette, tu es dans la classe ?",
+    "en": "Hello, Marinette. Are you in the classroom?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Oui, et nous sommes dans la classe.",
+    "en": "Yes, and we're in the classroom."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Tu veux me donner le numéro de téléphone ?",
+    "en": "Would you like to give me the phone number?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Oui, bien sûr. Un, deux, trois, quatre, cinq.",
+    "en": "Yes, of course. One, two, three, four, five."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Merci. Et après ?",
+    "en": "Thanks. And then?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Six, sept, huit, neuf.",
+    "en": "Six, seven, eight, nine."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Je donne le numéro : neuf, huit, sept, six, cinq, quatre, trois, deux, un.",
+    "en": "I'll give the number: nine, eight, seven, six, five, four, three, two, one."
+   },
+   {
+    "who": "Marinette",
+    "fr": "D'accord, je l'écris.",
+    "en": "Okay, I'll write it down."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Merci, à bientôt !",
+    "en": "Thanks, see you soon!"
+   }
+  ],
+  "vocab": [
+   {
+    "fr": "Bonjour Marinette.",
+    "en": "Hello, Marinette.",
+    "say": "bohn-ZHOOR mah-ree-NET",
+    "cat": "Greetings",
+    "ex": "Bonjour Marinette, tu es dans la classe ?",
+    "exEn": "Hello, Marinette. Are you in the classroom?"
+   },
+   {
+    "fr": "Tu veux me donner le numéro de téléphone ?",
+    "en": "Would you like to give me the phone number?",
+    "say": "tyuh vuh muh doh-NAY luh noo-may-ROH duh tay-lay-FOHN",
+    "cat": "Numbers",
+    "ex": "Tu veux me donner le numéro de téléphone ?",
+    "exEn": "Would you like to give me the phone number?"
+   },
+   {
+    "fr": "Le numéro",
+    "en": "The number",
+    "say": "luh noo-may-ROH",
+    "cat": "Numbers",
+    "ex": "Je donne le numéro : neuf, huit, sept, six, cinq, quatre, trois, deux, un.",
+    "exEn": "I'll give the number: nine, eight, seven, six, five, four, three, two, one."
+   },
+   {
+    "fr": "Et après ?",
+    "en": "And then?",
+    "say": "ay ah-PRAY",
+    "cat": "Everyday Expressions",
+    "ex": "Merci. Et après ?",
+    "exEn": "Thanks. And then?"
+   },
+   {
+    "fr": "À bientôt !",
+    "en": "See you soon!",
+    "say": "ah byehn-TOH",
+    "cat": "Greetings",
+    "ex": "Merci, à bientôt !",
+    "exEn": "Thanks, see you soon!"
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Tu veux + infinitive",
+    "body": "Use tu veux followed by an infinitive to ask someone if they want to do something. The verb after veux stays in its infinitive form.",
+    "examples": [
+     {
+      "fr": "Tu veux donner le numéro ?",
+      "en": "Do you want to give the number?"
+     },
+     {
+      "fr": "Tu veux parler ?",
+      "en": "Do you want to talk?"
+     }
+    ]
+   }
+  ],
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "Where are Adrien and Marinette talking?",
+    "options": [
+     "In the classroom",
+     "At the store",
+     "At home"
+    ],
+    "answer": "In the classroom",
+    "explain": "Marinette says they are in the classroom."
+   },
+   {
+    "type": "mc",
+    "q": "What does Adrien ask Marinette to give?",
+    "options": [
+     "The phone number",
+     "The books",
+     "The food"
+    ],
+    "answer": "The phone number",
+    "explain": "He asks her to give him the phone number."
+   },
+   {
+    "type": "fill",
+    "q": "Tu veux ___ le numéro de téléphone ?",
+    "hint": "Give",
+    "answer": "donner",
+    "explain": "Donner means “to give.”"
+   },
+   {
+    "type": "mc",
+    "q": "What does “Tu veux me donner le numéro de téléphone ?” mean?",
+    "options": [
+     "The number",
+     "Where are you from?",
+     "Would you like to give me the phone number?"
+    ],
+    "answer": "Would you like to give me the phone number?",
+    "explain": "Tu veux me donner le numéro de téléphone ? means “Would you like to give me the phone number?”."
+   },
+   {
+    "type": "mc",
+    "q": "What does “Et après ?” mean?",
+    "options": [
+     "And then?",
+     "Do you live here?",
+     "Where are you from?"
+    ],
+    "answer": "And then?",
+    "explain": "Et après ? means “And then?”."
+   }
+  ]
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 11,
+  "id": "asking-for-directions",
+  "title": "Asking for Directions",
+  "fr": "Demander son chemin",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Around town"
+  ],
+  "description": "Un visiteur demande poliment son chemin vers la gare.",
+  "objectives": [
+   "Demander où se trouve un lieu.",
+   "Comprendre des directions simples.",
+   "Utiliser des formules de politesse."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 12,
+  "id": "finding-the-pharmacy",
+  "title": "Finding the Pharmacy",
+  "fr": "À la pharmacie",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Around town"
+  ],
+  "description": "A visitor politely asks a shopkeeper where the pharmacy is and how to get there.",
+  "objectives": [
+   "Ask where a place is.",
+   "Ask if a place is nearby.",
+   "Understand basic directions."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 13,
+  "id": "at-the-bus-stop",
+  "title": "At the Bus Stop",
+  "fr": "À la gare",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Around town"
+  ],
+  "description": "Adrien demande à Marinette où est la gare.",
+  "objectives": [
+   "Ask where the station is.",
+   "Ask whether a bus comes here.",
+   "Use a polite greeting and thank-you."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 14,
+  "id": "looking-for-the-park",
+  "title": "Looking for the Park",
+  "fr": "Où est le parc ?",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Around town"
+  ],
+  "description": "A tourist politely asks a local for directions to a nearby park.",
+  "objectives": [
+   "Ask where a place is.",
+   "Ask if a place is far away.",
+   "Understand simple directions."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 15,
+  "id": "at-the-post-office",
+  "title": "At the Post Office",
+  "fr": "À la poste : envoyer un colis",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Around town"
+  ],
+  "description": "Un client demande comment envoyer un colis à la poste.",
+  "objectives": [
+   "Ask how to send a package.",
+   "Ask the price politely.",
+   "Ask to pay by card."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 16,
+  "id": "joining-the-library",
+  "title": "Joining the Library",
+  "fr": "Une carte",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Around town"
+  ],
+  "description": "Adrien asks Marinette how to get a card.",
+  "objectives": [
+   "Ask how to get a card.",
+   "Ask if something is free.",
+   "Understand a simple instruction."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 17,
+  "id": "finding-an-atm",
+  "title": "Finding an ATM",
+  "fr": "Trouver un distributeur",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Around town"
+  ],
+  "description": "A traveler politely asks for an ATM and follows simple directions to a nearby bank.",
+  "objectives": [
+   "Ask where to find an ATM.",
+   "Ask if a place is far away.",
+   "Understand simple directions."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 18,
+  "id": "where-is-the-toilet",
+  "title": "Where Is the Toilet?",
+  "fr": "Où est la salle de bains ?",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Around town"
+  ],
+  "description": "A visitor politely asks a café worker where the bathroom is.",
+  "objectives": [
+   "Ask where the bathroom is.",
+   "Understand simple directions.",
+   "Thank someone politely."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 19,
+  "id": "reading-the-town-map",
+  "title": "Reading the Town Map",
+  "fr": "Lire le plan de la ville",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Around town"
+  ],
+  "description": "Two tourists use a town map to find the museum and ask for directions.",
+  "objectives": [
+   "Ask where a place is.",
+   "Understand simple directions.",
+   "Ask politely for information."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 20,
+  "id": "a-lost-visitor",
+  "title": "A Lost Visitor",
+  "fr": "Un homme à la gare",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Around town"
+  ],
+  "description": "Un homme aide une femme qui cherche la gare.",
+  "objectives": [
+   "Ask where the station is.",
+   "Understand simple directions.",
+   "Thank someone politely."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 21,
+  "id": "ordering-a-coffee",
+  "title": "Ordering a Coffee",
+  "fr": "Au café",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Food and drink"
+  ],
+  "description": "Dans un café, Adrien commande un café à Marinette.",
+  "objectives": [
+   "Order a coffee politely.",
+   "Ask about milk and sugar.",
+   "Understand a simple price."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 22,
+  "id": "buying-bread",
+  "title": "Buying Bread",
+  "fr": "Acheter le pain",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Food and drink"
+  ],
+  "description": "Un client demande un pain à Marinette.",
+  "objectives": [
+   "Demander un pain avec « s'il vous plaît ».",
+   "Demander le prix.",
+   "Remercier et dire au revoir."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 23,
+  "id": "choosing-lunch",
+  "title": "Choosing Lunch",
+  "fr": "Choisir le déjeuner",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Food and drink"
+  ],
+  "description": "Two friends politely choose lunch at a small restaurant.",
+  "objectives": [
+   "Ask a friend what they want.",
+   "Name a meal and a drink.",
+   "Accept or decline dessert politely."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 24,
+  "id": "booking-a-table",
+  "title": "Booking a Table",
+  "fr": "Réserver une table au téléphone",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Food and drink"
+  ],
+  "description": "Adrien calls a restaurant to reserve a table for two by the window.",
+  "objectives": [
+   "Ask to book a table politely.",
+   "Say when you want to come.",
+   "Ask for a table by the window."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 25,
+  "id": "asking-about-the-menu",
+  "title": "Asking About the Menu",
+  "fr": "Au restaurant : le menu",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Food and drink"
+  ],
+  "description": "A diner politely asks a server about dishes and dessert.",
+  "objectives": [
+   "Ask for the menu politely.",
+   "Ask whether a dish is spicy.",
+   "Order dessert politely."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 26,
+  "id": "paying-the-bill",
+  "title": "Paying the Bill",
+  "fr": "Payer l’addition",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Food and drink"
+  ],
+  "description": "Deux personnes demandent l’addition dans un restaurant et parlent du paiement.",
+  "objectives": [
+   "Demander l’addition, s’il vous plaît.",
+   "Parler d’un paiement avec la carte ou avec des espèces.",
+   "Demander si le pourboire est compris."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 27,
+  "id": "no-cheese-please",
+  "title": "No Cheese, Please",
+  "fr": "Sans fromage, s’il vous plaît",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Food and drink"
+  ],
+  "description": "A customer politely asks a diner cook for a meal without cheese.",
+  "objectives": [
+   "Ask for a meal without cheese.",
+   "Say that you do not eat a food.",
+   "Choose a dish and a drink politely."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 28,
+  "id": "taking-lunch-away",
+  "title": "Taking Lunch Away",
+  "fr": "Un déjeuner à emporter",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Food and drink"
+  ],
+  "description": "A customer orders a simple lunch to go at a sandwich shop.",
+  "objectives": [
+   "Order lunch to go politely.",
+   "Choose food and a drink.",
+   "Ask and understand the price."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 29,
+  "id": "breakfast-at-the-cafe",
+  "title": "Breakfast at the Café",
+  "fr": "Au café, le matin",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Food and drink"
+  ],
+  "description": "Two friends choose breakfast and order politely at a café.",
+  "objectives": [
+   "Ask what someone wants.",
+   "Choose a drink and food.",
+   "Order politely at a café."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 30,
+  "id": "would-you-like-tea",
+  "title": "Would You Like Tea?",
+  "fr": "Du thé dans la cuisine",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Food and drink"
+  ],
+  "description": "Adrien politely offers Marinette tea and asks whether she wants milk or sugar.",
+  "objectives": [
+   "Understand a polite offer of tea.",
+   "Ask for milk politely.",
+   "Recognize a question about sugar."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 31,
+  "id": "finding-the-right-size",
+  "title": "Finding the Right Size",
+  "fr": "Une chemise plus grande",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Shopping"
+  ],
+  "description": "A shopper politely asks a sales assistant for a larger shirt.",
+  "objectives": [
+   "Ask for a larger shirt politely.",
+   "Understand a simple offer.",
+   "Ask the price and say what you want to buy."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 32,
+  "id": "trying-on-shoes",
+  "title": "Trying on Shoes",
+  "fr": "Essayer des chaussures",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Shopping"
+  ],
+  "description": "A customer tries on shoes and asks for a larger pair.",
+  "objectives": [
+   "Ask politely to try on shoes.",
+   "Say that shoes are too small.",
+   "Ask for a larger pair."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 33,
+  "id": "paying-at-the-checkout",
+  "title": "Paying at the Checkout",
+  "fr": "Au supermarché",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Shopping"
+  ],
+  "description": "A shopper pays by card at a supermarket checkout.",
+  "objectives": [
+   "Say you would like to pay.",
+   "Ask to pay by card.",
+   "Ask if you can pay here."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 34,
+  "id": "returning-a-shirt",
+  "title": "Returning a Shirt",
+  "fr": "Rendre un T-shirt",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Shopping"
+  ],
+  "description": "Adrien asks Marinette, a shop assistant, to return a T-shirt and get a refund.",
+  "objectives": [
+   "Ask to return a T-shirt.",
+   "Explain that a shirt is too small.",
+   "Understand a question about payment by card."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 35,
+  "id": "choosing-a-gift",
+  "title": "Choosing a Gift",
+  "fr": "Choisir un cadeau",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Shopping"
+  ],
+  "description": "A shopper asks a shop assistant for a birthday gift idea for a friend.",
+  "objectives": [
+   "Ask for a gift idea.",
+   "Say who the gift is for.",
+   "Choose a gift and ask its price."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 36,
+  "id": "buying-a-notebook",
+  "title": "Buying a Notebook",
+  "fr": "Acheter un cahier",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Shopping"
+  ],
+  "description": "Un client demande un cahier dans un magasin.",
+  "objectives": [
+   "Demander un cahier avec « s'il vous plaît »",
+   "Choisir une couleur",
+   "Demander le prix et payer par carte"
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 37,
+  "id": "looking-at-jackets",
+  "title": "Looking at Jackets",
+  "fr": "Au magasin : les vestes",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Shopping"
+  ],
+  "description": "Adrien et Marinette parlent d'une veste.",
+  "objectives": [
+   "Demander le prix d’une veste.",
+   "Voir si une veste coûte plus ou moins cher.",
+   "Demander à essayer une veste."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 38,
+  "id": "paying-by-card",
+  "title": "Paying by Card",
+  "fr": "Payer avec la carte",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Shopping"
+  ],
+  "description": "Adrien asks Marinette if he can pay by card at the checkout.",
+  "objectives": [
+   "Ask whether card payment is accepted.",
+   "Ask how much an item costs.",
+   "Understand a simple payment instruction."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 39,
+  "id": "a-broken-toy",
+  "title": "A Broken Toy",
+  "fr": "Un article cassé",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Shopping"
+  ],
+  "description": "A customer explains that an item is broken and asks for help at a shop.",
+  "objectives": [
+   "Explain that an item is broken.",
+   "Ask what the problem is.",
+   "Politely ask for help in a shop."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 40,
+  "id": "asking-about-opening-hours",
+  "title": "Asking About Opening Hours",
+  "fr": "Les heures du magasin",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Shopping"
+  ],
+  "description": "A shopper politely asks an employee when the store opens and closes.",
+  "objectives": [
+   "Ask when a store opens.",
+   "Ask when a store closes.",
+   "Understand opening and closing times."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 41,
+  "id": "buying-a-train-ticket",
+  "title": "Buying a Train Ticket",
+  "fr": "Acheter un billet de train",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Travel and transport"
+  ],
+  "description": "A traveler buys a train ticket from an agent at the station.",
+  "objectives": [
+   "Ask for a train ticket politely.",
+   "Ask when the train leaves.",
+   "Ask the price and how to pay."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 42,
+  "id": "checking-in-at-the-airport",
+  "title": "Checking In at the Airport",
+  "fr": "Prendre l’avion",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Travel and transport"
+  ],
+  "description": "Adrien checks in with Marinette and asks where to find the gate.",
+  "objectives": [
+   "Ask for help politely.",
+   "Talk about a ticket, passport, and suitcase.",
+   "Understand simple directions."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 43,
+  "id": "at-the-hotel-desk",
+  "title": "At the Hotel Desk",
+  "fr": "À la maison",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Travel and transport"
+  ],
+  "description": "Adrien arrive à la maison et parle avec Marinette.",
+  "objectives": [
+   "Dire bonjour à une personne.",
+   "Dire le nom et parler d’une réservation.",
+   "Demander où est la chambre."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 44,
+  "id": "taking-a-taxi",
+  "title": "Taking a Taxi",
+  "fr": "À la gare",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Travel and transport"
+  ],
+  "description": "Learn how to tell a taxi driver where to go and follow simple directions.",
+  "objectives": [
+   "Name a destination politely.",
+   "Ask if a place is far away.",
+   "Understand simple taxi directions."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 45,
+  "id": "getting-a-bus-ticket",
+  "title": "Getting a Bus Ticket",
+  "fr": "Acheter un billet de bus",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Travel and transport"
+  ],
+  "description": "Adrien achète un billet de bus.",
+  "objectives": [
+   "Demander un billet pour la ville.",
+   "Demander le prix d’un billet.",
+   "Demander à payer par carte."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 46,
+  "id": "a-delayed-train",
+  "title": "A Delayed Train",
+  "fr": "Le train n'arrive pas",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Travel and transport"
+  ],
+  "description": "Two passengers politely talk while waiting for a train that is not arriving.",
+  "objectives": [
+   "Ask why something is happening.",
+   "Say that you do not know.",
+   "Talk politely while waiting."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 47,
+  "id": "renting-a-car",
+  "title": "Renting a Car",
+  "fr": "Louer une voiture",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Travel and transport"
+  ],
+  "description": "A traveler asks a rental agent about a car.",
+  "objectives": [
+   "Ask to rent a car politely.",
+   "Ask where the car is.",
+   "Ask how much the car costs."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 48,
+  "id": "lost-luggage",
+  "title": "Lost Luggage",
+  "fr": "Un livre perdu",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Travel and transport"
+  ],
+  "description": "A traveler reports a missing book and answers an airport worker’s questions.",
+  "objectives": [
+   "Report a lost book.",
+   "Describe an item with a color and size.",
+   "Ask for help politely."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 49,
+  "id": "changing-a-reservation",
+  "title": "Changing a Reservation",
+  "fr": "Changer une réservation",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Travel and transport"
+  ],
+  "description": "Adrien demande à Marinette de changer la réservation pour demain.",
+  "objectives": [
+   "Demander de changer la réservation, s'il vous plaît.",
+   "Parler d’une date et d’un jour.",
+   "Comprendre si une chambre est disponible."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 50,
+  "id": "on-the-ferry",
+  "title": "On the Ferry",
+  "fr": "Sur le bateau",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Travel and transport"
+  ],
+  "description": "Une personne demande où va le bateau.",
+  "objectives": [
+   "Demander où va un bateau.",
+   "Demander combien de temps il faut.",
+   "Comprendre l'heure."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 51,
+  "id": "welcome-to-my-home",
+  "title": "Welcome to My Home",
+  "fr": "Bienvenue chez moi",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Home and family"
+  ],
+  "description": "Adrien welcomes Marinette into his living room and offers her a drink.",
+  "objectives": [
+   "Welcome someone into your home.",
+   "Accept an offer politely.",
+   "Ask what someone would like."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 52,
+  "id": "meeting-the-family",
+  "title": "Meeting the Family",
+  "fr": "La famille",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Home and family"
+  ],
+  "description": "A visitor arrives at Marinette’s home and meets her family.",
+  "objectives": [
+   "Greet someone politely.",
+   "Introduce family members.",
+   "Accept a drink politely."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 53,
+  "id": "setting-the-table",
+  "title": "Setting the Table",
+  "fr": "Mettre la table",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Home and family"
+  ],
+  "description": "Adrien and Marinette politely prepare the table for dinner.",
+  "objectives": [
+   "Ask someone to help set the table.",
+   "Name plates, forks, and food.",
+   "Understand a simple location question."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 54,
+  "id": "who-does-the-dishes",
+  "title": "Who Does the Dishes?",
+  "fr": "Qui nettoie les assiettes ?",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Home and family"
+  ],
+  "description": "Two roommates politely divide the kitchen chores after dinner.",
+  "objectives": [
+   "Ask who will clean the plates.",
+   "Offer to do a chore politely.",
+   "Agree on a shared household plan."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 55,
+  "id": "the-leaky-tap",
+  "title": "The Leaky Tap",
+  "fr": "Un problème de robinet",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Home and family"
+  ],
+  "description": "A tenant politely tells the landlord about a leaking tap at home.",
+  "objectives": [
+   "Report a problem with a tap.",
+   "Ask someone politely to come.",
+   "Understand a simple repair plan."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 56,
+  "id": "could-you-turn-it-down",
+  "title": "Could You Turn It Down?",
+  "fr": "La musique trop forte",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Home and family"
+  ],
+  "description": "A neighbor politely asks for the music to be turned down.",
+  "objectives": [
+   "Greet a neighbor politely.",
+   "Ask someone to lower the music.",
+   "Respond politely to a request."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 57,
+  "id": "i-can-t-find-my-keys",
+  "title": "I Can’t Find My Keys",
+  "fr": "Où est la clé ?",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Home and family"
+  ],
+  "description": "Adrien can’t find his key, so Marinette helps him look around the house.",
+  "objectives": [
+   "Say that you can’t find something.",
+   "Ask where someone has looked.",
+   "Suggest a place to look."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 58,
+  "id": "where-is-the-remote",
+  "title": "Where Is the Remote?",
+  "fr": "Où est la chose ?",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Home and family"
+  ],
+  "description": "Adrien et Marinette cherchent la chose dans le salon.",
+  "objectives": [
+   "Ask where an object is.",
+   "Understand simple location clues.",
+   "Make a polite suggestion."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 59,
+  "id": "a-family-visit",
+  "title": "A Family Visit",
+  "fr": "La famille",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Home and family"
+  ],
+  "description": "Adrien and Marinette chat politely during a family visit at home.",
+  "objectives": [
+   "Greet a relative at home.",
+   "Ask what someone would like to drink.",
+   "Offer help with a meal."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 60,
+  "id": "getting-ready-for-bed",
+  "title": "Getting Ready for Bed",
+  "fr": "Au lit !",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Home and family"
+  ],
+  "description": "Adrien helps Marinette get ready for bed in her bedroom.",
+  "objectives": [
+   "Talk about brushing your teeth.",
+   "Ask about going to bed.",
+   "Say good night politely."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 61,
+  "id": "meeting-a-coworker",
+  "title": "Meeting a Coworker",
+  "fr": "Rencontrer un collègue",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Work and school"
+  ],
+  "description": "Adrien et Marinette parlent au bureau.",
+  "objectives": [
+   "Se présenter",
+   "Demander si quelqu’un travaille ici",
+   "Proposer un café"
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 62,
+  "id": "planning-a-meeting",
+  "title": "Planning a Meeting",
+  "fr": "Préparer une réunion",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Work and school"
+  ],
+  "description": "Adrien and Marinette arrange a meeting at work.",
+  "objectives": [
+   "Ask if someone is free.",
+   "Suggest a meeting time.",
+   "Confirm where to meet."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 63,
+  "id": "help-with-a-task",
+  "title": "Help with a Task",
+  "fr": "Aider au bureau",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Work and school"
+  ],
+  "description": "A new employee politely asks a coworker for help with a task.",
+  "objectives": [
+   "Ask a coworker for help politely.",
+   "Explain a simple problem.",
+   "Follow instructions about a document."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 64,
+  "id": "borrowing-a-pen",
+  "title": "Borrowing a Pen",
+  "fr": "Emprunter un stylo",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Work and school"
+  ],
+  "description": "Adrien demande un stylo à Marinette au bureau.",
+  "objectives": [
+   "Demander un stylo.",
+   "Accepter de prêter un stylo.",
+   "Dire quand on rend un stylo."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 65,
+  "id": "asking-the-teacher",
+  "title": "Asking the Teacher",
+  "fr": "Une question après le cours",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Work and school"
+  ],
+  "description": "Adrien pose une question à Marinette après le cours.",
+  "objectives": [
+   "Ask how to say a word in French.",
+   "Ask how to spell a word.",
+   "Say that you do not understand."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 66,
+  "id": "working-on-a-project",
+  "title": "Working on a Project",
+  "fr": "Un plan en classe",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Work and school"
+  ],
+  "description": "Two students politely plan a project together in their classroom.",
+  "objectives": [
+   "Greet a classmate politely.",
+   "Suggest when and where to work.",
+   "Ask someone to do a simple task."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 67,
+  "id": "running-late",
+  "title": "Running Late",
+  "fr": "Au travail",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Work and school"
+  ],
+  "description": "Adrien arrives late at work and politely explains the delay to his manager, Marinette.",
+  "objectives": [
+   "Apologize for arriving late.",
+   "Explain a travel delay.",
+   "Ask someone to let you know next time."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 68,
+  "id": "lunch-break-plans",
+  "title": "Lunch Break Plans",
+  "fr": "La pause déjeuner",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Work and school"
+  ],
+  "description": "Deux personnes choisissent où manger pendant la pause au travail.",
+  "objectives": [
+   "Ask where someone wants to go.",
+   "Suggest a restaurant near the office.",
+   "Say what you want to eat."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 69,
+  "id": "finding-the-classroom",
+  "title": "Finding the Classroom",
+  "fr": "Trouver la classe",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Work and school"
+  ],
+  "description": "Adrien demande à Marinette où est la classe.",
+  "objectives": [
+   "Ask where a classroom is.",
+   "Understand simple directions.",
+   "Ask politely if you can enter."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 70,
+  "id": "a-simple-job-interview",
+  "title": "A Simple Job Interview",
+  "fr": "Un entretien d’embauche",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Work and school"
+  ],
+  "description": "Adrien answers simple questions during a job interview in an office.",
+  "objectives": [
+   "Greet someone politely.",
+   "Talk about a job and work.",
+   "Say when you can start."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 71,
+  "id": "making-a-doctor-s-appointment",
+  "title": "Making a Doctor’s Appointment",
+  "fr": "Un rendez-vous chez le médecin",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Health and help"
+  ],
+  "description": "Adrien speaks politely with the receptionist to make a doctor’s appointment.",
+  "objectives": [
+   "Ask for a doctor’s appointment.",
+   "Choose a day and time.",
+   "Describe a simple symptom."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 72,
+  "id": "describing-a-headache",
+  "title": "Describing a Headache",
+  "fr": "Un mal de tête",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Health and help"
+  ],
+  "description": "A patient tells a doctor where their head hurts and gets simple advice.",
+  "objectives": [
+   "Say that your head hurts.",
+   "Explain where the pain is.",
+   "Understand a simple health recommendation."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 73,
+  "id": "picking-up-medicine",
+  "title": "Picking Up Medicine",
+  "fr": "À la pharmacie",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Health and help"
+  ],
+  "description": "A customer asks a pharmacist about cough medicine and how to take it.",
+  "objectives": [
+   "Ask for medicine for a cough.",
+   "Say whether you have a fever.",
+   "Ask how to take medicine."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 74,
+  "id": "calling-for-help",
+  "title": "Calling for Help",
+  "fr": "Appeler les secours",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Health and help"
+  ],
+  "description": "Adrien appelle les secours à la maison pour demander une ambulance pour un enfant malade.",
+  "objectives": [
+   "Ask for an ambulance politely.",
+   "Say where you are.",
+   "Understand a simple instruction from an operator."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 75,
+  "id": "a-visit-to-the-dentist",
+  "title": "A Visit to the Dentist",
+  "fr": "La santé",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Health and help"
+  ],
+  "description": "A patient answers a doctor's questions during a clinic visit.",
+  "objectives": [
+   "Say that a body part hurts.",
+   "Explain when the pain started.",
+   "Say which side hurts."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 76,
+  "id": "a-fall-in-the-park",
+  "title": "A Fall in the Park",
+  "fr": "Un accident dans le parc",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Health and help"
+  ],
+  "description": "A passerby helps Marinette after she falls on a path in the park.",
+  "objectives": [
+   "Ask if someone is injured.",
+   "Say where you feel pain.",
+   "Ask someone to call for help."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 77,
+  "id": "explaining-an-allergy",
+  "title": "Explaining an Allergy",
+  "fr": "Un problème avec le lait",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Health and help"
+  ],
+  "description": "Adrien explique le problème avec le lait à Marinette, qui est médecin.",
+  "objectives": [
+   "Expliquer un problème avec le lait.",
+   "Dire ce qu’on ne peut pas boire.",
+   "Comprendre des questions simples sur la santé."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 78,
+  "id": "filling-in-a-form",
+  "title": "Filling in a Form",
+  "fr": "À la mairie : remplir un document",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Health and help"
+  ],
+  "description": "Une personne demande à une personne de l’aider à remplir un document à la mairie.",
+  "objectives": [
+   "Ask for help with a document.",
+   "Ask where to write information.",
+   "Understand simple instructions to write and sign."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 79,
+  "id": "helping-a-lost-child",
+  "title": "Helping a Lost Child",
+  "fr": "Aider un enfant",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Health and help"
+  ],
+  "description": "A shopper helps a lost child look for her mother in a store.",
+  "objectives": [
+   "Ask if someone is looking for a parent.",
+   "Describe a family member’s appearance.",
+   "Offer help and thank someone politely."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 80,
+  "id": "asking-for-a-bandage",
+  "title": "Asking for a Bandage",
+  "fr": "Un morceau de papier",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Health and help"
+  ],
+  "description": "Adrien demande un morceau de papier à Marinette.",
+  "objectives": [
+   "Ask for a piece of paper politely.",
+   "Say that your finger is bleeding.",
+   "Offer and accept help."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 81,
+  "id": "choosing-a-movie",
+  "title": "Choosing a Movie",
+  "fr": "Choisir un film",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Free time and plans"
+  ],
+  "description": "Two friends outside a cinema choose which film to see.",
+  "objectives": [
+   "Ask a friend what film they prefer.",
+   "Say which film you like better.",
+   "Suggest getting two tickets."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 82,
+  "id": "playing-tennis",
+  "title": "Playing Tennis",
+  "fr": "Un match de football",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Free time and plans"
+  ],
+  "description": "Adrien et Marinette organisent un match de football dans le parc.",
+  "objectives": [
+   "Invite a friend to play football.",
+   "Ask when to meet.",
+   "Understand a simple plan for a match."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 83,
+  "id": "visiting-a-museum",
+  "title": "Visiting a Museum",
+  "fr": "Au musée : que voir ?",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Free time and plans"
+  ],
+  "description": "Adrien and Marinette choose which museum exhibit to see first.",
+  "objectives": [
+   "Ask what someone wants to see.",
+   "Say which exhibit you prefer.",
+   "Suggest doing something together."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 84,
+  "id": "planning-a-picnic",
+  "title": "Planning a Picnic",
+  "fr": "Un repas dans le parc",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Free time and plans"
+  ],
+  "description": "Two friends decide what to bring and when to meet for a meal in the park.",
+  "objectives": [
+   "Suggest bringing food and drink.",
+   "Ask when to meet.",
+   "Agree on a meeting place."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 85,
+  "id": "a-birthday-invitation",
+  "title": "A Birthday Invitation",
+  "fr": "Une invitation d'anniversaire",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Free time and plans"
+  ],
+  "description": "Adrien invites Marinette to a birthday party at his home.",
+  "objectives": [
+   "Understand a simple invitation.",
+   "Ask when a party starts.",
+   "Accept an invitation and offer to bring something."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 86,
+  "id": "buying-concert-tickets",
+  "title": "Buying Concert Tickets",
+  "fr": "Acheter des billets de concert",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Free time and plans"
+  ],
+  "description": "Deux amis achètent des billets pour le concert.",
+  "objectives": [
+   "Ask where the ticket office is.",
+   "Ask how much a ticket costs.",
+   "Say how many tickets you want and ask about payment."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 87,
+  "id": "weekend-plans",
+  "title": "Weekend Plans",
+  "fr": "Le week-end",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Free time and plans"
+  ],
+  "description": "Two friends talk politely about their weekend plans.",
+  "objectives": [
+   "Ask about someone’s weekend plans.",
+   "Talk about where you are going.",
+   "Describe a weekend activity."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 88,
+  "id": "talking-about-hobbies",
+  "title": "Talking About Hobbies",
+  "fr": "Le sport et la musique",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Free time and plans"
+  ],
+  "description": "Adrien and Marinette meet and talk about the activities they enjoy.",
+  "objectives": [
+   "Ask someone what they enjoy.",
+   "Talk about activities you like.",
+   "Make a simple plan to play together."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 89,
+  "id": "rainy-day-plans",
+  "title": "Rainy Day Plans",
+  "fr": "Un jour de pluie",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Free time and plans"
+  ],
+  "description": "Two roommates make a cozy plan for a rainy afternoon at home.",
+  "objectives": [
+   "Say that it is raining.",
+   "Suggest staying at home.",
+   "Talk about simple plans together."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 90,
+  "id": "game-night",
+  "title": "Game Night",
+  "fr": "Un jeu",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Free time and plans"
+  ],
+  "description": "Two friends choose a game and get ready to play at home.",
+  "objectives": [
+   "Ask someone if they want to play.",
+   "Choose between a game and another option.",
+   "Ask how to play."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 91,
+  "id": "talking-about-the-weather",
+  "title": "Talking About the Weather",
+  "fr": "Parler du temps près du bus",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Opinions and small talk"
+  ],
+  "description": "Two neighbors make small talk about the weather while waiting for the bus.",
+  "objectives": [
+   "Ask and answer about the weather.",
+   "Understand a comment about wind and rain.",
+   "Make simple conversation while waiting for the bus."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 92,
+  "id": "favorite-foods",
+  "title": "Favorite Foods",
+  "fr": "Les pâtes",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Opinions and small talk"
+  ],
+  "description": "Adrien and Marinette chat politely about favorite foods during a break at work.",
+  "objectives": [
+   "Ask what someone likes to eat.",
+   "Say which foods you like or prefer.",
+   "Talk about lunch at work."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 93,
+  "id": "life-in-my-hometown",
+  "title": "Life in My Hometown",
+  "fr": "La ville et le village",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Opinions and small talk"
+  ],
+  "description": "Two travelers politely compare their hometowns while chatting in a hotel lounge.",
+  "objectives": [
+   "Ask where someone comes from.",
+   "Say where you come from.",
+   "Describe your hometown simply."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 94,
+  "id": "a-film-you-loved",
+  "title": "A Film You Loved",
+  "fr": "Un film que tu as aimé",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Opinions and small talk"
+  ],
+  "description": "Deux amis discutent d’un film qu’ils ont aimé.",
+  "objectives": [
+   "Ask if someone saw a film.",
+   "Share a simple opinion about a film.",
+   "Suggest watching a film together."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 95,
+  "id": "music-we-like",
+  "title": "Music We Like",
+  "fr": "La musique que nous aimons",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Opinions and small talk"
+  ],
+  "description": "Adrien et Marinette parlent de musique après le cours et veulent aller au concert.",
+  "objectives": [
+   "Ask if someone likes music.",
+   "Talk about listening, singing, and dancing.",
+   "Suggest going to a concert."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 96,
+  "id": "a-good-book",
+  "title": "A Good Book",
+  "fr": "Un bon livre dans le train",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Opinions and small talk"
+  ],
+  "description": "Two passengers politely chat about a good book while traveling by train.",
+  "objectives": [
+   "Ask whether a book is about a family.",
+   "Say you enjoy reading on the train.",
+   "Offer to lend someone a book."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 97,
+  "id": "best-holiday-memories",
+  "title": "Best Holiday Memories",
+  "fr": "Les vacances",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Opinions and small talk"
+  ],
+  "description": "Two colleagues share favorite holiday memories over lunch.",
+  "objectives": [
+   "Ask someone about their holiday.",
+   "Say where you went on holiday.",
+   "Share a holiday memory."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 98,
+  "id": "phones-and-technology",
+  "title": "Phones and Technology",
+  "fr": "Les portables au parc",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Opinions and small talk"
+  ],
+  "description": "Two friends compare their phones while chatting in a park.",
+  "objectives": [
+   "Describe a phone with simple adjectives.",
+   "Compare the size of two screens.",
+   "Ask politely to see a phone screen."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 99,
+  "id": "learning-something-new",
+  "title": "Learning Something New",
+  "fr": "Apprendre ensemble",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Opinions and small talk"
+  ],
+  "description": "Adrien and Marinette talk about what they want to learn in class.",
+  "objectives": [
+   "Say what you want to learn.",
+   "Ask someone what they want to learn.",
+   "Talk about learning together."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-conversations",
+  "number": 100,
+  "id": "what-makes-a-good-day",
+  "title": "What Makes a Good Day?",
+  "fr": "Qu'est-ce qui rend une journée heureuse ?",
+  "type": "Short dialogue",
+  "level": "Beginner",
+  "minutes": 8,
+  "topics": [
+   "Tiny Conversations",
+   "Opinions and small talk"
+  ],
+  "description": "Two neighbors share what makes them happy while walking in the park.",
+  "objectives": [
+   "Say hello to a neighbor.",
+   "Talk about what makes you happy.",
+   "Ask someone what makes them happy."
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
  }
 ];
