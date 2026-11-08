@@ -20,6 +20,14 @@ export const courses = [
   cta: { label: "Start Lesson 1", href: "/courses/tiny-1000/pronouns-and-etre-avoir/" }
  },
  {
+  id: "tiny-conversations", title: "Tiny Conversations", kind: "Free preview + premium course", status: "available",
+  level: "Beginner (A1-A2)", free: false, premium: true, freeLessons: 10, price: 19, currency: "USD", checkoutUrl: "", art: "tiny-french-characters",
+  summary: "100 everyday French conversations built from the 1,000 words you already know: meeting people, getting around town, food and drink, shopping, travel, home, work, health, free time and small talk. Each has useful phrases with pronunciation, one grammar pattern and a quick quiz.",
+  outcomes: ["Follow and take part in 100 everyday situations in French", "Reuse the same 1,000 words in new combinations until they feel natural", "Learn the sentence patterns French speakers actually use", "Get comfortable reading and saying whole conversations out loud"],
+  modules: [],
+  cta: { label: "Start Conversation 1", href: "/courses/tiny-conversations/a-first-hello/" }
+ },
+ {
   id: "first-conversations", title: "First Conversations", kind: "Free preview + premium course", status: "available",
   level: "Absolute beginner (A1)", free: false, premium: true, price: 9, currency: "USD", checkoutUrl: "", art: "tiny-french-characters",
   summary: "Seven short dialogue lessons for your first real conversations: greetings, introductions, numbers and prices, ordering at a café, asking for directions, talking about your family and buying a train ticket.",
