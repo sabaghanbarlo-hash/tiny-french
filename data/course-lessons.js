@@ -3879,7 +3879,13 @@ export const courseLessons = [
   "type": "Vocabulary lesson",
   "level": "Absolute beginner",
   "minutes": 15,
-  "video": null,
+  "video": {
+   "src": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/t1-001.mp4",
+   "poster": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/t1-001.thumbnail.png",
+   "vtt": "assets/video/t1-001.vtt",
+   "uploaded": "2026-11-08",
+   "note": "Lesson video (16:9) with the story, vocabulary, grammar and a quiz. French and English subtitles."
+  },
   "instagram": "",
   "art": {
    "emoji": "📚"
@@ -4098,7 +4104,13 @@ export const courseLessons = [
   "type": "Vocabulary lesson",
   "level": "Absolute beginner",
   "minutes": 15,
-  "video": null,
+  "video": {
+   "src": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/t1-002.mp4",
+   "poster": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/t1-002.thumbnail.png",
+   "vtt": "assets/video/t1-002.vtt",
+   "uploaded": "2026-11-08",
+   "note": "Lesson video (16:9) with the story, vocabulary, grammar and a quiz. French and English subtitles."
+  },
   "instagram": "",
   "art": {
    "emoji": "📚"
@@ -4317,7 +4329,13 @@ export const courseLessons = [
   "type": "Vocabulary lesson",
   "level": "Absolute beginner",
   "minutes": 15,
-  "video": null,
+  "video": {
+   "src": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/t1-003.mp4",
+   "poster": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/t1-003.thumbnail.png",
+   "vtt": "assets/video/t1-003.vtt",
+   "uploaded": "2026-11-08",
+   "note": "Lesson video (16:9) with the story, vocabulary, grammar and a quiz. French and English subtitles."
+  },
   "instagram": "",
   "art": {
    "emoji": "📚"
@@ -4536,7 +4554,13 @@ export const courseLessons = [
   "type": "Vocabulary lesson",
   "level": "Absolute beginner",
   "minutes": 15,
-  "video": null,
+  "video": {
+   "src": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/t1-004.mp4",
+   "poster": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/t1-004.thumbnail.png",
+   "vtt": "assets/video/t1-004.vtt",
+   "uploaded": "2026-11-08",
+   "note": "Lesson video (16:9) with the story, vocabulary, grammar and a quiz. French and English subtitles."
+  },
   "instagram": "",
   "art": {
    "emoji": "📚"
@@ -4766,7 +4790,13 @@ export const courseLessons = [
   "type": "Vocabulary lesson",
   "level": "Absolute beginner",
   "minutes": 15,
-  "video": null,
+  "video": {
+   "src": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/t1-005.mp4",
+   "poster": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/t1-005.thumbnail.png",
+   "vtt": "assets/video/t1-005.vtt",
+   "uploaded": "2026-11-08",
+   "note": "Lesson video (16:9) with the story, vocabulary, grammar and a quiz. French and English subtitles."
+  },
   "instagram": "",
   "art": {
    "emoji": "📚"
@@ -4996,7 +5026,13 @@ export const courseLessons = [
   "type": "Vocabulary lesson",
   "level": "Absolute beginner",
   "minutes": 15,
-  "video": null,
+  "video": {
+   "src": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/t1-006.mp4",
+   "poster": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/t1-006.thumbnail.png",
+   "vtt": "assets/video/t1-006.vtt",
+   "uploaded": "2026-11-08",
+   "note": "Lesson video (16:9) with the story, vocabulary, grammar and a quiz. French and English subtitles."
+  },
   "instagram": "",
   "art": {
    "emoji": "📚"
@@ -5226,7 +5262,13 @@ export const courseLessons = [
   "type": "Vocabulary lesson",
   "level": "Absolute beginner",
   "minutes": 15,
-  "video": null,
+  "video": {
+   "src": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/t1-007.mp4",
+   "poster": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/t1-007.thumbnail.png",
+   "vtt": "assets/video/t1-007.vtt",
+   "uploaded": "2026-11-08",
+   "note": "Lesson video (16:9) with the story, vocabulary, grammar and a quiz. French and English subtitles."
+  },
   "instagram": "",
   "art": {
    "emoji": "📚"
@@ -5456,7 +5498,13 @@ export const courseLessons = [
   "type": "Vocabulary lesson",
   "level": "Absolute beginner",
   "minutes": 15,
-  "video": null,
+  "video": {
+   "src": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/t1-008.mp4",
+   "poster": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/t1-008.thumbnail.png",
+   "vtt": "assets/video/t1-008.vtt",
+   "uploaded": "2026-11-08",
+   "note": "Lesson video (16:9) with the story, vocabulary, grammar and a quiz. French and English subtitles."
+  },
   "instagram": "",
   "art": {
    "emoji": "📚"
@@ -5686,7 +5734,13 @@ export const courseLessons = [
   "type": "Vocabulary lesson",
   "level": "Absolute beginner",
   "minutes": 15,
-  "video": null,
+  "video": {
+   "src": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/t1-009.mp4",
+   "poster": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/t1-009.thumbnail.png",
+   "vtt": "assets/video/t1-009.vtt",
+   "uploaded": "2026-11-08",
+   "note": "Lesson video (16:9) with the story, vocabulary, grammar and a quiz. French and English subtitles."
+  },
   "instagram": "",
   "art": {
    "emoji": "📚"
@@ -5916,7 +5970,13 @@ export const courseLessons = [
   "type": "Vocabulary lesson",
   "level": "Absolute beginner",
   "minutes": 15,
-  "video": null,
+  "video": {
+   "src": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/t1-010.mp4",
+   "poster": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/t1-010.thumbnail.png",
+   "vtt": "assets/video/t1-010.vtt",
+   "uploaded": "2026-11-08",
+   "note": "Lesson video (16:9) with the story, vocabulary, grammar and a quiz. French and English subtitles."
+  },
   "instagram": "",
   "art": {
    "emoji": "📚"
