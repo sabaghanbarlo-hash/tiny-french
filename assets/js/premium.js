@@ -12,6 +12,8 @@ if (cfg) {
       const r = await pm.lesson(cfg.course, lessonId, code);
       if (!r.ok) return r;
       slot.innerHTML = r.payload.html;
+      const pv = slot.querySelector("video[data-premium-video]");
+      if (pv && r.media) { if (r.media.poster) pv.poster = r.media.poster; if (r.media.video) pv.src = r.media.video; }
       art.dataset.lesson = lessonId; delete art.dataset.lockedLesson;
       if (window.TF && window.TF.initLesson) window.TF.initLesson();
       return r;
