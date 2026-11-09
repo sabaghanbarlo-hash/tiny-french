@@ -12719,5 +12719,1555 @@ export const courseLessons = [
   "instagram": "",
   "video": null,
   "premium": true
+ },
+ {
+  "course": "tiny-a1-unit-by-unit",
+  "number": 1,
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 7,
+  "video": null,
+  "instagram": "",
+  "art": {
+   "emoji": "👋"
+  },
+  "topics": [
+   "A1 Unit by Unit",
+   "Unit 1: Je suis…",
+   "Introductions"
+  ],
+  "id": "my-name-is",
+  "title": "Hello, My Name Is…",
+  "fr": "Je m'appelle…",
+  "description": "Say your name, ask someone's name and choose between tu and vous.",
+  "objectives": [
+   "Say Je m'appelle… and Moi, c'est…",
+   "Ask Comment tu t'appelles ? and Comment vous appelez-vous ?",
+   "Know when to use tu and when to use vous",
+   "Say Enchanté or Enchantée"
+  ],
+  "intro": "It is the first day of French class. Adrien and Marinette meet, then play a formal meeting just for practice.",
+  "dialogue": [
+   {
+    "scene": "First day of class"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Bonjour ! Comment tu t'appelles ?",
+    "en": "Hello! What's your name?"
+   },
+   {
+    "who": "Adrien",
+    "fr": "Je m'appelle Adrien. Et toi ?",
+    "en": "My name is Adrien. And you?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Moi, c'est Marinette. Enchantée !",
+    "en": "I'm Marinette. Nice to meet you!"
+   },
+   {
+    "who": "Adrien",
+    "fr": "Enchanté, Marinette !",
+    "en": "Nice to meet you, Marinette!"
+   },
+   {
+    "scene": "Now let's play a formal meeting"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Bonjour, monsieur. Comment vous appelez-vous ?",
+    "en": "Hello, sir. What is your name?"
+   },
+   {
+    "who": "Adrien",
+    "fr": "Je m'appelle Adrien Martin. Et vous, madame ?",
+    "en": "My name is Adrien Martin. And you, madam?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Je m'appelle Marinette Dupont. Enchantée.",
+    "en": "My name is Marinette Dupont. Pleased to meet you."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Enchanté, madame.",
+    "en": "Pleased to meet you, madam."
+   }
+  ],
+  "vocab": [
+   {
+    "fr": "je m'appelle",
+    "en": "my name is",
+    "say": "zhuh mah-PEHL",
+    "cat": "Introductions",
+    "ex": "Je m'appelle Adrien.",
+    "exEn": "My name is Adrien."
+   },
+   {
+    "fr": "comment tu t'appelles ?",
+    "en": "what's your name? (friendly)",
+    "say": "koh-mahn too mah-PEHL",
+    "cat": "Introductions",
+    "ex": "Salut ! Comment tu t'appelles ?",
+    "exEn": "Hi! What's your name?"
+   },
+   {
+    "fr": "comment vous appelez-vous ?",
+    "en": "what is your name? (formal)",
+    "say": "koh-mahn voo zah-play-VOO",
+    "cat": "Introductions",
+    "ex": "Bonjour, comment vous appelez-vous ?",
+    "exEn": "Hello, what is your name?"
+   },
+   {
+    "fr": "moi, c'est…",
+    "en": "I'm… (informal)",
+    "say": "mwah SEH",
+    "cat": "Introductions",
+    "ex": "Moi, c'est Marinette.",
+    "exEn": "I'm Marinette."
+   },
+   {
+    "fr": "enchanté",
+    "en": "nice to meet you (said by a man)",
+    "say": "ahn-shahn-TAY",
+    "cat": "Introductions",
+    "ex": "Enchanté, madame.",
+    "exEn": "Pleased to meet you, madam."
+   },
+   {
+    "fr": "enchantée",
+    "en": "nice to meet you (said by a woman)",
+    "say": "ahn-shahn-TAY",
+    "cat": "Introductions",
+    "ex": "Enchantée, Adrien !",
+    "exEn": "Nice to meet you, Adrien!"
+   },
+   {
+    "fr": "et toi ?",
+    "en": "and you? (friendly)",
+    "say": "ay TWAH",
+    "cat": "Introductions",
+    "ex": "Je m'appelle Léa. Et toi ?",
+    "exEn": "My name is Léa. And you?"
+   },
+   {
+    "fr": "et vous ?",
+    "en": "and you? (formal)",
+    "say": "ay VOO",
+    "cat": "Introductions",
+    "ex": "Je vais bien. Et vous ?",
+    "exEn": "I'm well. And you?"
+   },
+   {
+    "fr": "le prénom",
+    "en": "first name",
+    "say": "luh pray-NOHM",
+    "cat": "Introductions",
+    "ex": "Mon prénom, c'est Adrien.",
+    "exEn": "My first name is Adrien."
+   },
+   {
+    "fr": "le nom de famille",
+    "en": "last name",
+    "say": "luh NOHM duh fah-MEE",
+    "cat": "Introductions",
+    "ex": "Mon nom de famille, c'est Martin.",
+    "exEn": "My last name is Martin."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Tu or vous?",
+    "body": "Use tu with friends, family, children and people your age. Use vous with someone you do not know, someone older, or in a formal place like an office or a shop. Vous is also the plural: it means “you all”. When in doubt, start with vous.",
+    "examples": [
+     {
+      "fr": "Comment tu t'appelles ?",
+      "en": "What's your name? (to a friend)"
+     },
+     {
+      "fr": "Comment vous appelez-vous ?",
+      "en": "What is your name? (to a stranger)"
+     }
+    ]
+   },
+   {
+    "title": "The verb s'appeler",
+    "body": "To say your name, use a reflexive verb: je m'appelle, tu t'appelles, il / elle s'appelle. Notice the double l. You can also say simply Moi, c'est… in a relaxed conversation.",
+    "examples": [
+     {
+      "fr": "Je m'appelle Marinette.",
+      "en": "My name is Marinette."
+     },
+     {
+      "fr": "Il s'appelle Adrien.",
+      "en": "His name is Adrien."
+     }
+    ]
+   },
+   {
+    "title": "Enchanté or enchantée?",
+    "body": "Enchanté has an extra e when a woman says it, but the two forms sound exactly the same. A man writes enchanté, a woman writes enchantée.",
+    "examples": [
+     {
+      "fr": "Enchanté, Marinette !",
+      "en": "Nice to meet you, Marinette! (a man speaking)"
+     },
+     {
+      "fr": "Enchantée, Adrien !",
+      "en": "Nice to meet you, Adrien! (a woman speaking)"
+     }
+    ]
+   }
+  ],
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "Which sentence means “My name is Adrien”?",
+    "options": [
+     "Je m'appelle Adrien.",
+     "Tu t'appelles Adrien.",
+     "Il s'appelle Adrien.",
+     "Vous appelez Adrien."
+    ],
+    "answer": "Je m'appelle Adrien.",
+    "explain": "Je m'appelle = my name is."
+   },
+   {
+    "type": "mc",
+    "q": "You meet your new boss. How do you ask her name?",
+    "options": [
+     "Comment tu t'appelles ?",
+     "Comment vous appelez-vous ?",
+     "Et toi ?",
+     "Moi, c'est…"
+    ],
+    "answer": "Comment vous appelez-vous ?",
+    "explain": "Use vous with a boss or a stranger."
+   },
+   {
+    "type": "fill",
+    "q": "Complete: Comment ___ t'appelles ? (to a friend)",
+    "hint": "friendly “you”",
+    "answer": "tu",
+    "explain": "Tu t'appelles goes with tu."
+   },
+   {
+    "type": "mc",
+    "q": "Marinette writes “Enchantée”. Why the extra e?",
+    "options": [
+     "Because it is formal",
+     "Because it is plural",
+     "Because she is a woman",
+     "Because it is a question"
+    ],
+    "answer": "Because she is a woman",
+    "explain": "A woman adds an e, but the sound does not change."
+   },
+   {
+    "type": "fill",
+    "q": "Complete: Je ___ Adrien. (my name is)",
+    "hint": "s'appeler with je",
+    "answer": "m'appelle",
+    "explain": "Je m'appelle."
+   },
+   {
+    "type": "mc",
+    "q": "Which is the friendly way to say “And you?”",
+    "options": [
+     "Et vous ?",
+     "Et moi ?",
+     "Et elle ?",
+     "Et toi ?"
+    ],
+    "answer": "Et toi ?",
+    "explain": "Toi is for a friend, vous is formal."
+   }
+  ]
+ },
+ {
+  "course": "tiny-a1-unit-by-unit",
+  "number": 2,
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 8,
+  "video": null,
+  "instagram": "",
+  "art": {
+   "emoji": "🌍"
+  },
+  "topics": [
+   "A1 Unit by Unit",
+   "Unit 1: Je suis…",
+   "Introductions"
+  ],
+  "id": "nationality-and-home",
+  "title": "Where Are You From?",
+  "fr": "D'où tu viens ?",
+  "description": "Say your nationality and where you live, and ask the same questions.",
+  "objectives": [
+   "Ask Tu es d'où ? and answer Je suis de…",
+   "Say your nationality with the right masculine or feminine ending",
+   "Say where you live with j'habite à… and j'habite en…"
+  ],
+  "intro": "Adrien and Marinette get to know each other better. Where are they from, and where do their families live?",
+  "dialogue": [
+   {
+    "scene": "In the school café"
+   },
+   {
+    "who": "Adrien",
+    "fr": "Tu es d'où, Marinette ?",
+    "en": "Where are you from, Marinette?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Je suis de Paris. Je suis française. Et toi ?",
+    "en": "I'm from Paris. I'm French. And you?"
+   },
+   {
+    "who": "Adrien",
+    "fr": "Moi aussi, je suis français. Mais ma mère est italienne.",
+    "en": "Me too, I'm French. But my mother is Italian."
+   },
+   {
+    "who": "Marinette",
+    "fr": "Elle habite en Italie ?",
+    "en": "Does she live in Italy?"
+   },
+   {
+    "who": "Adrien",
+    "fr": "Non, elle habite à Lyon. Et toi, tu habites où ?",
+    "en": "No, she lives in Lyon. And you, where do you live?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "J'habite à Paris, dans un petit appartement.",
+    "en": "I live in Paris, in a small apartment."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Super ! Moi, j'habite à Lyon avec ma mère.",
+    "en": "Great! I live in Lyon with my mother."
+   }
+  ],
+  "vocab": [
+   {
+    "fr": "tu es d'où ?",
+    "en": "where are you from?",
+    "say": "too eh DOO",
+    "cat": "Introductions",
+    "ex": "Tu es d'où ?",
+    "exEn": "Where are you from?"
+   },
+   {
+    "fr": "je suis de…",
+    "en": "I'm from…",
+    "say": "zhuh swee DUH",
+    "cat": "Introductions",
+    "ex": "Je suis de Paris.",
+    "exEn": "I'm from Paris."
+   },
+   {
+    "fr": "français / française",
+    "en": "French",
+    "say": "frahn-SEH / frahn-SEHZ",
+    "cat": "Introductions",
+    "ex": "Elle est française.",
+    "exEn": "She is French."
+   },
+   {
+    "fr": "italien / italienne",
+    "en": "Italian",
+    "say": "ee-tah-LYAN / ee-tah-LYEHN",
+    "cat": "Introductions",
+    "ex": "Ma mère est italienne.",
+    "exEn": "My mother is Italian."
+   },
+   {
+    "fr": "espagnol / espagnole",
+    "en": "Spanish",
+    "say": "ehs-pah-NYOHL",
+    "cat": "Introductions",
+    "ex": "Il est espagnol.",
+    "exEn": "He is Spanish."
+   },
+   {
+    "fr": "américain / américaine",
+    "en": "American",
+    "say": "ah-may-ree-KAN / ah-may-ree-KEHN",
+    "cat": "Introductions",
+    "ex": "Je suis américain.",
+    "exEn": "I'm American."
+   },
+   {
+    "fr": "japonais / japonaise",
+    "en": "Japanese",
+    "say": "zhah-poh-NEH / zhah-poh-NEHZ",
+    "cat": "Introductions",
+    "ex": "Elle est japonaise.",
+    "exEn": "She is Japanese."
+   },
+   {
+    "fr": "habiter",
+    "en": "to live (in a place)",
+    "say": "ah-bee-TAY",
+    "cat": "Introductions",
+    "ex": "J'habite à Lyon.",
+    "exEn": "I live in Lyon."
+   },
+   {
+    "fr": "la France",
+    "en": "France",
+    "say": "lah FRAHNSS",
+    "cat": "Introductions",
+    "ex": "J'habite en France.",
+    "exEn": "I live in France."
+   },
+   {
+    "fr": "l'Italie",
+    "en": "Italy",
+    "say": "lee-tah-LEE",
+    "cat": "Introductions",
+    "ex": "Elle habite en Italie.",
+    "exEn": "She lives in Italy."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Nationality: masculine and feminine",
+    "body": "Most nationalities add -e for a woman: français → française, espagnol → espagnole. Words ending in -ien add -ne (italien → italienne) and words ending in -ais add -e (japonais → japonaise). Nationalities are written with a small letter.",
+    "examples": [
+     {
+      "fr": "Il est français.",
+      "en": "He is French."
+     },
+     {
+      "fr": "Elle est italienne.",
+      "en": "She is Italian."
+     }
+    ]
+   },
+   {
+    "title": "Je suis de… (origin)",
+    "body": "Use de before a city or a country to say where you come from. Before a vowel it becomes d'. Ask with Tu es d'où ? or, more formally, Vous êtes d'où ?",
+    "examples": [
+     {
+      "fr": "Je suis de Paris.",
+      "en": "I'm from Paris."
+     },
+     {
+      "fr": "Je suis d'Italie.",
+      "en": "I'm from Italy."
+     }
+    ]
+   },
+   {
+    "title": "J'habite à… or en…?",
+    "body": "Use à with a city and en with a feminine country: j'habite à Lyon, j'habite en France, j'habite en Italie. The verb habiter starts with a silent h, so je becomes j'.",
+    "examples": [
+     {
+      "fr": "J'habite à Paris.",
+      "en": "I live in Paris."
+     },
+     {
+      "fr": "Elle habite en Italie.",
+      "en": "She lives in Italy."
+     }
+    ]
+   }
+  ],
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "How do you say “I'm from Paris”?",
+    "options": [
+     "Je suis de Paris.",
+     "J'habite de Paris.",
+     "Je suis à Paris.",
+     "Tu es de Paris."
+    ],
+    "answer": "Je suis de Paris.",
+    "explain": "Je suis de + place = I'm from."
+   },
+   {
+    "type": "mc",
+    "q": "Marinette is a woman from France. She says…",
+    "options": [
+     "Je suis français.",
+     "Je suis française.",
+     "Je suis francais.",
+     "Je suis françaises."
+    ],
+    "answer": "Je suis française.",
+    "explain": "Add -e for a woman: française."
+   },
+   {
+    "type": "fill",
+    "q": "Complete: Ma mère est ___. (Italian, feminine)",
+    "hint": "-ien becomes -ienne",
+    "answer": "italienne",
+    "explain": "Italien + ne = italienne."
+   },
+   {
+    "type": "mc",
+    "q": "Which sentence is correct?",
+    "options": [
+     "Elle habite en Lyon.",
+     "Elle habite de Lyon.",
+     "Elle habite à Lyon.",
+     "Elle habites à Lyon."
+    ],
+    "answer": "Elle habite à Lyon.",
+    "explain": "Use à before a city."
+   },
+   {
+    "type": "fill",
+    "q": "Complete: J'habite ___ France. (in France)",
+    "hint": "feminine country",
+    "answer": "en",
+    "explain": "En goes with feminine countries."
+   },
+   {
+    "type": "mc",
+    "q": "What does “Tu es d'où ?” ask?",
+    "options": [
+     "How old are you?",
+     "What is your name?",
+     "Where do you live?",
+     "Where are you from?"
+    ],
+    "answer": "Where are you from?",
+    "explain": "D'où = from where."
+   }
+  ]
+ },
+ {
+  "course": "tiny-a1-unit-by-unit",
+  "number": 3,
+  "id": "what-do-you-do",
+  "title": "What Do You Do?",
+  "fr": "Tu fais quoi dans la vie ?",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 8,
+  "topics": [
+   "A1 Unit by Unit",
+   "Unit 1: Je suis…",
+   "Introductions"
+  ],
+  "description": "Say your job, ask about someone else's and use masculine and feminine job titles.",
+  "objectives": [
+   "Say Je suis + job without an article",
+   "Ask Qu'est-ce que tu fais dans la vie ?",
+   "Use job titles in the masculine and feminine"
+  ],
+  "art": {
+   "emoji": "💼"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a1-unit-by-unit",
+  "number": 4,
+  "id": "numbers-age-and-contact",
+  "title": "Numbers, Age and Contact Details",
+  "fr": "Les nombres et mes coordonnées",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 9,
+  "topics": [
+   "A1 Unit by Unit",
+   "Unit 1: Je suis…",
+   "Introductions"
+  ],
+  "description": "Count to twenty, say your age and give a phone number and an e-mail address.",
+  "objectives": [
+   "Count from zéro to vingt",
+   "Say your age with j'ai … ans",
+   "Give a phone number in pairs",
+   "Spell a word with Ça s'écrit comment ?"
+  ],
+  "art": {
+   "emoji": "📱"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a1-unit-by-unit",
+  "number": 5,
+  "id": "my-neighbourhood",
+  "title": "My Neighbourhood",
+  "fr": "Mon quartier",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 8,
+  "topics": [
+   "A1 Unit by Unit",
+   "Unit 2: Près de moi"
+  ],
+  "description": "Describe where you live and say what there is near your home.",
+  "objectives": [
+   "Say what there is with il y a",
+   "Name common places in town",
+   "Say il n'y a pas de…",
+   "Say how far something is with près de and à pied"
+  ],
+  "art": {
+   "emoji": "🏘️"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a1-unit-by-unit",
+  "number": 6,
+  "id": "my-family",
+  "title": "My Family",
+  "fr": "Ma famille",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 8,
+  "topics": [
+   "A1 Unit by Unit",
+   "Unit 2: Près de moi"
+  ],
+  "description": "Talk about your family and use mon, ma and mes.",
+  "objectives": [
+   "Name the members of your family",
+   "Use mon, ma and mes",
+   "Say what you have and don't have with avoir and pas de",
+   "Say how old someone is"
+  ],
+  "art": {
+   "emoji": "👨‍👩‍👧"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a1-unit-by-unit",
+  "number": 7,
+  "id": "describing-someone",
+  "title": "Describing People",
+  "fr": "Décrire une personne",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 8,
+  "topics": [
+   "A1 Unit by Unit",
+   "Unit 2: Près de moi"
+  ],
+  "description": "Describe how people look and what they are like.",
+  "objectives": [
+   "Describe hair, height and character",
+   "Make adjectives feminine and plural",
+   "Place adjectives after the noun",
+   "Ask Comment est-il ? / Comment est-elle ?"
+  ],
+  "art": {
+   "emoji": "🧑"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a1-unit-by-unit",
+  "number": 8,
+  "id": "getting-around-town",
+  "title": "Getting Around Town",
+  "fr": "Les transports",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 8,
+  "topics": [
+   "A1 Unit by Unit",
+   "Unit 2: Près de moi"
+  ],
+  "description": "Say how you travel and use numbers up to a hundred.",
+  "objectives": [
+   "Name common means of transport",
+   "Say how you travel with en, à and prendre",
+   "Use numbers from vingt to cent",
+   "Ask and say what a ticket costs"
+  ],
+  "art": {
+   "emoji": "🚇"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a1-unit-by-unit",
+  "number": 9,
+  "id": "shopping-for-food",
+  "title": "Shopping for Food",
+  "fr": "Faire les courses",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 8,
+  "topics": [
+   "A1 Unit by Unit",
+   "Unit 3: Qu'est-ce qu'on mange ?"
+  ],
+  "description": "Buy food at the market and use du, de la and des.",
+  "objectives": [
+   "Ask for food politely with Je voudrais",
+   "Use du, de la, de l' and des",
+   "Understand prices said aloud",
+   "Use polite phrases when shopping"
+  ],
+  "art": {
+   "emoji": "🍅"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a1-unit-by-unit",
+  "number": 10,
+  "id": "ordering-a-meal",
+  "title": "Ordering a Meal",
+  "fr": "Au restaurant",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 8,
+  "topics": [
+   "A1 Unit by Unit",
+   "Unit 3: Qu'est-ce qu'on mange ?"
+  ],
+  "description": "Order a starter, a main course and a dessert and ask for the bill.",
+  "objectives": [
+   "Ask Qu'est-ce que tu prends ?",
+   "Order with je vais prendre and je voudrais",
+   "Name common dishes and drinks",
+   "Ask for the bill with L'addition, s'il vous plaît"
+  ],
+  "art": {
+   "emoji": "🍽️"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a1-unit-by-unit",
+  "number": 11,
+  "id": "how-much-and-how-many",
+  "title": "How Much and How Many",
+  "fr": "Les quantités",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 8,
+  "topics": [
+   "A1 Unit by Unit",
+   "Unit 3: Qu'est-ce qu'on mange ?"
+  ],
+  "description": "Talk about quantities and say what you need for a recipe.",
+  "objectives": [
+   "Use un kilo de, une bouteille de and un paquet de",
+   "Say un peu de, beaucoup de and assez de",
+   "Say what you need with j'ai besoin de",
+   "Remember there is no article after de"
+  ],
+  "art": {
+   "emoji": "⚖️"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a1-unit-by-unit",
+  "number": 12,
+  "id": "meals-and-tastes",
+  "title": "Meals and Tastes",
+  "fr": "Les repas et les goûts",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 8,
+  "topics": [
+   "A1 Unit by Unit",
+   "Unit 3: Qu'est-ce qu'on mange ?"
+  ],
+  "description": "Talk about your meals and say what you like and dislike.",
+  "objectives": [
+   "Name the three meals of the day",
+   "Say what you eat and drink",
+   "Say j'aime, j'adore, je déteste and je préfère",
+   "Use le, la, les when you talk about likes"
+  ],
+  "art": {
+   "emoji": "🥐"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a1-unit-by-unit",
+  "number": 13,
+  "id": "finding-your-way",
+  "title": "Finding Your Way",
+  "fr": "Demander son chemin",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 8,
+  "topics": [
+   "A1 Unit by Unit",
+   "Unit 4: C'est où ?"
+  ],
+  "description": "Ask for directions and understand the answer.",
+  "objectives": [
+   "Ask Où est… ? and C'est où ?",
+   "Understand tout droit, à gauche and à droite",
+   "Use tournez, continuez and traversez",
+   "Say how far something is"
+  ],
+  "art": {
+   "emoji": "🧭"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a1-unit-by-unit",
+  "number": 14,
+  "id": "prepositions-of-place",
+  "title": "Where Is It?",
+  "fr": "Où est… ?",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 8,
+  "topics": [
+   "A1 Unit by Unit",
+   "Unit 4: C'est où ?"
+  ],
+  "description": "Say where things and people are with sur, sous, dans, devant and derrière.",
+  "objectives": [
+   "Use sur, sous, dans, devant, derrière and entre",
+   "Say à côté de and en face de",
+   "Use du and de la after these words",
+   "Ask Où est… ? and Où sont… ?"
+  ],
+  "art": {
+   "emoji": "📍"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a1-unit-by-unit",
+  "number": 15,
+  "id": "going-to-places",
+  "title": "Going to Places",
+  "fr": "Aller quelque part",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 8,
+  "topics": [
+   "A1 Unit by Unit",
+   "Unit 4: C'est où ?"
+  ],
+  "description": "Say where you are going with aller à, au, à la and aux.",
+  "objectives": [
+   "Conjugate aller",
+   "Use à, au, à la and aux",
+   "Use chez with a person",
+   "Say ce matin, cet après-midi and ce soir"
+  ],
+  "art": {
+   "emoji": "🚶"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a1-unit-by-unit",
+  "number": 16,
+  "id": "planning-a-route",
+  "title": "Planning a Route",
+  "fr": "Préparer un trajet",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 8,
+  "topics": [
+   "A1 Unit by Unit",
+   "Unit 4: C'est où ?"
+  ],
+  "description": "Explain a route with the bus, streets and numbers like première and deuxième.",
+  "objectives": [
+   "Ask which bus or metro to take",
+   "Use first, second and third for streets",
+   "Use the tu command: prends, descends, tourne",
+   "Say how long a trip takes"
+  ],
+  "art": {
+   "emoji": "🗺️"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a1-unit-by-unit",
+  "number": 17,
+  "id": "what-to-wear",
+  "title": "What to Wear",
+  "fr": "Les vêtements",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 8,
+  "topics": [
+   "A1 Unit by Unit",
+   "Unit 5: C'est tendance !"
+  ],
+  "description": "Name clothes and say what you are looking for in a shop.",
+  "objectives": [
+   "Name common clothes",
+   "Say Je cherche… and Je voudrais essayer…",
+   "Conjugate regular -er verbs like chercher and essayer",
+   "Ask for help in a clothes shop"
+  ],
+  "art": {
+   "emoji": "👗"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a1-unit-by-unit",
+  "number": 18,
+  "id": "colours-and-style",
+  "title": "Colours and Style",
+  "fr": "Les couleurs",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 8,
+  "topics": [
+   "A1 Unit by Unit",
+   "Unit 5: C'est tendance !"
+  ],
+  "description": "Name colours and make them agree with clothes.",
+  "objectives": [
+   "Name the main colours",
+   "Make colours masculine, feminine and plural",
+   "Use invariable colours like marron and orange",
+   "Say what you prefer with je préfère"
+  ],
+  "art": {
+   "emoji": "🎨"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a1-unit-by-unit",
+  "number": 19,
+  "id": "prices-and-sizes",
+  "title": "Sizes and Prices",
+  "fr": "Les tailles et les prix",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 8,
+  "topics": [
+   "A1 Unit by Unit",
+   "Unit 5: C'est tendance !"
+  ],
+  "description": "Ask for a size, understand prices and use numbers above one hundred.",
+  "objectives": [
+   "Ask Vous avez ça en taille… ?",
+   "Say and understand prices",
+   "Count in hundreds: cent, deux cents, mille",
+   "Pay with par carte or en espèces"
+  ],
+  "art": {
+   "emoji": "🏷️"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a1-unit-by-unit",
+  "number": 20,
+  "id": "this-one-or-that-one",
+  "title": "This One or That One?",
+  "fr": "Ce, cette, ces",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 8,
+  "topics": [
+   "A1 Unit by Unit",
+   "Unit 5: C'est tendance !"
+  ],
+  "description": "Choose between items and give simple opinions with ce, cet, cette and ces.",
+  "objectives": [
+   "Use ce, cet, cette and ces",
+   "Say what you like with j'aime bien and ça me plaît",
+   "Use trop, très, assez and un peu",
+   "Compare with plus… que"
+  ],
+  "art": {
+   "emoji": "🛍️"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a1-unit-by-unit",
+  "number": 21,
+  "id": "my-day-hour-by-hour",
+  "title": "My Day, Hour by Hour",
+  "fr": "Ma journée",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 8,
+  "topics": [
+   "A1 Unit by Unit",
+   "Unit 6: Qu'est-ce qu'on fait aujourd'hui ?"
+  ],
+  "description": "Describe your daily routine and say the time for each activity.",
+  "objectives": [
+   "Ask À quelle heure… ?",
+   "Say times with vers, à and midi",
+   "Use the verbs se lever, partir, commencer and finir",
+   "Understand the 24-hour clock"
+  ],
+  "art": {
+   "emoji": "🌅"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a1-unit-by-unit",
+  "number": 22,
+  "id": "free-time-activities",
+  "title": "Free Time and Hobbies",
+  "fr": "Mes loisirs",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 8,
+  "topics": [
+   "A1 Unit by Unit",
+   "Unit 6: Qu'est-ce qu'on fait aujourd'hui ?"
+  ],
+  "description": "Talk about what you do in your free time with faire and jouer.",
+  "objectives": [
+   "Name hobbies and sports",
+   "Use faire du, de la and des",
+   "Use jouer à for sports and jouer de for instruments",
+   "Ask Qu'est-ce que tu fais pendant ton temps libre ?"
+  ],
+  "art": {
+   "emoji": "🎸"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a1-unit-by-unit",
+  "number": 23,
+  "id": "inviting-a-friend",
+  "title": "Inviting a Friend",
+  "fr": "Inviter quelqu'un",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 8,
+  "topics": [
+   "A1 Unit by Unit",
+   "Unit 6: Qu'est-ce qu'on fait aujourd'hui ?"
+  ],
+  "description": "Make an invitation, accept it and politely decline.",
+  "objectives": [
+   "Ask Qu'est-ce qu'on fait ?",
+   "Invite someone with Tu veux… ?",
+   "Accept with D'accord and refuse with Je ne peux pas",
+   "Use vouloir and pouvoir"
+  ],
+  "art": {
+   "emoji": "🎬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a1-unit-by-unit",
+  "number": 24,
+  "id": "plans-for-the-weekend",
+  "title": "Weekend Plans",
+  "fr": "Le week-end prochain",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 8,
+  "topics": [
+   "A1 Unit by Unit",
+   "Unit 6: Qu'est-ce qu'on fait aujourd'hui ?"
+  ],
+  "description": "Talk about what you are going to do this weekend and next week.",
+  "objectives": [
+   "Use aller + infinitive for the near future",
+   "Say demain, ce week-end and la semaine prochaine",
+   "Say what you will do and where",
+   "Use rester, voir and revenir"
+  ],
+  "art": {
+   "emoji": "🧳"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a1-unit-by-unit",
+  "number": 25,
+  "id": "my-home",
+  "title": "My Home",
+  "fr": "Mon logement",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 8,
+  "topics": [
+   "A1 Unit by Unit",
+   "Unit 7: Chez moi !"
+  ],
+  "description": "Describe your home, its rooms and which floor it is on.",
+  "objectives": [
+   "Name the rooms of a home",
+   "Say how many rooms a home has",
+   "Use first, second and third for floors",
+   "Say sans and avec"
+  ],
+  "art": {
+   "emoji": "🏠"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a1-unit-by-unit",
+  "number": 26,
+  "id": "furniture-and-objects",
+  "title": "Furniture and Objects",
+  "fr": "Les meubles",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 8,
+  "topics": [
+   "A1 Unit by Unit",
+   "Unit 7: Chez moi !"
+  ],
+  "description": "Describe a room and what is in it.",
+  "objectives": [
+   "Name common furniture",
+   "Say what there is in a room with il y a",
+   "Describe rooms with adjectives like clair and petit",
+   "Ask Ta chambre est comment ?"
+  ],
+  "art": {
+   "emoji": "🛋️"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a1-unit-by-unit",
+  "number": 27,
+  "id": "household-chores",
+  "title": "Household Chores",
+  "fr": "Les tâches ménagères",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 8,
+  "topics": [
+   "A1 Unit by Unit",
+   "Unit 7: Chez moi !"
+  ],
+  "description": "Say what you must do at home with faire, devoir and pouvoir.",
+  "objectives": [
+   "Name common chores",
+   "Use devoir and pouvoir with an infinitive",
+   "Say Je dois… and Je peux…",
+   "Talk about what you do on the weekend"
+  ],
+  "art": {
+   "emoji": "🧹"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a1-unit-by-unit",
+  "number": 28,
+  "id": "finding-a-flat",
+  "title": "Finding a Flat",
+  "fr": "Chercher un appartement",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 8,
+  "topics": [
+   "A1 Unit by Unit",
+   "Unit 7: Chez moi !"
+  ],
+  "description": "Read a small ad and ask about rent, size and a visit.",
+  "objectives": [
+   "Understand a rental ad",
+   "Say and ask the rent and charges",
+   "Use numbers up to one thousand",
+   "Ask to visit with Je peux visiter… ?"
+  ],
+  "art": {
+   "emoji": "🔑"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a1-unit-by-unit",
+  "number": 29,
+  "id": "aches-and-pains",
+  "title": "Aches and Pains",
+  "fr": "J'ai mal à…",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 8,
+  "topics": [
+   "A1 Unit by Unit",
+   "Unit 8: En forme !"
+  ],
+  "description": "Name parts of the body and say where it hurts.",
+  "objectives": [
+   "Name parts of the body",
+   "Say J'ai mal à… with au, à la, à l' and aux",
+   "Ask Qu'est-ce qui ne va pas ?",
+   "Say how you feel"
+  ],
+  "art": {
+   "emoji": "🤕"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a1-unit-by-unit",
+  "number": 30,
+  "id": "seeing-a-doctor",
+  "title": "Seeing a Doctor",
+  "fr": "Chez le médecin",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 8,
+  "topics": [
+   "A1 Unit by Unit",
+   "Unit 8: En forme !"
+  ],
+  "description": "Explain your symptoms to a doctor and understand the advice.",
+  "objectives": [
+   "Describe symptoms with avoir and depuis",
+   "Understand simple medical advice",
+   "Use the vous command: prenez, reposez-vous",
+   "Say how often with deux fois par jour"
+  ],
+  "art": {
+   "emoji": "🩺"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a1-unit-by-unit",
+  "number": 31,
+  "id": "staying-active",
+  "title": "Staying Active",
+  "fr": "Rester en forme",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 8,
+  "topics": [
+   "A1 Unit by Unit",
+   "Unit 8: En forme !"
+  ],
+  "description": "Give and receive advice about sleep, sport and health.",
+  "objectives": [
+   "Use il faut + infinitive",
+   "Say how often with souvent, rarement and par semaine",
+   "Talk about sleep and exercise",
+   "Say Je suis en forme"
+  ],
+  "art": {
+   "emoji": "🏃"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a1-unit-by-unit",
+  "number": 32,
+  "id": "eating-well",
+  "title": "Eating Well",
+  "fr": "Bien manger",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 8,
+  "topics": [
+   "A1 Unit by Unit",
+   "Unit 8: En forme !"
+  ],
+  "description": "Talk about a healthy diet and give simple advice.",
+  "objectives": [
+   "Use plus de, moins de and trop de",
+   "Say tous les jours and chaque semaine",
+   "Talk about fruit, sugar and water",
+   "Give advice with il faut and the tu command"
+  ],
+  "art": {
+   "emoji": "🥗"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a1-unit-by-unit",
+  "number": 33,
+  "id": "booking-a-room",
+  "title": "Booking a Room",
+  "fr": "Réserver une chambre",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 8,
+  "topics": [
+   "A1 Unit by Unit",
+   "Unit 9: Bonnes vacances !"
+  ],
+  "description": "Check in at a hotel and ask about your room.",
+  "objectives": [
+   "Say J'ai réservé… au nom de…",
+   "Name hotel words like chambre double and clé",
+   "Ask what is included",
+   "Understand opening hours"
+  ],
+  "art": {
+   "emoji": "🏨"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a1-unit-by-unit",
+  "number": 34,
+  "id": "what-we-did",
+  "title": "What We Did",
+  "fr": "Hier, j'ai visité…",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 8,
+  "topics": [
+   "A1 Unit by Unit",
+   "Unit 9: Bonnes vacances !"
+  ],
+  "description": "Tell a friend what you did on your trip using the past tense with avoir.",
+  "objectives": [
+   "Form the passé composé with avoir",
+   "Use past participles like visité, mangé, pris and vu",
+   "Use hier and last week",
+   "Make a past sentence negative"
+  ],
+  "art": {
+   "emoji": "📮"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a1-unit-by-unit",
+  "number": 35,
+  "id": "what-is-the-weather-like",
+  "title": "What's the Weather Like?",
+  "fr": "Quel temps fait-il ?",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 8,
+  "topics": [
+   "A1 Unit by Unit",
+   "Unit 9: Bonnes vacances !"
+  ],
+  "description": "Talk about the weather and the seasons in a place you are visiting.",
+  "objectives": [
+   "Ask Quel temps fait-il ?",
+   "Say il fait beau, il pleut and il neige",
+   "Name the seasons with en and au",
+   "Say the temperature in degrees"
+  ],
+  "art": {
+   "emoji": "⛅"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a1-unit-by-unit",
+  "number": 36,
+  "id": "getting-to-your-destination",
+  "title": "Getting There",
+  "fr": "En route",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 8,
+  "topics": [
+   "A1 Unit by Unit",
+   "Unit 9: Bonnes vacances !"
+  ],
+  "description": "Buy a ticket, find your platform and talk about departure and arrival times.",
+  "objectives": [
+   "Ask for un aller simple or un aller-retour",
+   "Understand quai and voie",
+   "Say departure and arrival times",
+   "Say a train is late with en retard"
+  ],
+  "art": {
+   "emoji": "🚆"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a1-unit-by-unit",
+  "number": 37,
+  "id": "my-job-and-workplace",
+  "title": "My Job and Workplace",
+  "fr": "Mon travail",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 8,
+  "topics": [
+   "A1 Unit by Unit",
+   "Unit 10: Au travail !"
+  ],
+  "description": "Describe where you work, what your job is like and who you work with.",
+  "objectives": [
+   "Say where you work with dans, à and chez",
+   "Describe a job with intéressant, fatigant and calme",
+   "Talk about colleagues and hours with mes collègues and par semaine",
+   "Use son, sa and ses"
+  ],
+  "art": {
+   "emoji": "🏢"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a1-unit-by-unit",
+  "number": 38,
+  "id": "the-week-at-work",
+  "title": "My Work Week",
+  "fr": "Mon emploi du temps",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 8,
+  "topics": [
+   "A1 Unit by Unit",
+   "Unit 10: Au travail !"
+  ],
+  "description": "Describe your weekly schedule and fix meetings.",
+  "objectives": [
+   "Say du lundi au vendredi",
+   "Name the parts of the day",
+   "Fix a meeting with avoir rendez-vous",
+   "Say when you are free or busy"
+  ],
+  "art": {
+   "emoji": "📅"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a1-unit-by-unit",
+  "number": 39,
+  "id": "calling-and-writing",
+  "title": "Phone Calls and E-mails",
+  "fr": "Téléphoner et écrire",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 8,
+  "topics": [
+   "A1 Unit by Unit",
+   "Unit 10: Au travail !"
+  ],
+  "description": "Make a short phone call, leave a message and write a polite e-mail.",
+  "objectives": [
+   "Say Allô and ask to speak to someone",
+   "Leave a message and say you will call back",
+   "Use polite request forms with pouvez-vous",
+   "Start and end a simple e-mail"
+  ],
+  "art": {
+   "emoji": "📞"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a1-unit-by-unit",
+  "number": 40,
+  "id": "my-first-job-interview",
+  "title": "My First Interview",
+  "fr": "Mon premier entretien",
+  "type": "Short dialogue",
+  "level": "Absolute beginner",
+  "minutes": 8,
+  "topics": [
+   "A1 Unit by Unit",
+   "Unit 10: Au travail !"
+  ],
+  "description": "Introduce yourself in a short interview and show what you have learned in A1.",
+  "objectives": [
+   "Introduce yourself in a few simple sentences",
+   "Say what you study and what you like",
+   "Say which languages you speak",
+   "Say when you can start"
+  ],
+  "art": {
+   "emoji": "🎯"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
  }
 ];
