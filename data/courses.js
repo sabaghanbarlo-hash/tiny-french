@@ -76,6 +76,14 @@ export const courses = [
   cta: { label: "Start Lesson 1", href: "/courses/travel-french/taking-a-taxi/" }
  },
  {
+  id: "tiny-a1-unit-by-unit", title: "Tiny French A1: Unit by Unit", kind: "Free preview + premium course", status: "available",
+  level: "Absolute beginner (A1)", free: false, premium: true, price: 19, currency: "USD", checkoutUrl: "", art: "tiny-french-characters",
+  summary: "A full A1 French course in ten units, taught the Tiny French way. Every lesson has a dialogue with Adrien and Marinette, pronunciation help, vocabulary, one clear grammar point and a quiz. It follows the same ten unit themes as a standard A1 textbook, so it works alongside your textbook or on its own.",
+  outcomes: ["Introduce yourself, say where you are from and what you do", "Talk about food, places, clothes, plans, your home and your health", "Understand and use the key A1 grammar step by step", "Be ready for everyday conversations and A1-level exams"],
+  modules: [],
+  cta: { label: "Start Lesson 1", href: "/courses/tiny-a1-unit-by-unit/my-name-is/" }
+ },
+ {
   id: "from-zero-to-first-conversations", title: "Tiny French: From Zero to Your First Conversations", kind: "Paid beginner course", status: "planned",
   level: "Absolute beginner (A1)", free: false, price: null, currency: "USD", checkoutUrl: "", art: "tiny-french-characters",
   summary: "A structured, step-by-step beginner course that builds on the free lessons. Still in planning: nothing here is for sale yet.",
