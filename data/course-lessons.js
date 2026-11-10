@@ -12726,7 +12726,13 @@ export const courseLessons = [
   "type": "Short dialogue",
   "level": "Absolute beginner",
   "minutes": 7,
-  "video": null,
+  "video": {
+   "src": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/ua-01-my-name-is.mp4",
+   "poster": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/ua-01-my-name-is.thumbnail.png",
+   "vtt": "assets/video/ua-01-my-name-is.vtt",
+   "uploaded": "2026-11-09",
+   "note": "Long-format lesson video (16:9) with the story, vocabulary, grammar and a quiz. French and English subtitles."
+  },
   "instagram": "",
   "art": {
    "emoji": "👋"
@@ -12992,7 +12998,13 @@ export const courseLessons = [
   "type": "Short dialogue",
   "level": "Absolute beginner",
   "minutes": 8,
-  "video": null,
+  "video": {
+   "src": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/ua-02-nationality-and-home.mp4",
+   "poster": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/ua-02-nationality-and-home.thumbnail.png",
+   "vtt": "assets/video/ua-02-nationality-and-home.vtt",
+   "uploaded": "2026-11-09",
+   "note": "Long-format lesson video (16:9) with the story, vocabulary, grammar and a quiz. French and English subtitles."
+  },
   "instagram": "",
   "art": {
    "emoji": "🌍"
