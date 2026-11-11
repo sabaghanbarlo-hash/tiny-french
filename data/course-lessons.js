@@ -8546,7 +8546,13 @@ export const courseLessons = [
   "type": "Short dialogue",
   "level": "Beginner",
   "minutes": 8,
-  "video": null,
+  "video": {
+   "src": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/tc-001.mp4",
+   "poster": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/tc-001.thumbnail.png",
+   "vtt": "assets/video/tc-001.vtt",
+   "uploaded": "2026-11-10",
+   "note": "Conversation video (16:9) with French and English subtitles."
+  },
   "instagram": "",
   "art": {
    "emoji": "💬"
@@ -8730,7 +8736,13 @@ export const courseLessons = [
   "type": "Short dialogue",
   "level": "Beginner",
   "minutes": 8,
-  "video": null,
+  "video": {
+   "src": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/tc-002.mp4",
+   "poster": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/tc-002.thumbnail.png",
+   "vtt": "assets/video/tc-002.vtt",
+   "uploaded": "2026-11-10",
+   "note": "Conversation video (16:9) with French and English subtitles."
+  },
   "instagram": "",
   "art": {
    "emoji": "💬"
@@ -8914,7 +8926,13 @@ export const courseLessons = [
   "type": "Short dialogue",
   "level": "Beginner",
   "minutes": 8,
-  "video": null,
+  "video": {
+   "src": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/tc-003.mp4",
+   "poster": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/tc-003.thumbnail.png",
+   "vtt": "assets/video/tc-003.vtt",
+   "uploaded": "2026-11-10",
+   "note": "Conversation video (16:9) with French and English subtitles."
+  },
   "instagram": "",
   "art": {
    "emoji": "💬"
@@ -9098,7 +9116,13 @@ export const courseLessons = [
   "type": "Short dialogue",
   "level": "Beginner",
   "minutes": 8,
-  "video": null,
+  "video": {
+   "src": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/tc-004.mp4",
+   "poster": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/tc-004.thumbnail.png",
+   "vtt": "assets/video/tc-004.vtt",
+   "uploaded": "2026-11-10",
+   "note": "Conversation video (16:9) with French and English subtitles."
+  },
   "instagram": "",
   "art": {
    "emoji": "💬"
@@ -9282,7 +9306,13 @@ export const courseLessons = [
   "type": "Short dialogue",
   "level": "Beginner",
   "minutes": 8,
-  "video": null,
+  "video": {
+   "src": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/tc-005.mp4",
+   "poster": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/tc-005.thumbnail.png",
+   "vtt": "assets/video/tc-005.vtt",
+   "uploaded": "2026-11-10",
+   "note": "Conversation video (16:9) with French and English subtitles."
+  },
   "instagram": "",
   "art": {
    "emoji": "💬"
@@ -9466,7 +9496,13 @@ export const courseLessons = [
   "type": "Short dialogue",
   "level": "Beginner",
   "minutes": 8,
-  "video": null,
+  "video": {
+   "src": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/tc-006.mp4",
+   "poster": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/tc-006.thumbnail.png",
+   "vtt": "assets/video/tc-006.vtt",
+   "uploaded": "2026-11-10",
+   "note": "Conversation video (16:9) with French and English subtitles."
+  },
   "instagram": "",
   "art": {
    "emoji": "💬"
@@ -9650,7 +9686,13 @@ export const courseLessons = [
   "type": "Short dialogue",
   "level": "Beginner",
   "minutes": 8,
-  "video": null,
+  "video": {
+   "src": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/tc-007.mp4",
+   "poster": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/tc-007.thumbnail.png",
+   "vtt": "assets/video/tc-007.vtt",
+   "uploaded": "2026-11-10",
+   "note": "Conversation video (16:9) with French and English subtitles."
+  },
   "instagram": "",
   "art": {
    "emoji": "💬"
@@ -9834,7 +9876,13 @@ export const courseLessons = [
   "type": "Short dialogue",
   "level": "Beginner",
   "minutes": 8,
-  "video": null,
+  "video": {
+   "src": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/tc-008.mp4",
+   "poster": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/tc-008.thumbnail.png",
+   "vtt": "assets/video/tc-008.vtt",
+   "uploaded": "2026-11-10",
+   "note": "Conversation video (16:9) with French and English subtitles."
+  },
   "instagram": "",
   "art": {
    "emoji": "💬"
@@ -10018,7 +10066,13 @@ export const courseLessons = [
   "type": "Short dialogue",
   "level": "Beginner",
   "minutes": 8,
-  "video": null,
+  "video": {
+   "src": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/tc-009.mp4",
+   "poster": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/tc-009.thumbnail.png",
+   "vtt": "assets/video/tc-009.vtt",
+   "uploaded": "2026-11-10",
+   "note": "Conversation video (16:9) with French and English subtitles."
+  },
   "instagram": "",
   "art": {
    "emoji": "💬"
@@ -10202,7 +10256,13 @@ export const courseLessons = [
   "type": "Short dialogue",
   "level": "Beginner",
   "minutes": 8,
-  "video": null,
+  "video": {
+   "src": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/tc-010.mp4",
+   "poster": "https://sabaghanbarlo-hash.github.io/tiny-french-youtube/videos/tc-010.thumbnail.png",
+   "vtt": "assets/video/tc-010.vtt",
+   "uploaded": "2026-11-10",
+   "note": "Conversation video (16:9) with French and English subtitles."
+  },
   "instagram": "",
   "art": {
    "emoji": "💬"
