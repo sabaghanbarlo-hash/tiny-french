@@ -14341,5 +14341,1484 @@ export const courseLessons = [
   "instagram": "",
   "video": null,
   "premium": true
+ },
+ {
+  "course": "tiny-a2-unit-by-unit",
+  "number": 1,
+  "type": "Short dialogue",
+  "level": "Elementary",
+  "minutes": 9,
+  "video": {
+   "src": "https://sabaghanbarlo-hash.github.io/tiny-french-a2-videos/videos/ub-01-arriving-in-a-new-city.mp4",
+   "poster": "https://sabaghanbarlo-hash.github.io/tiny-french-a2-videos/videos/ub-01-arriving-in-a-new-city.thumbnail.png",
+   "vtt": "assets/video/ub-01-arriving-in-a-new-city.vtt",
+   "uploaded": "2026-11-11",
+   "note": "Long-format lesson video (16:9) with the story, vocabulary, grammar and a quiz. French and English subtitles."
+  },
+  "instagram": "",
+  "art": {
+   "emoji": "🚉"
+  },
+  "topics": [
+   "A2 Unit by Unit",
+   "Unit 1: New Beginnings"
+  ],
+  "id": "arriving-in-a-new-city",
+  "title": "Arriving in a New City",
+  "fr": "Je suis arrivée à Lyon",
+  "description": "Tell what you did when you arrived somewhere new, using the past tense with être.",
+  "objectives": [
+   "Use the passé composé with être",
+   "Make the past participle agree with the subject",
+   "Use déjà, pas encore and enfin",
+   "Talk about a journey you made"
+  ],
+  "intro": "Marinette has just moved to Lyon for a new job, and Adrien meets her at the station.",
+  "dialogue": [
+   {
+    "scene": "At Lyon station"
+   },
+   {
+    "who": "Adrien",
+    "fr": "Marinette ! Tu es enfin arrivée !",
+    "en": "Marinette! You've finally arrived!"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Oui ! Je suis partie de Paris ce matin et je suis arrivée à midi.",
+    "en": "Yes! I left Paris this morning and arrived at noon."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Tu as fait bon voyage ?",
+    "en": "Did you have a good trip?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Très bon. Je suis montée dans le train à huit heures et j'ai dormi presque tout le trajet.",
+    "en": "Very good. I got on the train at eight and slept almost the whole way."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Et tes cartons ? Ils sont déjà arrivés ?",
+    "en": "And your boxes? Have they already arrived?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Pas encore. Ils sont partis hier et ils arrivent demain.",
+    "en": "Not yet. They left yesterday and arrive tomorrow."
+   }
+  ],
+  "vocab": [
+   {
+    "fr": "arriver",
+    "en": "to arrive",
+    "say": "ah-ree-VAY",
+    "cat": "Travel",
+    "ex": "Je suis arrivée à midi.",
+    "exEn": "I arrived at noon."
+   },
+   {
+    "fr": "partir",
+    "en": "to leave",
+    "say": "pahr-TEER",
+    "cat": "Travel",
+    "ex": "Ils sont partis hier.",
+    "exEn": "They left yesterday."
+   },
+   {
+    "fr": "monter",
+    "en": "to get on, go up",
+    "say": "mohn-TAY",
+    "cat": "Travel",
+    "ex": "Je suis montée dans le train.",
+    "exEn": "I got on the train."
+   },
+   {
+    "fr": "descendre",
+    "en": "to get off, go down",
+    "say": "day-SAHN-druh",
+    "cat": "Travel",
+    "ex": "Elle est descendue à la gare.",
+    "exEn": "She got off at the station."
+   },
+   {
+    "fr": "entrer",
+    "en": "to enter",
+    "say": "ahn-TRAY",
+    "cat": "Common Verbs",
+    "ex": "Nous sommes entrés dans le café.",
+    "exEn": "We went into the café."
+   },
+   {
+    "fr": "le voyage",
+    "en": "journey, trip",
+    "say": "luh vwah-YAHZH",
+    "cat": "Travel",
+    "ex": "Tu as fait bon voyage ?",
+    "exEn": "Did you have a good trip?"
+   },
+   {
+    "fr": "le carton",
+    "en": "cardboard box",
+    "say": "luh kar-TOHN",
+    "cat": "Daily Life",
+    "ex": "Mes cartons arrivent demain.",
+    "exEn": "My boxes arrive tomorrow."
+   },
+   {
+    "fr": "déjà",
+    "en": "already",
+    "say": "day-ZHAH",
+    "cat": "Time & Days",
+    "ex": "Il est déjà parti.",
+    "exEn": "He has already left."
+   },
+   {
+    "fr": "pas encore",
+    "en": "not yet",
+    "say": "pah zahn-KOHR",
+    "cat": "Time & Days",
+    "ex": "Je ne suis pas encore arrivée.",
+    "exEn": "I haven't arrived yet."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Passé composé with être",
+    "body": "A small group of verbs of movement and change use être, not avoir, in the passé composé: aller, venir, arriver, partir, monter, descendre, entrer, sortir, rester, rentrer, naître, mourir. The past participle agrees with the subject like an adjective: je suis arrivé (man), je suis arrivée (woman), nous sommes partis, elles sont parties.",
+    "examples": [
+     {
+      "fr": "Marinette est arrivée à midi.",
+      "en": "Marinette arrived at noon."
+     },
+     {
+      "fr": "Nous sommes partis hier.",
+      "en": "We left yesterday."
+     }
+    ]
+   },
+   {
+    "title": "Déjà, pas encore, enfin",
+    "body": "Put déjà between être and the participle: il est déjà parti. Pas encore replaces pas in the negative: je ne suis pas encore arrivée. Enfin means finally and often opens the sentence: enfin, tu es là !",
+    "examples": [
+     {
+      "fr": "Elle est déjà arrivée.",
+      "en": "She has already arrived."
+     },
+     {
+      "fr": "Ils ne sont pas encore partis.",
+      "en": "They haven't left yet."
+     }
+    ]
+   }
+  ],
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "How does a woman say “I arrived”?",
+    "options": [
+     "J'ai arrivé.",
+     "Je suis arrivée.",
+     "Je suis arrivé.",
+     "Je suis arrivées."
+    ],
+    "answer": "Je suis arrivée.",
+    "explain": "Arriver takes être, and the participle agrees with the subject."
+   },
+   {
+    "type": "fill",
+    "q": "Complete: Nous ___ partis hier. (we left)",
+    "hint": "être with nous",
+    "answer": "sommes",
+    "explain": "Nous sommes partis."
+   },
+   {
+    "type": "mc",
+    "q": "What does “pas encore” mean?",
+    "options": [
+     "not any more",
+     "not at all",
+     "not yet",
+     "not again"
+    ],
+    "answer": "not yet",
+    "explain": "Pas encore = not yet."
+   },
+   {
+    "type": "mc",
+    "q": "Which sentence is correct?",
+    "options": [
+     "Elles ont parti.",
+     "Elles sont partis.",
+     "Elles sont partie.",
+     "Elles sont parties."
+    ],
+    "answer": "Elles sont parties.",
+    "explain": "Elles is feminine plural: parties."
+   },
+   {
+    "type": "fill",
+    "q": "Complete: Il est ___ arrivé. (already)",
+    "hint": "time word",
+    "answer": "déjà",
+    "explain": "Il est déjà arrivé."
+   }
+  ]
+ },
+ {
+  "course": "tiny-a2-unit-by-unit",
+  "number": 2,
+  "type": "Short dialogue",
+  "level": "Elementary",
+  "minutes": 9,
+  "video": {
+   "src": "https://sabaghanbarlo-hash.github.io/tiny-french-a2-videos/videos/ub-02-how-long-have-you-lived-here.mp4",
+   "poster": "https://sabaghanbarlo-hash.github.io/tiny-french-a2-videos/videos/ub-02-how-long-have-you-lived-here.thumbnail.png",
+   "vtt": "assets/video/ub-02-how-long-have-you-lived-here.vtt",
+   "uploaded": "2026-11-11",
+   "note": "Long-format lesson video (16:9) with the story, vocabulary, grammar and a quiz. French and English subtitles."
+  },
+  "instagram": "",
+  "art": {
+   "emoji": "⏳"
+  },
+  "topics": [
+   "A2 Unit by Unit",
+   "Unit 1: New Beginnings"
+  ],
+  "id": "how-long-have-you-lived-here",
+  "title": "How Long Have You Lived Here?",
+  "fr": "Tu habites ici depuis quand ?",
+  "description": "Talk about how long and when with depuis, il y a and pendant.",
+  "objectives": [
+   "Use depuis with the present tense",
+   "Use il y a with the passé composé",
+   "Use pendant for a duration in the past",
+   "Ask Depuis quand… ? and Depuis combien de temps… ?"
+  ],
+  "intro": "Adrien and Marinette compare how long they have lived in Lyon and in Paris.",
+  "dialogue": [
+   {
+    "scene": "In a café in Lyon"
+   },
+   {
+    "who": "Adrien",
+    "fr": "Tu habites à Lyon depuis quand ?",
+    "en": "How long have you been living in Lyon?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Depuis lundi ! Je suis arrivée il y a quatre jours.",
+    "en": "Since Monday! I arrived four days ago."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Moi, j'habite ici depuis vingt ans.",
+    "en": "I've lived here for twenty years."
+   },
+   {
+    "who": "Marinette",
+    "fr": "Tu n'as jamais habité ailleurs ?",
+    "en": "You've never lived anywhere else?"
+   },
+   {
+    "who": "Adrien",
+    "fr": "Si, j'ai vécu à Paris pendant deux ans, mais je préfère Lyon.",
+    "en": "Yes, I lived in Paris for two years, but I prefer Lyon."
+   },
+   {
+    "who": "Marinette",
+    "fr": "Tu y as travaillé ?",
+    "en": "Did you work there?"
+   },
+   {
+    "who": "Adrien",
+    "fr": "Oui, pendant six mois, il y a trois ans.",
+    "en": "Yes, for six months, three years ago."
+   }
+  ],
+  "vocab": [
+   {
+    "fr": "depuis",
+    "en": "for, since (still true)",
+    "say": "duh-PWEE",
+    "cat": "Time & Days",
+    "ex": "J'habite ici depuis dix ans.",
+    "exEn": "I've lived here for ten years."
+   },
+   {
+    "fr": "il y a",
+    "en": "ago",
+    "say": "eel ee AH",
+    "cat": "Time & Days",
+    "ex": "Je suis arrivée il y a quatre jours.",
+    "exEn": "I arrived four days ago."
+   },
+   {
+    "fr": "pendant",
+    "en": "for, during",
+    "say": "pahn-DAHN",
+    "cat": "Time & Days",
+    "ex": "J'ai vécu à Paris pendant deux ans.",
+    "exEn": "I lived in Paris for two years."
+   },
+   {
+    "fr": "depuis quand ?",
+    "en": "since when?",
+    "say": "duh-PWEE KAHN",
+    "cat": "Time & Days",
+    "ex": "Tu habites ici depuis quand ?",
+    "exEn": "Since when have you lived here?"
+   },
+   {
+    "fr": "depuis combien de temps ?",
+    "en": "for how long?",
+    "say": "duh-PWEE kohn-BYAN duh TAHN",
+    "cat": "Time & Days",
+    "ex": "Depuis combien de temps tu travailles ?",
+    "exEn": "How long have you been working?"
+   },
+   {
+    "fr": "vivre",
+    "en": "to live",
+    "say": "VEE-vruh",
+    "cat": "Common Verbs",
+    "ex": "J'ai vécu à Paris.",
+    "exEn": "I lived in Paris."
+   },
+   {
+    "fr": "ailleurs",
+    "en": "elsewhere",
+    "say": "ah-YUHR",
+    "cat": "Everyday Expressions",
+    "ex": "Tu as habité ailleurs ?",
+    "exEn": "Have you lived elsewhere?"
+   },
+   {
+    "fr": "longtemps",
+    "en": "for a long time",
+    "say": "lohn-TAHN",
+    "cat": "Time & Days",
+    "ex": "J'ai habité ici longtemps.",
+    "exEn": "I lived here for a long time."
+   },
+   {
+    "fr": "la semaine dernière",
+    "en": "last week",
+    "say": "lah suh-MEHN dehr-NYEHR",
+    "cat": "Time & Days",
+    "ex": "Je suis arrivée la semaine dernière.",
+    "exEn": "I arrived last week."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Depuis + present",
+    "body": "Use depuis with the present tense for something that began in the past and is still true: J'habite ici depuis vingt ans (I have lived here for twenty years, and I still do). Depuis can give a start point (depuis lundi, depuis 2019) or a duration (depuis deux mois).",
+    "examples": [
+     {
+      "fr": "J'habite à Lyon depuis lundi.",
+      "en": "I've lived in Lyon since Monday."
+     },
+     {
+      "fr": "Il travaille ici depuis trois ans.",
+      "en": "He has worked here for three years."
+     }
+    ]
+   },
+   {
+    "title": "Il y a and pendant with the past",
+    "body": "Il y a + time + a past event says how long ago: je suis arrivée il y a quatre jours. Pendant + duration + past event says how long it lasted: j'ai vécu à Paris pendant deux ans. Compare: depuis (still true), il y a (ago), pendant (it lasted, and it is over).",
+    "examples": [
+     {
+      "fr": "Il est parti il y a une heure.",
+      "en": "He left an hour ago."
+     },
+     {
+      "fr": "J'ai travaillé pendant six mois.",
+      "en": "I worked for six months."
+     }
+    ]
+   }
+  ],
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "Which sentence says you still live in Lyon?",
+    "options": [
+     "J'habite à Lyon depuis deux ans.",
+     "J'ai habité à Lyon pendant deux ans.",
+     "J'habitais à Lyon il y a deux ans.",
+     "J'ai habité à Lyon il y a deux ans."
+    ],
+    "answer": "J'habite à Lyon depuis deux ans.",
+    "explain": "Present + depuis means it is still true."
+   },
+   {
+    "type": "fill",
+    "q": "Complete: Je suis arrivée ___ quatre jours. (four days ago)",
+    "hint": "ago",
+    "answer": "il y a",
+    "explain": "Il y a quatre jours."
+   },
+   {
+    "type": "mc",
+    "q": "Which sentence is correct?",
+    "options": [
+     "J'ai vécu à Paris depuis deux ans.",
+     "J'ai vécu à Paris pendant deux ans.",
+     "Je vis à Paris pendant deux ans.",
+     "J'ai vécu à Paris il y a deux ans pendant."
+    ],
+    "answer": "J'ai vécu à Paris pendant deux ans.",
+    "explain": "Pendant gives a finished duration."
+   },
+   {
+    "type": "mc",
+    "q": "What does “Depuis quand ?” ask?",
+    "options": [
+     "How much?",
+     "Until when?",
+     "Since when?",
+     "Where to?"
+    ],
+    "answer": "Since when?",
+    "explain": "Depuis quand = since when."
+   },
+   {
+    "type": "fill",
+    "q": "Complete: Il travaille ici ___ trois ans. (for three years, still true)",
+    "hint": "still true",
+    "answer": "depuis",
+    "explain": "Depuis + present."
+   }
+  ]
+ },
+ {
+  "course": "tiny-a2-unit-by-unit",
+  "number": 3,
+  "id": "opening-a-bank-account",
+  "title": "Opening a Bank Account",
+  "fr": "Ouvrir un compte",
+  "type": "Short dialogue",
+  "level": "Elementary",
+  "minutes": 9,
+  "topics": [
+   "A2 Unit by Unit",
+   "Unit 1: New Beginnings"
+  ],
+  "description": "Handle a simple formal request at a bank or an office.",
+  "objectives": [
+   "Ask politely with Je voudrais, J'aimerais and Pourriez-vous… ?",
+   "Name the documents you need",
+   "Use vous devez + infinitive",
+   "Understand simple instructions on a form"
+  ],
+  "art": {
+   "emoji": "🏦"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a2-unit-by-unit",
+  "number": 4,
+  "id": "telling-the-story-of-your-day",
+  "title": "Telling the Story of Your Day",
+  "fr": "Raconter ma journée",
+  "type": "Short dialogue",
+  "level": "Elementary",
+  "minutes": 9,
+  "topics": [
+   "A2 Unit by Unit",
+   "Unit 1: New Beginnings"
+  ],
+  "description": "Tell what happened step by step with d'abord, ensuite, puis and enfin.",
+  "objectives": [
+   "Order events with d'abord, ensuite, puis and enfin",
+   "Use the passé composé with avoir and être together",
+   "Make a past sentence negative with ne… jamais",
+   "Ask Alors, c'était comment ?"
+  ],
+  "art": {
+   "emoji": "📖"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a2-unit-by-unit",
+  "number": 5,
+  "id": "when-i-was-a-child",
+  "title": "When I Was a Child",
+  "fr": "Quand j'étais petit",
+  "type": "Short dialogue",
+  "level": "Elementary",
+  "minutes": 9,
+  "topics": [
+   "A2 Unit by Unit",
+   "Unit 2: Memories"
+  ],
+  "description": "Talk about your childhood and what you used to do, with the imparfait.",
+  "objectives": [
+   "Form the imparfait",
+   "Use it for habits and descriptions in the past",
+   "Talk about where you lived and what you liked as a child",
+   "Use tous les jours, souvent and toujours with the imparfait"
+  ],
+  "art": {
+   "emoji": "🧒"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a2-unit-by-unit",
+  "number": 6,
+  "id": "a-day-i-remember",
+  "title": "A Day I Remember",
+  "fr": "Un jour de pluie",
+  "type": "Short dialogue",
+  "level": "Elementary",
+  "minutes": 9,
+  "topics": [
+   "A2 Unit by Unit",
+   "Unit 2: Memories"
+  ],
+  "description": "Tell a short story with the imparfait for the background and the passé composé for the events.",
+  "objectives": [
+   "Choose between the imparfait and the passé composé",
+   "Use quand and pendant que with the right tense",
+   "Set the scene with the imparfait",
+   "Use soudain and tout à coup"
+  ],
+  "art": {
+   "emoji": "🌧️"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a2-unit-by-unit",
+  "number": 7,
+  "id": "old-photos",
+  "title": "Old Photos",
+  "fr": "Comme avant",
+  "type": "Short dialogue",
+  "level": "Elementary",
+  "minutes": 9,
+  "topics": [
+   "A2 Unit by Unit",
+   "Unit 2: Memories"
+  ],
+  "description": "Describe a place or person in the past and say how things have changed.",
+  "objectives": [
+   "Use c'était and il y avait to describe",
+   "Compare avant and maintenant",
+   "Use ne… plus for something that has stopped",
+   "Describe people and places in photos"
+  ],
+  "art": {
+   "emoji": "📷"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a2-unit-by-unit",
+  "number": 8,
+  "id": "school-memories",
+  "title": "School Memories",
+  "fr": "Mes souvenirs d'école",
+  "type": "Short dialogue",
+  "level": "Elementary",
+  "minutes": 9,
+  "topics": [
+   "A2 Unit by Unit",
+   "Unit 2: Memories"
+  ],
+  "description": "Say what you remember and talk about school days of the past.",
+  "objectives": [
+   "Use se souvenir de and se rappeler",
+   "Talk about school life in the past",
+   "Ask Tu te souviens de… ?",
+   "Express how often with chaque and de temps en temps"
+  ],
+  "art": {
+   "emoji": "🏫"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a2-unit-by-unit",
+  "number": 9,
+  "id": "a-better-flat",
+  "title": "Choosing a Better Flat",
+  "fr": "Un meilleur appartement",
+  "type": "Short dialogue",
+  "level": "Elementary",
+  "minutes": 9,
+  "topics": [
+   "A2 Unit by Unit",
+   "Unit 3: Feeling at Home"
+  ],
+  "description": "Compare two homes with plus… que, moins… que, aussi… que and the superlative.",
+  "objectives": [
+   "Use plus, moins and aussi with que",
+   "Say the biggest, the quietest, the cheapest",
+   "Use meilleur and mieux correctly",
+   "Ask Lequel est… ?"
+  ],
+  "art": {
+   "emoji": "🏠"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a2-unit-by-unit",
+  "number": 10,
+  "id": "good-neighbours",
+  "title": "Being a Good Neighbour",
+  "fr": "De bons voisins",
+  "type": "Short dialogue",
+  "level": "Elementary",
+  "minutes": 9,
+  "topics": [
+   "A2 Unit by Unit",
+   "Unit 3: Feeling at Home"
+  ],
+  "description": "Make a polite request to a neighbour and understand simple rules.",
+  "objectives": [
+   "Ask a neighbour politely with Pourriez-vous… ?",
+   "Use il est interdit de + infinitive",
+   "Give a negative command with ne… pas",
+   "Replace a noun with le or la before an infinitive"
+  ],
+  "art": {
+   "emoji": "🔊"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a2-unit-by-unit",
+  "number": 11,
+  "id": "fixing-a-problem",
+  "title": "Fixing a Problem at Home",
+  "fr": "Il y a un problème",
+  "type": "Short dialogue",
+  "level": "Elementary",
+  "minutes": 9,
+  "topics": [
+   "A2 Unit by Unit",
+   "Unit 3: Feeling at Home"
+  ],
+  "description": "Report a problem in your home and arrange for someone to repair it.",
+  "objectives": [
+   "Describe a problem with ça ne marche pas and il y a une fuite",
+   "Name common household problems",
+   "Use le, la, les as direct object pronouns",
+   "Arrange a repair"
+  ],
+  "art": {
+   "emoji": "🔧"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a2-unit-by-unit",
+  "number": 12,
+  "id": "a-housewarming-party",
+  "title": "A Housewarming Party",
+  "fr": "La pendaison de crémaillère",
+  "type": "Short dialogue",
+  "level": "Elementary",
+  "minutes": 9,
+  "topics": [
+   "A2 Unit by Unit",
+   "Unit 3: Feeling at Home"
+  ],
+  "description": "Invite someone, offer to bring something and use indirect object pronouns.",
+  "objectives": [
+   "Invite someone and answer an invitation",
+   "Use me, te, lui, nous, vous and leur",
+   "Use verbs followed by à",
+   "Give a command with a pronoun: apporte-moi, donne-lui"
+  ],
+  "art": {
+   "emoji": "🎉"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a2-unit-by-unit",
+  "number": 13,
+  "id": "describing-personality",
+  "title": "Describing Personality",
+  "fr": "Le caractère",
+  "type": "Short dialogue",
+  "level": "Elementary",
+  "minutes": 9,
+  "topics": [
+   "A2 Unit by Unit",
+   "Unit 4: Everyone Is Different"
+  ],
+  "description": "Describe someone's character and say what they look like and who they resemble.",
+  "objectives": [
+   "Describe personality with adjectives",
+   "Use avoir l'air + adjective",
+   "Use ressembler à",
+   "Soften or strengthen with un peu, assez, plutôt and très"
+  ],
+  "art": {
+   "emoji": "🙂"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a2-unit-by-unit",
+  "number": 14,
+  "id": "alike-and-different",
+  "title": "Alike and Different",
+  "fr": "Pareils et différents",
+  "type": "Short dialogue",
+  "level": "Elementary",
+  "minutes": 9,
+  "topics": [
+   "A2 Unit by Unit",
+   "Unit 4: Everyone Is Different"
+  ],
+  "description": "Compare yourself with someone else and say what you have in common.",
+  "objectives": [
+   "Use le même, la même and les mêmes",
+   "Use autant de… que and comme",
+   "Say différent de and pareil",
+   "Compare tastes and habits"
+  ],
+  "art": {
+   "emoji": "🔁"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a2-unit-by-unit",
+  "number": 15,
+  "id": "customs-and-traditions",
+  "title": "Customs and Traditions",
+  "fr": "Les coutumes",
+  "type": "Short dialogue",
+  "level": "Elementary",
+  "minutes": 9,
+  "topics": [
+   "A2 Unit by Unit",
+   "Unit 4: Everyone Is Different"
+  ],
+  "description": "Talk about how people behave in different countries and compare customs.",
+  "objectives": [
+   "Use on to speak in general",
+   "Say il est poli de, il est normal de and il ne faut pas",
+   "Use en, au and aux with countries",
+   "Talk about greetings and manners"
+  ],
+  "art": {
+   "emoji": "🤝"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a2-unit-by-unit",
+  "number": 16,
+  "id": "talking-about-languages",
+  "title": "Talking About Languages",
+  "fr": "Parler d'autres langues",
+  "type": "Short dialogue",
+  "level": "Elementary",
+  "minutes": 9,
+  "topics": [
+   "A2 Unit by Unit",
+   "Unit 4: Everyone Is Different"
+  ],
+  "description": "Say which languages you speak, how well, and how you learn them.",
+  "objectives": [
+   "Say which languages you speak and how well",
+   "Use apprendre à and depuis",
+   "Use pour + infinitive",
+   "Give advice on learning a language"
+  ],
+  "art": {
+   "emoji": "🗣️"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a2-unit-by-unit",
+  "number": 17,
+  "id": "planning-a-weekend-away",
+  "title": "Planning a Weekend Away",
+  "fr": "Nous partirons à Marseille",
+  "type": "Short dialogue",
+  "level": "Elementary",
+  "minutes": 9,
+  "topics": [
+   "A2 Unit by Unit",
+   "Unit 5: On the Road"
+  ],
+  "description": "Talk about plans and what will happen, with the futur simple.",
+  "objectives": [
+   "Form the futur simple",
+   "Use irregular stems like serai, aurai, irai, ferai",
+   "Use si + present + futur",
+   "Plan a short trip"
+  ],
+  "art": {
+   "emoji": "🧳"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a2-unit-by-unit",
+  "number": 18,
+  "id": "booking-a-stay",
+  "title": "Booking a Stay",
+  "fr": "Réserver un hébergement",
+  "type": "Short dialogue",
+  "level": "Elementary",
+  "minutes": 9,
+  "topics": [
+   "A2 Unit by Unit",
+   "Unit 5: On the Road"
+  ],
+  "description": "Ask about availability and prices and make or cancel a booking.",
+  "objectives": [
+   "Ask Avez-vous une chambre libre… ?",
+   "Use à partir de, jusqu'à and du… au…",
+   "Ask polite questions with est-ce que and inversion",
+   "Ask about what is included and cancellation"
+  ],
+  "art": {
+   "emoji": "🏨"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a2-unit-by-unit",
+  "number": 19,
+  "id": "delays-and-announcements",
+  "title": "Delays and Announcements",
+  "fr": "Le vol a du retard",
+  "type": "Short dialogue",
+  "level": "Elementary",
+  "minutes": 9,
+  "topics": [
+   "A2 Unit by Unit",
+   "Unit 5: On the Road"
+  ],
+  "description": "Understand simple announcements and talk about what has just happened and what is about to happen.",
+  "objectives": [
+   "Understand common airport and station announcements",
+   "Use venir de + infinitive for what has just happened",
+   "Use aller + infinitive for what is about to happen",
+   "Ask about gates, platforms and times"
+  ],
+  "art": {
+   "emoji": "✈️"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a2-unit-by-unit",
+  "number": 20,
+  "id": "lost-and-found-abroad",
+  "title": "Lost and Found",
+  "fr": "J'ai perdu mon sac",
+  "type": "Short dialogue",
+  "level": "Elementary",
+  "minutes": 9,
+  "topics": [
+   "A2 Unit by Unit",
+   "Unit 5: On the Road"
+  ],
+  "description": "Report a lost or stolen item and describe it.",
+  "objectives": [
+   "Say what you lost or forgot in the passé composé",
+   "Describe an object by colour, size and contents",
+   "Use on m'a volé… for a theft",
+   "Understand what you must do next"
+  ],
+  "art": {
+   "emoji": "🎒"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a2-unit-by-unit",
+  "number": 21,
+  "id": "following-a-recipe",
+  "title": "Following a Recipe",
+  "fr": "Lire une recette",
+  "type": "Short dialogue",
+  "level": "Elementary",
+  "minutes": 9,
+  "topics": [
+   "A2 Unit by Unit",
+   "Unit 6: In the Kitchen"
+  ],
+  "description": "Read and give recipe instructions with the imperative.",
+  "objectives": [
+   "Use the vous imperative in recipes",
+   "Name basic ingredients and utensils",
+   "Use d'abord, puis, ensuite and enfin to order steps",
+   "Give quantities with il faut"
+  ],
+  "art": {
+   "emoji": "🥞"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a2-unit-by-unit",
+  "number": 22,
+  "id": "cooking-together-with-en",
+  "title": "Cooking Together",
+  "fr": "Tu en as ?",
+  "type": "Short dialogue",
+  "level": "Elementary",
+  "minutes": 9,
+  "topics": [
+   "A2 Unit by Unit",
+   "Unit 6: In the Kitchen"
+  ],
+  "description": "Ask for ingredients and answer using the pronoun en.",
+  "objectives": [
+   "Use en to replace du, de la, des + noun",
+   "Use en with a number or a quantity",
+   "Say il m'en faut and il n'y en a plus",
+   "Give a command with en"
+  ],
+  "art": {
+   "emoji": "🍳"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a2-unit-by-unit",
+  "number": 23,
+  "id": "ordering-with-preferences",
+  "title": "Ordering With Preferences",
+  "fr": "Au restaurant, avec des préférences",
+  "type": "Short dialogue",
+  "level": "Elementary",
+  "minutes": 9,
+  "topics": [
+   "A2 Unit by Unit",
+   "Unit 6: In the Kitchen"
+  ],
+  "description": "Order with dietary preferences and politely say what is wrong with a dish.",
+  "objectives": [
+   "Say what you cannot or do not eat",
+   "Use sans + noun and plutôt… que",
+   "Use trop, assez and pas assez with adjectives",
+   "Complain politely about a dish"
+  ],
+  "art": {
+   "emoji": "🥗"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a2-unit-by-unit",
+  "number": 24,
+  "id": "grandmothers-cake",
+  "title": "My Grandmother's Cake",
+  "fr": "Le gâteau de ma grand-mère",
+  "type": "Short dialogue",
+  "level": "Elementary",
+  "minutes": 9,
+  "topics": [
+   "A2 Unit by Unit",
+   "Unit 6: In the Kitchen"
+  ],
+  "description": "Tell how someone used to cook something and give tips for success.",
+  "objectives": [
+   "Use avant de + infinitive and après avoir + participle",
+   "Use the imparfait for habits",
+   "Use pour + infinitive to give tips",
+   "Describe the steps of a recipe in the past"
+  ],
+  "art": {
+   "emoji": "🎂"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a2-unit-by-unit",
+  "number": 25,
+  "id": "feeling-unwell",
+  "title": "Feeling Unwell",
+  "fr": "Je ne me sens pas bien",
+  "type": "Short dialogue",
+  "level": "Elementary",
+  "minutes": 9,
+  "topics": [
+   "A2 Unit by Unit",
+   "Unit 7: Your Health"
+  ],
+  "description": "Explain how you feel and for how long, with se sentir and depuis.",
+  "objectives": [
+   "Use se sentir and avoir du mal à",
+   "Name common illnesses and symptoms",
+   "Say how long with depuis",
+   "Say what you need with avoir besoin de"
+  ],
+  "art": {
+   "emoji": "🤒"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a2-unit-by-unit",
+  "number": 26,
+  "id": "pharmacy-advice",
+  "title": "At the Pharmacy",
+  "fr": "À la pharmacie",
+  "type": "Short dialogue",
+  "level": "Elementary",
+  "minutes": 9,
+  "topics": [
+   "A2 Unit by Unit",
+   "Unit 7: Your Health"
+  ],
+  "description": "Ask for advice and understand how to take medicine.",
+  "objectives": [
+   "Ask Qu'est-ce que vous me conseillez ?",
+   "Understand doses: trois fois par jour, pendant cinq jours",
+   "Use conseiller à quelqu'un de + infinitive",
+   "Name common pharmacy items"
+  ],
+  "art": {
+   "emoji": "💊"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a2-unit-by-unit",
+  "number": 27,
+  "id": "friendly-advice",
+  "title": "Giving Friendly Advice",
+  "fr": "À ta place, je…",
+  "type": "Short dialogue",
+  "level": "Elementary",
+  "minutes": 9,
+  "topics": [
+   "A2 Unit by Unit",
+   "Unit 7: Your Health"
+  ],
+  "description": "Give advice with the conditional: tu devrais, à ta place, il vaudrait mieux.",
+  "objectives": [
+   "Form the present conditional",
+   "Say tu devrais, vous pourriez and à ta place, je…",
+   "Use il vaudrait mieux + infinitive",
+   "Give advice kindly"
+  ],
+  "art": {
+   "emoji": "💡"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a2-unit-by-unit",
+  "number": 28,
+  "id": "staying-healthy",
+  "title": "Staying Healthy",
+  "fr": "Rester en bonne santé",
+  "type": "Short dialogue",
+  "level": "Elementary",
+  "minutes": 9,
+  "topics": [
+   "A2 Unit by Unit",
+   "Unit 7: Your Health"
+  ],
+  "description": "Explain how you stay healthy using the gérondif (en + -ant).",
+  "objectives": [
+   "Form the gérondif",
+   "Say two things happen at the same time",
+   "Say how something is done: en marchant, en dormant",
+   "Talk about healthy routines"
+  ],
+  "art": {
+   "emoji": "🏃"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a2-unit-by-unit",
+  "number": 29,
+  "id": "writing-a-cv",
+  "title": "Writing a CV",
+  "fr": "Mon CV",
+  "type": "Short dialogue",
+  "level": "Elementary",
+  "minutes": 9,
+  "topics": [
+   "A2 Unit by Unit",
+   "Unit 8: Work and Skills"
+  ],
+  "description": "Describe your studies, work experience and skills.",
+  "objectives": [
+   "Describe studies and jobs in the passé composé",
+   "Use comme, pendant and depuis for experience",
+   "Say je sais + infinitive and je suis capable de",
+   "Talk about skills"
+  ],
+  "art": {
+   "emoji": "📄"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a2-unit-by-unit",
+  "number": 30,
+  "id": "job-interview-in-depth",
+  "title": "A Job Interview",
+  "fr": "Un entretien d'embauche",
+  "type": "Short dialogue",
+  "level": "Elementary",
+  "minutes": 9,
+  "topics": [
+   "A2 Unit by Unit",
+   "Unit 8: Work and Skills"
+  ],
+  "description": "Answer interview questions and describe a job with qui and que.",
+  "objectives": [
+   "Answer common interview questions",
+   "Use the relative pronouns qui and que",
+   "Describe your strengths with mes points forts",
+   "Show motivation politely"
+  ],
+  "art": {
+   "emoji": "💼"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a2-unit-by-unit",
+  "number": 31,
+  "id": "working-with-colleagues",
+  "title": "Working With Colleagues",
+  "fr": "Entre collègues",
+  "type": "Short dialogue",
+  "level": "Elementary",
+  "minutes": 9,
+  "topics": [
+   "A2 Unit by Unit",
+   "Unit 8: Work and Skills"
+  ],
+  "description": "Ask for help, report what someone said and ask a colleague to do something.",
+  "objectives": [
+   "Ask Pouvez-vous… ? politely",
+   "Report what someone said with dire que and demander de",
+   "Use the verbs envoyer, répondre and reporter",
+   "Talk about meetings and deadlines"
+  ],
+  "art": {
+   "emoji": "🗂️"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a2-unit-by-unit",
+  "number": 32,
+  "id": "work-life-balance",
+  "title": "Work and Life",
+  "fr": "Travail et vie privée",
+  "type": "Short dialogue",
+  "level": "Elementary",
+  "minutes": 9,
+  "topics": [
+   "A2 Unit by Unit",
+   "Unit 8: Work and Skills"
+  ],
+  "description": "Talk about working hours, working from home and how you organise your life.",
+  "objectives": [
+   "Give reasons with parce que, comme, à cause de and grâce à",
+   "Give results with donc and alors",
+   "Talk about télétravail and schedules",
+   "Compare working lives"
+  ],
+  "art": {
+   "emoji": "⚖️"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a2-unit-by-unit",
+  "number": 33,
+  "id": "reading-the-news",
+  "title": "Reading the News",
+  "fr": "Les informations",
+  "type": "Short dialogue",
+  "level": "Elementary",
+  "minutes": 9,
+  "topics": [
+   "A2 Unit by Unit",
+   "Unit 9: News and Opinions"
+  ],
+  "description": "Talk about the news and say where information comes from.",
+  "objectives": [
+   "Use selon and d'après to give a source",
+   "Use il paraît que and on dit que",
+   "Summarise a news story in the passé composé",
+   "Name types of media"
+  ],
+  "art": {
+   "emoji": "📰"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a2-unit-by-unit",
+  "number": 34,
+  "id": "giving-your-opinion",
+  "title": "Giving Your Opinion",
+  "fr": "À mon avis…",
+  "type": "Short dialogue",
+  "level": "Elementary",
+  "minutes": 9,
+  "topics": [
+   "A2 Unit by Unit",
+   "Unit 9: News and Opinions"
+  ],
+  "description": "Give and ask for opinions and learn a first use of the subjunctive.",
+  "objectives": [
+   "Use à mon avis, je pense que, je trouve que",
+   "Ask Qu'est-ce que tu en penses ?",
+   "Agree and disagree",
+   "Use il faut que + subjunctive in a few common cases"
+  ],
+  "art": {
+   "emoji": "💬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a2-unit-by-unit",
+  "number": 35,
+  "id": "agreeing-and-disagreeing",
+  "title": "Disagreeing Politely",
+  "fr": "Je ne suis pas tout à fait d'accord",
+  "type": "Short dialogue",
+  "level": "Elementary",
+  "minutes": 9,
+  "topics": [
+   "A2 Unit by Unit",
+   "Unit 9: News and Opinions"
+  ],
+  "description": "Disagree politely and balance two points of view.",
+  "objectives": [
+   "Use je ne suis pas tout à fait d'accord",
+   "Use mais, pourtant, cependant and en revanche",
+   "Say d'un côté… de l'autre",
+   "Give a reason for your view"
+  ],
+  "art": {
+   "emoji": "🤝"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a2-unit-by-unit",
+  "number": 36,
+  "id": "survey-results",
+  "title": "Survey Results",
+  "fr": "Un sondage",
+  "type": "Short dialogue",
+  "level": "Elementary",
+  "minutes": 9,
+  "topics": [
+   "A2 Unit by Unit",
+   "Unit 9: News and Opinions"
+  ],
+  "description": "Present survey results with percentages and fractions.",
+  "objectives": [
+   "Say percentages and fractions",
+   "Use la plupart de, la majorité and la moitié",
+   "Use environ, plus de and moins de",
+   "Present results of a survey"
+  ],
+  "art": {
+   "emoji": "📊"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a2-unit-by-unit",
+  "number": 37,
+  "id": "future-plans",
+  "title": "Future Plans",
+  "fr": "Mes projets",
+  "type": "Short dialogue",
+  "level": "Elementary",
+  "minutes": 9,
+  "topics": [
+   "A2 Unit by Unit",
+   "Unit 10: Projects and Dreams"
+  ],
+  "description": "Talk about your plans, wishes and intentions.",
+  "objectives": [
+   "Use j'aimerais, j'ai envie de and j'ai l'intention de",
+   "Use espérer and compter + infinitive",
+   "Say dans cinq ans and l'année prochaine",
+   "Talk about projects"
+  ],
+  "art": {
+   "emoji": "🔮"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a2-unit-by-unit",
+  "number": 38,
+  "id": "if-i-could",
+  "title": "If I Could…",
+  "fr": "Si j'avais le temps…",
+  "type": "Short dialogue",
+  "level": "Elementary",
+  "minutes": 9,
+  "topics": [
+   "A2 Unit by Unit",
+   "Unit 10: Projects and Dreams"
+  ],
+  "description": "Imagine unreal situations with si + imparfait + conditional.",
+  "objectives": [
+   "Use si + imparfait + conditionnel",
+   "Imagine what you would do",
+   "Ask Qu'est-ce que tu ferais si… ?",
+   "Talk about dreams"
+  ],
+  "art": {
+   "emoji": "💭"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a2-unit-by-unit",
+  "number": 39,
+  "id": "saving-for-a-dream",
+  "title": "Saving for a Dream",
+  "fr": "Économiser pour un rêve",
+  "type": "Short dialogue",
+  "level": "Elementary",
+  "minutes": 9,
+  "topics": [
+   "A2 Unit by Unit",
+   "Unit 10: Projects and Dreams"
+  ],
+  "description": "Talk about a goal, how to reach it and when with dès que and quand.",
+  "objectives": [
+   "Talk about money with économiser, dépenser and coûter",
+   "Use quand and dès que + futur",
+   "Use pour + infinitive and afin de",
+   "Set a goal and its steps"
+  ],
+  "art": {
+   "emoji": "💶"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-a2-unit-by-unit",
+  "number": 40,
+  "id": "looking-back-and-ahead",
+  "title": "Looking Back and Ahead",
+  "fr": "Bilan et projets",
+  "type": "Short dialogue",
+  "level": "Elementary",
+  "minutes": 9,
+  "topics": [
+   "A2 Unit by Unit",
+   "Unit 10: Projects and Dreams"
+  ],
+  "description": "Tell your story using all the A2 tenses: past, present and future.",
+  "objectives": [
+   "Combine passé composé, imparfait, présent, futur proche, futur simple and conditionnel",
+   "Talk about last year, this year and next year",
+   "Say what you have learned",
+   "Congratulate and wish someone well"
+  ],
+  "art": {
+   "emoji": "🎓"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
  }
 ];
