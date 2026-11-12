@@ -124,3 +124,6 @@ if (!document.querySelector("[data-account-page]") && /(^|[#&])(access_token|err
   location.replace(ACCOUNT_URL + location.hash);
 } else if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", mountNav);
 else mountNav();
+
+// Premium AI tutor chat (loaded separately so it can never break sign-in).
+import("./tutor.js").catch(() => { /* tutor is optional */ });
