@@ -116,7 +116,7 @@ function mountNav() {
   a.className = "auth-link"; a.setAttribute("data-auth-link", ""); a.href = ACCOUNT_URL;
   const set = () => { a.textContent = read() ? "My account" : "Log in"; };
   set(); window.addEventListener("tiny-auth", set); window.addEventListener("storage", set);
-  menu.insertBefore(a, menu.querySelector(".nav-cta"));
+  const right = menu.querySelector(".nav-right") || menu, ref = right.querySelector(".header-search") || right.querySelector(".nav-cta"); right.insertBefore(a, ref && ref.parentNode === right ? ref : null);
 }
 
 // If an email link lands on another page of the site (for example the home page), carry it over to the account page.

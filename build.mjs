@@ -92,7 +92,7 @@ const ytIcon = `<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="tru
 const socialRow = () => (IG || YT) ? `<p class="social-row">${IG ? `<a class="btn ghost small" href="${IG}" target="_blank" rel="noopener">${igIcon} Follow ${esc(SITE.instagramHandle)}</a>` : ""}${YT ? `<a class="btn ghost small" href="${YT}" target="_blank" rel="noopener">${ytIcon} Subscribe on YouTube</a>` : ""}</p>` : "";
 const ogImg = abs("/assets/img/og.png");
 
-function page({ title, desc, path: p, cur = "", body, jsonld = [], noindex = false, type = "website", premium = null }) {
+function page({ title, desc, path: p, cur = "", body, jsonld = [], noindex = false, type = "website", premium = null, hero = false }) {
   const full = title.includes("Tiny French") ? title : `${title} | Tiny French`;
   const canon = ORIGIN ? `<link rel="canonical" href="${abs(p)}">\n<meta property="og:url" content="${abs(p)}">` : "";
   const ld = jsonld.length ? `<script type="application/ld+json">${J(jsonld)}</script>` : "";
@@ -124,36 +124,39 @@ ${canon}
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap">
 <link rel="stylesheet" href="${U("/assets/css/style.css")}?v=${ver("assets/css/style.css")}">
+<link rel="preload" href="${U("/assets/fonts/caveat-brush.woff2")}" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="${U("/assets/css/v2.css")}?v=${ver("assets/css/v2.css")}">
 <script>document.documentElement.classList.add("js");window.TF={base:${J(BASE)},ig:${J(IG)}}</script>
 <script defer src="${U("/assets/js/app.js")}?v=${ver("assets/js/app.js")}"></script>
 <script type="module" src="${U("/assets/js/auth.js")}?v=${ver("assets/js/auth.js")}"></script>
 ${premium ? `<script>window.TFP=${J({ ...SITE.premium, site: "tiny-french", ...premium })}</script>\n<script type="module" src="${U("/assets/js/premium.js")}?v=${ver("assets/js/premium.js")}"></script>` : ""}
 ${ld}
 </head>
-<body data-page="${cur}">
+<body data-page="${cur}"${hero ? ' class="has-hero"' : ""}>
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header">
- <div class="wrap bar">
+ <div class="bar">
   <a class="brand" href="${U("/")}" aria-label="Tiny French home"><img class="brand-logo" src="${U("/assets/img/logo.webp")}" alt="Tiny French" width="252" height="64"></a>
   <button class="burger" type="button" aria-expanded="false" aria-controls="menu" aria-label="Open menu"><span></span><span></span><span></span></button>
   <nav id="menu" aria-label="Main">
-   ${NAV.map(([k, h, t]) => `<a href="${U(h)}"${k === cur ? ' aria-current="page"' : ""}>${t}</a>`).join("")}
-   <a class="btn small nav-cta" href="${U("/lessons/" + lessons[0].id + "/")}">♥ Start Learning</a>
-   <a class="header-search" href="${U("/lessons/")}" aria-label="Search lessons"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 5 5"></path></svg></a>
-   ${IG ? `<a class="ig-link" href="${IG}" target="_blank" rel="noopener" aria-label="Tiny French on Instagram">${igIcon}<span class="sr">Instagram</span></a>` : ""}
+   <div class="nav-links">${NAV.map(([k, h, t]) => `<a href="${U(h)}"${k === cur ? ' aria-current="page"' : ""}>${t}</a>`).join("")}</div>
+   <div class="nav-right">
+    <a class="header-search" href="${U("/lessons/")}" aria-label="Search lessons"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 5 5"></path></svg></a>
+    <a class="btn small nav-cta" href="${U("/lessons/" + lessons[0].id + "/")}"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg> Start Learning</a>
+   </div>
   </nav>
  </div>
 </header>
 <main id="main">${body}</main>
 <footer class="site-footer">
- <div class="wrap foot">
-  <div><a class="brand" href="${U("/")}"><img src="${U("/assets/favicon.svg")}" alt="" width="32" height="32"><span>Tiny <b>French</b></span></a>
-   <p>Learn French one tiny story at a time. Free beginner lessons with Adrien and Marinette.</p>
-   ${socialRow()}</div>
-  <div><h2>Learn</h2><ul><li><a href="${U("/start/")}">Start learning</a></li><li><a href="${U("/lessons/")}">All lessons</a></li><li><a href="${U("/vocabulary/")}">Vocabulary</a></li><li><a href="${U("/quizzes/")}">Quizzes</a></li><li><a href="${U("/revise/")}">My revision</a></li></ul></div>
-  <div><h2>More</h2><ul><li><a href="${U("/resources/")}">Free resources</a></li><li><a href="${U("/courses/")}">Courses</a></li><li><a href="${U("/about/")}">About</a></li></ul></div>
+ <div class="foot2">
+  <div class="foot-brand"><a class="brand" href="${U("/")}" aria-label="Tiny French home"><img class="brand-logo" src="${U("/assets/img/logo.webp")}" alt="Tiny French" width="252" height="64" loading="lazy"></a><p>Learn. Practice. Enjoy French!</p></div>
+  <nav class="foot-nav" aria-label="Footer">${NAV.map(([k, h, t]) => `<a href="${U(h)}">${t}</a>`).join("")}</nav>
+  <div class="foot-social">${YT ? `<a href="${YT}" target="_blank" rel="noopener" aria-label="Tiny French on YouTube">${ytIcon}</a>` : ""}${IG ? `<a href="${IG}" target="_blank" rel="noopener" aria-label="Tiny French on Instagram">${igIcon}</a>` : ""}</div>
  </div>
- <div class="wrap legal"><p>Your progress is saved in this browser only, even if you have an account, so it will not follow you to another device. © Tiny French</p></div>
+ <ul class="foot-more"><li><a href="${U("/start/")}">Start learning</a></li><li><a href="${U("/vocabulary/")}">Vocabulary</a></li><li><a href="${U("/quizzes/")}">Quizzes</a></li><li><a href="${U("/revise/")}">My revision</a></li><li><a href="${U("/resources/")}">Free resources</a></li></ul>
+ <p class="foot-copy">&copy; ${new Date().getFullYear()} Tiny French. All rights reserved. <span class="foot-heart" aria-hidden="true">&hearts;</span></p>
+ <p class="foot-note">Your progress is saved in this browser only, even if you have an account, so it will not follow you to another device.</p>
 </footer>
 </body>
 </html>`;
@@ -203,28 +206,34 @@ function roadmapHTML() {
 // Home
 {
   const first = lessons[0];
+  const HEART_SK = `<svg class="h1-heart" viewBox="0 0 48 44" aria-hidden="true"><path d="M24 40C9 29 4 21 4 13.5 4 8 8.200 4 13.500 4 18 4 21.700 6.500 24 11 26.300 6.500 30 4 34.500 4 40 4 44 8 44 13.500 44 21 39 29 24 40z" fill="#fff" fill-opacity=".55" stroke="#f0587a" stroke-width="4" stroke-linejoin="round"/></svg>`;
+  const EIFFEL = `<svg class="eiffel-ic" viewBox="0 0 40 56" aria-hidden="true" fill="none" stroke="#17346f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 2v8M16 10h8M17 10 12 30M23 10l5 20M12 30h16M12 30 5 52M28 30l7 22M5 52h8M27 52h8M13 52c0-9 14-9 14 0M15 36h10"/></svg>`;
+  const SPARK = `<svg class="spark" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1c.9 6.300 4.700 10.100 11 11-6.300.9-10.100 4.700-11 11-.9-6.300-4.700-10.100-11-11C7.300 11.100 11.100 7.300 12 1z" fill="#ffd45e"/></svg>`;
+  const HOME_V2 = { 1: 1, 2: 2, 3: 3, 4: 4 };
+  const homeCard = (l) => `<article class="pl-card"><a class="pl-art" href="${U(l.url)}" tabindex="-1" aria-hidden="true"><img src="${U(`/assets/img/v2/home-lesson-${HOME_V2[l.number]}.webp`)}" alt="" width="334" height="156" loading="lazy" decoding="async"><span class="pl-chip">Lesson ${l.number}</span></a><div class="pl-body"><h3><a href="${U(l.url)}">${esc(l.title)}</a></h3><p>${esc(l.description)}</p></div><span class="pl-go" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m9 5 7 7-7 7"/></svg></span></article>`;
   const body = `
-<section class="hero home-hero"><div class="wrap hero-grid">
- <div class="hero-copy">
-  <h1>Learn French<br>with Adrien &amp; Marinette</h1>
+<section class="hero2 hero-home">
+ <div class="hero2-art" role="img" aria-label="Adrien and Marinette resting their chins on their hands in front of the Eiffel Tower in Paris" style="--art:url('${U("/assets/img/v2/hero-home.webp")}')"></div>
+ <div class="hero2-copy">
+  <h1><span class="t1">Learn French ${HEART_SK}</span><span class="t2">with Adrien &amp; Marinette</span></h1>
   <p class="lead">Real conversations. Fun lessons.<br>Your French journey starts here!</p>
-  <p class="cta-row"><a class="btn big" href="${U("/lessons/" + first.id + "/")}">Start Learning <span aria-hidden="true">→</span></a></p>
+  <p class="cta-row"><a class="btn big" href="${U("/lessons/" + first.id + "/")}"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="currentColor"><path d="M7 4.500v15l13-7.500z"/></svg> Start Learning <span aria-hidden="true">&rarr;</span></a></p>
  </div>
- <div class="hero-art" role="img" aria-label="Adrien and Marinette learning French in a Paris café">
- </div>
-</div></section>
-<section class="benefits-strip" aria-label="Tiny French benefits"><div class="wrap benefits-grid">
- <div class="benefit"><span class="benefit-icon pink" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M16 5.5c-6.4 0-11.5 4.1-11.5 9.3 0 2.8 1.5 5.3 3.9 7L7.2 27l5-2.5c1.2.3 2.5.5 3.8.5 6.4 0 11.5-4.1 11.5-9.2S22.4 5.5 16 5.5z"/><circle cx="11" cy="15" r="1" fill="currentColor"/><circle cx="16" cy="15" r="1" fill="currentColor"/><circle cx="21" cy="15" r="1" fill="currentColor"/></svg></span><div><h2>Real Life French</h2><p>Learn useful phrases for everyday situations.</p></div></div>
- <div class="benefit"><span class="benefit-icon blue" aria-hidden="true"><svg viewBox="0 0 32 32"><rect x="3.5" y="6.5" width="25" height="19" rx="4.5" fill="currentColor"/><path d="M13.2 11.6v8.8l7.4-4.4z" fill="#fff"/></svg></span><div><h2>Short &amp; Fun Lessons</h2><p>Engaging videos with Adrien &amp; Marinette.</p></div></div>
- <div class="benefit"><span class="benefit-icon purple" aria-hidden="true"><svg viewBox="0 0 32 32" fill="currentColor"><rect x="5" y="17" width="5.5" height="10" rx="1.8"/><rect x="13.2" y="11" width="5.5" height="16" rx="1.8"/><rect x="21.5" y="5" width="5.5" height="22" rx="1.8"/></svg></span><div><h2>Beginner Friendly</h2><p>Start from zero,<br>grow at your own pace.</p></div></div>
- <div class="benefit"><span class="benefit-icon green" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linejoin="round"><path d="M16 27C6 20 4 14.5 4 11.2 4 7.6 6.7 5 10 5c2.5 0 4.7 1.4 6 3.6C17.3 6.4 19.5 5 22 5c3.3 0 6 2.6 6 6.2 0 3.3-2 8.8-12 15.8z"/></svg></span><div><h2>Meet New Friends</h2><p>Join a supportive learning community.</p></div></div>
-</div></section>
-<section class="section popular-section"><div class="wrap">
- <div class="head-row"><h2><span class="heart-mark" aria-hidden="true">♥</span> Popular Lessons</h2><a class="more" href="${U("/lessons/")}">View All Lessons <span aria-hidden="true">→</span></a></div>
- <div class="home-lessons-grid">${featured.map(homeLessonCard).join("")}</div>
-</div></section>
-<section class="section alt"><div class="wrap center"><h2>Your French journey, one tiny step at a time</h2><p class="lead">Short stories, clear English explanations, and friendly quizzes to help you practise what you learn.</p><p><a class="btn big" href="${U("/lessons/")}">Explore all lessons →</a></p></div></section>`;
-  add("/", page({ title: "Tiny French | Learn French with Adrien & Marinette", desc: "Learn French from zero with Adrien and Marinette through short conversations, practical phrases, and beginner-friendly lessons.", path: "/", cur: "home", body, jsonld: [orgLd, { "@type": "WebSite", name: "Tiny French", url: abs("/"), inLanguage: "en" }] }));
+</section>
+<section class="feat-strip" aria-label="Tiny French benefits"><div class="feat-in">${SPARK}
+ <div class="feat"><span class="feat-ic pink" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M16 5.500c-6.400 0-11.500 4.100-11.500 9.300 0 2.800 1.500 5.300 3.900 7L7.200 27l5-2.500c1.200.3 2.500.5 3.800.5 6.400 0 11.500-4.100 11.500-9.200S22.400 5.500 16 5.500z"/><circle cx="11" cy="15" r="1" fill="currentColor"/><circle cx="16" cy="15" r="1" fill="currentColor"/><circle cx="21" cy="15" r="1" fill="currentColor"/></svg></span><div><h2>Real Life French</h2><p>Learn useful phrases<br>for everyday situations.</p></div></div>
+ <div class="feat"><span class="feat-ic blue" aria-hidden="true"><svg viewBox="0 0 32 32"><rect x="3.500" y="6.500" width="25" height="19" rx="4.500" fill="currentColor"/><path d="M13.200 11.600v8.800l7.400-4.400z" fill="#fff"/></svg></span><div><h2>Short &amp; Fun Lessons</h2><p>Engaging videos with<br>Adrien &amp; Marinette.</p></div></div>
+ <div class="feat"><span class="feat-ic purple" aria-hidden="true"><svg viewBox="0 0 32 32" fill="currentColor"><circle cx="16" cy="10" r="4"/><circle cx="7.500" cy="12" r="3"/><circle cx="24.500" cy="12" r="3"/><path d="M9.500 26v-2.500c0-3.600 2.900-6.500 6.500-6.500s6.500 2.900 6.500 6.500V26zM2.500 24v-1.500c0-2.500 2-4.500 4.500-4.500 1 0 1.900.3 2.600.9-1.300 1.300-2.100 3.100-2.100 5.100V24zM29.500 24v-1.500c0-2.500-2-4.500-4.500-4.500-1 0-1.900.3-2.600.9 1.300 1.300 2.100 3.100 2.100 5.100V24z"/></svg></span><div><h2>Beginner Friendly</h2><p>Start from zero,<br>grow at your own pace.</p></div></div>
+ <div class="feat"><span class="feat-ic green" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2.600" stroke-linejoin="round"><path d="M16 27C6 20 4 14.500 4 11.200 4 7.600 6.700 5 10 5c2.500 0 4.700 1.400 6 3.600C17.300 6.400 19.500 5 22 5c3.300 0 6 2.600 6 6.200 0 3.300-2 8.800-12 15.800z"/></svg></span><div><h2>Meet New Friends</h2><p>Join a supportive<br>learning community.</p></div></div>
+${SPARK}</div></section>
+<section class="popular" aria-labelledby="pop-h"><div class="pop-in">
+ <div class="pop-head"><h2 id="pop-h">${EIFFEL}<span class="d-title">Popular <span class="brush">Lessons</span></span></h2><a class="pop-more" href="${U("/lessons/")}">View All Lessons <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.600" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+ <div class="pl-grid">${featured.map(homeCard).join("")}</div>
+</div>
+ <div class="skyline" aria-hidden="true"><img src="${U("/assets/img/v2/home-skyline.webp")}" alt="" width="1536" height="52" loading="lazy"></div>
+</section>`;
+
+  add("/", page({ title: "Tiny French | Learn French with Adrien & Marinette", desc: "Learn French from zero with Adrien and Marinette through short conversations, practical phrases, and beginner-friendly lessons.", path: "/", cur: "home", hero: true, body, jsonld: [orgLd, { "@type": "WebSite", name: "Tiny French", url: abs("/"), inLanguage: "en" }] }));
 }
 
 // Start
@@ -394,14 +403,41 @@ const COURSE_ART = {
 const courseArt = (c, cls) => COURSE_ART[c.id]
   ? `<img class="${cls}" src="${U(`/assets/img/${COURSE_ART[c.id]}`)}" alt="" width="1200" height="675" loading="lazy">`
   : `<img class="${cls}" src="${U(`/assets/img/${c.art}.svg`)}" alt="" width="540" height="960" loading="lazy">`;
-const courseCard = (c) => `<article class="card course-card">${courseArt(c, "art-wide")}<div class="card-body"><div class="chips"><span class="chip ${c.free ? "ok2" : ""}">${c.free ? "Free" : c.premium ? "Free preview + premium" : "Paid"}</span><span class="chip st-${c.status === "available" ? "available" : "planned"}">${c.status === "available" ? "Available now" : "In planning"}</span></div><h3><a href="${U("/courses/" + c.id + "/")}">${esc(c.title)}</a></h3><p>${esc(c.summary)}</p><p class="small muted">${esc(c.level)} · ${priceLabel(c)}</p><a class="btn small" href="${U("/courses/" + c.id + "/")}">View details</a></div></article>`;
+const V2_COURSE_ART = { "free-lessons": 1, "tiny-1000": 2, "tiny-conversations": 3, "french-grammar-starter": 4, "real-life-french": 5, "travel-french": 6, "from-zero-to-first-conversations": 7, "everyday-french": 8, "french-sounds-starter": 9, "tiny-a1-unit-by-unit": 10, "tiny-a2-unit-by-unit": 8, "first-conversations": 11 };
+const lessonCount = (c) => c.id === "free-lessons" ? lessons.length : c.lessonList.length;
+const bookIc = `<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#3b6fe0" stroke-width="2.200" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 6.500C10 5 7 4.500 3.500 5v13c3.500-.5 6.500 0 8.500 1.500 2-1.500 5-2 8.500-1.500V5C17 4.500 14 5 12 6.500zM12 6.500v13"/></svg>`;
+const courseCardV2 = (c, i) => {
+  const n = V2_COURSE_ART[c.id] || 1, cnt = lessonCount(c), href = U("/courses/" + c.id + "/");
+  return `<article class="cc" data-title="${esc(c.title)}" data-count="${cnt}" data-free="${c.free ? 1 : 0}" data-i="${i}"><a class="cc-art" href="${href}" tabindex="-1" aria-hidden="true"><img src="${U(`/assets/img/v2/course-${String(n).padStart(2, "0")}.webp`)}" alt="" width="212" height="129" loading="lazy" decoding="async"><span class="cc-chip">Beginner</span></a><div class="cc-body"><h3><a href="${href}">${esc(c.title)}</a></h3><p class="cc-desc">${esc(c.summary)}</p><p class="cc-meta">${bookIc} ${cnt ? `${cnt} Lessons` : "Coming soon"}</p><a class="cc-btn" href="${href}">${c.status === "available" ? "Start Learning" : "Learn more"} <span aria-hidden="true">&rarr;</span></a></div></article>`;
+};
+const flowerIc = `<svg class="flower-ic" viewBox="0 0 40 40" aria-hidden="true"><g fill="#f0587a">${[0, 72, 144, 216, 288].map((r) => `<ellipse cx="20" cy="9.500" rx="6.500" ry="8" transform="rotate(${r} 20 20)"/>`).join("")}</g><circle cx="20" cy="20" r="5" fill="#ffd45e"/></svg>`;
+const SPARK2 = `<svg class="spark" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1c.9 6.300 4.700 10.100 11 11-6.300.9-10.100 4.700-11 11-.9-6.300-4.700-10.100-11-11C7.300 11.100 11.100 7.300 12 1z" fill="#ffd45e"/></svg>`;
 add("/courses/", page({
-  title: "French Courses", cur: "courses", path: "/courses/",
+  title: "French Courses", cur: "courses", path: "/courses/", hero: true,
   desc: "Try the first lessons of every Tiny French course for free, then unlock the full course with a one-time payment.",
   jsonld: [crumbs([["Home", "/"], ["Courses", "/courses/"]])],
-  body: `<div class="wrap page-head"><h1>Courses</h1><p class="lead">The first lessons of every course are free to try. Unlock a full course with a one-time payment. Anything not ready yet is clearly marked.</p></div>
-<div class="wrap"><div class="grid2">${courses.map(courseCard).join("")}</div>
- <section class="block"><h2>Also planned</h2><div class="grid3">${futureProducts.map((p) => `<div class="card"><span class="chip st-planned">Coming later</span><h3>${esc(p.title)}</h3><p>${esc(p.text)}</p></div>`).join("")}</div></section></div>`
+  body: `
+<section class="hero2 hero-courses">
+ <div class="hero2-art" role="img" aria-label="Adrien and Marinette resting their chins on their hands in front of the Eiffel Tower" style="--art:url('${U("/assets/img/v2/hero-courses.webp")}')"></div>
+ <div class="hero2-copy">
+  <h1><span class="d-title">Our <span class="t-courses">Courses</span></span></h1>
+  <p class="lead">Learn French step by step<br>with Adrien &amp; Marinette! <svg class="lead-heart" viewBox="0 0 24 24" aria-hidden="true" fill="#f0587a"><path d="M12 21.350l-1.450-1.320C5.400 15.360 2 12.280 2 8.500 2 5.420 4.420 3 7.500 3c1.740 0 3.410.810 4.500 2.090C13.090 3.810 14.760 3 16.500 3 19.580 3 22 5.420 22 8.500c0 3.780-3.400 6.860-8.550 11.540L12 21.350z"/></svg></p>
+ </div>
+</section>
+<section class="feat-strip feat-small" aria-label="Course benefits"><div class="feat-in">${SPARK2}
+ <div class="feat"><span class="feat-ic pinkfill" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M12 9.500v13l11-6.500z" fill="#fff"/></svg></span><div><h2>Free Preview</h2><p>Try before you start!</p></div></div>
+ <div class="feat"><span class="feat-ic blue" aria-hidden="true"><svg viewBox="0 0 32 32" fill="currentColor"><path d="M16 6 2 12.500l14 6.500 11-5.100V21h2.500v-8.500zM8 17.500v4.200c0 1.800 3.600 3.800 8 3.800s8-2 8-3.800v-4.200l-8 3.700z"/></svg></span><div><h2>Beginner Friendly</h2><p>No prior knowledge needed!</p></div></div>
+ <div class="feat"><span class="feat-ic pink" aria-hidden="true"><svg viewBox="0 0 32 32" fill="currentColor"><path d="M16 27.500C6 20.500 4 15 4 11.700 4 8.100 6.700 5.500 10 5.500c2.500 0 4.700 1.400 6 3.600 1.300-2.200 3.500-3.600 6-3.600 3.300 0 6 2.600 6 6.200 0 3.300-2 8.800-12 15.800z"/></svg></span><div><h2>Fun &amp; Engaging</h2><p>Learn with cute stories!</p></div></div>
+ <div class="feat"><span class="feat-ic purple" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2.400" stroke-linecap="round"><circle cx="16" cy="16" r="11"/><ellipse cx="16" cy="16" rx="4.500" ry="11"/><path d="M5 12.500h22M5 19.500h22"/></svg></span><div><h2>Learn Anywhere</h2><p>On any device!</p></div></div>
+${SPARK2}</div></section>
+<section class="courses-main" aria-labelledby="all-courses-h"><div class="cm-in">
+ <div class="cm-head"><h2 id="all-courses-h">${flowerIc}<span class="d-title"><span class="brush">All Courses</span></span></h2>
+  <label class="sort"><span class="sr">Sort courses</span><select id="course-sort"><option value="pop">Sort by: Popularity</option><option value="az">Sort by: A to Z</option><option value="lessons">Sort by: Most lessons</option><option value="free">Sort by: Free first</option></select></label></div>
+ <div class="cc-grid" id="course-grid">${courses.map(courseCardV2).join("")}</div>
+ <p class="cc-more"><button type="button" class="more-btn" id="more-btn">Load More Courses <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg></button></p>
+ <section class="cc-soon" id="more-courses" aria-labelledby="soon-h" hidden><h2 id="soon-h" class="d-title">Coming later</h2><div class="soon-grid">${futureProducts.map((p) => `<div class="soon-card"><span class="soon-chip">Coming later</span><h3>${esc(p.title)}</h3><p>${esc(p.text)}</p></div>`).join("")}</div></section>
+</div></section>
+<script>(function(){var s=document.getElementById("course-sort"),g=document.getElementById("course-grid");if(s&&g){var all=[].slice.call(g.children);s.addEventListener("change",function(){var v=s.value,a=all.slice();if(v==="az")a.sort(function(x,y){return x.dataset.title.localeCompare(y.dataset.title)});else if(v==="lessons")a.sort(function(x,y){return y.dataset.count-x.dataset.count||x.dataset.i-y.dataset.i});else if(v==="free")a.sort(function(x,y){return y.dataset.free-x.dataset.free||x.dataset.i-y.dataset.i});else a.sort(function(x,y){return x.dataset.i-y.dataset.i});a.forEach(function(c){g.appendChild(c)})})}var m=document.getElementById("more-btn"),d=document.getElementById("more-courses");if(m&&d)m.addEventListener("click",function(){d.hidden=false;m.hidden=true;d.scrollIntoView({behavior:"smooth",block:"nearest"})})})();</script>`
 }));
 for (const c of courses) {
   const cta = ctaFor(c);
