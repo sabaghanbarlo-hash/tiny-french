@@ -27,6 +27,7 @@ const YT = SITE.youtubeUrl;
 // ---------- helpers ----------
 const ty = (v) => typeof v === "string" ? v.replace(/'/g, "’") : Array.isArray(v) ? v.map(ty) : v && typeof v === "object" ? Object.fromEntries(Object.entries(v).map(([k, x]) => [k, ty(x)])) : v;
 const esc = (s) => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+const wbw = (w) => (Array.isArray(w) && w.length) ? `<details class="wbw"><summary>Word by word</summary><div class="wbw-row" lang="fr">${w.map((t) => `<span class="wbw-w"><b>${esc(t[0])}</b><em>${esc(t[1])}</em></span>`).join("")}</div></details>` : "";
 const J = (o) => JSON.stringify(o).replace(/</g, "\\u003c");
 const U = (p) => BASE + p;
 const abs = (p) => (ORIGIN ? ORIGIN + p : U(p));
@@ -285,9 +286,9 @@ function renderLesson(l, X) {
   const lessonQuiz = { id: l.id, title: l.title, questions: l.quiz };
   const inner = l.locked ? "" : ` ${video}
  <section class="block" aria-labelledby="d-h"><h2 id="d-h">Dialogue</h2><p class="muted">${esc(l.intro)}</p>
-  <ol class="dialogue">${l.dialogue.map((d) => d.scene ? `<li class="scene" role="separator" aria-label="${esc(d.scene)}"><span>${esc(d.scene)}</span></li>` : `<li class="line ${speakerClass(d.who)}"><span class="who">${esc(d.who)}</span><div class="say-row"><p class="fr" lang="fr">${esc(d.fr)}</p>${sayBtn(d.fr)}</div><p class="en">${esc(d.en)}</p></li>`).join("")}</ol></section>
+  <ol class="dialogue">${l.dialogue.map((d) => d.scene ? `<li class="scene" role="separator" aria-label="${esc(d.scene)}"><span>${esc(d.scene)}</span></li>` : `<li class="line ${speakerClass(d.who)}"><span class="who">${esc(d.who)}</span><div class="say-row"><p class="fr" lang="fr">${esc(d.fr)}</p>${sayBtn(d.fr)}</div><p class="en">${esc(d.en)}</p>${wbw(d.words)}</li>`).join("")}</ol></section>
  <section class="block" aria-labelledby="vo-h"><h2 id="vo-h">Vocabulary</h2>
-  <ul class="vocab-list">${l.vocab.map((v) => { const id = slug(v.fr); return `<li class="vcard" data-vid="${id}"><div class="v-main"><div class="say-row"><span class="v-fr" lang="fr">${esc(v.fr)}</span>${sayBtn(v.fr)}</div><span class="v-say">${esc(v.say)}</span><span class="v-en">${esc(v.en)}</span></div><p class="v-ex"><span lang="fr">${esc(v.ex)}</span> <span class="muted">— ${esc(v.exEn)}</span></p><button type="button" class="btn ghost small save" data-save="${id}" aria-pressed="false">☆ Save word</button></li>`; }).join("")}</ul>
+  <ul class="vocab-list">${l.vocab.map((v) => { const id = slug(v.fr); return `<li class="vcard" data-vid="${id}"><div class="v-main"><div class="say-row"><span class="v-fr" lang="fr">${esc(v.fr)}</span>${sayBtn(v.fr)}</div><span class="v-say">${esc(v.say)}</span><span class="v-en">${esc(v.en)}</span></div><p class="v-ex"><span lang="fr">${esc(v.ex)}</span> <span class="muted">— ${esc(v.exEn)}</span></p>${wbw(v.exWords)}<button type="button" class="btn ghost small save" data-save="${id}" aria-pressed="false">☆ Save word</button></li>`; }).join("")}</ul>
   <details class="fc-wrap"><summary>Practise these words with flashcards</summary><div class="fc" data-flash="lesson"></div></details></section>
  <section class="block" aria-labelledby="g-h"><h2 id="g-h">Grammar made simple</h2>${l.grammar.map((g) => `<div class="card gram"><h3>${esc(g.title)}</h3><p>${esc(g.body)}</p><ul class="ex">${g.examples.map((e) => `<li><span lang="fr">${esc(e.fr)}</span> ${sayBtn(e.fr)}<br><span class="muted">${esc(e.en)}</span></li>`).join("")}</ul></div>`).join("")}</section>
  <section class="block" id="quiz" aria-labelledby="q-h"><h2 id="q-h">Quiz</h2><div class="quiz" data-quiz="lesson"><noscript>The quiz needs JavaScript. Please turn it on to practise.</noscript></div>
