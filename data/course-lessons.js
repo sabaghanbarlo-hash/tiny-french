@@ -3908,42 +3908,306 @@ export const courseLessons = [
    {
     "who": "Adrien",
     "fr": "Bonjour, Marinette ! Tu es prête ?",
-    "en": "Hello, Marinette! Are you ready?"
+    "en": "Hello, Marinette! Are you ready?",
+    "words": [
+     [
+      "Bonjour",
+      "hello"
+     ],
+     [
+      "Marinette",
+      "Marinette (name)"
+     ],
+     [
+      "Tu",
+      "you (informal subject pronoun)"
+     ],
+     [
+      "es",
+      "are (être, 'tu' form)"
+     ],
+     [
+      "prête",
+      "ready (fem.)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Oui, je suis prête. Et toi, tu as ton cahier ?",
-    "en": "Yes, I’m ready. And you, do you have your notebook?"
+    "en": "Yes, I’m ready. And you, do you have your notebook?",
+    "words": [
+     [
+      "Oui",
+      "yes"
+     ],
+     [
+      "je",
+      "I (subject pronoun)"
+     ],
+     [
+      "suis",
+      "am (être, 'je' form)"
+     ],
+     [
+      "prête",
+      "ready (fem.)"
+     ],
+     [
+      "Et",
+      "and"
+     ],
+     [
+      "toi",
+      "you (stressed pronoun)"
+     ],
+     [
+      "tu",
+      "you (informal subject pronoun)"
+     ],
+     [
+      "as",
+      "have (avoir, 'tu' form)"
+     ],
+     [
+      "ton",
+      "your (masc.)"
+     ],
+     [
+      "cahier",
+      "notebook (masc.)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Oui, il est dans mon sac, et j’ai un stylo.",
-    "en": "Yes, it’s in my bag, and I have a pen."
+    "en": "Yes, it’s in my bag, and I have a pen.",
+    "words": [
+     [
+      "Oui",
+      "yes"
+     ],
+     [
+      "il",
+      "it (masculine pronoun)"
+     ],
+     [
+      "est",
+      "is (être, 'il' form)"
+     ],
+     [
+      "dans",
+      "in"
+     ],
+     [
+      "mon",
+      "my (masc.)"
+     ],
+     [
+      "sac",
+      "bag (masc.)"
+     ],
+     [
+      "et",
+      "and"
+     ],
+     [
+      "j’",
+      "I (je, shortened before a vowel)"
+     ],
+     [
+      "ai",
+      "have (avoir, 'je' form)"
+     ],
+     [
+      "un",
+      "a (masc.)"
+     ],
+     [
+      "stylo",
+      "pen (masc.)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Nous sommes en avance. Vous êtes aussi dans le groupe ?",
-    "en": "We’re early. Are you also in the group?"
+    "en": "We’re early. Are you also in the group?",
+    "words": [
+     [
+      "Nous",
+      "we (subject pronoun)"
+     ],
+     [
+      "sommes",
+      "are (être, 'nous' form)"
+     ],
+     [
+      "en",
+      "in (part of 'en avance')"
+     ],
+     [
+      "avance",
+      "advance (part of 'en avance')"
+     ],
+     [
+      "Vous",
+      "you (plural or formal subject pronoun)"
+     ],
+     [
+      "êtes",
+      "are (être, 'vous' form)"
+     ],
+     [
+      "aussi",
+      "also"
+     ],
+     [
+      "dans",
+      "in"
+     ],
+     [
+      "le",
+      "the (masc.)"
+     ],
+     [
+      "groupe",
+      "group (masc.)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Oui, nous sommes là. Ils sont avec nous.",
-    "en": "Yes, we’re here. They’re with us."
+    "en": "Yes, we’re here. They’re with us.",
+    "words": [
+     [
+      "Oui",
+      "yes"
+     ],
+     [
+      "nous",
+      "we (subject pronoun)"
+     ],
+     [
+      "sommes",
+      "are (être, 'nous' form)"
+     ],
+     [
+      "là",
+      "there"
+     ],
+     [
+      "Ils",
+      "they (masculine or mixed subject pronoun)"
+     ],
+     [
+      "sont",
+      "are (être, 'ils' form)"
+     ],
+     [
+      "avec",
+      "with"
+     ],
+     [
+      "nous",
+      "us (stressed pronoun)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Et les filles ? Elles sont où ?",
-    "en": "And the girls? Where are they?"
+    "en": "And the girls? Where are they?",
+    "words": [
+     [
+      "Et",
+      "and"
+     ],
+     [
+      "les",
+      "the (plural, feminine here)"
+     ],
+     [
+      "filles",
+      "girls (fem.)"
+     ],
+     [
+      "Elles",
+      "they (feminine subject pronoun)"
+     ],
+     [
+      "sont",
+      "are (être, 'elles' form)"
+     ],
+     [
+      "où",
+      "where"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Lina ? Elle est ici, avec moi.",
-    "en": "Lina? She’s here, with me."
+    "en": "Lina? She’s here, with me.",
+    "words": [
+     [
+      "Lina",
+      "Lina (name)"
+     ],
+     [
+      "Elle",
+      "she (subject pronoun)"
+     ],
+     [
+      "est",
+      "is (être, 'elle' form)"
+     ],
+     [
+      "ici",
+      "here"
+     ],
+     [
+      "avec",
+      "with"
+     ],
+     [
+      "moi",
+      "me (stressed pronoun)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Super ! J’ai aussi mon livre.",
-    "en": "Great! I have my book too."
+    "en": "Great! I have my book too.",
+    "words": [
+     [
+      "Super",
+      "great"
+     ],
+     [
+      "J’",
+      "I (je, shortened before a vowel)"
+     ],
+     [
+      "ai",
+      "have (avoir, 'je' form)"
+     ],
+     [
+      "aussi",
+      "also"
+     ],
+     [
+      "mon",
+      "my (masc.)"
+     ],
+     [
+      "livre",
+      "book (masc.)"
+     ]
+    ]
    }
   ],
   "vocab": [
@@ -3953,7 +4217,21 @@ export const courseLessons = [
     "say": "ZHUH",
     "cat": "Introductions",
     "ex": "Je suis ici.",
-    "exEn": "I am here."
+    "exEn": "I am here.",
+    "exWords": [
+     [
+      "Je",
+      "I (subject pronoun)"
+     ],
+     [
+      "suis",
+      "am (être, 'je' form)"
+     ],
+     [
+      "ici",
+      "here"
+     ]
+    ]
    },
    {
     "fr": "tu",
@@ -3961,7 +4239,21 @@ export const courseLessons = [
     "say": "TEW",
     "cat": "Introductions",
     "ex": "Tu es gentil.",
-    "exEn": "You are kind."
+    "exEn": "You are kind.",
+    "exWords": [
+     [
+      "Tu",
+      "you (informal subject pronoun)"
+     ],
+     [
+      "es",
+      "are (être, 'tu' form)"
+     ],
+     [
+      "gentil",
+      "kind (masc.)"
+     ]
+    ]
    },
    {
     "fr": "il",
@@ -3969,7 +4261,21 @@ export const courseLessons = [
     "say": "EEL",
     "cat": "Introductions",
     "ex": "Il est là.",
-    "exEn": "He is there."
+    "exEn": "He is there.",
+    "exWords": [
+     [
+      "Il",
+      "he (subject pronoun)"
+     ],
+     [
+      "est",
+      "is (être, 'il' form)"
+     ],
+     [
+      "là",
+      "there"
+     ]
+    ]
    },
    {
     "fr": "elle",
@@ -3977,7 +4283,21 @@ export const courseLessons = [
     "say": "ELL",
     "cat": "Introductions",
     "ex": "Elle est là.",
-    "exEn": "She is there."
+    "exEn": "She is there.",
+    "exWords": [
+     [
+      "Elle",
+      "she (subject pronoun)"
+     ],
+     [
+      "est",
+      "is (être, 'elle' form)"
+     ],
+     [
+      "là",
+      "there"
+     ]
+    ]
    },
    {
     "fr": "nous",
@@ -3985,7 +4305,21 @@ export const courseLessons = [
     "say": "NOO",
     "cat": "Introductions",
     "ex": "Nous sommes prêts.",
-    "exEn": "We are ready."
+    "exEn": "We are ready.",
+    "exWords": [
+     [
+      "Nous",
+      "we (subject pronoun)"
+     ],
+     [
+      "sommes",
+      "are (être, 'nous' form)"
+     ],
+     [
+      "prêts",
+      "ready (masc. plural)"
+     ]
+    ]
    },
    {
     "fr": "vous",
@@ -3993,7 +4327,21 @@ export const courseLessons = [
     "say": "VOO",
     "cat": "Introductions",
     "ex": "Vous êtes ici.",
-    "exEn": "You are here."
+    "exEn": "You are here.",
+    "exWords": [
+     [
+      "Vous",
+      "you (plural or formal subject pronoun)"
+     ],
+     [
+      "êtes",
+      "are (être, 'vous' form)"
+     ],
+     [
+      "ici",
+      "here"
+     ]
+    ]
    },
    {
     "fr": "ils",
@@ -4001,7 +4349,21 @@ export const courseLessons = [
     "say": "EEL",
     "cat": "Introductions",
     "ex": "Ils sont contents.",
-    "exEn": "They are happy."
+    "exEn": "They are happy.",
+    "exWords": [
+     [
+      "Ils",
+      "they (masculine or mixed subject pronoun)"
+     ],
+     [
+      "sont",
+      "are (être, 'ils' form)"
+     ],
+     [
+      "contents",
+      "happy (masc. plural)"
+     ]
+    ]
    },
    {
     "fr": "elles",
@@ -4009,7 +4371,21 @@ export const courseLessons = [
     "say": "ELL",
     "cat": "Introductions",
     "ex": "Elles sont ici.",
-    "exEn": "They are here."
+    "exEn": "They are here.",
+    "exWords": [
+     [
+      "Elles",
+      "they (feminine subject pronoun)"
+     ],
+     [
+      "sont",
+      "are (être, 'elles' form)"
+     ],
+     [
+      "ici",
+      "here"
+     ]
+    ]
    },
    {
     "fr": "être",
@@ -4017,7 +4393,25 @@ export const courseLessons = [
     "say": "eh-TRUH",
     "cat": "Common Verbs",
     "ex": "Je veux être calme.",
-    "exEn": "I want to be calm."
+    "exEn": "I want to be calm.",
+    "exWords": [
+     [
+      "Je",
+      "I (subject pronoun)"
+     ],
+     [
+      "veux",
+      "want (vouloir, 'je' form)"
+     ],
+     [
+      "être",
+      "be (être, infinitive)"
+     ],
+     [
+      "calme",
+      "calm"
+     ]
+    ]
    },
    {
     "fr": "avoir",
@@ -4025,7 +4419,29 @@ export const courseLessons = [
     "say": "ah-VWAHR",
     "cat": "Common Verbs",
     "ex": "J'aime avoir du temps.",
-    "exEn": "I like having time."
+    "exEn": "I like having time.",
+    "exWords": [
+     [
+      "J’",
+      "I (je, shortened before a vowel)"
+     ],
+     [
+      "aime",
+      "like (aimer, 'je' form)"
+     ],
+     [
+      "avoir",
+      "have (avoir, infinitive)"
+     ],
+     [
+      "du",
+      "some (partitive article, masc.)"
+     ],
+     [
+      "temps",
+      "time (masc.)"
+     ]
+    ]
    }
   ],
   "grammar": [
@@ -4133,42 +4549,306 @@ export const courseLessons = [
    {
     "who": "Adrien",
     "fr": "Bonjour, Marinette ! Tu vas à l'école avec moi ?",
-    "en": "Hello, Marinette! Are you going to school with me?"
+    "en": "Hello, Marinette! Are you going to school with me?",
+    "words": [
+     [
+      "Bonjour",
+      "hello"
+     ],
+     [
+      "Marinette",
+      "Marinette (name)"
+     ],
+     [
+      "Tu",
+      "you (informal)"
+     ],
+     [
+      "vas",
+      "go (aller, tu form)"
+     ],
+     [
+      "à",
+      "to"
+     ],
+     [
+      "l'",
+      "the (fem., shortened)"
+     ],
+     [
+      "école",
+      "school (fem.)"
+     ],
+     [
+      "avec",
+      "with"
+     ],
+     [
+      "moi",
+      "me"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Oui ! Le livre de français est dans mon sac.",
-    "en": "Yes! The French book is in my bag."
+    "en": "Yes! The French book is in my bag.",
+    "words": [
+     [
+      "Oui",
+      "yes"
+     ],
+     [
+      "Le",
+      "the (masc.)"
+     ],
+     [
+      "livre",
+      "book (masc.)"
+     ],
+     [
+      "de",
+      "of"
+     ],
+     [
+      "français",
+      "French (language, masc.)"
+     ],
+     [
+      "est",
+      "is (être, il/elle form)"
+     ],
+     [
+      "dans",
+      "in"
+     ],
+     [
+      "mon",
+      "my (masc.)"
+     ],
+     [
+      "sac",
+      "bag (masc.)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Tu veux du pain ou une pomme pour le déjeuner ?",
-    "en": "Do you want bread or an apple for lunch?"
+    "en": "Do you want bread or an apple for lunch?",
+    "words": [
+     [
+      "Tu",
+      "you (informal)"
+     ],
+     [
+      "veux",
+      "want (vouloir, tu form)"
+     ],
+     [
+      "du",
+      "some (masc. partitive article)"
+     ],
+     [
+      "pain",
+      "bread (masc.)"
+     ],
+     [
+      "ou",
+      "or"
+     ],
+     [
+      "une",
+      "a (fem.)"
+     ],
+     [
+      "pomme",
+      "apple (fem.)"
+     ],
+     [
+      "pour",
+      "for"
+     ],
+     [
+      "le",
+      "the (masc.)"
+     ],
+     [
+      "déjeuner",
+      "lunch (masc.)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Une pomme, merci, mais je ne veux pas de pain.",
-    "en": "An apple, thanks, but I don't want bread."
+    "en": "An apple, thanks, but I don't want bread.",
+    "words": [
+     [
+      "Une",
+      "a (fem.)"
+     ],
+     [
+      "pomme",
+      "apple (fem.)"
+     ],
+     [
+      "merci",
+      "thank you"
+     ],
+     [
+      "mais",
+      "but"
+     ],
+     [
+      "je",
+      "I"
+     ],
+     [
+      "ne",
+      "not (first half of negation)"
+     ],
+     [
+      "veux",
+      "want (vouloir, je form)"
+     ],
+     [
+      "pas",
+      "not (second half of negation)"
+     ],
+     [
+      "de",
+      "any (partitive article)"
+     ],
+     [
+      "pain",
+      "bread (masc.)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "D'accord. La boulangerie est à côté de l'école.",
-    "en": "Okay. The bakery is next to the school."
+    "en": "Okay. The bakery is next to the school.",
+    "words": [
+     [
+      "D'",
+      "of (de, shortened)"
+     ],
+     [
+      "accord",
+      "agreement (masc.; together: okay)"
+     ],
+     [
+      "La",
+      "the (fem.)"
+     ],
+     [
+      "boulangerie",
+      "bakery (fem.)"
+     ],
+     [
+      "est",
+      "is (être, elle form)"
+     ],
+     [
+      "à",
+      "at"
+     ],
+     [
+      "côté",
+      "side (masc.)"
+     ],
+     [
+      "de",
+      "of"
+     ],
+     [
+      "l'",
+      "the (fem., shortened)"
+     ],
+     [
+      "école",
+      "school (fem.)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "C'est parfait pour moi !",
-    "en": "That's perfect for me!"
+    "en": "That's perfect for me!",
+    "words": [
+     [
+      "C'",
+      "it/this (ce, shortened)"
+     ],
+     [
+      "est",
+      "is (être, il form)"
+     ],
+     [
+      "parfait",
+      "perfect"
+     ],
+     [
+      "pour",
+      "for"
+     ],
+     [
+      "moi",
+      "me"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Tu viens de Paris ?",
-    "en": "Are you from Paris?"
+    "en": "Are you from Paris?",
+    "words": [
+     [
+      "Tu",
+      "you (informal)"
+     ],
+     [
+      "viens",
+      "come (venir, tu form)"
+     ],
+     [
+      "de",
+      "from"
+     ],
+     [
+      "Paris",
+      "Paris (city)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Oui, et j'habite ici.",
-    "en": "Yes, and I live here."
+    "en": "Yes, and I live here.",
+    "words": [
+     [
+      "Oui",
+      "yes"
+     ],
+     [
+      "et",
+      "and"
+     ],
+     [
+      "j'",
+      "I (je, shortened before a vowel)"
+     ],
+     [
+      "habite",
+      "live (habiter, je form)"
+     ],
+     [
+      "ici",
+      "here"
+     ]
+    ]
    }
   ],
   "vocab": [
@@ -4178,7 +4858,25 @@ export const courseLessons = [
     "say": "DUH",
     "cat": "Introductions",
     "ex": "Je viens de Paris.",
-    "exEn": "I come from Paris."
+    "exEn": "I come from Paris.",
+    "exWords": [
+     [
+      "Je",
+      "I"
+     ],
+     [
+      "viens",
+      "come (venir, je form)"
+     ],
+     [
+      "de",
+      "from"
+     ],
+     [
+      "Paris",
+      "Paris (city)"
+     ]
+    ]
    },
    {
     "fr": "à",
@@ -4186,7 +4884,29 @@ export const courseLessons = [
     "say": "AH",
     "cat": "Directions",
     "ex": "Je suis à la maison.",
-    "exEn": "I am at home."
+    "exEn": "I am at home.",
+    "exWords": [
+     [
+      "Je",
+      "I"
+     ],
+     [
+      "suis",
+      "am (être, je form)"
+     ],
+     [
+      "à",
+      "at"
+     ],
+     [
+      "la",
+      "the (fem.)"
+     ],
+     [
+      "maison",
+      "house (fem.)"
+     ]
+    ]
    },
    {
     "fr": "et",
@@ -4194,7 +4914,25 @@ export const courseLessons = [
     "say": "AY",
     "cat": "Everyday Expressions",
     "ex": "Paul et Marie parlent.",
-    "exEn": "Paul and Marie are talking."
+    "exEn": "Paul and Marie are talking.",
+    "exWords": [
+     [
+      "Paul",
+      "Paul (name)"
+     ],
+     [
+      "et",
+      "and"
+     ],
+     [
+      "Marie",
+      "Marie (name)"
+     ],
+     [
+      "parlent",
+      "speak (parler, ils/elles form)"
+     ]
+    ]
    },
    {
     "fr": "ou",
@@ -4202,7 +4940,37 @@ export const courseLessons = [
     "say": "OO",
     "cat": "Food & Drink",
     "ex": "Tu veux du thé ou du café ?",
-    "exEn": "Do you want tea or coffee?"
+    "exEn": "Do you want tea or coffee?",
+    "exWords": [
+     [
+      "Tu",
+      "you (informal)"
+     ],
+     [
+      "veux",
+      "want (vouloir, tu form)"
+     ],
+     [
+      "du",
+      "some (masc. partitive article)"
+     ],
+     [
+      "thé",
+      "tea (masc.)"
+     ],
+     [
+      "ou",
+      "or"
+     ],
+     [
+      "du",
+      "some (masc. partitive article)"
+     ],
+     [
+      "café",
+      "coffee (masc.)"
+     ]
+    ]
    },
    {
     "fr": "mais",
@@ -4210,7 +4978,33 @@ export const courseLessons = [
     "say": "MEH",
     "cat": "Everyday Expressions",
     "ex": "Je veux sortir, mais il pleut.",
-    "exEn": "I want to go out, but it’s raining."
+    "exEn": "I want to go out, but it’s raining.",
+    "exWords": [
+     [
+      "Je",
+      "I"
+     ],
+     [
+      "veux",
+      "want (vouloir, je form)"
+     ],
+     [
+      "sortir",
+      "to go out (sortir, infinitive)"
+     ],
+     [
+      "mais",
+      "but"
+     ],
+     [
+      "il",
+      "it"
+     ],
+     [
+      "pleut",
+      "rains (pleuvoir, il form)"
+     ]
+    ]
    },
    {
     "fr": "dans",
@@ -4218,7 +5012,33 @@ export const courseLessons = [
     "say": "DAHN",
     "cat": "Daily Life",
     "ex": "Le livre est dans le sac.",
-    "exEn": "The book is in the bag."
+    "exEn": "The book is in the bag.",
+    "exWords": [
+     [
+      "Le",
+      "the (masc.)"
+     ],
+     [
+      "livre",
+      "book (masc.)"
+     ],
+     [
+      "est",
+      "is (être, il form)"
+     ],
+     [
+      "dans",
+      "in"
+     ],
+     [
+      "le",
+      "the (masc.)"
+     ],
+     [
+      "sac",
+      "bag (masc.)"
+     ]
+    ]
    },
    {
     "fr": "pour",
@@ -4226,7 +5046,29 @@ export const courseLessons = [
     "say": "POOR",
     "cat": "Food & Drink",
     "ex": "Ce cadeau est pour toi.",
-    "exEn": "This gift is for you."
+    "exEn": "This gift is for you.",
+    "exWords": [
+     [
+      "Ce",
+      "this (masc.)"
+     ],
+     [
+      "cadeau",
+      "gift (masc.)"
+     ],
+     [
+      "est",
+      "is (être, il form)"
+     ],
+     [
+      "pour",
+      "for"
+     ],
+     [
+      "toi",
+      "you"
+     ]
+    ]
    },
    {
     "fr": "avec",
@@ -4234,7 +5076,29 @@ export const courseLessons = [
     "say": "ah-VEK",
     "cat": "Everyday Expressions",
     "ex": "Je mange avec ma sœur.",
-    "exEn": "I eat with my sister."
+    "exEn": "I eat with my sister.",
+    "exWords": [
+     [
+      "Je",
+      "I"
+     ],
+     [
+      "mange",
+      "eat (manger, je form)"
+     ],
+     [
+      "avec",
+      "with"
+     ],
+     [
+      "ma",
+      "my (fem.)"
+     ],
+     [
+      "sœur",
+      "sister (fem.)"
+     ]
+    ]
    },
    {
     "fr": "ne...pas",
@@ -4242,7 +5106,29 @@ export const courseLessons = [
     "say": "nuh PAH",
     "cat": "Common Verbs",
     "ex": "Je ne parle pas anglais.",
-    "exEn": "I don’t speak English."
+    "exEn": "I don’t speak English.",
+    "exWords": [
+     [
+      "Je",
+      "I"
+     ],
+     [
+      "ne",
+      "not (first half of negation)"
+     ],
+     [
+      "parle",
+      "speak (parler, je form)"
+     ],
+     [
+      "pas",
+      "not (second half of negation)"
+     ],
+     [
+      "anglais",
+      "English (masc., language)"
+     ]
+    ]
    },
    {
     "fr": "oui",
@@ -4250,7 +5136,21 @@ export const courseLessons = [
     "say": "WEE",
     "cat": "Greetings",
     "ex": "Oui, je comprends.",
-    "exEn": "Yes, I understand."
+    "exEn": "Yes, I understand.",
+    "exWords": [
+     [
+      "Oui",
+      "yes"
+     ],
+     [
+      "je",
+      "I"
+     ],
+     [
+      "comprends",
+      "understand (comprendre, je form)"
+     ]
+    ]
    }
   ],
   "grammar": [
@@ -4358,42 +5258,234 @@ export const courseLessons = [
    {
     "who": "Adrien",
     "fr": "Bonjour, Marinette ! Où est la boulangerie ?",
-    "en": "Hello, Marinette! Where is the bakery?"
+    "en": "Hello, Marinette! Where is the bakery?",
+    "words": [
+     [
+      "Bonjour",
+      "hello"
+     ],
+     [
+      "Marinette",
+      "Marinette (name)"
+     ],
+     [
+      "Où",
+      "where"
+     ],
+     [
+      "est",
+      "is (être, 'elle' form)"
+     ],
+     [
+      "la",
+      "the (fem.)"
+     ],
+     [
+      "boulangerie",
+      "bakery (fem.)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Elle est près de l'école.",
-    "en": "It's near the school."
+    "en": "It's near the school.",
+    "words": [
+     [
+      "Elle",
+      "she"
+     ],
+     [
+      "est",
+      "is (être, 'elle' form)"
+     ],
+     [
+      "près",
+      "near"
+     ],
+     [
+      "de",
+      "of"
+     ],
+     [
+      "l'",
+      "the (fem., shortened)"
+     ],
+     [
+      "école",
+      "school (fem.)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Merci. Quand ouvre-t-elle ?",
-    "en": "Thanks. When does it open?"
+    "en": "Thanks. When does it open?",
+    "words": [
+     [
+      "Merci",
+      "thank you"
+     ],
+     [
+      "Quand",
+      "when"
+     ],
+     [
+      "ouvre",
+      "opens (ouvrir, 'elle' form)"
+     ],
+     [
+      "-t-",
+      "linking sound (inversion)"
+     ],
+     [
+      "elle",
+      "she (inverted subject)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "À neuf heures. Pourquoi ?",
-    "en": "At nine o'clock. Why?"
+    "en": "At nine o'clock. Why?",
+    "words": [
+     [
+      "À",
+      "at"
+     ],
+     [
+      "neuf",
+      "nine"
+     ],
+     [
+      "heures",
+      "hours (fem., plural)"
+     ],
+     [
+      "Pourquoi",
+      "why"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Je veux du pain. Que veux-tu ?",
-    "en": "I want some bread. What do you want?"
+    "en": "I want some bread. What do you want?",
+    "words": [
+     [
+      "Je",
+      "I"
+     ],
+     [
+      "veux",
+      "want (vouloir, 'je' form)"
+     ],
+     [
+      "du",
+      "some (de + le; masc.)"
+     ],
+     [
+      "pain",
+      "bread (masc.)"
+     ],
+     [
+      "Que",
+      "what"
+     ],
+     [
+      "veux",
+      "want (vouloir, 'tu' form)"
+     ],
+     [
+      "tu",
+      "you (inverted subject)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Un croissant, s'il te plaît.",
-    "en": "A croissant, please."
+    "en": "A croissant, please.",
+    "words": [
+     [
+      "Un",
+      "a (masc.)"
+     ],
+     [
+      "croissant",
+      "croissant (masc.)"
+     ],
+     [
+      "s'",
+      "if (si, shortened)"
+     ],
+     [
+      "il",
+      "it"
+     ],
+     [
+      "te",
+      "you (indirect object)"
+     ],
+     [
+      "plaît",
+      "pleases (plaire, 'il' form)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Pardon, Marinette, qui arrive ?",
-    "en": "Excuse me, Marinette, who's coming?"
+    "en": "Excuse me, Marinette, who's coming?",
+    "words": [
+     [
+      "Pardon",
+      "excuse me"
+     ],
+     [
+      "Marinette",
+      "Marinette (name)"
+     ],
+     [
+      "qui",
+      "who"
+     ],
+     [
+      "arrive",
+      "arrives (arriver, 'il/elle' form)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "C'est Alya ! Comment vas-tu ?",
-    "en": "It's Alya! How are you?"
+    "en": "It's Alya! How are you?",
+    "words": [
+     [
+      "C'",
+      "this/it (ce, shortened)"
+     ],
+     [
+      "est",
+      "is (être, 'il/elle' form)"
+     ],
+     [
+      "Alya",
+      "Alya (name)"
+     ],
+     [
+      "Comment",
+      "how"
+     ],
+     [
+      "vas",
+      "go (aller, 'tu' form)"
+     ],
+     [
+      "tu",
+      "you"
+     ]
+    ]
    }
   ],
   "vocab": [
@@ -4403,7 +5495,21 @@ export const courseLessons = [
     "say": "KEE",
     "cat": "Introductions",
     "ex": "Qui est là ?",
-    "exEn": "Who is there?"
+    "exEn": "Who is there?",
+    "exWords": [
+     [
+      "Qui",
+      "who"
+     ],
+     [
+      "est",
+      "is (être, 'il/elle' form)"
+     ],
+     [
+      "là",
+      "there"
+     ]
+    ]
    },
    {
     "fr": "que",
@@ -4411,7 +5517,21 @@ export const courseLessons = [
     "say": "KUH",
     "cat": "Everyday Expressions",
     "ex": "Que fais-tu ?",
-    "exEn": "What are you doing?"
+    "exEn": "What are you doing?",
+    "exWords": [
+     [
+      "Que",
+      "what"
+     ],
+     [
+      "fais",
+      "do (faire, 'tu' form)"
+     ],
+     [
+      "tu",
+      "you (inverted subject)"
+     ]
+    ]
    },
    {
     "fr": "où",
@@ -4419,7 +5539,25 @@ export const courseLessons = [
     "say": "OO",
     "cat": "Directions",
     "ex": "Où est la gare ?",
-    "exEn": "Where is the station?"
+    "exEn": "Where is the station?",
+    "exWords": [
+     [
+      "Où",
+      "where"
+     ],
+     [
+      "est",
+      "is (être, 'elle' form)"
+     ],
+     [
+      "la",
+      "the (fem.)"
+     ],
+     [
+      "gare",
+      "train station (fem.)"
+     ]
+    ]
    },
    {
     "fr": "quand",
@@ -4427,7 +5565,21 @@ export const courseLessons = [
     "say": "KAHN",
     "cat": "Time & Days",
     "ex": "Tu pars quand ?",
-    "exEn": "When are you leaving?"
+    "exEn": "When are you leaving?",
+    "exWords": [
+     [
+      "Tu",
+      "you"
+     ],
+     [
+      "pars",
+      "leave (partir, 'tu' form)"
+     ],
+     [
+      "quand",
+      "when"
+     ]
+    ]
    },
    {
     "fr": "comment",
@@ -4435,7 +5587,21 @@ export const courseLessons = [
     "say": "koh-MAHN",
     "cat": "Introductions",
     "ex": "Comment ça va ?",
-    "exEn": "How are you?"
+    "exEn": "How are you?",
+    "exWords": [
+     [
+      "Comment",
+      "how"
+     ],
+     [
+      "ça",
+      "that/it"
+     ],
+     [
+      "va",
+      "goes (aller, 'ça' form)"
+     ]
+    ]
    },
    {
     "fr": "pourquoi",
@@ -4443,7 +5609,21 @@ export const courseLessons = [
     "say": "poor-KWAH",
     "cat": "Everyday Expressions",
     "ex": "Pourquoi tu pars ?",
-    "exEn": "Why are you leaving?"
+    "exEn": "Why are you leaving?",
+    "exWords": [
+     [
+      "Pourquoi",
+      "why"
+     ],
+     [
+      "tu",
+      "you"
+     ],
+     [
+      "pars",
+      "leave (partir, 'tu' form)"
+     ]
+    ]
    },
    {
     "fr": "bonjour",
@@ -4451,7 +5631,17 @@ export const courseLessons = [
     "say": "bohn-ZHOOR",
     "cat": "Greetings",
     "ex": "Bonjour, madame !",
-    "exEn": "Hello, madam!"
+    "exEn": "Hello, madam!",
+    "exWords": [
+     [
+      "Bonjour",
+      "hello"
+     ],
+     [
+      "madame",
+      "ma'am (fem. title)"
+     ]
+    ]
    },
    {
     "fr": "merci",
@@ -4459,7 +5649,25 @@ export const courseLessons = [
     "say": "mehr-SEE",
     "cat": "Everyday Expressions",
     "ex": "Merci pour votre aide.",
-    "exEn": "Thank you for your help."
+    "exEn": "Thank you for your help.",
+    "exWords": [
+     [
+      "Merci",
+      "thank you"
+     ],
+     [
+      "pour",
+      "for"
+     ],
+     [
+      "votre",
+      "your (formal/plural)"
+     ],
+     [
+      "aide",
+      "help (fem.)"
+     ]
+    ]
    },
    {
     "fr": "s'il vous plaît",
@@ -4467,7 +5675,33 @@ export const courseLessons = [
     "say": "seel voo PLEH",
     "cat": "Shopping",
     "ex": "Un café, s'il vous plaît.",
-    "exEn": "A coffee, please."
+    "exEn": "A coffee, please.",
+    "exWords": [
+     [
+      "Un",
+      "a (masc.)"
+     ],
+     [
+      "café",
+      "coffee (masc.)"
+     ],
+     [
+      "s'",
+      "if (si, shortened)"
+     ],
+     [
+      "il",
+      "it"
+     ],
+     [
+      "vous",
+      "you (formal/plural)"
+     ],
+     [
+      "plaît",
+      "pleases (plaire, 'il' form)"
+     ]
+    ]
    },
    {
     "fr": "pardon",
@@ -4475,7 +5709,29 @@ export const courseLessons = [
     "say": "par-DOHN",
     "cat": "Everyday Expressions",
     "ex": "Pardon, où est la sortie ?",
-    "exEn": "Excuse me, where is the exit?"
+    "exEn": "Excuse me, where is the exit?",
+    "exWords": [
+     [
+      "Pardon",
+      "excuse me"
+     ],
+     [
+      "où",
+      "where"
+     ],
+     [
+      "est",
+      "is (être, 'elle' form)"
+     ],
+     [
+      "la",
+      "the (fem.)"
+     ],
+     [
+      "sortie",
+      "exit (fem.)"
+     ]
+    ]
    }
   ],
   "grammar": [
@@ -4583,42 +5839,338 @@ export const courseLessons = [
    {
     "who": "Adrien",
     "fr": "Salut, Marinette ! Tu veux aller au café avec moi ?",
-    "en": "Hi, Marinette! Do you want to go to the café with me?"
+    "en": "Hi, Marinette! Do you want to go to the café with me?",
+    "words": [
+     [
+      "Salut",
+      "hi"
+     ],
+     [
+      "Marinette",
+      "Marinette (name)"
+     ],
+     [
+      "Tu",
+      "you (subject pronoun)"
+     ],
+     [
+      "veux",
+      "want (vouloir, 'tu' form)"
+     ],
+     [
+      "aller",
+      "to go (aller, infinitive)"
+     ],
+     [
+      "au",
+      "to the (à + le; masc.)"
+     ],
+     [
+      "café",
+      "café (masc.)"
+     ],
+     [
+      "avec",
+      "with"
+     ],
+     [
+      "moi",
+      "me"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Oui ! Je peux venir après les cours.",
-    "en": "Yes! I can come after class."
+    "en": "Yes! I can come after class.",
+    "words": [
+     [
+      "Oui",
+      "yes"
+     ],
+     [
+      "Je",
+      "I (subject pronoun)"
+     ],
+     [
+      "peux",
+      "can (pouvoir, 'je' form)"
+     ],
+     [
+      "venir",
+      "to come (venir, infinitive)"
+     ],
+     [
+      "après",
+      "after"
+     ],
+     [
+      "les",
+      "the (fem. plural)"
+     ],
+     [
+      "cours",
+      "classes (masc. plural)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Super. On peut parler et prendre un chocolat chaud.",
-    "en": "Great. We can talk and get a hot chocolate."
+    "en": "Great. We can talk and get a hot chocolate.",
+    "words": [
+     [
+      "Super",
+      "great"
+     ],
+     [
+      "On",
+      "we/one (subject pronoun)"
+     ],
+     [
+      "peut",
+      "can (pouvoir, 'on' form)"
+     ],
+     [
+      "parler",
+      "to talk (parler, infinitive)"
+     ],
+     [
+      "et",
+      "and"
+     ],
+     [
+      "prendre",
+      "to have/take (prendre, infinitive)"
+     ],
+     [
+      "un",
+      "a (masc.)"
+     ],
+     [
+      "chocolat",
+      "chocolate (masc.)"
+     ],
+     [
+      "chaud",
+      "hot (masc.)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "D’accord. Tu sais où il est ?",
-    "en": "Okay. Do you know where it is?"
+    "en": "Okay. Do you know where it is?",
+    "words": [
+     [
+      "D’",
+      "of (de, shortened before a vowel)"
+     ],
+     [
+      "accord",
+      "agreement (masc.)"
+     ],
+     [
+      "Tu",
+      "you (subject pronoun)"
+     ],
+     [
+      "sais",
+      "know (savoir, 'tu' form)"
+     ],
+     [
+      "où",
+      "where"
+     ],
+     [
+      "il",
+      "he/it (subject pronoun)"
+     ],
+     [
+      "est",
+      "is (être, 'il' form)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Oui, je le sais. Je vais te dire comment y aller.",
-    "en": "Yes, I know. I’m going to tell you how to get there."
+    "en": "Yes, I know. I’m going to tell you how to get there.",
+    "words": [
+     [
+      "Oui",
+      "yes"
+     ],
+     [
+      "je",
+      "I (subject pronoun)"
+     ],
+     [
+      "le",
+      "it (direct object pronoun)"
+     ],
+     [
+      "sais",
+      "know (savoir, 'je' form)"
+     ],
+     [
+      "Je",
+      "I (subject pronoun)"
+     ],
+     [
+      "vais",
+      "go (aller, 'je' form)"
+     ],
+     [
+      "te",
+      "to you (object pronoun)"
+     ],
+     [
+      "dire",
+      "to tell (dire, infinitive)"
+     ],
+     [
+      "comment",
+      "how"
+     ],
+     [
+      "y",
+      "there"
+     ],
+     [
+      "aller",
+      "to go (aller, infinitive)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Merci ! Tu vois la boulangerie ? Le café est à côté.",
-    "en": "Thanks! Do you see the bakery? The café is next to it."
+    "en": "Thanks! Do you see the bakery? The café is next to it.",
+    "words": [
+     [
+      "Merci",
+      "thank you"
+     ],
+     [
+      "Tu",
+      "you (subject pronoun)"
+     ],
+     [
+      "vois",
+      "see (voir, 'tu' form)"
+     ],
+     [
+      "la",
+      "the (fem.)"
+     ],
+     [
+      "boulangerie",
+      "bakery (fem.)"
+     ],
+     [
+      "Le",
+      "the (masc.)"
+     ],
+     [
+      "café",
+      "café (masc.)"
+     ],
+     [
+      "est",
+      "is (être, 'il' form)"
+     ],
+     [
+      "à",
+      "at"
+     ],
+     [
+      "côté",
+      "side (masc.)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Oui. Qu’est-ce qu’on fait après ?",
-    "en": "Yes. What shall we do afterward?"
+    "en": "Yes. What shall we do afterward?",
+    "words": [
+     [
+      "Oui",
+      "yes"
+     ],
+     [
+      "Qu’",
+      "what (que, shortened before a vowel)"
+     ],
+     [
+      "est",
+      "is (être, 'il' form)"
+     ],
+     [
+      "ce",
+      "it (part of question phrase)"
+     ],
+     [
+      "qu’",
+      "that (que, shortened before a vowel)"
+     ],
+     [
+      "on",
+      "we/one (subject pronoun)"
+     ],
+     [
+      "fait",
+      "do (faire, 'on' form)"
+     ],
+     [
+      "après",
+      "after"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "On va faire nos devoirs, puis je veux rentrer.",
-    "en": "We’re going to do our homework, then I want to go home."
+    "en": "We’re going to do our homework, then I want to go home.",
+    "words": [
+     [
+      "On",
+      "we/one (subject pronoun)"
+     ],
+     [
+      "va",
+      "go (aller, 'on' form)"
+     ],
+     [
+      "faire",
+      "to do (faire, infinitive)"
+     ],
+     [
+      "nos",
+      "our (plural possessive)"
+     ],
+     [
+      "devoirs",
+      "homework (masc. plural)"
+     ],
+     [
+      "puis",
+      "then"
+     ],
+     [
+      "je",
+      "I (subject pronoun)"
+     ],
+     [
+      "veux",
+      "want (vouloir, 'je' form)"
+     ],
+     [
+      "rentrer",
+      "to return home (rentrer, infinitive)"
+     ]
+    ]
    }
   ],
   "vocab": [
@@ -4628,7 +6180,29 @@ export const courseLessons = [
     "say": "ah-LAY",
     "cat": "Travel",
     "ex": "Je vais à l'école.",
-    "exEn": "I go to school."
+    "exEn": "I go to school.",
+    "exWords": [
+     [
+      "Je",
+      "I (subject pronoun)"
+     ],
+     [
+      "vais",
+      "go (aller, 'je' form)"
+     ],
+     [
+      "à",
+      "to"
+     ],
+     [
+      "l'",
+      "the (fem., la shortened before a vowel)"
+     ],
+     [
+      "école",
+      "school (fem.)"
+     ]
+    ]
    },
    {
     "fr": "faire",
@@ -4636,7 +6210,25 @@ export const courseLessons = [
     "say": "FEHR",
     "cat": "Daily Life",
     "ex": "Je fais du café.",
-    "exEn": "I make coffee."
+    "exEn": "I make coffee.",
+    "exWords": [
+     [
+      "Je",
+      "I (subject pronoun)"
+     ],
+     [
+      "fais",
+      "make (faire, 'je' form)"
+     ],
+     [
+      "du",
+      "some (de + le; masc.)"
+     ],
+     [
+      "café",
+      "coffee (masc.)"
+     ]
+    ]
    },
    {
     "fr": "dire",
@@ -4644,7 +6236,21 @@ export const courseLessons = [
     "say": "DEER",
     "cat": "Everyday Expressions",
     "ex": "Il dit bonjour.",
-    "exEn": "He says hello."
+    "exEn": "He says hello.",
+    "exWords": [
+     [
+      "Il",
+      "he (subject pronoun)"
+     ],
+     [
+      "dit",
+      "says (dire, 'il' form)"
+     ],
+     [
+      "bonjour",
+      "hello"
+     ]
+    ]
    },
    {
     "fr": "voir",
@@ -4652,7 +6258,25 @@ export const courseLessons = [
     "say": "VWAR",
     "cat": "Common Verbs",
     "ex": "Je vois un chien.",
-    "exEn": "I see a dog."
+    "exEn": "I see a dog.",
+    "exWords": [
+     [
+      "Je",
+      "I (subject pronoun)"
+     ],
+     [
+      "vois",
+      "see (voir, 'je' form)"
+     ],
+     [
+      "un",
+      "a (masc.)"
+     ],
+     [
+      "chien",
+      "dog (masc.)"
+     ]
+    ]
    },
    {
     "fr": "pouvoir",
@@ -4660,7 +6284,21 @@ export const courseLessons = [
     "say": "poo-VWAR",
     "cat": "Common Verbs",
     "ex": "Tu peux venir ?",
-    "exEn": "Can you come?"
+    "exEn": "Can you come?",
+    "exWords": [
+     [
+      "Tu",
+      "you (subject pronoun)"
+     ],
+     [
+      "peux",
+      "can (pouvoir, 'tu' form)"
+     ],
+     [
+      "venir",
+      "to come (venir, infinitive)"
+     ]
+    ]
    },
    {
     "fr": "vouloir",
@@ -4668,7 +6306,29 @@ export const courseLessons = [
     "say": "voo-LWAR",
     "cat": "Common Verbs",
     "ex": "Je veux de l'eau.",
-    "exEn": "I want some water."
+    "exEn": "I want some water.",
+    "exWords": [
+     [
+      "Je",
+      "I (subject pronoun)"
+     ],
+     [
+      "veux",
+      "want (vouloir, 'je' form)"
+     ],
+     [
+      "de",
+      "some (partitive marker)"
+     ],
+     [
+      "l'",
+      "the (fem., la shortened before a vowel)"
+     ],
+     [
+      "eau",
+      "water (fem.)"
+     ]
+    ]
    },
    {
     "fr": "savoir",
@@ -4676,7 +6336,25 @@ export const courseLessons = [
     "say": "sah-VWAR",
     "cat": "Common Verbs",
     "ex": "Je sais la réponse.",
-    "exEn": "I know the answer."
+    "exEn": "I know the answer.",
+    "exWords": [
+     [
+      "Je",
+      "I (subject pronoun)"
+     ],
+     [
+      "sais",
+      "know (savoir, 'je' form)"
+     ],
+     [
+      "la",
+      "the (fem.)"
+     ],
+     [
+      "réponse",
+      "answer (fem.)"
+     ]
+    ]
    },
    {
     "fr": "venir",
@@ -4684,7 +6362,25 @@ export const courseLessons = [
     "say": "vuh-NEER",
     "cat": "Travel",
     "ex": "Elle vient ce soir.",
-    "exEn": "She is coming tonight."
+    "exEn": "She is coming tonight.",
+    "exWords": [
+     [
+      "Elle",
+      "she (subject pronoun)"
+     ],
+     [
+      "vient",
+      "comes (venir, 'elle' form)"
+     ],
+     [
+      "ce",
+      "this"
+     ],
+     [
+      "soir",
+      "evening (masc.)"
+     ]
+    ]
    },
    {
     "fr": "prendre",
@@ -4692,7 +6388,25 @@ export const courseLessons = [
     "say": "PRAHNDR",
     "cat": "Common Verbs",
     "ex": "Nous prenons le bus.",
-    "exEn": "We take the bus."
+    "exEn": "We take the bus.",
+    "exWords": [
+     [
+      "Nous",
+      "we (subject pronoun)"
+     ],
+     [
+      "prenons",
+      "take (prendre, 'nous' form)"
+     ],
+     [
+      "le",
+      "the (masc.)"
+     ],
+     [
+      "bus",
+      "bus (masc.)"
+     ]
+    ]
    },
    {
     "fr": "parler",
@@ -4700,7 +6414,21 @@ export const courseLessons = [
     "say": "par-LAY",
     "cat": "Common Verbs",
     "ex": "Ils parlent français.",
-    "exEn": "They speak French."
+    "exEn": "They speak French.",
+    "exWords": [
+     [
+      "Ils",
+      "they (masculine subject pronoun)"
+     ],
+     [
+      "parlent",
+      "speak (parler, 'ils' form)"
+     ],
+     [
+      "français",
+      "French"
+     ]
+    ]
    }
   ],
   "grammar": [
@@ -4819,42 +6547,246 @@ export const courseLessons = [
    {
     "who": "Adrien",
     "fr": "Bonjour, Marinette ! Tu vois un homme ?",
-    "en": "Hello, Marinette! Do you see a man?"
+    "en": "Hello, Marinette! Do you see a man?",
+    "words": [
+     [
+      "Bonjour",
+      "hello"
+     ],
+     [
+      "Marinette",
+      "Marinette (name)"
+     ],
+     [
+      "Tu",
+      "you (informal subject)"
+     ],
+     [
+      "vois",
+      "see (voir, tu form)"
+     ],
+     [
+      "un",
+      "a (masc.)"
+     ],
+     [
+      "homme",
+      "man (masc.)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Oui, et une femme avec lui.",
-    "en": "Yes, and a woman with him."
+    "en": "Yes, and a woman with him.",
+    "words": [
+     [
+      "Oui",
+      "yes"
+     ],
+     [
+      "et",
+      "and"
+     ],
+     [
+      "une",
+      "a (fem.)"
+     ],
+     [
+      "femme",
+      "woman (fem.)"
+     ],
+     [
+      "avec",
+      "with"
+     ],
+     [
+      "lui",
+      "him"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Leur enfant est très gentil.",
-    "en": "Their child is very nice."
+    "en": "Their child is very nice.",
+    "words": [
+     [
+      "Leur",
+      "their (possessive determiner)"
+     ],
+     [
+      "enfant",
+      "child (masc.)"
+     ],
+     [
+      "est",
+      "is (être, 3rd-person singular)"
+     ],
+     [
+      "très",
+      "very"
+     ],
+     [
+      "gentil",
+      "kind (masc.)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "C’est un ami de mon frère.",
-    "en": "He’s a friend of my brother."
+    "en": "He’s a friend of my brother.",
+    "words": [
+     [
+      "C’",
+      "this/that (ce, shortened before est)"
+     ],
+     [
+      "est",
+      "is (être, 3rd-person singular)"
+     ],
+     [
+      "un",
+      "a (masc.)"
+     ],
+     [
+      "ami",
+      "friend (masc.)"
+     ],
+     [
+      "de",
+      "of"
+     ],
+     [
+      "mon",
+      "my (masc.)"
+     ],
+     [
+      "frère",
+      "brother (masc.)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Voici une famille. Le père est là.",
-    "en": "Here is a family. The father is there."
+    "en": "Here is a family. The father is there.",
+    "words": [
+     [
+      "Voici",
+      "here is"
+     ],
+     [
+      "une",
+      "a (fem.)"
+     ],
+     [
+      "famille",
+      "family (fem.)"
+     ],
+     [
+      "Le",
+      "the (masc.)"
+     ],
+     [
+      "père",
+      "father (masc.)"
+     ],
+     [
+      "est",
+      "is (être, 3rd-person singular)"
+     ],
+     [
+      "là",
+      "there"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Oui, une personne attend sa sœur.",
-    "en": "Yes, someone is waiting for their sister."
+    "en": "Yes, someone is waiting for their sister.",
+    "words": [
+     [
+      "Oui",
+      "yes"
+     ],
+     [
+      "une",
+      "a (fem.)"
+     ],
+     [
+      "personne",
+      "person (fem.)"
+     ],
+     [
+      "attend",
+      "waits for (attendre, 3rd-person singular)"
+     ],
+     [
+      "sa",
+      "her/his (fem. noun)"
+     ],
+     [
+      "sœur",
+      "sister (fem.)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Où est la mère ?",
-    "en": "Where is the mother?"
+    "en": "Where is the mother?",
+    "words": [
+     [
+      "Où",
+      "where"
+     ],
+     [
+      "est",
+      "is (être, 3rd-person singular)"
+     ],
+     [
+      "la",
+      "the (fem.)"
+     ],
+     [
+      "mère",
+      "mother (fem.)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Elle est ici, avec son frère.",
-    "en": "She is here, with her brother."
+    "en": "She is here, with her brother.",
+    "words": [
+     [
+      "Elle",
+      "she"
+     ],
+     [
+      "est",
+      "is (être, 3rd-person singular)"
+     ],
+     [
+      "ici",
+      "here"
+     ],
+     [
+      "avec",
+      "with"
+     ],
+     [
+      "son",
+      "her/his (masc. noun)"
+     ],
+     [
+      "frère",
+      "brother (masc.)"
+     ]
+    ]
    }
   ],
   "vocab": [
@@ -4864,7 +6796,33 @@ export const courseLessons = [
     "say": "uhn OHM",
     "cat": "Introductions",
     "ex": "L'homme parle avec son fils.",
-    "exEn": "The man talks with his son."
+    "exEn": "The man talks with his son.",
+    "exWords": [
+     [
+      "L'",
+      "the (masc., shortened)"
+     ],
+     [
+      "homme",
+      "man (masc.)"
+     ],
+     [
+      "parle",
+      "speaks (parler, 3rd-person singular)"
+     ],
+     [
+      "avec",
+      "with"
+     ],
+     [
+      "son",
+      "his (masc. noun)"
+     ],
+     [
+      "fils",
+      "son (masc.)"
+     ]
+    ]
    },
    {
     "fr": "une femme",
@@ -4872,7 +6830,25 @@ export const courseLessons = [
     "say": "ewn FAM",
     "cat": "Introductions",
     "ex": "La femme travaille ici.",
-    "exEn": "The woman works here."
+    "exEn": "The woman works here.",
+    "exWords": [
+     [
+      "La",
+      "the (fem.)"
+     ],
+     [
+      "femme",
+      "woman (fem.)"
+     ],
+     [
+      "travaille",
+      "works (travailler, 3rd-person singular)"
+     ],
+     [
+      "ici",
+      "here"
+     ]
+    ]
    },
    {
     "fr": "un enfant",
@@ -4880,7 +6856,33 @@ export const courseLessons = [
     "say": "uhn ahn-FAHN",
     "cat": "Family",
     "ex": "L'enfant joue dans le jardin.",
-    "exEn": "The child plays in the garden."
+    "exEn": "The child plays in the garden.",
+    "exWords": [
+     [
+      "L'",
+      "the (masc., shortened)"
+     ],
+     [
+      "enfant",
+      "child (masc.)"
+     ],
+     [
+      "joue",
+      "plays (jouer, 3rd-person singular)"
+     ],
+     [
+      "dans",
+      "in"
+     ],
+     [
+      "le",
+      "the (masc.)"
+     ],
+     [
+      "jardin",
+      "garden (masc.)"
+     ]
+    ]
    },
    {
     "fr": "un ami",
@@ -4888,7 +6890,29 @@ export const courseLessons = [
     "say": "uhn ah-MEE",
     "cat": "Introductions",
     "ex": "Mon ami arrive ce soir.",
-    "exEn": "My friend is arriving this evening."
+    "exEn": "My friend is arriving this evening.",
+    "exWords": [
+     [
+      "Mon",
+      "my (masc.)"
+     ],
+     [
+      "ami",
+      "friend (masc.)"
+     ],
+     [
+      "arrive",
+      "arrives (arriver, 3rd-person singular)"
+     ],
+     [
+      "ce",
+      "this (masc.)"
+     ],
+     [
+      "soir",
+      "evening (masc.)"
+     ]
+    ]
    },
    {
     "fr": "une mère",
@@ -4896,7 +6920,21 @@ export const courseLessons = [
     "say": "ewn MEHR",
     "cat": "Family",
     "ex": "Ma mère cuisine.",
-    "exEn": "My mother is cooking."
+    "exEn": "My mother is cooking.",
+    "exWords": [
+     [
+      "Ma",
+      "my (fem.)"
+     ],
+     [
+      "mère",
+      "mother (fem.)"
+     ],
+     [
+      "cuisine",
+      "cooks (cuisiner, 3rd-person singular)"
+     ]
+    ]
    },
    {
     "fr": "un père",
@@ -4904,7 +6942,21 @@ export const courseLessons = [
     "say": "uhn PEHR",
     "cat": "Family",
     "ex": "Mon père lit.",
-    "exEn": "My father is reading."
+    "exEn": "My father is reading.",
+    "exWords": [
+     [
+      "Mon",
+      "my (masc.)"
+     ],
+     [
+      "père",
+      "father (masc.)"
+     ],
+     [
+      "lit",
+      "reads (lire, 3rd-person singular)"
+     ]
+    ]
    },
    {
     "fr": "une famille",
@@ -4912,7 +6964,29 @@ export const courseLessons = [
     "say": "ewn fah-MEE",
     "cat": "Family",
     "ex": "Ma famille habite en France.",
-    "exEn": "My family lives in France."
+    "exEn": "My family lives in France.",
+    "exWords": [
+     [
+      "Ma",
+      "my (fem.)"
+     ],
+     [
+      "famille",
+      "family (fem.)"
+     ],
+     [
+      "habite",
+      "lives (habiter, 3rd-person singular)"
+     ],
+     [
+      "en",
+      "in"
+     ],
+     [
+      "France",
+      "France"
+     ]
+    ]
    },
    {
     "fr": "une personne",
@@ -4920,7 +6994,25 @@ export const courseLessons = [
     "say": "ewn pair-SOHN",
     "cat": "Introductions",
     "ex": "Cette personne parle français.",
-    "exEn": "This person speaks French."
+    "exEn": "This person speaks French.",
+    "exWords": [
+     [
+      "Cette",
+      "this (fem.)"
+     ],
+     [
+      "personne",
+      "person (fem.)"
+     ],
+     [
+      "parle",
+      "speaks (parler, 3rd-person singular)"
+     ],
+     [
+      "français",
+      "French (language)"
+     ]
+    ]
    },
    {
     "fr": "un frère",
@@ -4928,7 +7020,29 @@ export const courseLessons = [
     "say": "uhn FREHR",
     "cat": "Family",
     "ex": "Mon frère aime le football.",
-    "exEn": "My brother likes football."
+    "exEn": "My brother likes football.",
+    "exWords": [
+     [
+      "Mon",
+      "my (masc.)"
+     ],
+     [
+      "frère",
+      "brother (masc.)"
+     ],
+     [
+      "aime",
+      "likes (aimer, 3rd-person singular)"
+     ],
+     [
+      "le",
+      "the (masc.)"
+     ],
+     [
+      "football",
+      "football (masc.)"
+     ]
+    ]
    },
    {
     "fr": "une sœur",
@@ -4936,7 +7050,25 @@ export const courseLessons = [
     "say": "ewn SUHR",
     "cat": "Family",
     "ex": "Ma sœur chante bien.",
-    "exEn": "My sister sings well."
+    "exEn": "My sister sings well.",
+    "exWords": [
+     [
+      "Ma",
+      "my (fem.)"
+     ],
+     [
+      "sœur",
+      "sister (fem.)"
+     ],
+     [
+      "chante",
+      "sings (chanter, 3rd-person singular)"
+     ],
+     [
+      "bien",
+      "well"
+     ]
+    ]
    }
   ],
   "grammar": [
@@ -5055,42 +7187,318 @@ export const courseLessons = [
    {
     "who": "Adrien",
     "fr": "Bonjour, Marinette ! Qu'est-ce que tu fais aujourd'hui ?",
-    "en": "Hi, Marinette! What are you doing today?"
+    "en": "Hi, Marinette! What are you doing today?",
+    "words": [
+     [
+      "Bonjour",
+      "hello"
+     ],
+     [
+      "Marinette",
+      "Marinette (name)"
+     ],
+     [
+      "Qu'",
+      "what (que, shortened before vowel)"
+     ],
+     [
+      "est",
+      "is (être, 'il' form)"
+     ],
+     [
+      "ce",
+      "this (part of question phrase)"
+     ],
+     [
+      "que",
+      "that (introduces question clause)"
+     ],
+     [
+      "tu",
+      "you (informal)"
+     ],
+     [
+      "fais",
+      "do (faire, 'tu' form)"
+     ],
+     [
+      "aujourd'hui",
+      "today"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Je vais au café le matin. Et toi ?",
-    "en": "I go to the café in the morning. And you?"
+    "en": "I go to the café in the morning. And you?",
+    "words": [
+     [
+      "Je",
+      "I"
+     ],
+     [
+      "vais",
+      "go (aller, 'je' form)"
+     ],
+     [
+      "au",
+      "to the (à + le; masc.)"
+     ],
+     [
+      "café",
+      "café (masc.)"
+     ],
+     [
+      "le",
+      "the (masc.)"
+     ],
+     [
+      "matin",
+      "morning (masc.)"
+     ],
+     [
+      "Et",
+      "and"
+     ],
+     [
+      "toi",
+      "you (stressed form)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Je travaille maintenant, mais je suis libre ce soir.",
-    "en": "I'm working now, but I'm free this evening."
+    "en": "I'm working now, but I'm free this evening.",
+    "words": [
+     [
+      "Je",
+      "I"
+     ],
+     [
+      "travaille",
+      "work (travailler, 'je' form)"
+     ],
+     [
+      "maintenant",
+      "now"
+     ],
+     [
+      "mais",
+      "but"
+     ],
+     [
+      "je",
+      "I"
+     ],
+     [
+      "suis",
+      "am (être, 'je' form)"
+     ],
+     [
+      "libre",
+      "free"
+     ],
+     [
+      "ce",
+      "this (masc.)"
+     ],
+     [
+      "soir",
+      "evening (masc.)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Super ! On peut se voir demain après le cours.",
-    "en": "Great! We can see each other tomorrow after class."
+    "en": "Great! We can see each other tomorrow after class.",
+    "words": [
+     [
+      "Super",
+      "great"
+     ],
+     [
+      "On",
+      "we/one (informal 'we')"
+     ],
+     [
+      "peut",
+      "can (pouvoir, 'on' form)"
+     ],
+     [
+      "se",
+      "each other (reflexive pronoun)"
+     ],
+     [
+      "voir",
+      "see (voir, infinitive)"
+     ],
+     [
+      "demain",
+      "tomorrow"
+     ],
+     [
+      "après",
+      "after"
+     ],
+     [
+      "le",
+      "the (masc.)"
+     ],
+     [
+      "cours",
+      "class/course (masc.)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Oui. Hier, j'ai étudié toute la journée.",
-    "en": "Yes. Yesterday, I studied all day."
+    "en": "Yes. Yesterday, I studied all day.",
+    "words": [
+     [
+      "Oui",
+      "yes"
+     ],
+     [
+      "Hier",
+      "yesterday"
+     ],
+     [
+      "j'",
+      "I (je, shortened before vowel)"
+     ],
+     [
+      "ai",
+      "have (avoir, 'je' form)"
+     ],
+     [
+      "étudié",
+      "studied (étudier, past participle)"
+     ],
+     [
+      "toute",
+      "all (fem. singular)"
+     ],
+     [
+      "la",
+      "the (fem.)"
+     ],
+     [
+      "journée",
+      "day (fem.)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Tu étudies beaucoup chaque semaine !",
-    "en": "You study a lot every week!"
+    "en": "You study a lot every week!",
+    "words": [
+     [
+      "Tu",
+      "you (informal)"
+     ],
+     [
+      "étudies",
+      "study (étudier, 'tu' form)"
+     ],
+     [
+      "beaucoup",
+      "a lot"
+     ],
+     [
+      "chaque",
+      "each"
+     ],
+     [
+      "semaine",
+      "week (fem.)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Oui, mais j'aime prendre du temps pour mes amis.",
-    "en": "Yes, but I like to make time for my friends."
+    "en": "Yes, but I like to make time for my friends.",
+    "words": [
+     [
+      "Oui",
+      "yes"
+     ],
+     [
+      "mais",
+      "but"
+     ],
+     [
+      "j'",
+      "I (je, shortened before vowel)"
+     ],
+     [
+      "aime",
+      "like (aimer, 'je' form)"
+     ],
+     [
+      "prendre",
+      "take (prendre, infinitive)"
+     ],
+     [
+      "du",
+      "some (de + le; masc.)"
+     ],
+     [
+      "temps",
+      "time (masc.)"
+     ],
+     [
+      "pour",
+      "for"
+     ],
+     [
+      "mes",
+      "my (plural)"
+     ],
+     [
+      "amis",
+      "friends (masc. plural)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Moi aussi ! Un an, ça passe vite !",
-    "en": "Me too! A year goes by fast!"
+    "en": "Me too! A year goes by fast!",
+    "words": [
+     [
+      "Moi",
+      "me (stressed form)"
+     ],
+     [
+      "aussi",
+      "too"
+     ],
+     [
+      "Un",
+      "one/a (masc.)"
+     ],
+     [
+      "an",
+      "year (masc.)"
+     ],
+     [
+      "ça",
+      "that/it"
+     ],
+     [
+      "passe",
+      "passes (passer, 'ça' form)"
+     ],
+     [
+      "vite",
+      "quickly"
+     ]
+    ]
    }
   ],
   "vocab": [
@@ -5100,7 +7508,21 @@ export const courseLessons = [
     "say": "oh-zhoor-DWEE",
     "cat": "Time & Days",
     "ex": "Aujourd'hui, je travaille.",
-    "exEn": "Today, I’m working."
+    "exEn": "Today, I’m working.",
+    "exWords": [
+     [
+      "Aujourd'hui",
+      "today"
+     ],
+     [
+      "je",
+      "I"
+     ],
+     [
+      "travaille",
+      "work (travailler, 'je' form)"
+     ]
+    ]
    },
    {
     "fr": "demain",
@@ -5108,7 +7530,25 @@ export const courseLessons = [
     "say": "duh-MAN",
     "cat": "Time & Days",
     "ex": "Demain, je pars tôt.",
-    "exEn": "Tomorrow, I’m leaving early."
+    "exEn": "Tomorrow, I’m leaving early.",
+    "exWords": [
+     [
+      "Demain",
+      "tomorrow"
+     ],
+     [
+      "je",
+      "I"
+     ],
+     [
+      "pars",
+      "leave (partir, 'je' form)"
+     ],
+     [
+      "tôt",
+      "early"
+     ]
+    ]
    },
    {
     "fr": "hier",
@@ -5116,7 +7556,25 @@ export const courseLessons = [
     "say": "YAIR",
     "cat": "Time & Days",
     "ex": "Hier, j'ai travaillé.",
-    "exEn": "Yesterday, I worked."
+    "exEn": "Yesterday, I worked.",
+    "exWords": [
+     [
+      "Hier",
+      "yesterday"
+     ],
+     [
+      "j'",
+      "I (je, shortened before vowel)"
+     ],
+     [
+      "ai",
+      "have (avoir, 'je' form)"
+     ],
+     [
+      "travaillé",
+      "worked (travailler, past participle)"
+     ]
+    ]
    },
    {
     "fr": "maintenant",
@@ -5124,7 +7582,21 @@ export const courseLessons = [
     "say": "mant-NAHN",
     "cat": "Time & Days",
     "ex": "Maintenant, je comprends.",
-    "exEn": "Now, I understand."
+    "exEn": "Now, I understand.",
+    "exWords": [
+     [
+      "Maintenant",
+      "now"
+     ],
+     [
+      "je",
+      "I"
+     ],
+     [
+      "comprends",
+      "understand (comprendre, 'je' form)"
+     ]
+    ]
    },
    {
     "fr": "le jour",
@@ -5132,7 +7604,25 @@ export const courseLessons = [
     "say": "luh ZHOOR",
     "cat": "Time & Days",
     "ex": "Le jour commence tôt.",
-    "exEn": "The day starts early."
+    "exEn": "The day starts early.",
+    "exWords": [
+     [
+      "Le",
+      "the (masc.)"
+     ],
+     [
+      "jour",
+      "day (masc.)"
+     ],
+     [
+      "commence",
+      "begins (commencer, 'il' form)"
+     ],
+     [
+      "tôt",
+      "early"
+     ]
+    ]
    },
    {
     "fr": "le matin",
@@ -5140,7 +7630,33 @@ export const courseLessons = [
     "say": "luh ma-TAN",
     "cat": "Time & Days",
     "ex": "Le matin, je bois du café.",
-    "exEn": "In the morning, I drink coffee."
+    "exEn": "In the morning, I drink coffee.",
+    "exWords": [
+     [
+      "Le",
+      "the (masc.)"
+     ],
+     [
+      "matin",
+      "morning (masc.)"
+     ],
+     [
+      "je",
+      "I"
+     ],
+     [
+      "bois",
+      "drink (boire, 'je' form)"
+     ],
+     [
+      "du",
+      "some (de + le; masc.)"
+     ],
+     [
+      "café",
+      "coffee (masc.)"
+     ]
+    ]
    },
    {
     "fr": "le soir",
@@ -5148,7 +7664,29 @@ export const courseLessons = [
     "say": "luh SWAHR",
     "cat": "Time & Days",
     "ex": "Le soir, nous mangeons ensemble.",
-    "exEn": "In the evening, we eat together."
+    "exEn": "In the evening, we eat together.",
+    "exWords": [
+     [
+      "Le",
+      "the (masc.)"
+     ],
+     [
+      "soir",
+      "evening (masc.)"
+     ],
+     [
+      "nous",
+      "we"
+     ],
+     [
+      "mangeons",
+      "eat (manger, 'nous' form)"
+     ],
+     [
+      "ensemble",
+      "together"
+     ]
+    ]
    },
    {
     "fr": "un an",
@@ -5156,7 +7694,25 @@ export const courseLessons = [
     "say": "uh NAHN",
     "cat": "Time & Days",
     "ex": "Un an passe vite.",
-    "exEn": "A year goes by quickly."
+    "exEn": "A year goes by quickly.",
+    "exWords": [
+     [
+      "Un",
+      "one/a (masc.)"
+     ],
+     [
+      "an",
+      "year (masc.)"
+     ],
+     [
+      "passe",
+      "passes (passer, 'il' form)"
+     ],
+     [
+      "vite",
+      "quickly"
+     ]
+    ]
    },
    {
     "fr": "le temps",
@@ -5164,7 +7720,25 @@ export const courseLessons = [
     "say": "luh TAHN",
     "cat": "Time & Days",
     "ex": "Le temps passe vite.",
-    "exEn": "Time goes by quickly."
+    "exEn": "Time goes by quickly.",
+    "exWords": [
+     [
+      "Le",
+      "the (masc.)"
+     ],
+     [
+      "temps",
+      "time (masc.)"
+     ],
+     [
+      "passe",
+      "passes (passer, 'il' form)"
+     ],
+     [
+      "vite",
+      "quickly"
+     ]
+    ]
    },
    {
     "fr": "la semaine",
@@ -5172,7 +7746,25 @@ export const courseLessons = [
     "say": "lah suh-MEN",
     "cat": "Time & Days",
     "ex": "La semaine commence lundi.",
-    "exEn": "The week starts on Monday."
+    "exEn": "The week starts on Monday.",
+    "exWords": [
+     [
+      "La",
+      "the (fem.)"
+     ],
+     [
+      "semaine",
+      "week (fem.)"
+     ],
+     [
+      "commence",
+      "begins (commencer, 'elle' form)"
+     ],
+     [
+      "lundi",
+      "Monday"
+     ]
+    ]
    }
   ],
   "grammar": [
@@ -5291,42 +7883,314 @@ export const courseLessons = [
    {
     "who": "Adrien",
     "fr": "Bonjour, Marinette ! Ce café est bon, tu trouves ?",
-    "en": "Hi, Marinette! This café is good, don't you think?"
+    "en": "Hi, Marinette! This café is good, don't you think?",
+    "words": [
+     [
+      "Bonjour",
+      "hello"
+     ],
+     [
+      "Marinette",
+      "Marinette (name)"
+     ],
+     [
+      "Ce",
+      "this (masc.)"
+     ],
+     [
+      "café",
+      "café (masc.)"
+     ],
+     [
+      "est",
+      "is (être, 'il' form)"
+     ],
+     [
+      "bon",
+      "good (masc.)"
+     ],
+     [
+      "tu",
+      "you (informal)"
+     ],
+     [
+      "trouves",
+      "find/think (trouver, 'tu' form)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Oui ! Et le grand jardin est très beau.",
-    "en": "Yes! And the big garden is very beautiful."
+    "en": "Yes! And the big garden is very beautiful.",
+    "words": [
+     [
+      "Oui",
+      "yes"
+     ],
+     [
+      "Et",
+      "and"
+     ],
+     [
+      "le",
+      "the (masc.)"
+     ],
+     [
+      "grand",
+      "big (masc.)"
+     ],
+     [
+      "jardin",
+      "garden (masc.)"
+     ],
+     [
+      "est",
+      "is (être, 'il' form)"
+     ],
+     [
+      "très",
+      "very"
+     ],
+     [
+      "beau",
+      "beautiful (masc.)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Le petit café près d’ici est nouveau ?",
-    "en": "Is the little café nearby new?"
+    "en": "Is the little café nearby new?",
+    "words": [
+     [
+      "Le",
+      "the (masc.)"
+     ],
+     [
+      "petit",
+      "small (masc.)"
+     ],
+     [
+      "café",
+      "café (masc.)"
+     ],
+     [
+      "près",
+      "near"
+     ],
+     [
+      "d'",
+      "of (de, shortened before a vowel)"
+     ],
+     [
+      "ici",
+      "here"
+     ],
+     [
+      "est",
+      "is (être, 'il' form)"
+     ],
+     [
+      "nouveau",
+      "new (masc.)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Oui, et le jeune serveur est très gentil.",
-    "en": "Yes, and the young waiter is very kind."
+    "en": "Yes, and the young waiter is very kind.",
+    "words": [
+     [
+      "Oui",
+      "yes"
+     ],
+     [
+      "et",
+      "and"
+     ],
+     [
+      "le",
+      "the (masc.)"
+     ],
+     [
+      "jeune",
+      "young"
+     ],
+     [
+      "serveur",
+      "server (masc.)"
+     ],
+     [
+      "est",
+      "is (être, 'il' form)"
+     ],
+     [
+      "très",
+      "very"
+     ],
+     [
+      "gentil",
+      "kind (masc.)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Le vieux café, c’est au même endroit que le nouveau ?",
-    "en": "Is the old café in the same place as the new one?"
+    "en": "Is the old café in the same place as the new one?",
+    "words": [
+     [
+      "Le",
+      "the (masc.)"
+     ],
+     [
+      "vieux",
+      "old (masc.)"
+     ],
+     [
+      "café",
+      "café (masc.)"
+     ],
+     [
+      "c’",
+      "it (ce, shortened before est)"
+     ],
+     [
+      "est",
+      "is (être, 'ce' form)"
+     ],
+     [
+      "au",
+      "at the (à + le)"
+     ],
+     [
+      "même",
+      "same"
+     ],
+     [
+      "endroit",
+      "place (masc.)"
+     ],
+     [
+      "que",
+      "as"
+     ],
+     [
+      "le",
+      "the (masc.)"
+     ],
+     [
+      "nouveau",
+      "new one (masc.)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Non, c’est un autre café, juste là-bas.",
-    "en": "No, it’s another café, just over there."
+    "en": "No, it’s another café, just over there.",
+    "words": [
+     [
+      "Non",
+      "no"
+     ],
+     [
+      "c’",
+      "it (ce, shortened before est)"
+     ],
+     [
+      "est",
+      "is (être, 'ce' form)"
+     ],
+     [
+      "un",
+      "a (masc.)"
+     ],
+     [
+      "autre",
+      "other"
+     ],
+     [
+      "café",
+      "café (masc.)"
+     ],
+     [
+      "juste",
+      "right"
+     ],
+     [
+      "là-bas",
+      "over there"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Ah ! Leur café est mauvais ?",
-    "en": "Oh! Is their coffee bad?"
+    "en": "Oh! Is their coffee bad?",
+    "words": [
+     [
+      "Ah",
+      "ah"
+     ],
+     [
+      "Leur",
+      "their"
+     ],
+     [
+      "café",
+      "café (masc.)"
+     ],
+     [
+      "est",
+      "is (être, 'il' form)"
+     ],
+     [
+      "mauvais",
+      "bad (masc.)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Non, pas du tout ! Il est bon aussi.",
-    "en": "No, not at all! It’s good too."
+    "en": "No, not at all! It’s good too.",
+    "words": [
+     [
+      "Non",
+      "no"
+     ],
+     [
+      "pas",
+      "not (second half of negation)"
+     ],
+     [
+      "du",
+      "of the (de + le)"
+     ],
+     [
+      "tout",
+      "all"
+     ],
+     [
+      "Il",
+      "he/it"
+     ],
+     [
+      "est",
+      "is (être, 'il' form)"
+     ],
+     [
+      "bon",
+      "good (masc.)"
+     ],
+     [
+      "aussi",
+      "also"
+     ]
+    ]
    }
   ],
   "vocab": [
@@ -5336,7 +8200,29 @@ export const courseLessons = [
     "say": "BOHN",
     "cat": "Food & Drink",
     "ex": "C'est un bon café.",
-    "exEn": "It's a good coffee."
+    "exEn": "It's a good coffee.",
+    "exWords": [
+     [
+      "C'",
+      "it (ce, shortened before est)"
+     ],
+     [
+      "est",
+      "is (être, 'ce' form)"
+     ],
+     [
+      "un",
+      "a (masc.)"
+     ],
+     [
+      "bon",
+      "good (masc.)"
+     ],
+     [
+      "café",
+      "café (masc.)"
+     ]
+    ]
    },
    {
     "fr": "grand",
@@ -5344,7 +8230,25 @@ export const courseLessons = [
     "say": "GRAHN",
     "cat": "Daily Life",
     "ex": "Mon frère est grand.",
-    "exEn": "My brother is tall."
+    "exEn": "My brother is tall.",
+    "exWords": [
+     [
+      "Mon",
+      "my (masc.)"
+     ],
+     [
+      "frère",
+      "brother (masc.)"
+     ],
+     [
+      "est",
+      "is (être, 'il' form)"
+     ],
+     [
+      "grand",
+      "big (masc.)"
+     ]
+    ]
    },
    {
     "fr": "petit",
@@ -5352,7 +8256,25 @@ export const courseLessons = [
     "say": "puh-TEE",
     "cat": "Daily Life",
     "ex": "Le chat est petit.",
-    "exEn": "The cat is small."
+    "exEn": "The cat is small.",
+    "exWords": [
+     [
+      "Le",
+      "the (masc.)"
+     ],
+     [
+      "chat",
+      "cat (masc.)"
+     ],
+     [
+      "est",
+      "is (être, 'il' form)"
+     ],
+     [
+      "petit",
+      "small (masc.)"
+     ]
+    ]
    },
    {
     "fr": "nouveau",
@@ -5360,7 +8282,29 @@ export const courseLessons = [
     "say": "noo-VOH",
     "cat": "Shopping",
     "ex": "C'est un nouveau livre.",
-    "exEn": "It's a new book."
+    "exEn": "It's a new book.",
+    "exWords": [
+     [
+      "C'",
+      "it (ce, shortened before est)"
+     ],
+     [
+      "est",
+      "is (être, 'ce' form)"
+     ],
+     [
+      "un",
+      "a (masc.)"
+     ],
+     [
+      "nouveau",
+      "new (masc.)"
+     ],
+     [
+      "livre",
+      "book (masc.)"
+     ]
+    ]
    },
    {
     "fr": "beau",
@@ -5368,7 +8312,29 @@ export const courseLessons = [
     "say": "BOH",
     "cat": "Daily Life",
     "ex": "C'est un beau jardin.",
-    "exEn": "It's a beautiful garden."
+    "exEn": "It's a beautiful garden.",
+    "exWords": [
+     [
+      "C'",
+      "it (ce, shortened before est)"
+     ],
+     [
+      "est",
+      "is (être, 'ce' form)"
+     ],
+     [
+      "un",
+      "a (masc.)"
+     ],
+     [
+      "beau",
+      "beautiful (masc.)"
+     ],
+     [
+      "jardin",
+      "garden (masc.)"
+     ]
+    ]
    },
    {
     "fr": "jeune",
@@ -5376,7 +8342,25 @@ export const courseLessons = [
     "say": "ZHUHN",
     "cat": "Introductions",
     "ex": "Mon fils est jeune.",
-    "exEn": "My son is young."
+    "exEn": "My son is young.",
+    "exWords": [
+     [
+      "Mon",
+      "my (masc.)"
+     ],
+     [
+      "fils",
+      "son (masc.)"
+     ],
+     [
+      "est",
+      "is (être, 'il' form)"
+     ],
+     [
+      "jeune",
+      "young"
+     ]
+    ]
    },
    {
     "fr": "vieux",
@@ -5384,7 +8368,25 @@ export const courseLessons = [
     "say": "VYUH",
     "cat": "Daily Life",
     "ex": "Mon père est vieux.",
-    "exEn": "My father is old."
+    "exEn": "My father is old.",
+    "exWords": [
+     [
+      "Mon",
+      "my (masc.)"
+     ],
+     [
+      "père",
+      "father (masc.)"
+     ],
+     [
+      "est",
+      "is (être, 'il' form)"
+     ],
+     [
+      "vieux",
+      "old (masc.)"
+     ]
+    ]
    },
    {
     "fr": "même",
@@ -5392,7 +8394,29 @@ export const courseLessons = [
     "say": "MEM",
     "cat": "Everyday Expressions",
     "ex": "Nous avons le même livre.",
-    "exEn": "We have the same book."
+    "exEn": "We have the same book.",
+    "exWords": [
+     [
+      "Nous",
+      "we"
+     ],
+     [
+      "avons",
+      "have (avoir, 'nous' form)"
+     ],
+     [
+      "le",
+      "the (masc.)"
+     ],
+     [
+      "même",
+      "same"
+     ],
+     [
+      "livre",
+      "book (masc.)"
+     ]
+    ]
    },
    {
     "fr": "autre",
@@ -5400,7 +8424,29 @@ export const courseLessons = [
     "say": "OHTR",
     "cat": "Shopping",
     "ex": "Je prends un autre café.",
-    "exEn": "I'll have another coffee."
+    "exEn": "I'll have another coffee.",
+    "exWords": [
+     [
+      "Je",
+      "I"
+     ],
+     [
+      "prends",
+      "take (prendre, 'je' form)"
+     ],
+     [
+      "un",
+      "a (masc.)"
+     ],
+     [
+      "autre",
+      "other"
+     ],
+     [
+      "café",
+      "café (masc.)"
+     ]
+    ]
    },
    {
     "fr": "mauvais",
@@ -5408,7 +8454,25 @@ export const courseLessons = [
     "say": "moh-VAY",
     "cat": "Food & Drink",
     "ex": "Ce film est mauvais.",
-    "exEn": "This film is bad."
+    "exEn": "This film is bad.",
+    "exWords": [
+     [
+      "Ce",
+      "this (masc.)"
+     ],
+     [
+      "film",
+      "film (masc.)"
+     ],
+     [
+      "est",
+      "is (être, 'il' form)"
+     ],
+     [
+      "mauvais",
+      "bad (masc.)"
+     ]
+    ]
    }
   ],
   "grammar": [
@@ -5527,42 +8591,282 @@ export const courseLessons = [
    {
     "who": "Adrien",
     "fr": "Bonjour, Marinette ! Tu vas à l'école ?",
-    "en": "Hi, Marinette! Are you going to school?"
+    "en": "Hi, Marinette! Are you going to school?",
+    "words": [
+     [
+      "Bonjour",
+      "hello"
+     ],
+     [
+      "Marinette",
+      "Marinette (name)"
+     ],
+     [
+      "Tu",
+      "you (informal subject pronoun)"
+     ],
+     [
+      "vas",
+      "go (aller, tu form)"
+     ],
+     [
+      "à",
+      "to"
+     ],
+     [
+      "l'",
+      "the (fem., shortened)"
+     ],
+     [
+      "école",
+      "school (fem.)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Oui, puis je vais au magasin en ville.",
-    "en": "Yes, then I'm going to the shop in town."
+    "en": "Yes, then I'm going to the shop in town.",
+    "words": [
+     [
+      "Oui",
+      "yes"
+     ],
+     [
+      "puis",
+      "then"
+     ],
+     [
+      "je",
+      "I (subject pronoun)"
+     ],
+     [
+      "vais",
+      "go (aller, je form)"
+     ],
+     [
+      "au",
+      "to the (à + le, masc.)"
+     ],
+     [
+      "magasin",
+      "shop (masc.)"
+     ],
+     [
+      "en",
+      "in"
+     ],
+     [
+      "ville",
+      "town (fem.)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Tu veux acheter un livre ?",
-    "en": "Do you want to buy a book?"
+    "en": "Do you want to buy a book?",
+    "words": [
+     [
+      "Tu",
+      "you (informal subject pronoun)"
+     ],
+     [
+      "veux",
+      "want (vouloir, tu form)"
+     ],
+     [
+      "acheter",
+      "to buy (acheter, infinitive)"
+     ],
+     [
+      "un",
+      "a (masc.)"
+     ],
+     [
+      "livre",
+      "book (masc.)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Oui, je vais acheter un livre.",
-    "en": "Yes, I'm going to buy a book."
+    "en": "Yes, I'm going to buy a book.",
+    "words": [
+     [
+      "Oui",
+      "yes"
+     ],
+     [
+      "je",
+      "I (subject pronoun)"
+     ],
+     [
+      "vais",
+      "go (aller, je form)"
+     ],
+     [
+      "acheter",
+      "to buy (acheter, infinitive)"
+     ],
+     [
+      "un",
+      "a (masc.)"
+     ],
+     [
+      "livre",
+      "book (masc.)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Après, on rentre à la maison en voiture ?",
-    "en": "Later, shall we go home by car?"
+    "en": "Later, shall we go home by car?",
+    "words": [
+     [
+      "Après",
+      "afterward"
+     ],
+     [
+      "on",
+      "we (informal subject pronoun)"
+     ],
+     [
+      "rentre",
+      "return (rentrer, on form)"
+     ],
+     [
+      "à",
+      "to"
+     ],
+     [
+      "la",
+      "the (fem.)"
+     ],
+     [
+      "maison",
+      "house (fem.)"
+     ],
+     [
+      "en",
+      "by"
+     ],
+     [
+      "voiture",
+      "car (fem.)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Oui. Je prends aussi de l'eau pour la route.",
-    "en": "Yes. I'll also take some water for the road."
+    "en": "Yes. I'll also take some water for the road.",
+    "words": [
+     [
+      "Oui",
+      "yes"
+     ],
+     [
+      "Je",
+      "I (subject pronoun)"
+     ],
+     [
+      "prends",
+      "take (prendre, je form)"
+     ],
+     [
+      "aussi",
+      "also"
+     ],
+     [
+      "de",
+      "some (partitive marker)"
+     ],
+     [
+      "l'",
+      "the (fem., shortened)"
+     ],
+     [
+      "eau",
+      "water (fem.)"
+     ],
+     [
+      "pour",
+      "for"
+     ],
+     [
+      "la",
+      "the (fem.)"
+     ],
+     [
+      "route",
+      "road (fem.)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Mon lieu de travail se trouve dans cette rue.",
-    "en": "My workplace is on this street."
+    "en": "My workplace is on this street.",
+    "words": [
+     [
+      "Mon",
+      "my (masc.)"
+     ],
+     [
+      "lieu",
+      "place (masc.)"
+     ],
+     [
+      "de",
+      "of"
+     ],
+     [
+      "travail",
+      "work (masc.)"
+     ],
+     [
+      "se",
+      "itself (reflexive pronoun)"
+     ],
+     [
+      "trouve",
+      "is located (se trouver, il form)"
+     ],
+     [
+      "dans",
+      "in"
+     ],
+     [
+      "cette",
+      "this (fem.)"
+     ],
+     [
+      "rue",
+      "street (fem.)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "À bientôt, Adrien !",
-    "en": "See you soon, Adrien!"
+    "en": "See you soon, Adrien!",
+    "words": [
+     [
+      "À",
+      "until"
+     ],
+     [
+      "bientôt",
+      "soon"
+     ],
+     [
+      "Adrien",
+      "Adrien (name)"
+     ]
+    ]
    }
   ],
   "vocab": [
@@ -5572,7 +8876,29 @@ export const courseLessons = [
     "say": "lah meh-ZOHN",
     "cat": "Daily Life",
     "ex": "J'habite dans une maison.",
-    "exEn": "I live in a house."
+    "exEn": "I live in a house.",
+    "exWords": [
+     [
+      "J'",
+      "I (je, shortened before a vowel)"
+     ],
+     [
+      "habite",
+      "live (habiter, je form)"
+     ],
+     [
+      "dans",
+      "in"
+     ],
+     [
+      "une",
+      "a (fem.)"
+     ],
+     [
+      "maison",
+      "house (fem.)"
+     ]
+    ]
    },
    {
     "fr": "la ville",
@@ -5580,7 +8906,25 @@ export const courseLessons = [
     "say": "lah VEEL",
     "cat": "Travel",
     "ex": "Je vais en ville.",
-    "exEn": "I'm going into town."
+    "exEn": "I'm going into town.",
+    "exWords": [
+     [
+      "Je",
+      "I (subject pronoun)"
+     ],
+     [
+      "vais",
+      "go (aller, je form)"
+     ],
+     [
+      "en",
+      "to"
+     ],
+     [
+      "ville",
+      "town (fem.)"
+     ]
+    ]
    },
    {
     "fr": "la voiture",
@@ -5588,7 +8932,25 @@ export const courseLessons = [
     "say": "lah vwah-TYUR",
     "cat": "Travel",
     "ex": "Ma voiture est rouge.",
-    "exEn": "My car is red."
+    "exEn": "My car is red.",
+    "exWords": [
+     [
+      "Ma",
+      "my (fem.)"
+     ],
+     [
+      "voiture",
+      "car (fem.)"
+     ],
+     [
+      "est",
+      "is (être, il form)"
+     ],
+     [
+      "rouge",
+      "red"
+     ]
+    ]
    },
    {
     "fr": "un livre",
@@ -5596,7 +8958,25 @@ export const courseLessons = [
     "say": "uhn LEE-vruh",
     "cat": "Daily Life",
     "ex": "Je lis un livre.",
-    "exEn": "I'm reading a book."
+    "exEn": "I'm reading a book.",
+    "exWords": [
+     [
+      "Je",
+      "I (subject pronoun)"
+     ],
+     [
+      "lis",
+      "read (lire, je form)"
+     ],
+     [
+      "un",
+      "a (masc.)"
+     ],
+     [
+      "livre",
+      "book (masc.)"
+     ]
+    ]
    },
    {
     "fr": "l'eau",
@@ -5604,7 +8984,29 @@ export const courseLessons = [
     "say": "LOH",
     "cat": "Food & Drink",
     "ex": "Je bois de l'eau.",
-    "exEn": "I drink water."
+    "exEn": "I drink water.",
+    "exWords": [
+     [
+      "Je",
+      "I (subject pronoun)"
+     ],
+     [
+      "bois",
+      "drink (boire, je form)"
+     ],
+     [
+      "de",
+      "some (partitive marker)"
+     ],
+     [
+      "l'",
+      "the (fem., shortened)"
+     ],
+     [
+      "eau",
+      "water (fem.)"
+     ]
+    ]
    },
    {
     "fr": "le pain",
@@ -5612,7 +9014,25 @@ export const courseLessons = [
     "say": "luh PAN",
     "cat": "Food & Drink",
     "ex": "Je mange du pain.",
-    "exEn": "I eat bread."
+    "exEn": "I eat bread.",
+    "exWords": [
+     [
+      "Je",
+      "I (subject pronoun)"
+     ],
+     [
+      "mange",
+      "eat (manger, je form)"
+     ],
+     [
+      "du",
+      "some (partitive article, masc.)"
+     ],
+     [
+      "pain",
+      "bread (masc.)"
+     ]
+    ]
    },
    {
     "fr": "le travail",
@@ -5620,7 +9040,25 @@ export const courseLessons = [
     "say": "luh trah-VAI",
     "cat": "Work & School",
     "ex": "Je vais au travail.",
-    "exEn": "I'm going to work."
+    "exEn": "I'm going to work.",
+    "exWords": [
+     [
+      "Je",
+      "I (subject pronoun)"
+     ],
+     [
+      "vais",
+      "go (aller, je form)"
+     ],
+     [
+      "au",
+      "to the (à + le, masc.)"
+     ],
+     [
+      "travail",
+      "work (masc.)"
+     ]
+    ]
    },
    {
     "fr": "l'école",
@@ -5628,7 +9066,33 @@ export const courseLessons = [
     "say": "lay-KOHL",
     "cat": "Work & School",
     "ex": "Les enfants vont à l'école.",
-    "exEn": "The children go to school."
+    "exEn": "The children go to school.",
+    "exWords": [
+     [
+      "Les",
+      "the (plural)"
+     ],
+     [
+      "enfants",
+      "children (masc. plural)"
+     ],
+     [
+      "vont",
+      "go (aller, ils form)"
+     ],
+     [
+      "à",
+      "to"
+     ],
+     [
+      "l'",
+      "the (fem., shortened)"
+     ],
+     [
+      "école",
+      "school (fem.)"
+     ]
+    ]
    },
    {
     "fr": "le magasin",
@@ -5636,7 +9100,25 @@ export const courseLessons = [
     "say": "luh mah-gah-ZAN",
     "cat": "Shopping",
     "ex": "Le magasin est ouvert.",
-    "exEn": "The shop is open."
+    "exEn": "The shop is open.",
+    "exWords": [
+     [
+      "Le",
+      "the (masc.)"
+     ],
+     [
+      "magasin",
+      "shop (masc.)"
+     ],
+     [
+      "est",
+      "is (être, il form)"
+     ],
+     [
+      "ouvert",
+      "open (masc. form)"
+     ]
+    ]
    },
    {
     "fr": "la rue",
@@ -5644,7 +9126,25 @@ export const courseLessons = [
     "say": "lah ROO",
     "cat": "Directions",
     "ex": "La rue est calme.",
-    "exEn": "The street is quiet."
+    "exEn": "The street is quiet.",
+    "exWords": [
+     [
+      "La",
+      "the (fem.)"
+     ],
+     [
+      "rue",
+      "street (fem.)"
+     ],
+     [
+      "est",
+      "is (être, il form)"
+     ],
+     [
+      "calme",
+      "quiet"
+     ]
+    ]
    }
   ],
   "grammar": [
@@ -5768,37 +9268,147 @@ export const courseLessons = [
    {
     "who": "Marinette",
     "fr": "Oui ! Quatre, cinq, six.",
-    "en": "Yes! Four, five, six."
+    "en": "Yes! Four, five, six.",
+    "words": [
+     [
+      "Oui",
+      "yes"
+     ],
+     [
+      "Quatre",
+      "four"
+     ],
+     [
+      "cinq",
+      "five"
+     ],
+     [
+      "six",
+      "six"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Sept, huit, neuf...",
-    "en": "Seven, eight, nine..."
+    "en": "Seven, eight, nine...",
+    "words": [
+     [
+      "Sept",
+      "seven"
+     ],
+     [
+      "huit",
+      "eight"
+     ],
+     [
+      "neuf",
+      "nine"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Et dix ! Voilà, dix marches.",
-    "en": "And ten! There we go, ten steps."
+    "en": "And ten! There we go, ten steps.",
+    "words": [
+     [
+      "Et",
+      "and"
+     ],
+     [
+      "dix",
+      "ten"
+     ],
+     [
+      "Voilà",
+      "there are / here are"
+     ],
+     [
+      "dix",
+      "ten"
+     ],
+     [
+      "marches",
+      "steps (fem. plural)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "C'était facile, non ?",
-    "en": "That was easy, wasn't it?"
+    "en": "That was easy, wasn't it?",
+    "words": [
+     [
+      "C'",
+      "it (ce, shortened before a vowel)"
+     ],
+     [
+      "était",
+      "was (être, 3rd-person singular)"
+     ],
+     [
+      "facile",
+      "easy"
+     ],
+     [
+      "non",
+      "right? / isn't it?"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Oui, comptons encore !",
-    "en": "Yes, let's count again!"
+    "en": "Yes, let's count again!",
+    "words": [
+     [
+      "Oui",
+      "yes"
+     ],
+     [
+      "comptons",
+      "let's count (compter, nous imperative)"
+     ],
+     [
+      "encore",
+      "again"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Un, deux, trois !",
-    "en": "One, two, three!"
+    "en": "One, two, three!",
+    "words": [
+     [
+      "Un",
+      "one"
+     ],
+     [
+      "deux",
+      "two"
+     ],
+     [
+      "trois",
+      "three"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Merci, Adrien !",
-    "en": "Thank you, Adrien!"
+    "en": "Thank you, Adrien!",
+    "words": [
+     [
+      "Merci",
+      "thank you"
+     ],
+     [
+      "Adrien",
+      "Adrien (name)"
+     ]
+    ]
    }
   ],
   "vocab": [
@@ -5808,7 +9418,25 @@ export const courseLessons = [
     "say": "UH(n)",
     "cat": "Numbers",
     "ex": "J'ai un frère.",
-    "exEn": "I have one brother."
+    "exEn": "I have one brother.",
+    "exWords": [
+     [
+      "J'",
+      "I (je, shortened before a vowel)"
+     ],
+     [
+      "ai",
+      "have (avoir, je form)"
+     ],
+     [
+      "un",
+      "a (masc.)"
+     ],
+     [
+      "frère",
+      "brother (masc.)"
+     ]
+    ]
    },
    {
     "fr": "deux",
@@ -5816,7 +9444,25 @@ export const courseLessons = [
     "say": "DUH",
     "cat": "Numbers",
     "ex": "Elle a deux chats.",
-    "exEn": "She has two cats."
+    "exEn": "She has two cats.",
+    "exWords": [
+     [
+      "Elle",
+      "she"
+     ],
+     [
+      "a",
+      "has (avoir, elle form)"
+     ],
+     [
+      "deux",
+      "two"
+     ],
+     [
+      "chats",
+      "cats (masc. plural)"
+     ]
+    ]
    },
    {
     "fr": "trois",
@@ -5824,7 +9470,25 @@ export const courseLessons = [
     "say": "TRWAH",
     "cat": "Numbers",
     "ex": "Nous avons trois pommes.",
-    "exEn": "We have three apples."
+    "exEn": "We have three apples.",
+    "exWords": [
+     [
+      "Nous",
+      "we"
+     ],
+     [
+      "avons",
+      "have (avoir, nous form)"
+     ],
+     [
+      "trois",
+      "three"
+     ],
+     [
+      "pommes",
+      "apples (fem. plural)"
+     ]
+    ]
    },
    {
     "fr": "quatre",
@@ -5832,7 +9496,29 @@ export const courseLessons = [
     "say": "KATR",
     "cat": "Numbers",
     "ex": "Il y a quatre livres.",
-    "exEn": "There are four books."
+    "exEn": "There are four books.",
+    "exWords": [
+     [
+      "Il",
+      "there (impersonal subject)"
+     ],
+     [
+      "y",
+      "there"
+     ],
+     [
+      "a",
+      "is/are (avoir, il form)"
+     ],
+     [
+      "quatre",
+      "four"
+     ],
+     [
+      "livres",
+      "books (masc. plural)"
+     ]
+    ]
    },
    {
     "fr": "cinq",
@@ -5840,7 +9526,25 @@ export const courseLessons = [
     "say": "SANK",
     "cat": "Numbers",
     "ex": "J'ai cinq euros.",
-    "exEn": "I have five euros."
+    "exEn": "I have five euros.",
+    "exWords": [
+     [
+      "J'",
+      "I (je, shortened before a vowel)"
+     ],
+     [
+      "ai",
+      "have (avoir, je form)"
+     ],
+     [
+      "cinq",
+      "five"
+     ],
+     [
+      "euros",
+      "euros (masc. plural)"
+     ]
+    ]
    },
    {
     "fr": "six",
@@ -5848,7 +9552,25 @@ export const courseLessons = [
     "say": "SEESS",
     "cat": "Numbers",
     "ex": "Les six enfants jouent.",
-    "exEn": "The six children are playing."
+    "exEn": "The six children are playing.",
+    "exWords": [
+     [
+      "Les",
+      "the (masc. plural)"
+     ],
+     [
+      "six",
+      "six"
+     ],
+     [
+      "enfants",
+      "children (masc. plural)"
+     ],
+     [
+      "jouent",
+      "play (jouer, ils/elles form)"
+     ]
+    ]
    },
    {
     "fr": "sept",
@@ -5856,7 +9578,29 @@ export const courseLessons = [
     "say": "SET",
     "cat": "Numbers",
     "ex": "Il y a sept jours.",
-    "exEn": "There are seven days."
+    "exEn": "There are seven days.",
+    "exWords": [
+     [
+      "Il",
+      "there (impersonal subject)"
+     ],
+     [
+      "y",
+      "there"
+     ],
+     [
+      "a",
+      "are (avoir, il form)"
+     ],
+     [
+      "sept",
+      "seven"
+     ],
+     [
+      "jours",
+      "days (masc. plural)"
+     ]
+    ]
    },
    {
     "fr": "huit",
@@ -5864,7 +9608,29 @@ export const courseLessons = [
     "say": "WEET",
     "cat": "Numbers",
     "ex": "Huit heures, c'est tôt.",
-    "exEn": "Eight o'clock is early."
+    "exEn": "Eight o'clock is early.",
+    "exWords": [
+     [
+      "Huit",
+      "eight"
+     ],
+     [
+      "heures",
+      "hours (fem. plural)"
+     ],
+     [
+      "c'",
+      "it (ce, shortened before a vowel)"
+     ],
+     [
+      "est",
+      "is (être, 3rd-person singular)"
+     ],
+     [
+      "tôt",
+      "early"
+     ]
+    ]
    },
    {
     "fr": "neuf",
@@ -5872,7 +9638,25 @@ export const courseLessons = [
     "say": "NUHF",
     "cat": "Numbers",
     "ex": "Il a neuf ans.",
-    "exEn": "He is nine years old."
+    "exEn": "He is nine years old.",
+    "exWords": [
+     [
+      "Il",
+      "he"
+     ],
+     [
+      "a",
+      "has (avoir, il form)"
+     ],
+     [
+      "neuf",
+      "nine"
+     ],
+     [
+      "ans",
+      "years (masc. plural)"
+     ]
+    ]
    },
    {
     "fr": "dix",
@@ -5880,7 +9664,21 @@ export const courseLessons = [
     "say": "DEESS",
     "cat": "Numbers",
     "ex": "Dix élèves arrivent.",
-    "exEn": "Ten students are arriving."
+    "exEn": "Ten students are arriving.",
+    "exWords": [
+     [
+      "Dix",
+      "ten"
+     ],
+     [
+      "élèves",
+      "students (masc./fem. plural)"
+     ],
+     [
+      "arrivent",
+      "arrive (arriver, ils/elles form)"
+     ]
+    ]
    }
   ],
   "grammar": [
@@ -5999,42 +9797,270 @@ export const courseLessons = [
    {
     "who": "Adrien",
     "fr": "Tu as déjà fini tes devoirs ?",
-    "en": "Have you already finished your homework?"
+    "en": "Have you already finished your homework?",
+    "words": [
+     [
+      "Tu",
+      "you (subject, informal singular)"
+     ],
+     [
+      "as",
+      "have (avoir, tu form)"
+     ],
+     [
+      "déjà",
+      "already"
+     ],
+     [
+      "fini",
+      "finished (finir, past participle)"
+     ],
+     [
+      "tes",
+      "your (plural, before plural noun)"
+     ],
+     [
+      "devoirs",
+      "homework (masc., plural)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Oui, parce que c'était très facile.",
-    "en": "Yes, because it was very easy."
+    "en": "Yes, because it was very easy.",
+    "words": [
+     [
+      "Oui",
+      "yes"
+     ],
+     [
+      "parce",
+      "because (first part of parce que)"
+     ],
+     [
+      "que",
+      "that (second part of parce que)"
+     ],
+     [
+      "c'",
+      "it (ce, shortened before a vowel)"
+     ],
+     [
+      "était",
+      "was (être, il/ce form)"
+     ],
+     [
+      "très",
+      "very"
+     ],
+     [
+      "facile",
+      "easy"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Tu travailles toujours ici ?",
-    "en": "Do you still work here?"
+    "en": "Do you still work here?",
+    "words": [
+     [
+      "Tu",
+      "you (subject, informal singular)"
+     ],
+     [
+      "travailles",
+      "work (travailler, tu form)"
+     ],
+     [
+      "toujours",
+      "always"
+     ],
+     [
+      "ici",
+      "here"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Oui, et je peux aussi t'aider.",
-    "en": "Yes, and I can help you too."
+    "en": "Yes, and I can help you too.",
+    "words": [
+     [
+      "Oui",
+      "yes"
+     ],
+     [
+      "et",
+      "and"
+     ],
+     [
+      "je",
+      "I (subject pronoun)"
+     ],
+     [
+      "peux",
+      "can (pouvoir, je form)"
+     ],
+     [
+      "aussi",
+      "also"
+     ],
+     [
+      "t'",
+      "you (object pronoun, shortened)"
+     ],
+     [
+      "aider",
+      "help (aider, infinitive)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Merci ! J'aime beaucoup ce café.",
-    "en": "Thanks! I like this café a lot."
+    "en": "Thanks! I like this café a lot.",
+    "words": [
+     [
+      "Merci",
+      "thank you"
+     ],
+     [
+      "J'",
+      "I (je, shortened before a vowel)"
+     ],
+     [
+      "aime",
+      "like (aimer, je form)"
+     ],
+     [
+      "beaucoup",
+      "a lot"
+     ],
+     [
+      "ce",
+      "this (masc.)"
+     ],
+     [
+      "café",
+      "café (masc.)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Il est plus calme et moins bruyant le matin.",
-    "en": "It's calmer and less noisy in the morning."
+    "en": "It's calmer and less noisy in the morning.",
+    "words": [
+     [
+      "Il",
+      "it (subject pronoun, masc.)"
+     ],
+     [
+      "est",
+      "is (être, il form)"
+     ],
+     [
+      "plus",
+      "more"
+     ],
+     [
+      "calme",
+      "calm"
+     ],
+     [
+      "et",
+      "and"
+     ],
+     [
+      "moins",
+      "less"
+     ],
+     [
+      "bruyant",
+      "noisy (masc.)"
+     ],
+     [
+      "le",
+      "the (masc.)"
+     ],
+     [
+      "matin",
+      "morning (masc.)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Tu viens encore demain ?",
-    "en": "Are you coming again tomorrow?"
+    "en": "Are you coming again tomorrow?",
+    "words": [
+     [
+      "Tu",
+      "you (subject, informal singular)"
+     ],
+     [
+      "viens",
+      "come (venir, tu form)"
+     ],
+     [
+      "encore",
+      "again"
+     ],
+     [
+      "demain",
+      "tomorrow"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Oui, sauf le dimanche : je ne viens jamais ce jour-là.",
-    "en": "Yes, except on Sundays: I never come that day."
+    "en": "Yes, except on Sundays: I never come that day.",
+    "words": [
+     [
+      "Oui",
+      "yes"
+     ],
+     [
+      "sauf",
+      "except"
+     ],
+     [
+      "le",
+      "the (masc.)"
+     ],
+     [
+      "dimanche",
+      "Sunday (masc.)"
+     ],
+     [
+      "je",
+      "I (subject pronoun)"
+     ],
+     [
+      "ne",
+      "not (first half of negation)"
+     ],
+     [
+      "viens",
+      "come (venir, je form)"
+     ],
+     [
+      "jamais",
+      "never (second half of negation)"
+     ],
+     [
+      "ce",
+      "this (masc.)"
+     ],
+     [
+      "jour-là",
+      "that day (masc.)"
+     ]
+    ]
    }
   ],
   "vocab": [
@@ -6044,7 +10070,25 @@ export const courseLessons = [
     "say": "TREH",
     "cat": "Everyday Expressions",
     "ex": "Il est très gentil.",
-    "exEn": "He is very kind."
+    "exEn": "He is very kind.",
+    "exWords": [
+     [
+      "Il",
+      "he (subject pronoun)"
+     ],
+     [
+      "est",
+      "is (être, il form)"
+     ],
+     [
+      "très",
+      "very"
+     ],
+     [
+      "gentil",
+      "kind (masc.)"
+     ]
+    ]
    },
    {
     "fr": "plus",
@@ -6052,7 +10096,33 @@ export const courseLessons = [
     "say": "PLÜ",
     "cat": "Everyday Expressions",
     "ex": "Il est plus grand que moi.",
-    "exEn": "He is taller than me."
+    "exEn": "He is taller than me.",
+    "exWords": [
+     [
+      "Il",
+      "he (subject pronoun)"
+     ],
+     [
+      "est",
+      "is (être, il form)"
+     ],
+     [
+      "plus",
+      "more"
+     ],
+     [
+      "grand",
+      "tall (masc.)"
+     ],
+     [
+      "que",
+      "than"
+     ],
+     [
+      "moi",
+      "me"
+     ]
+    ]
    },
    {
     "fr": "moins",
@@ -6060,7 +10130,29 @@ export const courseLessons = [
     "say": "MWAHN",
     "cat": "Everyday Expressions",
     "ex": "Je parle moins vite maintenant.",
-    "exEn": "I speak less quickly now."
+    "exEn": "I speak less quickly now.",
+    "exWords": [
+     [
+      "Je",
+      "I (subject pronoun)"
+     ],
+     [
+      "parle",
+      "speak (parler, je form)"
+     ],
+     [
+      "moins",
+      "less"
+     ],
+     [
+      "vite",
+      "quickly"
+     ],
+     [
+      "maintenant",
+      "now"
+     ]
+    ]
    },
    {
     "fr": "beaucoup",
@@ -6068,7 +10160,21 @@ export const courseLessons = [
     "say": "boh-KOO",
     "cat": "Numbers",
     "ex": "Elle travaille beaucoup.",
-    "exEn": "She works a lot."
+    "exEn": "She works a lot.",
+    "exWords": [
+     [
+      "Elle",
+      "she (subject pronoun)"
+     ],
+     [
+      "travaille",
+      "works (travailler, elle form)"
+     ],
+     [
+      "beaucoup",
+      "a lot"
+     ]
+    ]
    },
    {
     "fr": "aussi",
@@ -6076,7 +10182,33 @@ export const courseLessons = [
     "say": "oh-SEE",
     "cat": "Everyday Expressions",
     "ex": "Elle est aussi grande que moi.",
-    "exEn": "She is as tall as me."
+    "exEn": "She is as tall as me.",
+    "exWords": [
+     [
+      "Elle",
+      "she (subject pronoun)"
+     ],
+     [
+      "est",
+      "is (être, elle form)"
+     ],
+     [
+      "aussi",
+      "as"
+     ],
+     [
+      "grande",
+      "tall (fem.)"
+     ],
+     [
+      "que",
+      "as"
+     ],
+     [
+      "moi",
+      "me"
+     ]
+    ]
    },
    {
     "fr": "toujours",
@@ -6084,7 +10216,25 @@ export const courseLessons = [
     "say": "too-ZHOOR",
     "cat": "Time & Days",
     "ex": "Il habite toujours ici.",
-    "exEn": "He still lives here."
+    "exEn": "He still lives here.",
+    "exWords": [
+     [
+      "Il",
+      "he (subject pronoun)"
+     ],
+     [
+      "habite",
+      "lives (habiter, il form)"
+     ],
+     [
+      "toujours",
+      "always"
+     ],
+     [
+      "ici",
+      "here"
+     ]
+    ]
    },
    {
     "fr": "jamais",
@@ -6092,7 +10242,29 @@ export const courseLessons = [
     "say": "zhah-MEH",
     "cat": "Time & Days",
     "ex": "Je ne mange jamais ici.",
-    "exEn": "I never eat here."
+    "exEn": "I never eat here.",
+    "exWords": [
+     [
+      "Je",
+      "I (subject pronoun)"
+     ],
+     [
+      "ne",
+      "not (first half of negation)"
+     ],
+     [
+      "mange",
+      "eat (manger, je form)"
+     ],
+     [
+      "jamais",
+      "never (second half of negation)"
+     ],
+     [
+      "ici",
+      "here"
+     ]
+    ]
    },
    {
     "fr": "déjà",
@@ -6100,7 +10272,29 @@ export const courseLessons = [
     "say": "day-ZHAH",
     "cat": "Time & Days",
     "ex": "Je connais déjà cette chanson.",
-    "exEn": "I already know this song."
+    "exEn": "I already know this song.",
+    "exWords": [
+     [
+      "Je",
+      "I (subject pronoun)"
+     ],
+     [
+      "connais",
+      "know (connaître, je form)"
+     ],
+     [
+      "déjà",
+      "already"
+     ],
+     [
+      "cette",
+      "this (fem.)"
+     ],
+     [
+      "chanson",
+      "song (fem.)"
+     ]
+    ]
    },
    {
     "fr": "encore",
@@ -6108,7 +10302,29 @@ export const courseLessons = [
     "say": "ahn-KOR",
     "cat": "Time & Days",
     "ex": "Je veux encore du pain.",
-    "exEn": "I want some more bread."
+    "exEn": "I want some more bread.",
+    "exWords": [
+     [
+      "Je",
+      "I (subject pronoun)"
+     ],
+     [
+      "veux",
+      "want (vouloir, je form)"
+     ],
+     [
+      "encore",
+      "some more"
+     ],
+     [
+      "du",
+      "some (masc.; de + le)"
+     ],
+     [
+      "pain",
+      "bread (masc.)"
+     ]
+    ]
    },
    {
     "fr": "parce que",
@@ -6116,7 +10332,37 @@ export const courseLessons = [
     "say": "pars-KUH",
     "cat": "Everyday Expressions",
     "ex": "Je reste parce que j'attends Marie.",
-    "exEn": "I stay because I am waiting for Marie."
+    "exEn": "I stay because I am waiting for Marie.",
+    "exWords": [
+     [
+      "Je",
+      "I (subject pronoun)"
+     ],
+     [
+      "reste",
+      "stay (rester, je form)"
+     ],
+     [
+      "parce",
+      "because (first part of parce que)"
+     ],
+     [
+      "que",
+      "that (second part of parce que)"
+     ],
+     [
+      "j'",
+      "I (je, shortened before a vowel)"
+     ],
+     [
+      "attends",
+      "wait for (attendre, je form)"
+     ],
+     [
+      "Marie",
+      "Marie (proper name)"
+     ]
+    ]
    }
   ],
   "grammar": [
@@ -8575,47 +12821,281 @@ export const courseLessons = [
    {
     "who": "Adrien",
     "fr": "Bonjour, je m'appelle Adrien. Et vous ?",
-    "en": "Hello, my name is Adrien. And you?"
+    "en": "Hello, my name is Adrien. And you?",
+    "words": [
+     [
+      "Bonjour",
+      "hello"
+     ],
+     [
+      "je",
+      "I (subject pronoun)"
+     ],
+     [
+      "m'",
+      "myself (reflexive pronoun)"
+     ],
+     [
+      "appelle",
+      "call (s'appeler, 'je' form) → 'am called'"
+     ],
+     [
+      "Adrien",
+      "Adrien (masculine name)"
+     ],
+     [
+      "Et",
+      "and"
+     ],
+     [
+      "vous",
+      "you (formal or plural)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Bonjour, je m'appelle Marinette. Enchantée.",
-    "en": "Hello, my name is Marinette. Nice to meet you."
+    "en": "Hello, my name is Marinette. Nice to meet you.",
+    "words": [
+     [
+      "Bonjour",
+      "hello"
+     ],
+     [
+      "je",
+      "I (subject pronoun)"
+     ],
+     [
+      "m'",
+      "myself (reflexive pronoun)"
+     ],
+     [
+      "appelle",
+      "call (s'appeler, 'je' form) → 'am called'"
+     ],
+     [
+      "Marinette",
+      "Marinette (feminine name)"
+     ],
+     [
+      "Enchantée",
+      "pleased (feminine speaker)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Vous habitez dans le quartier ?",
-    "en": "Do you live in the neighborhood?"
+    "en": "Do you live in the neighborhood?",
+    "words": [
+     [
+      "Vous",
+      "you (formal or plural)"
+     ],
+     [
+      "habitez",
+      "live (habiter, 'vous' form)"
+     ],
+     [
+      "dans",
+      "in"
+     ],
+     [
+      "le",
+      "the (masc.)"
+     ],
+     [
+      "quartier",
+      "neighborhood (masc.)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Oui, j'habite ici, près du parc.",
-    "en": "Yes, I live here, near the park."
+    "en": "Yes, I live here, near the park.",
+    "words": [
+     [
+      "Oui",
+      "yes"
+     ],
+     [
+      "j'",
+      "I (je, shortened before a vowel)"
+     ],
+     [
+      "habite",
+      "live (habiter, 'je' form)"
+     ],
+     [
+      "ici",
+      "here"
+     ],
+     [
+      "près",
+      "near"
+     ],
+     [
+      "du",
+      "of the (masc., de + le)"
+     ],
+     [
+      "parc",
+      "park (masc.)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Vous venez souvent à la fête ?",
-    "en": "Do you often come to the party?"
+    "en": "Do you often come to the party?",
+    "words": [
+     [
+      "Vous",
+      "you (formal or plural)"
+     ],
+     [
+      "venez",
+      "come (venir, 'vous' form)"
+     ],
+     [
+      "souvent",
+      "often"
+     ],
+     [
+      "à",
+      "at"
+     ],
+     [
+      "la",
+      "the (fem.)"
+     ],
+     [
+      "fête",
+      "party (fem.)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Je viens aujourd'hui. Et vous ?",
-    "en": "I'm coming today. And you?"
+    "en": "I'm coming today. And you?",
+    "words": [
+     [
+      "Je",
+      "I (subject pronoun)"
+     ],
+     [
+      "viens",
+      "come (venir, 'je' form)"
+     ],
+     [
+      "aujourd'hui",
+      "today"
+     ],
+     [
+      "Et",
+      "and"
+     ],
+     [
+      "vous",
+      "you (formal or plural)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Je viens aussi aujourd'hui. Vous connaissez des voisins ?",
-    "en": "I'm coming today too. Do you know any neighbors?"
+    "en": "I'm coming today too. Do you know any neighbors?",
+    "words": [
+     [
+      "Je",
+      "I (subject pronoun)"
+     ],
+     [
+      "viens",
+      "come (venir, 'je' form)"
+     ],
+     [
+      "aussi",
+      "also"
+     ],
+     [
+      "aujourd'hui",
+      "today"
+     ],
+     [
+      "Vous",
+      "you (formal or plural)"
+     ],
+     [
+      "connaissez",
+      "know (connaître, 'vous' form)"
+     ],
+     [
+      "des",
+      "some (plural article)"
+     ],
+     [
+      "voisins",
+      "neighbors (masc. or mixed plural)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Mais je veux rencontrer des voisins.",
-    "en": "But I want to meet some neighbors."
+    "en": "But I want to meet some neighbors.",
+    "words": [
+     [
+      "Mais",
+      "but"
+     ],
+     [
+      "je",
+      "I (subject pronoun)"
+     ],
+     [
+      "veux",
+      "want (vouloir, 'je' form)"
+     ],
+     [
+      "rencontrer",
+      "to meet (infinitive)"
+     ],
+     [
+      "des",
+      "some (plural article)"
+     ],
+     [
+      "voisins",
+      "neighbors (masc. or mixed plural)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Alors, parlons ensemble. Enchanté !",
-    "en": "Then let's talk together. Nice to meet you!"
+    "en": "Then let's talk together. Nice to meet you!",
+    "words": [
+     [
+      "Alors",
+      "so"
+     ],
+     [
+      "parlons",
+      "let's talk (parler, 'nous' command)"
+     ],
+     [
+      "ensemble",
+      "together"
+     ],
+     [
+      "Enchanté",
+      "pleased (masculine speaker)"
+     ]
+    ]
    }
   ],
   "vocab": [
@@ -8625,7 +13105,29 @@ export const courseLessons = [
     "say": "bohn-ZHOOR, zhuh mah-PELL ah-dree-EHN",
     "cat": "Introductions",
     "ex": "Bonjour, je m'appelle Adrien.",
-    "exEn": "Hello, my name is Adrien."
+    "exEn": "Hello, my name is Adrien.",
+    "exWords": [
+     [
+      "Bonjour",
+      "hello"
+     ],
+     [
+      "je",
+      "I (subject pronoun)"
+     ],
+     [
+      "m'",
+      "myself (reflexive pronoun)"
+     ],
+     [
+      "appelle",
+      "call (s'appeler, 'je' form) → 'am called'"
+     ],
+     [
+      "Adrien",
+      "Adrien (masculine name)"
+     ]
+    ]
    },
    {
     "fr": "Et vous ?",
@@ -8633,7 +13135,37 @@ export const courseLessons = [
     "say": "ay VOO",
     "cat": "Introductions",
     "ex": "Bonjour, je m'appelle Marinette. Et vous ?",
-    "exEn": "Hello, my name is Marinette. And you?"
+    "exEn": "Hello, my name is Marinette. And you?",
+    "exWords": [
+     [
+      "Bonjour",
+      "hello"
+     ],
+     [
+      "je",
+      "I (subject pronoun)"
+     ],
+     [
+      "m'",
+      "myself (reflexive pronoun)"
+     ],
+     [
+      "appelle",
+      "call (s'appeler, 'je' form) → 'am called'"
+     ],
+     [
+      "Marinette",
+      "Marinette (feminine name)"
+     ],
+     [
+      "Et",
+      "and"
+     ],
+     [
+      "vous",
+      "you (formal or plural)"
+     ]
+    ]
    },
    {
     "fr": "Vous habitez dans le quartier ?",
@@ -8641,7 +13173,29 @@ export const courseLessons = [
     "say": "voo zah-bee-TAY dahn luh kar-TYAY",
     "cat": "Everyday Expressions",
     "ex": "Vous habitez dans le quartier ?",
-    "exEn": "Do you live in the neighborhood?"
+    "exEn": "Do you live in the neighborhood?",
+    "exWords": [
+     [
+      "Vous",
+      "you (formal or plural)"
+     ],
+     [
+      "habitez",
+      "live (habiter, 'vous' form)"
+     ],
+     [
+      "dans",
+      "in"
+     ],
+     [
+      "le",
+      "the (masc.)"
+     ],
+     [
+      "quartier",
+      "neighborhood (masc.)"
+     ]
+    ]
    },
    {
     "fr": "Oui, j'habite ici, près du parc.",
@@ -8649,7 +13203,37 @@ export const courseLessons = [
     "say": "wee, zhah-BEET ee-SEE, preh dew PARK",
     "cat": "Everyday Expressions",
     "ex": "Oui, j'habite ici, près du parc.",
-    "exEn": "Yes, I live here, near the park."
+    "exEn": "Yes, I live here, near the park.",
+    "exWords": [
+     [
+      "Oui",
+      "yes"
+     ],
+     [
+      "j'",
+      "I (je, shortened before a vowel)"
+     ],
+     [
+      "habite",
+      "live (habiter, 'je' form)"
+     ],
+     [
+      "ici",
+      "here"
+     ],
+     [
+      "près",
+      "near"
+     ],
+     [
+      "du",
+      "of the (masc., de + le)"
+     ],
+     [
+      "parc",
+      "park (masc.)"
+     ]
+    ]
    },
    {
     "fr": "Enchantée.",
@@ -8657,7 +13241,33 @@ export const courseLessons = [
     "say": "ahn-shahn-TAY",
     "cat": "Introductions",
     "ex": "Bonjour, je m'appelle Marinette. Enchantée.",
-    "exEn": "Hello, my name is Marinette. Nice to meet you."
+    "exEn": "Hello, my name is Marinette. Nice to meet you.",
+    "exWords": [
+     [
+      "Bonjour",
+      "hello"
+     ],
+     [
+      "je",
+      "I (subject pronoun)"
+     ],
+     [
+      "m'",
+      "myself (reflexive pronoun)"
+     ],
+     [
+      "appelle",
+      "call (s'appeler, 'je' form) → 'am called'"
+     ],
+     [
+      "Marinette",
+      "Marinette (feminine name)"
+     ],
+     [
+      "Enchantée",
+      "pleased (feminine speaker)"
+     ]
+    ]
    }
   ],
   "grammar": [
@@ -8765,47 +13375,257 @@ export const courseLessons = [
    {
     "who": "Adrien",
     "fr": "Bonjour, vous êtes ma nouvelle voisine ?",
-    "en": "Hello, are you my new neighbor?"
+    "en": "Hello, are you my new neighbor?",
+    "words": [
+     [
+      "Bonjour",
+      "hello"
+     ],
+     [
+      "vous",
+      "you (formal/plural subject)"
+     ],
+     [
+      "êtes",
+      "are (être, vous form)"
+     ],
+     [
+      "ma",
+      "my (fem.)"
+     ],
+     [
+      "nouvelle",
+      "new (fem.)"
+     ],
+     [
+      "voisine",
+      "neighbor (fem.)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Bonjour ! Oui, je suis Marinette.",
-    "en": "Hello! Yes, I’m Marinette."
+    "en": "Hello! Yes, I’m Marinette.",
+    "words": [
+     [
+      "Bonjour",
+      "hello"
+     ],
+     [
+      "Oui",
+      "yes"
+     ],
+     [
+      "je",
+      "I (subject pronoun)"
+     ],
+     [
+      "suis",
+      "am (être, je form)"
+     ],
+     [
+      "Marinette",
+      "Marinette (name)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Enchanté, je suis Adrien.",
-    "en": "Nice to meet you, I’m Adrien."
+    "en": "Nice to meet you, I’m Adrien.",
+    "words": [
+     [
+      "Enchanté",
+      "pleased to meet you (masc.)"
+     ],
+     [
+      "je",
+      "I (subject pronoun)"
+     ],
+     [
+      "suis",
+      "am (être, je form)"
+     ],
+     [
+      "Adrien",
+      "Adrien (name)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Enchantée ! Vous habitez ici ?",
-    "en": "Nice to meet you! Do you live here?"
+    "en": "Nice to meet you! Do you live here?",
+    "words": [
+     [
+      "Enchantée",
+      "pleased to meet you (fem.)"
+     ],
+     [
+      "Vous",
+      "you (formal/plural subject)"
+     ],
+     [
+      "habitez",
+      "live (habiter, vous form)"
+     ],
+     [
+      "ici",
+      "here"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Oui, dans cet immeuble, au même étage.",
-    "en": "Yes, in this building, on the same floor."
+    "en": "Yes, in this building, on the same floor.",
+    "words": [
+     [
+      "Oui",
+      "yes"
+     ],
+     [
+      "dans",
+      "in"
+     ],
+     [
+      "cet",
+      "this (masc., before vowel)"
+     ],
+     [
+      "immeuble",
+      "apartment building (masc.)"
+     ],
+     [
+      "au",
+      "at the (à + le)"
+     ],
+     [
+      "même",
+      "same"
+     ],
+     [
+      "étage",
+      "floor (masc.)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Vous voulez que je vous aide ?",
-    "en": "Do you want me to help you?"
+    "en": "Do you want me to help you?",
+    "words": [
+     [
+      "Vous",
+      "you (formal/plural subject)"
+     ],
+     [
+      "voulez",
+      "want (vouloir, vous form)"
+     ],
+     [
+      "que",
+      "that"
+     ],
+     [
+      "je",
+      "I (subject pronoun)"
+     ],
+     [
+      "vous",
+      "you (object pronoun)"
+     ],
+     [
+      "aide",
+      "help (aider, je form)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Merci, c'est très gentil.",
-    "en": "Thank you, that’s very kind."
+    "en": "Thank you, that’s very kind.",
+    "words": [
+     [
+      "Merci",
+      "thank you"
+     ],
+     [
+      "c'",
+      "it (ce, shortened before a vowel)"
+     ],
+     [
+      "est",
+      "is (être, il/elle form)"
+     ],
+     [
+      "très",
+      "very"
+     ],
+     [
+      "gentil",
+      "kind (masc.)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Vous voulez prendre un café avec moi ?",
-    "en": "Would you like to have a coffee with me?"
+    "en": "Would you like to have a coffee with me?",
+    "words": [
+     [
+      "Vous",
+      "you (formal/plural subject)"
+     ],
+     [
+      "voulez",
+      "want (vouloir, vous form)"
+     ],
+     [
+      "prendre",
+      "to have (prendre, infinitive)"
+     ],
+     [
+      "un",
+      "a (masc.)"
+     ],
+     [
+      "café",
+      "coffee (masc.)"
+     ],
+     [
+      "avec",
+      "with"
+     ],
+     [
+      "moi",
+      "me"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Oui, volontiers ! À bientôt !",
-    "en": "Yes, gladly! See you soon!"
+    "en": "Yes, gladly! See you soon!",
+    "words": [
+     [
+      "Oui",
+      "yes"
+     ],
+     [
+      "volontiers",
+      "gladly"
+     ],
+     [
+      "À",
+      "to"
+     ],
+     [
+      "bientôt",
+      "soon"
+     ]
+    ]
    }
   ],
   "vocab": [
@@ -8815,7 +13635,17 @@ export const courseLessons = [
     "say": "bon-ZHOOR",
     "cat": "Greetings",
     "ex": "Bonjour, Adrien !",
-    "exEn": "Hello, Adrien!"
+    "exEn": "Hello, Adrien!",
+    "exWords": [
+     [
+      "Bonjour",
+      "hello"
+     ],
+     [
+      "Adrien",
+      "Adrien (name)"
+     ]
+    ]
    },
    {
     "fr": "Je suis Marinette.",
@@ -8823,7 +13653,21 @@ export const courseLessons = [
     "say": "zhuh swee mah-ree-NET",
     "cat": "Introductions",
     "ex": "Je suis Adrien.",
-    "exEn": "I’m Adrien."
+    "exEn": "I’m Adrien.",
+    "exWords": [
+     [
+      "Je",
+      "I (subject pronoun)"
+     ],
+     [
+      "suis",
+      "am (être, je form)"
+     ],
+     [
+      "Adrien",
+      "Adrien (name)"
+     ]
+    ]
    },
    {
     "fr": "Vous habitez ici ?",
@@ -8831,7 +13675,29 @@ export const courseLessons = [
     "say": "voo zah-bee-TAY ee-SEE",
     "cat": "Daily Life",
     "ex": "Vous habitez dans cet immeuble ?",
-    "exEn": "Do you live in this building?"
+    "exEn": "Do you live in this building?",
+    "exWords": [
+     [
+      "Vous",
+      "you (formal/plural subject)"
+     ],
+     [
+      "habitez",
+      "live (habiter, vous form)"
+     ],
+     [
+      "dans",
+      "in"
+     ],
+     [
+      "cet",
+      "this (masc., before vowel)"
+     ],
+     [
+      "immeuble",
+      "apartment building (masc.)"
+     ]
+    ]
    },
    {
     "fr": "Vous voulez que je vous aide ?",
@@ -8839,7 +13705,33 @@ export const courseLessons = [
     "say": "voo voo-LAY kuh zhuh voo-ZED",
     "cat": "Common Verbs",
     "ex": "Vous voulez que je vous aide ?",
-    "exEn": "Do you want me to help you?"
+    "exEn": "Do you want me to help you?",
+    "exWords": [
+     [
+      "Vous",
+      "you (formal/plural subject)"
+     ],
+     [
+      "voulez",
+      "want (vouloir, vous form)"
+     ],
+     [
+      "que",
+      "that"
+     ],
+     [
+      "je",
+      "I (subject pronoun)"
+     ],
+     [
+      "vous",
+      "you (object pronoun)"
+     ],
+     [
+      "aide",
+      "help (aider, je form)"
+     ]
+    ]
    },
    {
     "fr": "Vous voulez prendre un café avec moi ?",
@@ -8847,7 +13739,37 @@ export const courseLessons = [
     "say": "voo voo-LAY prahndr un kah-FAY ah-vek MWAH",
     "cat": "Food & Drink",
     "ex": "Vous voulez prendre un café avec moi ?",
-    "exEn": "Would you like to have a coffee with me?"
+    "exEn": "Would you like to have a coffee with me?",
+    "exWords": [
+     [
+      "Vous",
+      "you (formal/plural subject)"
+     ],
+     [
+      "voulez",
+      "want (vouloir, vous form)"
+     ],
+     [
+      "prendre",
+      "to have (prendre, infinitive)"
+     ],
+     [
+      "un",
+      "a (masc.)"
+     ],
+     [
+      "café",
+      "coffee (masc.)"
+     ],
+     [
+      "avec",
+      "with"
+     ],
+     [
+      "moi",
+      "me"
+     ]
+    ]
    }
   ],
   "grammar": [
@@ -8955,47 +13877,233 @@ export const courseLessons = [
    {
     "who": "Adrien",
     "fr": "Bonjour ! Voici Marinette, une amie.",
-    "en": "Hello! This is Marinette, a friend."
+    "en": "Hello! This is Marinette, a friend.",
+    "words": [
+     [
+      "Bonjour",
+      "hello"
+     ],
+     [
+      "Voici",
+      "here is"
+     ],
+     [
+      "Marinette",
+      "Marinette (name)"
+     ],
+     [
+      "une",
+      "a (fem.)"
+     ],
+     [
+      "amie",
+      "friend (fem.)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Bonjour, enchantée. Je suis nouvelle ici.",
-    "en": "Hello, pleased to meet you. I’m new here."
+    "en": "Hello, pleased to meet you. I’m new here.",
+    "words": [
+     [
+      "Bonjour",
+      "hello"
+     ],
+     [
+      "enchantée",
+      "delighted (fem.)"
+     ],
+     [
+      "Je",
+      "I"
+     ],
+     [
+      "suis",
+      "am (être, 'je' form)"
+     ],
+     [
+      "nouvelle",
+      "new (fem.)"
+     ],
+     [
+      "ici",
+      "here"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Tu veux un café ?",
-    "en": "Would you like a coffee?"
+    "en": "Would you like a coffee?",
+    "words": [
+     [
+      "Tu",
+      "you (informal)"
+     ],
+     [
+      "veux",
+      "want (vouloir, 'tu' form)"
+     ],
+     [
+      "un",
+      "a (masc.)"
+     ],
+     [
+      "café",
+      "coffee (masc.)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Oui, merci. Et toi ?",
-    "en": "Yes, thank you. And you?"
+    "en": "Yes, thank you. And you?",
+    "words": [
+     [
+      "Oui",
+      "yes"
+     ],
+     [
+      "merci",
+      "thanks"
+     ],
+     [
+      "Et",
+      "and"
+     ],
+     [
+      "toi",
+      "you (stressed form)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Je prends un café aussi.",
-    "en": "I’ll have a coffee too."
+    "en": "I’ll have a coffee too.",
+    "words": [
+     [
+      "Je",
+      "I"
+     ],
+     [
+      "prends",
+      "take (prendre, 'je' form)"
+     ],
+     [
+      "un",
+      "a (masc.)"
+     ],
+     [
+      "café",
+      "coffee (masc.)"
+     ],
+     [
+      "aussi",
+      "also"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Tu viens souvent ici ?",
-    "en": "Do you come here often?"
+    "en": "Do you come here often?",
+    "words": [
+     [
+      "Tu",
+      "you (informal)"
+     ],
+     [
+      "viens",
+      "come (venir, 'tu' form)"
+     ],
+     [
+      "souvent",
+      "often"
+     ],
+     [
+      "ici",
+      "here"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Oui, je viens souvent ici.",
-    "en": "Yes, I come here often."
+    "en": "Yes, I come here often.",
+    "words": [
+     [
+      "Oui",
+      "yes"
+     ],
+     [
+      "je",
+      "I"
+     ],
+     [
+      "viens",
+      "come (venir, 'je' form)"
+     ],
+     [
+      "souvent",
+      "often"
+     ],
+     [
+      "ici",
+      "here"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "C'est très agréable ici !",
-    "en": "It’s very nice here!"
+    "en": "It’s very nice here!",
+    "words": [
+     [
+      "C'",
+      "it (ce, shortened before a vowel)"
+     ],
+     [
+      "est",
+      "is (être, 'ce' form)"
+     ],
+     [
+      "très",
+      "very"
+     ],
+     [
+      "agréable",
+      "pleasant"
+     ],
+     [
+      "ici",
+      "here"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Bienvenue au café, Marinette !",
-    "en": "Welcome to the café, Marinette!"
+    "en": "Welcome to the café, Marinette!",
+    "words": [
+     [
+      "Bienvenue",
+      "welcome"
+     ],
+     [
+      "au",
+      "to the (à + le; masc.)"
+     ],
+     [
+      "café",
+      "café (masc.)"
+     ],
+     [
+      "Marinette",
+      "Marinette (name)"
+     ]
+    ]
    }
   ],
   "vocab": [
@@ -9005,7 +14113,25 @@ export const courseLessons = [
     "say": "vwah-SEE ma-ree-NET, oon-na-MEE",
     "cat": "Introductions",
     "ex": "Voici Marinette, une amie.",
-    "exEn": "This is Marinette, a friend."
+    "exEn": "This is Marinette, a friend.",
+    "exWords": [
+     [
+      "Voici",
+      "here is"
+     ],
+     [
+      "Marinette",
+      "Marinette (name)"
+     ],
+     [
+      "une",
+      "a (fem.)"
+     ],
+     [
+      "amie",
+      "friend (fem.)"
+     ]
+    ]
    },
    {
     "fr": "Enchantée.",
@@ -9013,7 +14139,17 @@ export const courseLessons = [
     "say": "ahn-shahn-TAY",
     "cat": "Greetings",
     "ex": "Bonjour, enchantée.",
-    "exEn": "Hello, pleased to meet you."
+    "exEn": "Hello, pleased to meet you.",
+    "exWords": [
+     [
+      "Bonjour",
+      "hello"
+     ],
+     [
+      "enchantée",
+      "delighted (fem.)"
+     ]
+    ]
    },
    {
     "fr": "Tu veux un café ?",
@@ -9021,7 +14157,25 @@ export const courseLessons = [
     "say": "too vuh uhn kah-FAY",
     "cat": "Food & Drink",
     "ex": "Tu veux un café ?",
-    "exEn": "Would you like a coffee?"
+    "exEn": "Would you like a coffee?",
+    "exWords": [
+     [
+      "Tu",
+      "you (informal)"
+     ],
+     [
+      "veux",
+      "want (vouloir, 'tu' form)"
+     ],
+     [
+      "un",
+      "a (masc.)"
+     ],
+     [
+      "café",
+      "coffee (masc.)"
+     ]
+    ]
    },
    {
     "fr": "Je prends un café aussi.",
@@ -9029,7 +14183,29 @@ export const courseLessons = [
     "say": "zhuh prahn uhn kah-FAY oh-SEE",
     "cat": "Food & Drink",
     "ex": "Je prends un café aussi.",
-    "exEn": "I’ll have a coffee too."
+    "exEn": "I’ll have a coffee too.",
+    "exWords": [
+     [
+      "Je",
+      "I"
+     ],
+     [
+      "prends",
+      "take (prendre, 'je' form)"
+     ],
+     [
+      "un",
+      "a (masc.)"
+     ],
+     [
+      "café",
+      "coffee (masc.)"
+     ],
+     [
+      "aussi",
+      "also"
+     ]
+    ]
    },
    {
     "fr": "Tu viens souvent ici ?",
@@ -9037,7 +14213,25 @@ export const courseLessons = [
     "say": "too vyen soo-VAHN ee-SEE",
     "cat": "Common Verbs",
     "ex": "Tu viens souvent ici ?",
-    "exEn": "Do you come here often?"
+    "exEn": "Do you come here often?",
+    "exWords": [
+     [
+      "Tu",
+      "you (informal)"
+     ],
+     [
+      "viens",
+      "come (venir, 'tu' form)"
+     ],
+     [
+      "souvent",
+      "often"
+     ],
+     [
+      "ici",
+      "here"
+     ]
+    ]
    }
   ],
   "grammar": [
@@ -9145,47 +14339,281 @@ export const courseLessons = [
    {
     "who": "Adrien",
     "fr": "Bonjour, tu es nouvelle dans la classe ?",
-    "en": "Hello, are you new in the class?"
+    "en": "Hello, are you new in the class?",
+    "words": [
+     [
+      "Bonjour",
+      "hello"
+     ],
+     [
+      "tu",
+      "you (informal subject pronoun)"
+     ],
+     [
+      "es",
+      "are (être, 'tu' form)"
+     ],
+     [
+      "nouvelle",
+      "new (feminine)"
+     ],
+     [
+      "dans",
+      "in"
+     ],
+     [
+      "la",
+      "the (fem.)"
+     ],
+     [
+      "classe",
+      "class (fem.)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Oui, je suis nouvelle. Et toi ?",
-    "en": "Yes, I’m new. And you?"
+    "en": "Yes, I’m new. And you?",
+    "words": [
+     [
+      "Oui",
+      "yes"
+     ],
+     [
+      "je",
+      "I (subject pronoun)"
+     ],
+     [
+      "suis",
+      "am (être, 'je' form)"
+     ],
+     [
+      "nouvelle",
+      "new (feminine)"
+     ],
+     [
+      "Et",
+      "and"
+     ],
+     [
+      "toi",
+      "you (stressed pronoun)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Je m'appelle Adrien. Tu viens d'où ?",
-    "en": "My name is Adrien. Where are you from?"
+    "en": "My name is Adrien. Where are you from?",
+    "words": [
+     [
+      "Je",
+      "I (subject pronoun)"
+     ],
+     [
+      "m'",
+      "myself (reflexive pronoun)"
+     ],
+     [
+      "appelle",
+      "call (s'appeler, 'je' form) → 'am called'"
+     ],
+     [
+      "Adrien",
+      "Adrien (masculine name)"
+     ],
+     [
+      "Tu",
+      "you (informal subject pronoun)"
+     ],
+     [
+      "viens",
+      "come (venir, 'tu' form)"
+     ],
+     [
+      "d'",
+      "from (de, shortened before a vowel)"
+     ],
+     [
+      "où",
+      "where"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Je viens de France. Et toi ?",
-    "en": "I’m from France. And you?"
+    "en": "I’m from France. And you?",
+    "words": [
+     [
+      "Je",
+      "I (subject pronoun)"
+     ],
+     [
+      "viens",
+      "come (venir, 'je' form)"
+     ],
+     [
+      "de",
+      "from"
+     ],
+     [
+      "France",
+      "France (fem.)"
+     ],
+     [
+      "Et",
+      "and"
+     ],
+     [
+      "toi",
+      "you (stressed pronoun)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Je viens d'un petit village.",
-    "en": "I’m from a small village."
+    "en": "I’m from a small village.",
+    "words": [
+     [
+      "Je",
+      "I (subject pronoun)"
+     ],
+     [
+      "viens",
+      "come (venir, 'je' form)"
+     ],
+     [
+      "d'",
+      "from (de, shortened before a vowel)"
+     ],
+     [
+      "un",
+      "a (masc.)"
+     ],
+     [
+      "petit",
+      "small (masculine)"
+     ],
+     [
+      "village",
+      "village (masc.)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "C'est près de la ville ?",
-    "en": "Is it near the city?"
+    "en": "Is it near the city?",
+    "words": [
+     [
+      "C'",
+      "this/it (ce, shortened before a vowel)"
+     ],
+     [
+      "est",
+      "is (être, 'il/elle' form)"
+     ],
+     [
+      "près",
+      "near"
+     ],
+     [
+      "de",
+      "of (part of 'près de', near)"
+     ],
+     [
+      "la",
+      "the (fem.)"
+     ],
+     [
+      "ville",
+      "city (fem.)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Oui, c'est près de la ville.",
-    "en": "Yes, it’s near the city."
+    "en": "Yes, it’s near the city.",
+    "words": [
+     [
+      "Oui",
+      "yes"
+     ],
+     [
+      "c'",
+      "this/it (ce, shortened before a vowel)"
+     ],
+     [
+      "est",
+      "is (être, 'il/elle' form)"
+     ],
+     [
+      "près",
+      "near"
+     ],
+     [
+      "de",
+      "of (part of 'près de', near)"
+     ],
+     [
+      "la",
+      "the (fem.)"
+     ],
+     [
+      "ville",
+      "city (fem.)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Enchantée, Adrien. À bientôt !",
-    "en": "Nice to meet you, Adrien. See you soon!"
+    "en": "Nice to meet you, Adrien. See you soon!",
+    "words": [
+     [
+      "Enchantée",
+      "pleased to meet you (feminine)"
+     ],
+     [
+      "Adrien",
+      "Adrien (masculine name)"
+     ],
+     [
+      "À",
+      "until"
+     ],
+     [
+      "bientôt",
+      "soon"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Enchanté, Marinette. À bientôt !",
-    "en": "Nice to meet you, Marinette. See you soon!"
+    "en": "Nice to meet you, Marinette. See you soon!",
+    "words": [
+     [
+      "Enchanté",
+      "pleased to meet you (masculine)"
+     ],
+     [
+      "Marinette",
+      "Marinette (feminine name)"
+     ],
+     [
+      "À",
+      "until"
+     ],
+     [
+      "bientôt",
+      "soon"
+     ]
+    ]
    }
   ],
   "vocab": [
@@ -9195,7 +14623,25 @@ export const courseLessons = [
     "say": "bohn-ZHOOR",
     "cat": "Greetings",
     "ex": "Bonjour, tu es nouvelle ?",
-    "exEn": "Hello, are you new?"
+    "exEn": "Hello, are you new?",
+    "exWords": [
+     [
+      "Bonjour",
+      "hello"
+     ],
+     [
+      "tu",
+      "you (informal subject pronoun)"
+     ],
+     [
+      "es",
+      "are (être, 'tu' form)"
+     ],
+     [
+      "nouvelle",
+      "new (feminine)"
+     ]
+    ]
    },
    {
     "fr": "Tu viens d'où ?",
@@ -9203,7 +14649,25 @@ export const courseLessons = [
     "say": "tyoo vyen DOO",
     "cat": "Introductions",
     "ex": "Tu viens d'où ?",
-    "exEn": "Where are you from?"
+    "exEn": "Where are you from?",
+    "exWords": [
+     [
+      "Tu",
+      "you (informal subject pronoun)"
+     ],
+     [
+      "viens",
+      "come (venir, 'tu' form)"
+     ],
+     [
+      "d'",
+      "from (de, shortened before a vowel)"
+     ],
+     [
+      "où",
+      "where"
+     ]
+    ]
    },
    {
     "fr": "Je viens de France.",
@@ -9211,7 +14675,25 @@ export const courseLessons = [
     "say": "zhuh vyen duh FRAHNS",
     "cat": "Introductions",
     "ex": "Je viens de France.",
-    "exEn": "I’m from France."
+    "exEn": "I’m from France.",
+    "exWords": [
+     [
+      "Je",
+      "I (subject pronoun)"
+     ],
+     [
+      "viens",
+      "come (venir, 'je' form)"
+     ],
+     [
+      "de",
+      "from"
+     ],
+     [
+      "France",
+      "France (fem.)"
+     ]
+    ]
    },
    {
     "fr": "Et toi ?",
@@ -9219,7 +14701,33 @@ export const courseLessons = [
     "say": "ay TWAH",
     "cat": "Everyday Expressions",
     "ex": "Je viens de France. Et toi ?",
-    "exEn": "I’m from France. And you?"
+    "exEn": "I’m from France. And you?",
+    "exWords": [
+     [
+      "Je",
+      "I (subject pronoun)"
+     ],
+     [
+      "viens",
+      "come (venir, 'je' form)"
+     ],
+     [
+      "de",
+      "from"
+     ],
+     [
+      "France",
+      "France (fem.)"
+     ],
+     [
+      "Et",
+      "and"
+     ],
+     [
+      "toi",
+      "you (stressed pronoun)"
+     ]
+    ]
    },
    {
     "fr": "À bientôt !",
@@ -9227,7 +14735,21 @@ export const courseLessons = [
     "say": "ah byen-TOH",
     "cat": "Everyday Expressions",
     "ex": "Enchantée. À bientôt !",
-    "exEn": "Nice to meet you. See you soon!"
+    "exEn": "Nice to meet you. See you soon!",
+    "exWords": [
+     [
+      "Enchantée",
+      "pleased to meet you (feminine)"
+     ],
+     [
+      "À",
+      "until"
+     ],
+     [
+      "bientôt",
+      "soon"
+     ]
+    ]
    }
   ],
   "grammar": [
@@ -9335,47 +14857,301 @@ export const courseLessons = [
    {
     "who": "Adrien",
     "fr": "Bonjour, je m'appelle Adrien. Tu parles français ?",
-    "en": "Hello, my name is Adrien. Do you speak French?"
+    "en": "Hello, my name is Adrien. Do you speak French?",
+    "words": [
+     [
+      "Bonjour",
+      "hello"
+     ],
+     [
+      "je",
+      "I (subject pronoun)"
+     ],
+     [
+      "m'",
+      "myself (reflexive pronoun)"
+     ],
+     [
+      "appelle",
+      "call (s'appeler, 'je' form) → am called"
+     ],
+     [
+      "Adrien",
+      "Adrien (name)"
+     ],
+     [
+      "Tu",
+      "you (informal subject pronoun)"
+     ],
+     [
+      "parles",
+      "speak (parler, 'tu' form)"
+     ],
+     [
+      "français",
+      "French (masc. language)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Bonjour, Adrien. Oui, je parle français. Et toi ?",
-    "en": "Hello, Adrien. Yes, I speak French. And you?"
+    "en": "Hello, Adrien. Yes, I speak French. And you?",
+    "words": [
+     [
+      "Bonjour",
+      "hello"
+     ],
+     [
+      "Adrien",
+      "Adrien (name)"
+     ],
+     [
+      "Oui",
+      "yes"
+     ],
+     [
+      "je",
+      "I (subject pronoun)"
+     ],
+     [
+      "parle",
+      "speak (parler, 'je' form)"
+     ],
+     [
+      "français",
+      "French (masc. language)"
+     ],
+     [
+      "Et",
+      "and"
+     ],
+     [
+      "toi",
+      "you (informal stressed pronoun)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Je parle français.",
-    "en": "I speak French."
+    "en": "I speak French.",
+    "words": [
+     [
+      "Je",
+      "I (subject pronoun)"
+     ],
+     [
+      "parle",
+      "speak (parler, 'je' form)"
+     ],
+     [
+      "français",
+      "French (masc. language)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Tu veux pratiquer avec moi ?",
-    "en": "Would you like to practice with me?"
+    "en": "Would you like to practice with me?",
+    "words": [
+     [
+      "Tu",
+      "you (informal subject pronoun)"
+     ],
+     [
+      "veux",
+      "want (vouloir, 'tu' form)"
+     ],
+     [
+      "pratiquer",
+      "practice (pratiquer, infinitive)"
+     ],
+     [
+      "avec",
+      "with"
+     ],
+     [
+      "moi",
+      "me (stressed pronoun)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Oui, avec plaisir. Nous parlons français maintenant ?",
-    "en": "Yes, gladly. Shall we speak French now?"
+    "en": "Yes, gladly. Shall we speak French now?",
+    "words": [
+     [
+      "Oui",
+      "yes"
+     ],
+     [
+      "avec",
+      "with"
+     ],
+     [
+      "plaisir",
+      "pleasure (masc.)"
+     ],
+     [
+      "Nous",
+      "we (subject pronoun)"
+     ],
+     [
+      "parlons",
+      "speak (parler, 'nous' form)"
+     ],
+     [
+      "français",
+      "French (masc. language)"
+     ],
+     [
+      "maintenant",
+      "now"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "D'accord. Tu peux répéter, s'il te plaît ?",
-    "en": "All right. Can you repeat, please?"
+    "en": "All right. Can you repeat, please?",
+    "words": [
+     [
+      "D'",
+      "of (de, shortened before a vowel)"
+     ],
+     [
+      "accord",
+      "agreement (masc.)"
+     ],
+     [
+      "Tu",
+      "you (informal subject pronoun)"
+     ],
+     [
+      "peux",
+      "can (pouvoir, 'tu' form)"
+     ],
+     [
+      "répéter",
+      "repeat (répéter, infinitive)"
+     ],
+     [
+      "s'",
+      "if (si, shortened before il)"
+     ],
+     [
+      "il",
+      "it (subject pronoun)"
+     ],
+     [
+      "te",
+      "yourself (reflexive pronoun)"
+     ],
+     [
+      "plaît",
+      "pleases (plaire, 'il' form)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Oui, bien sûr. Je peux répéter.",
-    "en": "Yes, of course. I can repeat."
+    "en": "Yes, of course. I can repeat.",
+    "words": [
+     [
+      "Oui",
+      "yes"
+     ],
+     [
+      "bien",
+      "well"
+     ],
+     [
+      "sûr",
+      "sure"
+     ],
+     [
+      "Je",
+      "I (subject pronoun)"
+     ],
+     [
+      "peux",
+      "can (pouvoir, 'je' form)"
+     ],
+     [
+      "répéter",
+      "repeat (répéter, infinitive)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Merci, Adrien. Je veux aussi apprendre avec toi.",
-    "en": "Thank you, Adrien. I also want to learn with you."
+    "en": "Thank you, Adrien. I also want to learn with you.",
+    "words": [
+     [
+      "Merci",
+      "thank you"
+     ],
+     [
+      "Adrien",
+      "Adrien (name)"
+     ],
+     [
+      "Je",
+      "I (subject pronoun)"
+     ],
+     [
+      "veux",
+      "want (vouloir, 'je' form)"
+     ],
+     [
+      "aussi",
+      "also"
+     ],
+     [
+      "apprendre",
+      "learn (apprendre, infinitive)"
+     ],
+     [
+      "avec",
+      "with"
+     ],
+     [
+      "toi",
+      "you (informal stressed pronoun)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Avec plaisir. À bientôt, Marinette !",
-    "en": "Gladly. See you soon, Marinette!"
+    "en": "Gladly. See you soon, Marinette!",
+    "words": [
+     [
+      "Avec",
+      "with"
+     ],
+     [
+      "plaisir",
+      "pleasure (masc.)"
+     ],
+     [
+      "À",
+      "until"
+     ],
+     [
+      "bientôt",
+      "soon"
+     ],
+     [
+      "Marinette",
+      "Marinette (name)"
+     ]
+    ]
    }
   ],
   "vocab": [
@@ -9385,7 +15161,17 @@ export const courseLessons = [
     "say": "bohn-ZHOOR",
     "cat": "Greetings",
     "ex": "Bonjour, Adrien.",
-    "exEn": "Hello, Adrien."
+    "exEn": "Hello, Adrien.",
+    "exWords": [
+     [
+      "Bonjour",
+      "hello"
+     ],
+     [
+      "Adrien",
+      "Adrien (name)"
+     ]
+    ]
    },
    {
     "fr": "Tu parles français ?",
@@ -9393,7 +15179,21 @@ export const courseLessons = [
     "say": "tyoo parl frahn-SAY",
     "cat": "Introductions",
     "ex": "Tu parles français ?",
-    "exEn": "Do you speak French?"
+    "exEn": "Do you speak French?",
+    "exWords": [
+     [
+      "Tu",
+      "you (informal subject pronoun)"
+     ],
+     [
+      "parles",
+      "speak (parler, 'tu' form)"
+     ],
+     [
+      "français",
+      "French (masc. language)"
+     ]
+    ]
    },
    {
     "fr": "Je parle français.",
@@ -9401,7 +15201,21 @@ export const courseLessons = [
     "say": "zhuh parl frahn-SAY",
     "cat": "Introductions",
     "ex": "Je parle français.",
-    "exEn": "I speak French."
+    "exEn": "I speak French.",
+    "exWords": [
+     [
+      "Je",
+      "I (subject pronoun)"
+     ],
+     [
+      "parle",
+      "speak (parler, 'je' form)"
+     ],
+     [
+      "français",
+      "French (masc. language)"
+     ]
+    ]
    },
    {
     "fr": "Tu veux pratiquer avec moi ?",
@@ -9409,7 +15223,29 @@ export const courseLessons = [
     "say": "tyoo vuh prahk-tee-KAY ah-vek MWAH",
     "cat": "Common Verbs",
     "ex": "Tu veux pratiquer avec moi ?",
-    "exEn": "Would you like to practice with me?"
+    "exEn": "Would you like to practice with me?",
+    "exWords": [
+     [
+      "Tu",
+      "you (informal subject pronoun)"
+     ],
+     [
+      "veux",
+      "want (vouloir, 'tu' form)"
+     ],
+     [
+      "pratiquer",
+      "practice (pratiquer, infinitive)"
+     ],
+     [
+      "avec",
+      "with"
+     ],
+     [
+      "moi",
+      "me (stressed pronoun)"
+     ]
+    ]
    },
    {
     "fr": "Avec plaisir.",
@@ -9417,7 +15253,21 @@ export const courseLessons = [
     "say": "ah-vek pleh-ZEER",
     "cat": "Everyday Expressions",
     "ex": "Oui, avec plaisir.",
-    "exEn": "Yes, gladly."
+    "exEn": "Yes, gladly.",
+    "exWords": [
+     [
+      "Oui",
+      "yes"
+     ],
+     [
+      "avec",
+      "with"
+     ],
+     [
+      "plaisir",
+      "pleasure (masc.)"
+     ]
+    ]
    }
   ],
   "grammar": [
@@ -9525,47 +15375,309 @@ export const courseLessons = [
    {
     "who": "Adrien",
     "fr": "Bonjour, madame. Je suis nouveau dans la classe.",
-    "en": "Hello, ma’am. I’m new in the class."
+    "en": "Hello, ma’am. I’m new in the class.",
+    "words": [
+     [
+      "Bonjour",
+      "hello; good morning"
+     ],
+     [
+      "madame",
+      "madam"
+     ],
+     [
+      "Je",
+      "I (subject pronoun)"
+     ],
+     [
+      "suis",
+      "am (être, 'je' form)"
+     ],
+     [
+      "nouveau",
+      "new (masc.)"
+     ],
+     [
+      "dans",
+      "in"
+     ],
+     [
+      "la",
+      "the (fem.)"
+     ],
+     [
+      "classe",
+      "class (fem.)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Bonjour, Adrien. Bienvenue au cours de français.",
-    "en": "Hello, Adrien. Welcome to French class."
+    "en": "Hello, Adrien. Welcome to French class.",
+    "words": [
+     [
+      "Bonjour",
+      "hello; good morning"
+     ],
+     [
+      "Adrien",
+      "Adrien (name)"
+     ],
+     [
+      "Bienvenue",
+      "welcome"
+     ],
+     [
+      "au",
+      "to the (à + le, masc.)"
+     ],
+     [
+      "cours",
+      "course; class (masc.)"
+     ],
+     [
+      "de",
+      "of"
+     ],
+     [
+      "français",
+      "French (language)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Vous êtes professeur ?",
-    "en": "Are you a teacher?"
+    "en": "Are you a teacher?",
+    "words": [
+     [
+      "Vous",
+      "you (formal or plural)"
+     ],
+     [
+      "êtes",
+      "are (être, 'vous' form)"
+     ],
+     [
+      "professeur",
+      "teacher (masc. or fem.)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Oui, je suis professeur. Comment vous appelez-vous ?",
-    "en": "Yes, I’m a teacher. What is your name?"
+    "en": "Yes, I’m a teacher. What is your name?",
+    "words": [
+     [
+      "Oui",
+      "yes"
+     ],
+     [
+      "je",
+      "I (subject pronoun)"
+     ],
+     [
+      "suis",
+      "am (être, 'je' form)"
+     ],
+     [
+      "professeur",
+      "teacher (masc. or fem.)"
+     ],
+     [
+      "Comment",
+      "how"
+     ],
+     [
+      "vous",
+      "yourself (reflexive pronoun)"
+     ],
+     [
+      "appelez",
+      "call (s'appeler, 'vous' form)"
+     ],
+     [
+      "vous",
+      "you (inversion subject pronoun)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Je m’appelle Adrien. Et vous ?",
-    "en": "My name is Adrien. And you?"
+    "en": "My name is Adrien. And you?",
+    "words": [
+     [
+      "Je",
+      "I (subject pronoun)"
+     ],
+     [
+      "m’",
+      "myself (me, shortened before a vowel)"
+     ],
+     [
+      "appelle",
+      "call (s'appeler, 'je' form) → am called"
+     ],
+     [
+      "Adrien",
+      "Adrien (name)"
+     ],
+     [
+      "Et",
+      "and"
+     ],
+     [
+      "vous",
+      "you (formal or plural)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Je m’appelle Marinette. Enchantée.",
-    "en": "My name is Marinette. Pleased to meet you."
+    "en": "My name is Marinette. Pleased to meet you.",
+    "words": [
+     [
+      "Je",
+      "I (subject pronoun)"
+     ],
+     [
+      "m’",
+      "myself (me, shortened before a vowel)"
+     ],
+     [
+      "appelle",
+      "call (s'appeler, 'je' form) → am called"
+     ],
+     [
+      "Marinette",
+      "Marinette (name)"
+     ],
+     [
+      "Enchantée",
+      "pleased to meet you (fem.)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Où est mon cahier, s’il vous plaît ?",
-    "en": "Where is my notebook, please?"
+    "en": "Where is my notebook, please?",
+    "words": [
+     [
+      "Où",
+      "where"
+     ],
+     [
+      "est",
+      "is (être, 'il/elle' form)"
+     ],
+     [
+      "mon",
+      "my (masc.)"
+     ],
+     [
+      "cahier",
+      "notebook (masc.)"
+     ],
+     [
+      "s’",
+      "if (si, shortened before a vowel)"
+     ],
+     [
+      "il",
+      "it (subject pronoun)"
+     ],
+     [
+      "vous",
+      "you (formal or plural)"
+     ],
+     [
+      "plaît",
+      "pleases (plaire, third-person singular)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Il est sur la table, près du livre.",
-    "en": "It’s on the table, near the book."
+    "en": "It’s on the table, near the book.",
+    "words": [
+     [
+      "Il",
+      "it (subject pronoun)"
+     ],
+     [
+      "est",
+      "is (être, 'il/elle' form)"
+     ],
+     [
+      "sur",
+      "on"
+     ],
+     [
+      "la",
+      "the (fem.)"
+     ],
+     [
+      "table",
+      "table (fem.)"
+     ],
+     [
+      "près",
+      "near"
+     ],
+     [
+      "du",
+      "of the (de + le, masc.)"
+     ],
+     [
+      "livre",
+      "book (masc.)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Merci, madame. Je suis prêt pour le cours.",
-    "en": "Thank you, ma’am. I’m ready for class."
+    "en": "Thank you, ma’am. I’m ready for class.",
+    "words": [
+     [
+      "Merci",
+      "thank you"
+     ],
+     [
+      "madame",
+      "madam"
+     ],
+     [
+      "Je",
+      "I (subject pronoun)"
+     ],
+     [
+      "suis",
+      "am (être, 'je' form)"
+     ],
+     [
+      "prêt",
+      "ready (masc.)"
+     ],
+     [
+      "pour",
+      "for"
+     ],
+     [
+      "le",
+      "the (masc.)"
+     ],
+     [
+      "cours",
+      "course; class (masc.)"
+     ]
+    ]
    }
   ],
   "vocab": [
@@ -9575,7 +15687,29 @@ export const courseLessons = [
     "say": "bohn-ZHOOR mah-DAM",
     "cat": "Greetings",
     "ex": "Bonjour, madame. Je suis Adrien.",
-    "exEn": "Hello, ma’am. I’m Adrien."
+    "exEn": "Hello, ma’am. I’m Adrien.",
+    "exWords": [
+     [
+      "Bonjour",
+      "hello; good morning"
+     ],
+     [
+      "madame",
+      "madam"
+     ],
+     [
+      "Je",
+      "I (subject pronoun)"
+     ],
+     [
+      "suis",
+      "am (être, 'je' form)"
+     ],
+     [
+      "Adrien",
+      "Adrien (name)"
+     ]
+    ]
    },
    {
     "fr": "Je m’appelle Adrien.",
@@ -9583,7 +15717,25 @@ export const courseLessons = [
     "say": "zhuh mah-PELL ah-dree-YEN",
     "cat": "Introductions",
     "ex": "Je m’appelle Marinette.",
-    "exEn": "My name is Marinette."
+    "exEn": "My name is Marinette.",
+    "exWords": [
+     [
+      "Je",
+      "I (subject pronoun)"
+     ],
+     [
+      "m’",
+      "myself (me, shortened before a vowel)"
+     ],
+     [
+      "appelle",
+      "call (s'appeler, 'je' form) → am called"
+     ],
+     [
+      "Marinette",
+      "Marinette (name)"
+     ]
+    ]
    },
    {
     "fr": "Comment vous appelez-vous ?",
@@ -9591,7 +15743,25 @@ export const courseLessons = [
     "say": "koh-MAHN voo zahp-LAY VOO",
     "cat": "Introductions",
     "ex": "Comment vous appelez-vous ?",
-    "exEn": "What is your name?"
+    "exEn": "What is your name?",
+    "exWords": [
+     [
+      "Comment",
+      "how"
+     ],
+     [
+      "vous",
+      "yourself (reflexive pronoun)"
+     ],
+     [
+      "appelez",
+      "call (s'appeler, 'vous' form)"
+     ],
+     [
+      "vous",
+      "you (inversion subject pronoun)"
+     ]
+    ]
    },
    {
     "fr": "Où est mon cahier, s’il vous plaît ?",
@@ -9599,7 +15769,41 @@ export const courseLessons = [
     "say": "OO eh mohn kah-YAY, seel voo PLEH",
     "cat": "Work & School",
     "ex": "Où est mon cahier, s’il vous plaît ?",
-    "exEn": "Where is my notebook, please?"
+    "exEn": "Where is my notebook, please?",
+    "exWords": [
+     [
+      "Où",
+      "where"
+     ],
+     [
+      "est",
+      "is (être, 'il/elle' form)"
+     ],
+     [
+      "mon",
+      "my (masc.)"
+     ],
+     [
+      "cahier",
+      "notebook (masc.)"
+     ],
+     [
+      "s’",
+      "if (si, shortened before a vowel)"
+     ],
+     [
+      "il",
+      "it (subject pronoun)"
+     ],
+     [
+      "vous",
+      "you (formal or plural)"
+     ],
+     [
+      "plaît",
+      "pleases (plaire, third-person singular)"
+     ]
+    ]
    },
    {
     "fr": "Je suis prêt pour le cours.",
@@ -9607,7 +15811,33 @@ export const courseLessons = [
     "say": "zhuh swee PREH poor luh KOOR",
     "cat": "Work & School",
     "ex": "Je suis prêt pour le cours.",
-    "exEn": "I’m ready for class."
+    "exEn": "I’m ready for class.",
+    "exWords": [
+     [
+      "Je",
+      "I (subject pronoun)"
+     ],
+     [
+      "suis",
+      "am (être, 'je' form)"
+     ],
+     [
+      "prêt",
+      "ready (masc.)"
+     ],
+     [
+      "pour",
+      "for"
+     ],
+     [
+      "le",
+      "the (masc.)"
+     ],
+     [
+      "cours",
+      "course; class (masc.)"
+     ]
+    ]
    }
   ],
   "grammar": [
@@ -9715,47 +15945,237 @@ export const courseLessons = [
    {
     "who": "Adrien",
     "fr": "Bonjour, Marinette !",
-    "en": "Hello, Marinette!"
+    "en": "Hello, Marinette!",
+    "words": [
+     [
+      "Bonjour",
+      "hello (greeting)"
+     ],
+     [
+      "Marinette",
+      "Marinette (name)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Bonjour, Adrien ! Bienvenue chez moi.",
-    "en": "Hello, Adrien! Welcome to my home."
+    "en": "Hello, Adrien! Welcome to my home.",
+    "words": [
+     [
+      "Bonjour",
+      "hello (greeting)"
+     ],
+     [
+      "Adrien",
+      "Adrien (name)"
+     ],
+     [
+      "Bienvenue",
+      "welcome"
+     ],
+     [
+      "chez",
+      "at the home of"
+     ],
+     [
+      "moi",
+      "me"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Merci. Je peux entrer ?",
-    "en": "Thank you. May I come in?"
+    "en": "Thank you. May I come in?",
+    "words": [
+     [
+      "Merci",
+      "thank you"
+     ],
+     [
+      "Je",
+      "I (subject pronoun)"
+     ],
+     [
+      "peux",
+      "can (pouvoir, je form)"
+     ],
+     [
+      "entrer",
+      "enter (infinitive)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Oui, bien sûr. Entrez, s'il vous plaît.",
-    "en": "Yes, of course. Come in, please."
+    "en": "Yes, of course. Come in, please.",
+    "words": [
+     [
+      "Oui",
+      "yes"
+     ],
+     [
+      "bien",
+      "very"
+     ],
+     [
+      "sûr",
+      "sure (masc.)"
+     ],
+     [
+      "Entrez",
+      "enter (entrer, vous command)"
+     ],
+     [
+      "s'",
+      "if (si, shortened before vowel)"
+     ],
+     [
+      "il",
+      "it (impersonal subject)"
+     ],
+     [
+      "vous",
+      "you (formal or plural)"
+     ],
+     [
+      "plaît",
+      "pleases (plaire, il form)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Voici un petit cadeau pour vous.",
-    "en": "Here is a small gift for you."
+    "en": "Here is a small gift for you.",
+    "words": [
+     [
+      "Voici",
+      "here is"
+     ],
+     [
+      "un",
+      "a (masc.)"
+     ],
+     [
+      "petit",
+      "small (masc.)"
+     ],
+     [
+      "cadeau",
+      "gift (masc.)"
+     ],
+     [
+      "pour",
+      "for"
+     ],
+     [
+      "vous",
+      "you (formal or plural)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Merci, c'est très gentil.",
-    "en": "Thank you, that's very kind."
+    "en": "Thank you, that's very kind.",
+    "words": [
+     [
+      "Merci",
+      "thank you"
+     ],
+     [
+      "c'",
+      "it (ce, shortened before vowel)"
+     ],
+     [
+      "est",
+      "is (être, il form)"
+     ],
+     [
+      "très",
+      "very"
+     ],
+     [
+      "gentil",
+      "kind (masc.)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "La maison est très belle.",
-    "en": "The house is very beautiful."
+    "en": "The house is very beautiful.",
+    "words": [
+     [
+      "La",
+      "the (fem.)"
+     ],
+     [
+      "maison",
+      "house (fem.)"
+     ],
+     [
+      "est",
+      "is (être, elle form)"
+     ],
+     [
+      "très",
+      "very"
+     ],
+     [
+      "belle",
+      "beautiful (fem.)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Vous voulez entrer dans le salon ?",
-    "en": "Would you like to come into the living room?"
+    "en": "Would you like to come into the living room?",
+    "words": [
+     [
+      "Vous",
+      "you (formal or plural)"
+     ],
+     [
+      "voulez",
+      "want (vouloir, vous form)"
+     ],
+     [
+      "entrer",
+      "enter (infinitive)"
+     ],
+     [
+      "dans",
+      "in"
+     ],
+     [
+      "le",
+      "the (masc.)"
+     ],
+     [
+      "salon",
+      "living room (masc.)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Oui, volontiers.",
-    "en": "Yes, gladly."
+    "en": "Yes, gladly.",
+    "words": [
+     [
+      "Oui",
+      "yes"
+     ],
+     [
+      "volontiers",
+      "gladly"
+     ]
+    ]
    }
   ],
   "vocab": [
@@ -9765,7 +16185,17 @@ export const courseLessons = [
     "say": "bohn-ZHOOR",
     "cat": "Greetings",
     "ex": "Bonjour, Marinette !",
-    "exEn": "Hello, Marinette!"
+    "exEn": "Hello, Marinette!",
+    "exWords": [
+     [
+      "Bonjour",
+      "hello (greeting)"
+     ],
+     [
+      "Marinette",
+      "Marinette (name)"
+     ]
+    ]
    },
    {
     "fr": "Bienvenue chez moi.",
@@ -9773,7 +16203,21 @@ export const courseLessons = [
     "say": "byehn-vuh-NEW shay MWA",
     "cat": "Everyday Expressions",
     "ex": "Bienvenue chez moi.",
-    "exEn": "Welcome to my home."
+    "exEn": "Welcome to my home.",
+    "exWords": [
+     [
+      "Bienvenue",
+      "welcome"
+     ],
+     [
+      "chez",
+      "at the home of"
+     ],
+     [
+      "moi",
+      "me"
+     ]
+    ]
    },
    {
     "fr": "Je peux entrer ?",
@@ -9781,7 +16225,21 @@ export const courseLessons = [
     "say": "zhuh puh ahn-TRAY",
     "cat": "Common Verbs",
     "ex": "Je peux entrer ?",
-    "exEn": "May I come in?"
+    "exEn": "May I come in?",
+    "exWords": [
+     [
+      "Je",
+      "I (subject pronoun)"
+     ],
+     [
+      "peux",
+      "can (pouvoir, je form)"
+     ],
+     [
+      "entrer",
+      "enter (infinitive)"
+     ]
+    ]
    },
    {
     "fr": "Entrez, s'il vous plaît.",
@@ -9789,7 +16247,29 @@ export const courseLessons = [
     "say": "ahn-TRAY seel voo PLEH",
     "cat": "Everyday Expressions",
     "ex": "Entrez, s'il vous plaît.",
-    "exEn": "Come in, please."
+    "exEn": "Come in, please.",
+    "exWords": [
+     [
+      "Entrez",
+      "enter (entrer, vous command)"
+     ],
+     [
+      "s'",
+      "if (si, shortened before vowel)"
+     ],
+     [
+      "il",
+      "it (impersonal subject)"
+     ],
+     [
+      "vous",
+      "you (formal or plural)"
+     ],
+     [
+      "plaît",
+      "pleases (plaire, il form)"
+     ]
+    ]
    },
    {
     "fr": "Oui, volontiers.",
@@ -9797,7 +16277,17 @@ export const courseLessons = [
     "say": "wee voh-lohn-TYAY",
     "cat": "Everyday Expressions",
     "ex": "Oui, volontiers.",
-    "exEn": "Yes, gladly."
+    "exEn": "Yes, gladly.",
+    "exWords": [
+     [
+      "Oui",
+      "yes"
+     ],
+     [
+      "volontiers",
+      "gladly"
+     ]
+    ]
    }
   ],
   "grammar": [
@@ -9905,47 +16395,237 @@ export const courseLessons = [
    {
     "who": "Adrien",
     "fr": "Bonjour, je m'appelle Adrien.",
-    "en": "Hello, my name is Adrien."
+    "en": "Hello, my name is Adrien.",
+    "words": [
+     [
+      "Bonjour",
+      "hello"
+     ],
+     [
+      "je",
+      "I (subject pronoun)"
+     ],
+     [
+      "m'",
+      "myself (reflexive pronoun)"
+     ],
+     [
+      "appelle",
+      "call (s'appeler, je form) → am called"
+     ],
+     [
+      "Adrien",
+      "Adrien (name)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Bonjour, je m'appelle Marinette.",
-    "en": "Hello, my name is Marinette."
+    "en": "Hello, my name is Marinette.",
+    "words": [
+     [
+      "Bonjour",
+      "hello"
+     ],
+     [
+      "je",
+      "I (subject pronoun)"
+     ],
+     [
+      "m'",
+      "myself (reflexive pronoun)"
+     ],
+     [
+      "appelle",
+      "call (s'appeler, je form) → am called"
+     ],
+     [
+      "Marinette",
+      "Marinette (name)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Enchanté, Marinette. Vous attendez aussi ?",
-    "en": "Nice to meet you, Marinette. Are you waiting too?"
+    "en": "Nice to meet you, Marinette. Are you waiting too?",
+    "words": [
+     [
+      "Enchanté",
+      "delighted (masc.)"
+     ],
+     [
+      "Marinette",
+      "Marinette (name)"
+     ],
+     [
+      "Vous",
+      "you (formal or plural subject)"
+     ],
+     [
+      "attendez",
+      "wait (attendre, vous form)"
+     ],
+     [
+      "aussi",
+      "too"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Oui, et vous ?",
-    "en": "Yes, and you?"
+    "en": "Yes, and you?",
+    "words": [
+     [
+      "Oui",
+      "yes"
+     ],
+     [
+      "et",
+      "and"
+     ],
+     [
+      "vous",
+      "you (formal or plural)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Oui. Vous habitez dans la ville ?",
-    "en": "Yes. Do you live in the city?"
+    "en": "Yes. Do you live in the city?",
+    "words": [
+     [
+      "Oui",
+      "yes"
+     ],
+     [
+      "Vous",
+      "you (formal or plural subject)"
+     ],
+     [
+      "habitez",
+      "live (habiter, vous form)"
+     ],
+     [
+      "dans",
+      "in"
+     ],
+     [
+      "la",
+      "the (fem.)"
+     ],
+     [
+      "ville",
+      "city (fem.)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Oui, j'habite ici. Et vous ?",
-    "en": "Yes, I live here. And you?"
+    "en": "Yes, I live here. And you?",
+    "words": [
+     [
+      "Oui",
+      "yes"
+     ],
+     [
+      "j'",
+      "I (je, shortened before a vowel)"
+     ],
+     [
+      "habite",
+      "live (habiter, je form)"
+     ],
+     [
+      "ici",
+      "here"
+     ],
+     [
+      "Et",
+      "and"
+     ],
+     [
+      "vous",
+      "you (formal or plural)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Moi aussi. Je viens souvent ici.",
-    "en": "Me too. I come here often."
+    "en": "Me too. I come here often.",
+    "words": [
+     [
+      "Moi",
+      "me"
+     ],
+     [
+      "aussi",
+      "too"
+     ],
+     [
+      "Je",
+      "I (subject pronoun)"
+     ],
+     [
+      "viens",
+      "come (venir, je form)"
+     ],
+     [
+      "souvent",
+      "often"
+     ],
+     [
+      "ici",
+      "here"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Vous êtes très sympathique.",
-    "en": "You are very nice."
+    "en": "You are very nice.",
+    "words": [
+     [
+      "Vous",
+      "you (formal or plural subject)"
+     ],
+     [
+      "êtes",
+      "are (être, vous form)"
+     ],
+     [
+      "très",
+      "very"
+     ],
+     [
+      "sympathique",
+      "nice (adjective)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Merci, vous aussi.",
-    "en": "Thank you, you too."
+    "en": "Thank you, you too.",
+    "words": [
+     [
+      "Merci",
+      "thank you"
+     ],
+     [
+      "vous",
+      "you (formal or plural)"
+     ],
+     [
+      "aussi",
+      "too"
+     ]
+    ]
    }
   ],
   "vocab": [
@@ -9955,7 +16635,29 @@ export const courseLessons = [
     "say": "bohn-ZHOOR",
     "cat": "Greetings",
     "ex": "Bonjour, je m'appelle Marinette.",
-    "exEn": "Hello, my name is Marinette."
+    "exEn": "Hello, my name is Marinette.",
+    "exWords": [
+     [
+      "Bonjour",
+      "hello"
+     ],
+     [
+      "je",
+      "I (subject pronoun)"
+     ],
+     [
+      "m'",
+      "myself (reflexive pronoun)"
+     ],
+     [
+      "appelle",
+      "call (s'appeler, je form) → am called"
+     ],
+     [
+      "Marinette",
+      "Marinette (name)"
+     ]
+    ]
    },
    {
     "fr": "Je m'appelle Adrien.",
@@ -9963,7 +16665,29 @@ export const courseLessons = [
     "say": "zhuh mah-PELL ah-dree-YEN",
     "cat": "Introductions",
     "ex": "Bonjour, je m'appelle Adrien.",
-    "exEn": "Hello, my name is Adrien."
+    "exEn": "Hello, my name is Adrien.",
+    "exWords": [
+     [
+      "Bonjour",
+      "hello"
+     ],
+     [
+      "je",
+      "I (subject pronoun)"
+     ],
+     [
+      "m'",
+      "myself (reflexive pronoun)"
+     ],
+     [
+      "appelle",
+      "call (s'appeler, je form) → am called"
+     ],
+     [
+      "Adrien",
+      "Adrien (name)"
+     ]
+    ]
    },
    {
     "fr": "Enchanté, Marinette.",
@@ -9971,7 +16695,17 @@ export const courseLessons = [
     "say": "ahn-shahn-TAY mah-ree-NET",
     "cat": "Introductions",
     "ex": "Enchanté, Marinette.",
-    "exEn": "Nice to meet you, Marinette."
+    "exEn": "Nice to meet you, Marinette.",
+    "exWords": [
+     [
+      "Enchanté",
+      "delighted (masc.)"
+     ],
+     [
+      "Marinette",
+      "Marinette (name)"
+     ]
+    ]
    },
    {
     "fr": "Vous attendez aussi ?",
@@ -9979,7 +16713,29 @@ export const courseLessons = [
     "say": "voo zah-tahn-DAY oh-SEE",
     "cat": "Common Verbs",
     "ex": "Enchanté, Marinette. Vous attendez aussi ?",
-    "exEn": "Nice to meet you, Marinette. Are you waiting too?"
+    "exEn": "Nice to meet you, Marinette. Are you waiting too?",
+    "exWords": [
+     [
+      "Enchanté",
+      "delighted (masc.)"
+     ],
+     [
+      "Marinette",
+      "Marinette (name)"
+     ],
+     [
+      "Vous",
+      "you (formal or plural subject)"
+     ],
+     [
+      "attendez",
+      "wait (attendre, vous form)"
+     ],
+     [
+      "aussi",
+      "too"
+     ]
+    ]
    },
    {
     "fr": "J'habite ici.",
@@ -9987,7 +16743,25 @@ export const courseLessons = [
     "say": "zhah-beet ee-SEE",
     "cat": "Daily Life",
     "ex": "Oui, j'habite ici.",
-    "exEn": "Yes, I live here."
+    "exEn": "Yes, I live here.",
+    "exWords": [
+     [
+      "Oui",
+      "yes"
+     ],
+     [
+      "j'",
+      "I (je, shortened before a vowel)"
+     ],
+     [
+      "habite",
+      "live (habiter, je form)"
+     ],
+     [
+      "ici",
+      "here"
+     ]
+    ]
    }
   ],
   "grammar": [
@@ -10095,47 +16869,233 @@ export const courseLessons = [
    {
     "who": "Adrien",
     "fr": "Au revoir, Marinette. Enchanté.",
-    "en": "Goodbye, Marinette. Nice to meet you."
+    "en": "Goodbye, Marinette. Nice to meet you.",
+    "words": [
+     [
+      "Au",
+      "to the (à + le)"
+     ],
+     [
+      "revoir",
+      "see again (revoir, infinitive)"
+     ],
+     [
+      "Marinette",
+      "Marinette (name)"
+     ],
+     [
+      "Enchanté",
+      "delighted (masc.)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Au revoir, Adrien. Enchantée.",
-    "en": "Goodbye, Adrien. Nice to meet you."
+    "en": "Goodbye, Adrien. Nice to meet you.",
+    "words": [
+     [
+      "Au",
+      "to the (à + le)"
+     ],
+     [
+      "revoir",
+      "see again (revoir, infinitive)"
+     ],
+     [
+      "Adrien",
+      "Adrien (name)"
+     ],
+     [
+      "Enchantée",
+      "delighted (fem.)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "C'était un plaisir de parler avec vous.",
-    "en": "It was a pleasure talking with you."
+    "en": "It was a pleasure talking with you.",
+    "words": [
+     [
+      "C'",
+      "that (ce, shortened before a vowel)"
+     ],
+     [
+      "était",
+      "was (être, 3rd-person singular)"
+     ],
+     [
+      "un",
+      "a (masc.)"
+     ],
+     [
+      "plaisir",
+      "pleasure (masc.)"
+     ],
+     [
+      "de",
+      "to"
+     ],
+     [
+      "parler",
+      "speak (parler, infinitive)"
+     ],
+     [
+      "avec",
+      "with"
+     ],
+     [
+      "vous",
+      "you (formal or plural)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Merci, c'était un plaisir.",
-    "en": "Thank you, it was a pleasure."
+    "en": "Thank you, it was a pleasure.",
+    "words": [
+     [
+      "Merci",
+      "thank you"
+     ],
+     [
+      "c'",
+      "that (ce, shortened before a vowel)"
+     ],
+     [
+      "était",
+      "was (être, 3rd-person singular)"
+     ],
+     [
+      "un",
+      "a (masc.)"
+     ],
+     [
+      "plaisir",
+      "pleasure (masc.)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Vous rentrez à la maison maintenant ?",
-    "en": "Are you going home now?"
+    "en": "Are you going home now?",
+    "words": [
+     [
+      "Vous",
+      "you (formal or plural)"
+     ],
+     [
+      "rentrez",
+      "go home (rentrer, vous form)"
+     ],
+     [
+      "à",
+      "to"
+     ],
+     [
+      "la",
+      "the (fem.)"
+     ],
+     [
+      "maison",
+      "house (fem.)"
+     ],
+     [
+      "maintenant",
+      "now"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Oui, je rentre à la maison.",
-    "en": "Yes, I’m going home."
+    "en": "Yes, I’m going home.",
+    "words": [
+     [
+      "Oui",
+      "yes"
+     ],
+     [
+      "je",
+      "I"
+     ],
+     [
+      "rentre",
+      "go home (rentrer, je form)"
+     ],
+     [
+      "à",
+      "to"
+     ],
+     [
+      "la",
+      "the (fem.)"
+     ],
+     [
+      "maison",
+      "house (fem.)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "À bientôt, alors.",
-    "en": "See you soon, then."
+    "en": "See you soon, then.",
+    "words": [
+     [
+      "À",
+      "until"
+     ],
+     [
+      "bientôt",
+      "soon"
+     ],
+     [
+      "alors",
+      "then"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "À demain, peut-être.",
-    "en": "See you tomorrow, maybe."
+    "en": "See you tomorrow, maybe.",
+    "words": [
+     [
+      "À",
+      "until"
+     ],
+     [
+      "demain",
+      "tomorrow"
+     ],
+     [
+      "peut-être",
+      "perhaps"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Bonne journée, Marinette.",
-    "en": "Have a nice day, Marinette."
+    "en": "Have a nice day, Marinette.",
+    "words": [
+     [
+      "Bonne",
+      "good (fem.)"
+     ],
+     [
+      "journée",
+      "day (fem.)"
+     ],
+     [
+      "Marinette",
+      "Marinette (name)"
+     ]
+    ]
    }
   ],
   "vocab": [
@@ -10145,7 +17105,21 @@ export const courseLessons = [
     "say": "oh ruh-VWAR",
     "cat": "Greetings",
     "ex": "Au revoir, Adrien.",
-    "exEn": "Goodbye, Adrien."
+    "exEn": "Goodbye, Adrien.",
+    "exWords": [
+     [
+      "Au",
+      "to the (à + le)"
+     ],
+     [
+      "revoir",
+      "see again (revoir, infinitive)"
+     ],
+     [
+      "Adrien",
+      "Adrien (name)"
+     ]
+    ]
    },
    {
     "fr": "Enchanté",
@@ -10153,7 +17127,17 @@ export const courseLessons = [
     "say": "ahn-shahn-TAY",
     "cat": "Introductions",
     "ex": "Enchantée, Adrien.",
-    "exEn": "Nice to meet you, Adrien. (said by a woman)"
+    "exEn": "Nice to meet you, Adrien. (said by a woman)",
+    "exWords": [
+     [
+      "Enchantée",
+      "delighted (fem.)"
+     ],
+     [
+      "Adrien",
+      "Adrien (name)"
+     ]
+    ]
    },
    {
     "fr": "C'était un plaisir",
@@ -10161,7 +17145,41 @@ export const courseLessons = [
     "say": "say-TAY uhn pleh-ZEER",
     "cat": "Everyday Expressions",
     "ex": "C'était un plaisir de parler avec vous.",
-    "exEn": "It was a pleasure talking with you."
+    "exEn": "It was a pleasure talking with you.",
+    "exWords": [
+     [
+      "C'",
+      "that (ce, shortened before a vowel)"
+     ],
+     [
+      "était",
+      "was (être, 3rd-person singular)"
+     ],
+     [
+      "un",
+      "a (masc.)"
+     ],
+     [
+      "plaisir",
+      "pleasure (masc.)"
+     ],
+     [
+      "de",
+      "to"
+     ],
+     [
+      "parler",
+      "speak (parler, infinitive)"
+     ],
+     [
+      "avec",
+      "with"
+     ],
+     [
+      "vous",
+      "you (formal or plural)"
+     ]
+    ]
    },
    {
     "fr": "À bientôt, alors",
@@ -10169,7 +17187,21 @@ export const courseLessons = [
     "say": "ah byan-TOH ah-LOR",
     "cat": "Everyday Expressions",
     "ex": "À bientôt, alors.",
-    "exEn": "See you soon, then."
+    "exEn": "See you soon, then.",
+    "exWords": [
+     [
+      "À",
+      "until"
+     ],
+     [
+      "bientôt",
+      "soon"
+     ],
+     [
+      "alors",
+      "then"
+     ]
+    ]
    },
    {
     "fr": "À demain, peut-être",
@@ -10177,7 +17209,21 @@ export const courseLessons = [
     "say": "ah duh-MAN puh-TETR",
     "cat": "Time & Days",
     "ex": "À demain, peut-être.",
-    "exEn": "See you tomorrow, maybe."
+    "exEn": "See you tomorrow, maybe.",
+    "exWords": [
+     [
+      "À",
+      "until"
+     ],
+     [
+      "demain",
+      "tomorrow"
+     ],
+     [
+      "peut-être",
+      "perhaps"
+     ]
+    ]
    }
   ],
   "grammar": [
@@ -10285,47 +17331,297 @@ export const courseLessons = [
    {
     "who": "Adrien",
     "fr": "Bonjour Marinette, tu es dans la classe ?",
-    "en": "Hello, Marinette. Are you in the classroom?"
+    "en": "Hello, Marinette. Are you in the classroom?",
+    "words": [
+     [
+      "Bonjour",
+      "hello"
+     ],
+     [
+      "Marinette",
+      "Marinette (name)"
+     ],
+     [
+      "tu",
+      "you (informal)"
+     ],
+     [
+      "es",
+      "are (être, tu form)"
+     ],
+     [
+      "dans",
+      "in"
+     ],
+     [
+      "la",
+      "the (fem.)"
+     ],
+     [
+      "classe",
+      "class (fem.)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Oui, et nous sommes dans la classe.",
-    "en": "Yes, and we're in the classroom."
+    "en": "Yes, and we're in the classroom.",
+    "words": [
+     [
+      "Oui",
+      "yes"
+     ],
+     [
+      "et",
+      "and"
+     ],
+     [
+      "nous",
+      "we"
+     ],
+     [
+      "sommes",
+      "are (être, nous form)"
+     ],
+     [
+      "dans",
+      "in"
+     ],
+     [
+      "la",
+      "the (fem.)"
+     ],
+     [
+      "classe",
+      "class (fem.)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Tu veux me donner le numéro de téléphone ?",
-    "en": "Would you like to give me the phone number?"
+    "en": "Would you like to give me the phone number?",
+    "words": [
+     [
+      "Tu",
+      "you (informal)"
+     ],
+     [
+      "veux",
+      "want (vouloir, tu form)"
+     ],
+     [
+      "me",
+      "to me (object pronoun)"
+     ],
+     [
+      "donner",
+      "give (donner, infinitive)"
+     ],
+     [
+      "le",
+      "the (masc.)"
+     ],
+     [
+      "numéro",
+      "number (masc.)"
+     ],
+     [
+      "de",
+      "of"
+     ],
+     [
+      "téléphone",
+      "telephone (masc.)"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Oui, bien sûr. Un, deux, trois, quatre, cinq.",
-    "en": "Yes, of course. One, two, three, four, five."
+    "en": "Yes, of course. One, two, three, four, five.",
+    "words": [
+     [
+      "Oui",
+      "yes"
+     ],
+     [
+      "bien",
+      "very"
+     ],
+     [
+      "sûr",
+      "sure"
+     ],
+     [
+      "Un",
+      "one"
+     ],
+     [
+      "deux",
+      "two"
+     ],
+     [
+      "trois",
+      "three"
+     ],
+     [
+      "quatre",
+      "four"
+     ],
+     [
+      "cinq",
+      "five"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Merci. Et après ?",
-    "en": "Thanks. And then?"
+    "en": "Thanks. And then?",
+    "words": [
+     [
+      "Merci",
+      "thank you"
+     ],
+     [
+      "Et",
+      "and"
+     ],
+     [
+      "après",
+      "after"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "Six, sept, huit, neuf.",
-    "en": "Six, seven, eight, nine."
+    "en": "Six, seven, eight, nine.",
+    "words": [
+     [
+      "Six",
+      "six"
+     ],
+     [
+      "sept",
+      "seven"
+     ],
+     [
+      "huit",
+      "eight"
+     ],
+     [
+      "neuf",
+      "nine"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Je donne le numéro : neuf, huit, sept, six, cinq, quatre, trois, deux, un.",
-    "en": "I'll give the number: nine, eight, seven, six, five, four, three, two, one."
+    "en": "I'll give the number: nine, eight, seven, six, five, four, three, two, one.",
+    "words": [
+     [
+      "Je",
+      "I"
+     ],
+     [
+      "donne",
+      "give (donner, je form)"
+     ],
+     [
+      "le",
+      "the (masc.)"
+     ],
+     [
+      "numéro",
+      "number (masc.)"
+     ],
+     [
+      "neuf",
+      "nine"
+     ],
+     [
+      "huit",
+      "eight"
+     ],
+     [
+      "sept",
+      "seven"
+     ],
+     [
+      "six",
+      "six"
+     ],
+     [
+      "cinq",
+      "five"
+     ],
+     [
+      "quatre",
+      "four"
+     ],
+     [
+      "trois",
+      "three"
+     ],
+     [
+      "deux",
+      "two"
+     ],
+     [
+      "un",
+      "one"
+     ]
+    ]
    },
    {
     "who": "Marinette",
     "fr": "D'accord, je l'écris.",
-    "en": "Okay, I'll write it down."
+    "en": "Okay, I'll write it down.",
+    "words": [
+     [
+      "D'",
+      "of (in d'accord)"
+     ],
+     [
+      "accord",
+      "agreement (masc.)"
+     ],
+     [
+      "je",
+      "I"
+     ],
+     [
+      "l'",
+      "it (object pronoun, shortened)"
+     ],
+     [
+      "écris",
+      "write (écrire, je form)"
+     ]
+    ]
    },
    {
     "who": "Adrien",
     "fr": "Merci, à bientôt !",
-    "en": "Thanks, see you soon!"
+    "en": "Thanks, see you soon!",
+    "words": [
+     [
+      "Merci",
+      "thank you"
+     ],
+     [
+      "à",
+      "until"
+     ],
+     [
+      "bientôt",
+      "soon"
+     ]
+    ]
    }
   ],
   "vocab": [
@@ -10335,7 +17631,37 @@ export const courseLessons = [
     "say": "bohn-ZHOOR mah-ree-NET",
     "cat": "Greetings",
     "ex": "Bonjour Marinette, tu es dans la classe ?",
-    "exEn": "Hello, Marinette. Are you in the classroom?"
+    "exEn": "Hello, Marinette. Are you in the classroom?",
+    "exWords": [
+     [
+      "Bonjour",
+      "hello"
+     ],
+     [
+      "Marinette",
+      "Marinette (name)"
+     ],
+     [
+      "tu",
+      "you (informal)"
+     ],
+     [
+      "es",
+      "are (être, tu form)"
+     ],
+     [
+      "dans",
+      "in"
+     ],
+     [
+      "la",
+      "the (fem.)"
+     ],
+     [
+      "classe",
+      "class (fem.)"
+     ]
+    ]
    },
    {
     "fr": "Tu veux me donner le numéro de téléphone ?",
@@ -10343,7 +17669,41 @@ export const courseLessons = [
     "say": "tyuh vuh muh doh-NAY luh noo-may-ROH duh tay-lay-FOHN",
     "cat": "Numbers",
     "ex": "Tu veux me donner le numéro de téléphone ?",
-    "exEn": "Would you like to give me the phone number?"
+    "exEn": "Would you like to give me the phone number?",
+    "exWords": [
+     [
+      "Tu",
+      "you (informal)"
+     ],
+     [
+      "veux",
+      "want (vouloir, tu form)"
+     ],
+     [
+      "me",
+      "to me (object pronoun)"
+     ],
+     [
+      "donner",
+      "give (donner, infinitive)"
+     ],
+     [
+      "le",
+      "the (masc.)"
+     ],
+     [
+      "numéro",
+      "number (masc.)"
+     ],
+     [
+      "de",
+      "of"
+     ],
+     [
+      "téléphone",
+      "telephone (masc.)"
+     ]
+    ]
    },
    {
     "fr": "Le numéro",
@@ -10351,7 +17711,61 @@ export const courseLessons = [
     "say": "luh noo-may-ROH",
     "cat": "Numbers",
     "ex": "Je donne le numéro : neuf, huit, sept, six, cinq, quatre, trois, deux, un.",
-    "exEn": "I'll give the number: nine, eight, seven, six, five, four, three, two, one."
+    "exEn": "I'll give the number: nine, eight, seven, six, five, four, three, two, one.",
+    "exWords": [
+     [
+      "Je",
+      "I"
+     ],
+     [
+      "donne",
+      "give (donner, je form)"
+     ],
+     [
+      "le",
+      "the (masc.)"
+     ],
+     [
+      "numéro",
+      "number (masc.)"
+     ],
+     [
+      "neuf",
+      "nine"
+     ],
+     [
+      "huit",
+      "eight"
+     ],
+     [
+      "sept",
+      "seven"
+     ],
+     [
+      "six",
+      "six"
+     ],
+     [
+      "cinq",
+      "five"
+     ],
+     [
+      "quatre",
+      "four"
+     ],
+     [
+      "trois",
+      "three"
+     ],
+     [
+      "deux",
+      "two"
+     ],
+     [
+      "un",
+      "one"
+     ]
+    ]
    },
    {
     "fr": "Et après ?",
@@ -10359,7 +17773,21 @@ export const courseLessons = [
     "say": "ay ah-PRAY",
     "cat": "Everyday Expressions",
     "ex": "Merci. Et après ?",
-    "exEn": "Thanks. And then?"
+    "exEn": "Thanks. And then?",
+    "exWords": [
+     [
+      "Merci",
+      "thank you"
+     ],
+     [
+      "Et",
+      "and"
+     ],
+     [
+      "après",
+      "after"
+     ]
+    ]
    },
    {
     "fr": "À bientôt !",
@@ -10367,7 +17795,21 @@ export const courseLessons = [
     "say": "ah byehn-TOH",
     "cat": "Greetings",
     "ex": "Merci, à bientôt !",
-    "exEn": "Thanks, see you soon!"
+    "exEn": "Thanks, see you soon!",
+    "exWords": [
+     [
+      "Merci",
+      "thank you"
+     ],
+     [
+      "à",
+      "until"
+     ],
+     [
+      "bientôt",
+      "soon"
+     ]
+    ]
    }
   ],
   "grammar": [
