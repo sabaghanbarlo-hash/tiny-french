@@ -52,6 +52,27 @@ const related = (l) => lessons.filter((o) => o.id !== l.id).map((o) => ({ o, s: 
 
 // Course lessons: same shape as lessons, grouped under a course. They live at /courses/<course>/<lesson>/ and are not in the main lesson library.
 const cLessons = ty(rawCourseLessons);
+
+// Word-by-word overlay (data/wbw-fr.json): { "course/lessonId": { "dialogue.1.@": [[surface, gloss], ...], "vocab.0.@ex": [...], "grammar.0.examples.1.@": [...] } }.
+// Applied onto lesson objects before rendering; a breakdown is used only if its pieces rebuild the sentence exactly (otherwise it is skipped and counted).
+let WBW = {};
+try { WBW = JSON.parse(fs.readFileSync(path.join(root, "data", "wbw-fr.json"), "utf8")); } catch { /* overlay is optional */ }
+const wbwNorm = (s) => String(s || "").toLowerCase().replace(/[^\p{L}\p{N}]+/gu, "");
+const wbwStat = { applied: 0, skipped: 0, lessons: 0 };
+const applyWbw = (l, key) => {
+  const m = WBW[key]; if (!m) return; wbwStat.lessons++;
+  for (const [p, w] of Object.entries(m)) {
+    const s = p.split("."), tail = s.pop(); let o = l;
+    for (const k of s) o = o?.[k];
+    const sentence = o && (tail === "@ex" ? o.ex : o.fr);
+    if (!sentence || !Array.isArray(w) || wbwNorm(w.map((t) => t[0]).join("")) !== wbwNorm(sentence)) { wbwStat.skipped++; continue; }
+    const f = tail === "@ex" ? "exWords" : "words";
+    if (!o[f]) { o[f] = ty(w); wbwStat.applied++; }
+  }
+};
+lessons.forEach((l) => applyWbw(l, `lessons/${l.id}`));
+cLessons.forEach((l) => applyWbw(l, `${l.course}/${l.id}`));
+console.log(`Word-by-word overlay: ${wbwStat.applied} breakdowns applied to ${wbwStat.lessons} lessons, ${wbwStat.skipped} skipped`);
 for (const c of courses) {
   c.lessonList = cLessons.filter((l) => l.course === c.id).sort((a, b) => a.number - b.number);
   c.lessonList.forEach((l, i) => {
@@ -288,11 +309,11 @@ function renderLesson(l, X) {
  <section class="block" aria-labelledby="d-h"><h2 id="d-h">Dialogue</h2><p class="muted">${esc(l.intro)}</p>
   <ol class="dialogue">${l.dialogue.map((d) => d.scene ? `<li class="scene" role="separator" aria-label="${esc(d.scene)}"><span>${esc(d.scene)}</span></li>` : `<li class="line ${speakerClass(d.who)}"><span class="who">${esc(d.who)}</span><div class="say-row"><p class="fr" lang="fr">${esc(d.fr)}</p>${sayBtn(d.fr)}</div><p class="en">${esc(d.en)}</p>${wbw(d.words)}</li>`).join("")}</ol></section>
  <section class="block" aria-labelledby="vo-h"><h2 id="vo-h">Vocabulary</h2>
-  <ul class="vocab-list">${l.vocab.map((v) => { const id = slug(v.fr); return `<li class="vcard" data-vid="${id}"><div class="v-main"><div class="say-row"><span class="v-fr" lang="fr">${esc(v.fr)}</span>${sayBtn(v.fr)}</div><span class="v-say">${esc(v.say)}</span><span class="v-en">${esc(v.en)}</span></div><p class="v-ex"><span lang="fr">${esc(v.ex)}</span> <span class="muted">— ${esc(v.exEn)}</span></p>${wbw(v.exWords)}<button type="button" class="btn ghost small save" data-save="${id}" aria-pressed="false">☆ Save word</button></li>`; }).join("")}</ul>
+  <ul class="vocab-list">${l.vocab.map((v) => { const id = slug(v.fr); return `<li class="vcard" data-vid="${id}"><div class="v-main"><div class="say-row"><span class="v-fr" lang="fr">${esc(v.fr)}</span>${sayBtn(v.fr)}</div><span class="v-say">${esc(v.say)}</span><span class="v-en">${esc(v.en)}</span></div>${wbw(v.words)}<p class="v-ex"><span lang="fr">${esc(v.ex)}</span> <span class="muted">— ${esc(v.exEn)}</span></p>${wbw(v.exWords)}<button type="button" class="btn ghost small save" data-save="${id}" aria-pressed="false">☆ Save word</button></li>`; }).join("")}</ul>
   <details class="fc-wrap"><summary>Practise these words with flashcards</summary><div class="fc" data-flash="lesson"></div></details></section>
- <section class="block" aria-labelledby="g-h"><h2 id="g-h">Grammar made simple</h2>${l.grammar.map((g) => `<div class="card gram"><h3>${esc(g.title)}</h3><p>${esc(g.body)}</p><ul class="ex">${g.examples.map((e) => `<li><span lang="fr">${esc(e.fr)}</span> ${sayBtn(e.fr)}<br><span class="muted">${esc(e.en)}</span></li>`).join("")}</ul></div>`).join("")}</section>
+ <section class="block" aria-labelledby="g-h"><h2 id="g-h">Grammar made simple</h2>${l.grammar.map((g) => `<div class="card gram"><h3>${esc(g.title)}</h3><p>${esc(g.body)}</p><ul class="ex">${g.examples.map((e) => `<li><span lang="fr">${esc(e.fr)}</span> ${sayBtn(e.fr)}<br><span class="muted">${esc(e.en)}</span>${wbw(e.words)}</li>`).join("")}</ul></div>`).join("")}</section>
  <section class="block" id="quiz" aria-labelledby="q-h"><h2 id="q-h">Quiz</h2><div class="quiz" data-quiz="lesson"><noscript>The quiz needs JavaScript. Please turn it on to practise.</noscript></div>
-  <script type="application/json" id="quiz-data">${J(lessonQuiz)}</script><script type="application/json" id="vocab-data">${J(l.vocab.map((v) => ({ ...v, id: slug(v.fr) })))}</script></section>
+  <script type="application/json" id="quiz-data">${J(lessonQuiz)}</script><script type="application/json" id="vocab-data">${J(l.vocab.map((v) => ({ ...v, id: slug(v.fr), words: undefined, exWords: undefined })))}</script></section>
  <section class="block complete" aria-labelledby="c-h"><h2 id="c-h">Finished?</h2><p>Mark this lesson as complete to track your progress. It is saved in this browser only.</p><button type="button" class="btn big" data-complete aria-pressed="false">Mark lesson as complete</button><p class="small muted" role="status" data-complete-msg></p></section>
  ${share(l.title)}`;
   const cc = courses.find((x) => x.id === l.course);
