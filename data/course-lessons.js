@@ -23262,5 +23262,1479 @@ export const courseLessons = [
   "instagram": "",
   "video": null,
   "premium": true
+ },
+ {
+  "course": "tiny-b1-unit-by-unit",
+  "number": 1,
+  "type": "Short dialogue",
+  "level": "Intermediate",
+  "minutes": 10,
+  "video": {
+   "src": "https://sabaghanbarlo-hash.github.io/tiny-french-b1-videos/videos/uc-01-the-story-of-my-life.mp4",
+   "poster": "https://sabaghanbarlo-hash.github.io/tiny-french-b1-videos/videos/uc-01-the-story-of-my-life.thumbnail.png",
+   "vtt": "assets/video/uc-01-the-story-of-my-life.vtt",
+   "uploaded": "2026-11-12",
+   "note": "Long-format lesson video (16:9) with the story, vocabulary, grammar and a quiz. French and English subtitles."
+  },
+  "instagram": "",
+  "art": {
+   "emoji": "📖"
+  },
+  "topics": [
+   "B1 Unit by Unit",
+   "Unit 1: Life Stories"
+  ],
+  "id": "the-story-of-my-life",
+  "title": "The Story of My Life",
+  "fr": "Mon parcours",
+  "description": "Tell the main events of your life in order, with dates and ages.",
+  "objectives": [
+   "Use naître, grandir and the main life-event verbs in the past",
+   "Give dates and ages: en 2006, à l'âge de dix ans",
+   "Link events with the passé composé and the imparfait",
+   "Ask questions about someone's background"
+  ],
+  "intro": "Marinette interviews Adrien for the About page of the Tiny French website.",
+  "dialogue": [
+   {
+    "scene": "An interview for the website"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Adrien, raconte-nous ton parcours. Où es-tu né ?",
+    "en": "Adrien, tell us about your background. Where were you born?"
+   },
+   {
+    "who": "Adrien",
+    "fr": "Je suis né à Lyon en 2006, mais j'ai grandi dans un petit village à côté.",
+    "en": "I was born in Lyon in 2006, but I grew up in a little village nearby."
+   },
+   {
+    "who": "Marinette",
+    "fr": "Et quand as-tu décidé de travailler dans le tourisme ?",
+    "en": "And when did you decide to work in tourism?"
+   },
+   {
+    "who": "Adrien",
+    "fr": "À l'âge de seize ans, après un voyage en Italie qui m'a marqué.",
+    "en": "At the age of sixteen, after a trip to Italy that left a mark on me."
+   },
+   {
+    "who": "Marinette",
+    "fr": "Tu as quitté la maison à dix-huit ans, non ?",
+    "en": "You left home at eighteen, didn't you?"
+   },
+   {
+    "who": "Adrien",
+    "fr": "Oui, j'ai obtenu mon bac, puis j'ai commencé mes études à Lyon. Je travaillais le soir comme serveur.",
+    "en": "Yes, I got my baccalauréat, then I started my studies in Lyon. I worked in the evenings as a waiter."
+   }
+  ],
+  "vocab": [
+   {
+    "fr": "le parcours",
+    "en": "background, career path",
+    "say": "luh par-KOOR",
+    "cat": "Everyday Expressions",
+    "ex": "Raconte-moi ton parcours.",
+    "exEn": "Tell me about your background."
+   },
+   {
+    "fr": "naître",
+    "en": "to be born",
+    "say": "NEH-truh",
+    "cat": "Common Verbs",
+    "ex": "Je suis né à Lyon.",
+    "exEn": "I was born in Lyon."
+   },
+   {
+    "fr": "grandir",
+    "en": "to grow up",
+    "say": "grahn-DEER",
+    "cat": "Common Verbs",
+    "ex": "J'ai grandi dans un village.",
+    "exEn": "I grew up in a village."
+   },
+   {
+    "fr": "à l'âge de",
+    "en": "at the age of",
+    "say": "ah LAHZH duh",
+    "cat": "Time & Days",
+    "ex": "À l'âge de seize ans, j'ai voyagé.",
+    "exEn": "At the age of sixteen, I travelled."
+   },
+   {
+    "fr": "quitter",
+    "en": "to leave",
+    "say": "kee-TAY",
+    "cat": "Common Verbs",
+    "ex": "J'ai quitté la maison à dix-huit ans.",
+    "exEn": "I left home at eighteen."
+   },
+   {
+    "fr": "obtenir",
+    "en": "to obtain, to get",
+    "say": "ohb-tuh-NEER",
+    "cat": "Work & School",
+    "ex": "J'ai obtenu mon diplôme.",
+    "exEn": "I got my degree."
+   },
+   {
+    "fr": "le bac",
+    "en": "baccalauréat (school-leaving exam)",
+    "say": "luh BAHK",
+    "cat": "Work & School",
+    "ex": "J'ai eu mon bac en 2024.",
+    "exEn": "I got my baccalauréat in 2024."
+   },
+   {
+    "fr": "marquer",
+    "en": "to leave a mark on, to affect",
+    "say": "mar-KAY",
+    "cat": "Everyday Expressions",
+    "ex": "Ce voyage m'a marqué.",
+    "exEn": "That trip left a mark on me."
+   },
+   {
+    "fr": "décider de",
+    "en": "to decide to",
+    "say": "day-see-DAY duh",
+    "cat": "Common Verbs",
+    "ex": "J'ai décidé de partir.",
+    "exEn": "I decided to leave."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Telling a life story",
+    "body": "Use the passé composé for events that moved your life forward (je suis né, j'ai quitté la maison, j'ai obtenu mon bac) and the imparfait for what was going on around them (je travaillais le soir, nous habitions dans un village). Naître is conjugated with être, and the participle agrees: elle est née, ils sont nés. Grandir is regular with avoir: j'ai grandi.",
+    "examples": [
+     {
+      "fr": "Je suis né en 2006.",
+      "en": "I was born in 2006."
+     },
+     {
+      "fr": "Elle est née à Paris.",
+      "en": "She was born in Paris."
+     }
+    ]
+   },
+   {
+    "title": "Dates and ages",
+    "body": "Say the year with en (en 2006) and the month with en or au mois de (en mai, au mois de mai). For a precise day: le 3 mars. For age, use à l'âge de + number + ans, or à + number + ans: à seize ans. Use il y a to place an event from today: il y a dix ans.",
+    "examples": [
+     {
+      "fr": "Je suis né en 2006.",
+      "en": "I was born in 2006."
+     },
+     {
+      "fr": "À dix-huit ans, j'ai quitté la maison.",
+      "en": "At eighteen, I left home."
+     }
+    ]
+   }
+  ],
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "How do you say “I was born in Lyon”?",
+    "options": [
+     "J'ai né à Lyon.",
+     "Je suis né à Lyon.",
+     "Je suis naître à Lyon.",
+     "Je nais à Lyon."
+    ],
+    "answer": "Je suis né à Lyon.",
+    "explain": "Naître takes être: je suis né."
+   },
+   {
+    "type": "fill",
+    "q": "Complete: Elle est ___ à Paris. (born, feminine)",
+    "hint": "agreement with elle",
+    "answer": "née",
+    "explain": "Née."
+   },
+   {
+    "type": "mc",
+    "q": "Which tense describes what was going on in the background?",
+    "options": [
+     "passé composé",
+     "futur",
+     "imparfait",
+     "impératif"
+    ],
+    "answer": "imparfait",
+    "explain": "Background = imparfait."
+   },
+   {
+    "type": "mc",
+    "q": "What does “à l'âge de seize ans” mean?",
+    "options": [
+     "for sixteen years",
+     "sixteen years ago",
+     "after sixteen years",
+     "at the age of sixteen"
+    ],
+    "answer": "at the age of sixteen",
+    "explain": "À l'âge de = at the age of."
+   },
+   {
+    "type": "fill",
+    "q": "Complete: J'ai ___ mon diplôme en juin. (got)",
+    "hint": "obtenir",
+    "answer": "obtenu",
+    "explain": "Obtenu."
+   }
+  ]
+ },
+ {
+  "course": "tiny-b1-unit-by-unit",
+  "number": 2,
+  "type": "Short dialogue",
+  "level": "Intermediate",
+  "minutes": 10,
+  "video": {
+   "src": "https://sabaghanbarlo-hash.github.io/tiny-french-b1-videos/videos/uc-02-what-had-happened.mp4",
+   "poster": "https://sabaghanbarlo-hash.github.io/tiny-french-b1-videos/videos/uc-02-what-had-happened.thumbnail.png",
+   "vtt": "assets/video/uc-02-what-had-happened.vtt",
+   "uploaded": "2026-11-12",
+   "note": "Long-format lesson video (16:9) with the story, vocabulary, grammar and a quiz. French and English subtitles."
+  },
+  "instagram": "",
+  "art": {
+   "emoji": "⏪"
+  },
+  "topics": [
+   "B1 Unit by Unit",
+   "Unit 1: Life Stories"
+  ],
+  "id": "what-had-happened",
+  "title": "What Had Already Happened",
+  "fr": "J'avais déjà…",
+  "description": "Say that something had already happened before another past event, with the plus-que-parfait.",
+  "objectives": [
+   "Form the plus-que-parfait",
+   "Use it for an action before another past action",
+   "Use déjà, pas encore and enfin in the past",
+   "Explain why you were late"
+  ],
+  "intro": "Marinette arrives late to an important meeting and explains what happened.",
+  "dialogue": [
+   {
+    "scene": "Arriving late"
+   },
+   {
+    "who": "Adrien",
+    "fr": "Tu es en retard ! La réunion avait déjà commencé.",
+    "en": "You're late! The meeting had already started."
+   },
+   {
+    "who": "Marinette",
+    "fr": "Je sais, désolée. Quand je suis arrivée à la gare, le train était déjà parti.",
+    "en": "I know, sorry. When I got to the station, the train had already left."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Tu n'avais pas vérifié l'horaire ?",
+    "en": "Hadn't you checked the timetable?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Si, mais j'avais mal lu. Je pensais qu'il partait à neuf heures.",
+    "en": "I had, but I'd read it wrong. I thought it left at nine."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Et tu avais prévenu le chef ?",
+    "en": "And had you told the boss?"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Oui, je lui avais envoyé un message avant de monter dans le bus suivant.",
+    "en": "Yes, I'd sent him a message before getting on the next bus."
+   }
+  ],
+  "vocab": [
+   {
+    "fr": "le plus-que-parfait",
+    "en": "pluperfect (past before a past)",
+    "say": "luh plew-kuh-par-FEH",
+    "cat": "Sounds & Spelling",
+    "ex": "J'avais déjà mangé.",
+    "exEn": "I had already eaten."
+   },
+   {
+    "fr": "déjà",
+    "en": "already",
+    "say": "day-ZHAH",
+    "cat": "Time & Days",
+    "ex": "Il était déjà parti.",
+    "exEn": "He had already left."
+   },
+   {
+    "fr": "rater",
+    "en": "to miss (a train, a chance)",
+    "say": "rah-TAY",
+    "cat": "Travel",
+    "ex": "J'ai raté mon train.",
+    "exEn": "I missed my train."
+   },
+   {
+    "fr": "vérifier",
+    "en": "to check",
+    "say": "vay-ree-FYAY",
+    "cat": "Common Verbs",
+    "ex": "Tu avais vérifié l'horaire ?",
+    "exEn": "Had you checked the timetable?"
+   },
+   {
+    "fr": "l'horaire",
+    "en": "timetable, schedule",
+    "say": "loh-REHR",
+    "cat": "Travel",
+    "ex": "J'avais mal lu l'horaire.",
+    "exEn": "I had misread the timetable."
+   },
+   {
+    "fr": "prévenir",
+    "en": "to warn, to inform",
+    "say": "pray-vuh-NEER",
+    "cat": "Common Verbs",
+    "ex": "J'avais prévenu mon chef.",
+    "exEn": "I had told my boss."
+   },
+   {
+    "fr": "mal lire",
+    "en": "to misread",
+    "say": "mahl LEER",
+    "cat": "Common Verbs",
+    "ex": "J'avais mal lu.",
+    "exEn": "I had misread it."
+   },
+   {
+    "fr": "suivant / suivante",
+    "en": "next, following",
+    "say": "swee-VAHN",
+    "cat": "Time & Days",
+    "ex": "J'ai pris le bus suivant.",
+    "exEn": "I took the next bus."
+   },
+   {
+    "fr": "se rendre compte que",
+    "en": "to realise that",
+    "say": "suh RAHN-druh KOHNT kuh",
+    "cat": "Everyday Expressions",
+    "ex": "Je me suis rendu compte qu'il était tard.",
+    "exEn": "I realised it was late."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Forming the plus-que-parfait",
+    "body": "Take the imparfait of avoir or être and add the past participle: j'avais mangé, tu avais fini, il était parti, nous étions arrivés, elles étaient sorties. Use être for the same verbs as in the passé composé (aller, venir, arriver, partir, sortir, naître…) and for reflexive verbs: je m'étais levé. The participle agrees as usual: elle était partie.",
+    "examples": [
+     {
+      "fr": "Le train était déjà parti.",
+      "en": "The train had already left."
+     },
+     {
+      "fr": "J'avais mal lu l'horaire.",
+      "en": "I had misread the timetable."
+     }
+    ]
+   },
+   {
+    "title": "What it is used for",
+    "body": "The plus-que-parfait places an action before another past action, which is in the passé composé or the imparfait: quand je suis arrivée, le train était parti (first the train left, then I arrived). It often explains a cause: j'étais en retard parce que j'avais raté le bus. English uses 'had' in the same cases.",
+    "examples": [
+     {
+      "fr": "Quand je suis arrivée, il était parti.",
+      "en": "When I arrived, he had left."
+     },
+     {
+      "fr": "J'étais en retard parce que j'avais raté le bus.",
+      "en": "I was late because I had missed the bus."
+     }
+    ]
+   }
+  ],
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "Which is the plus-que-parfait of “il part”?",
+    "options": [
+     "il était parti",
+     "il est parti",
+     "il partait",
+     "il serait parti"
+    ],
+    "answer": "il était parti",
+    "explain": "Être (imparfait) + participle."
+   },
+   {
+    "type": "fill",
+    "q": "Complete: J'___ mal lu l'horaire. (I had)",
+    "hint": "avoir, imparfait",
+    "answer": "avais",
+    "explain": "J'avais mal lu."
+   },
+   {
+    "type": "mc",
+    "q": "Which sentence says the train left first?",
+    "options": [
+     "Quand je suis arrivée, le train partait.",
+     "Quand je suis arrivée, le train était parti.",
+     "Quand j'étais arrivée, le train est parti.",
+     "Quand je suis arrivée, le train partira."
+    ],
+    "answer": "Quand je suis arrivée, le train était parti.",
+    "explain": "The earlier action uses the plus-que-parfait."
+   },
+   {
+    "type": "mc",
+    "q": "What does “rater un train” mean?",
+    "options": [
+     "to catch a train",
+     "to take a train",
+     "to miss a train",
+     "to delay a train"
+    ],
+    "answer": "to miss a train",
+    "explain": "Rater = miss."
+   },
+   {
+    "type": "fill",
+    "q": "Complete: Elle était ___ avant mon arrivée. (left, feminine)",
+    "hint": "agreement",
+    "answer": "partie",
+    "explain": "Partie."
+   }
+  ]
+ },
+ {
+  "course": "tiny-b1-unit-by-unit",
+  "number": 3,
+  "id": "turning-points",
+  "title": "Turning Points",
+  "fr": "Un tournant dans ma vie",
+  "type": "Short dialogue",
+  "level": "Intermediate",
+  "minutes": 10,
+  "topics": [
+   "B1 Unit by Unit",
+   "Unit 1: Life Stories"
+  ],
+  "description": "Talk about big decisions and the moments that changed your life.",
+  "objectives": [
+   "Use c'est… que and c'est… qui to emphasise",
+   "Talk about decisions with décider de, se décider à and hésiter à",
+   "Use grâce à and à cause de for reasons",
+   "Say what you would never have thought"
+  ],
+  "art": {
+   "emoji": "🔀"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b1-unit-by-unit",
+  "number": 4,
+  "id": "writing-a-short-biography",
+  "title": "Writing a Short Biography",
+  "fr": "Écrire une biographie",
+  "type": "Short dialogue",
+  "level": "Intermediate",
+  "minutes": 10,
+  "topics": [
+   "B1 Unit by Unit",
+   "Unit 1: Life Stories"
+  ],
+  "description": "Write a clear short biography of someone with narrative connectors.",
+  "objectives": [
+   "Use the passé composé and imparfait in third-person narration",
+   "Use reflexive verbs in the passé composé",
+   "Link a story with quelques années plus tard, finalement, entre-temps",
+   "Describe important life stages"
+  ],
+  "art": {
+   "emoji": "✍️"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b1-unit-by-unit",
+  "number": 5,
+  "id": "how-things-have-changed",
+  "title": "How Things Have Changed",
+  "fr": "Tout a changé",
+  "type": "Short dialogue",
+  "level": "Intermediate",
+  "minutes": 10,
+  "topics": [
+   "B1 Unit by Unit",
+   "Unit 2: Habits and Change"
+  ],
+  "description": "Describe changes over time in a place or a way of life.",
+  "objectives": [
+   "Use devenir and changer",
+   "Use de plus en plus and de moins en moins",
+   "Use autrefois, à l'époque and désormais",
+   "Compare past and present"
+  ],
+  "art": {
+   "emoji": "🏙️"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b1-unit-by-unit",
+  "number": 6,
+  "id": "getting-used-to-it",
+  "title": "Getting Used to It",
+  "fr": "S'habituer à…",
+  "type": "Short dialogue",
+  "level": "Intermediate",
+  "minutes": 10,
+  "topics": [
+   "B1 Unit by Unit",
+   "Unit 2: Habits and Change"
+  ],
+  "description": "Talk about adapting to something new with s'habituer, avoir l'habitude and verbs + à / de.",
+  "objectives": [
+   "Use s'habituer à, avoir l'habitude de and se mettre à",
+   "Use commencer à, continuer à, arrêter de, essayer de",
+   "Say peu à peu and petit à petit",
+   "Describe how you adapt"
+  ],
+  "art": {
+   "emoji": "🧭"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b1-unit-by-unit",
+  "number": 7,
+  "id": "new-habits",
+  "title": "New Habits",
+  "fr": "De nouvelles habitudes",
+  "type": "Short dialogue",
+  "level": "Intermediate",
+  "minutes": 10,
+  "topics": [
+   "B1 Unit by Unit",
+   "Unit 2: Habits and Change"
+  ],
+  "description": "Explain what you changed and how long ago, with depuis que and ça fait… que.",
+  "objectives": [
+   "Use depuis que + indicative",
+   "Use ça fait… que and il y a… que",
+   "Say how a habit has changed your life",
+   "Give advice about starting a habit"
+  ],
+  "art": {
+   "emoji": "🌱"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b1-unit-by-unit",
+  "number": 8,
+  "id": "then-and-now",
+  "title": "Then and Now",
+  "fr": "Avant et maintenant",
+  "type": "Short dialogue",
+  "level": "Intermediate",
+  "minutes": 10,
+  "topics": [
+   "B1 Unit by Unit",
+   "Unit 2: Habits and Change"
+  ],
+  "description": "Compare generations and ways of life with plus, moins and autant.",
+  "objectives": [
+   "Compare verbs with plus que, moins que and autant que",
+   "Compare nouns with plus de, moins de and autant de",
+   "Talk about generations",
+   "Say à mon époque and de nos jours"
+  ],
+  "art": {
+   "emoji": "👵"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b1-unit-by-unit",
+  "number": 9,
+  "id": "getting-along",
+  "title": "Getting Along",
+  "fr": "Bien s'entendre",
+  "type": "Short dialogue",
+  "level": "Intermediate",
+  "minutes": 10,
+  "topics": [
+   "B1 Unit by Unit",
+   "Unit 3: Living Together"
+  ],
+  "description": "Talk about relationships and disagreements with reciprocal verbs.",
+  "objectives": [
+   "Use s'entendre bien / mal avec",
+   "Use se disputer, se réconcilier, se parler, se voir",
+   "Use reciprocal verbs in the passé composé",
+   "Say l'un l'autre / les uns les autres"
+  ],
+  "art": {
+   "emoji": "🤝"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b1-unit-by-unit",
+  "number": 10,
+  "id": "asking-a-favour",
+  "title": "Asking a Favour",
+  "fr": "Un petit service",
+  "type": "Short dialogue",
+  "level": "Intermediate",
+  "minutes": 10,
+  "topics": [
+   "B1 Unit by Unit",
+   "Unit 3: Living Together"
+  ],
+  "description": "Ask for a favour politely and use two pronouns together.",
+  "objectives": [
+   "Ask Pourrais-tu me rendre un service ?",
+   "Use Ça te dérange si… ? and Ça ne te dérange pas de… ?",
+   "Use double pronouns: je te le prête, il me la donne",
+   "Accept and refuse politely"
+  ],
+  "art": {
+   "emoji": "🙏"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b1-unit-by-unit",
+  "number": 11,
+  "id": "sharing-a-flat",
+  "title": "Sharing a Flat",
+  "fr": "La colocation",
+  "type": "Short dialogue",
+  "level": "Intermediate",
+  "minutes": 10,
+  "topics": [
+   "B1 Unit by Unit",
+   "Unit 3: Living Together"
+  ],
+  "description": "Agree on rules and duties in a shared flat using the subjunctive.",
+  "objectives": [
+   "Use il faut que + subjunctive",
+   "Form the subjunctive of regular verbs and a few irregular ones",
+   "Share duties with chacun son tour",
+   "Negotiate rules politely"
+  ],
+  "art": {
+   "emoji": "🏘️"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b1-unit-by-unit",
+  "number": 12,
+  "id": "helping-each-other",
+  "title": "Helping Each Other",
+  "fr": "S'entraider",
+  "type": "Short dialogue",
+  "level": "Intermediate",
+  "minutes": 10,
+  "topics": [
+   "B1 Unit by Unit",
+   "Unit 3: Living Together"
+  ],
+  "description": "Offer and ask for help, and replace à / de + something with y and en.",
+  "objectives": [
+   "Offer help with Je peux t'aider ? and Tu as besoin de quelque chose ?",
+   "Use y and en as pronouns",
+   "Use s'occuper de, penser à, compter sur",
+   "Thank people for their help"
+  ],
+  "art": {
+   "emoji": "🫶"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b1-unit-by-unit",
+  "number": 13,
+  "id": "dealing-with-administration",
+  "title": "Dealing With Administration",
+  "fr": "Les démarches administratives",
+  "type": "Short dialogue",
+  "level": "Intermediate",
+  "minutes": 10,
+  "topics": [
+   "B1 Unit by Unit",
+   "Unit 4: Public Life and Services"
+  ],
+  "description": "Handle an administrative appointment and understand formal instructions.",
+  "objectives": [
+   "Understand and use formal vocabulary for documents and appointments",
+   "Use veuillez + infinitive and je vous prie de",
+   "Use il faut que + subjunctive for requirements",
+   "Ask clearly what you need to provide"
+  ],
+  "art": {
+   "emoji": "🏛️"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b1-unit-by-unit",
+  "number": 14,
+  "id": "making-a-complaint",
+  "title": "Making a Complaint",
+  "fr": "Faire une réclamation",
+  "type": "Short dialogue",
+  "level": "Intermediate",
+  "minutes": 10,
+  "topics": [
+   "B1 Unit by Unit",
+   "Unit 4: Public Life and Services"
+  ],
+  "description": "Complain politely about a product or a service and ask for a solution.",
+  "objectives": [
+   "Describe a problem with a purchase",
+   "Use the passive: la commande n'a pas été livrée",
+   "Ask for a refund or replacement with je souhaiterais",
+   "Stay polite but firm"
+  ],
+  "art": {
+   "emoji": "📦"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b1-unit-by-unit",
+  "number": 15,
+  "id": "reading-official-letters",
+  "title": "Writing a Formal Letter",
+  "fr": "Une lettre officielle",
+  "type": "Short dialogue",
+  "level": "Intermediate",
+  "minutes": 10,
+  "topics": [
+   "B1 Unit by Unit",
+   "Unit 4: Public Life and Services"
+  ],
+  "description": "Write and understand a short formal letter or e-mail.",
+  "objectives": [
+   "Use the standard opening and closing formulas",
+   "Use je me permets de, je vous serais reconnaissant de and ci-joint",
+   "Structure a letter in three parts",
+   "Use formal connectors"
+  ],
+  "art": {
+   "emoji": "✉️"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b1-unit-by-unit",
+  "number": 16,
+  "id": "reporting-a-problem-in-the-city",
+  "title": "Reporting a Problem in the City",
+  "fr": "Signaler un problème",
+  "type": "Short dialogue",
+  "level": "Intermediate",
+  "minutes": 10,
+  "topics": [
+   "B1 Unit by Unit",
+   "Unit 4: Public Life and Services"
+  ],
+  "description": "Report a local problem and ask the authorities to act.",
+  "objectives": [
+   "Name common public problems",
+   "Use il faudrait que + subjunctive",
+   "Use passive and on to describe what should be done",
+   "Write a short message to the town hall"
+  ],
+  "art": {
+   "emoji": "🚧"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b1-unit-by-unit",
+  "number": 17,
+  "id": "books-and-films",
+  "title": "Talking About Books and Films",
+  "fr": "Un film dont on parle",
+  "type": "Short dialogue",
+  "level": "Intermediate",
+  "minutes": 10,
+  "topics": [
+   "B1 Unit by Unit",
+   "Unit 5: Culture and Leisure"
+  ],
+  "description": "Talk about a film or a book and link ideas with qui, que, dont and où.",
+  "objectives": [
+   "Use qui and que to describe a film or book",
+   "Use dont for something you talk about",
+   "Use où for a place or a time",
+   "Name film and book elements: scénario, personnage, intrigue"
+  ],
+  "art": {
+   "emoji": "🎬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b1-unit-by-unit",
+  "number": 18,
+  "id": "recommending-and-reviewing",
+  "title": "Recommending and Reviewing",
+  "fr": "Je te le recommande",
+  "type": "Short dialogue",
+  "level": "Intermediate",
+  "minutes": 10,
+  "topics": [
+   "B1 Unit by Unit",
+   "Unit 5: Culture and Leisure"
+  ],
+  "description": "Recommend something and write a short review with ce qui and ce que.",
+  "objectives": [
+   "Use je te conseille de, je te recommande, c'est à voir absolument",
+   "Use ce qui, ce que and ce dont",
+   "Give a balanced opinion with certes… mais",
+   "Rate something"
+  ],
+  "art": {
+   "emoji": "⭐"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b1-unit-by-unit",
+  "number": 19,
+  "id": "planning-an-outing",
+  "title": "Planning an Outing",
+  "fr": "Une sortie culturelle",
+  "type": "Short dialogue",
+  "level": "Intermediate",
+  "minutes": 10,
+  "topics": [
+   "B1 Unit by Unit",
+   "Unit 5: Culture and Leisure"
+  ],
+  "description": "Ask for information about an exhibition or a concert, with indirect questions.",
+  "objectives": [
+   "Ask indirect questions: Je voudrais savoir si…, Pouvez-vous me dire quand…",
+   "Use tarif réduit, visite guidée and réserver des places",
+   "Understand opening hours",
+   "Book tickets"
+  ],
+  "art": {
+   "emoji": "🖼️"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b1-unit-by-unit",
+  "number": 20,
+  "id": "passions-and-interests",
+  "title": "Passions and Interests",
+  "fr": "Mes passions",
+  "type": "Short dialogue",
+  "level": "Intermediate",
+  "minutes": 10,
+  "topics": [
+   "B1 Unit by Unit",
+   "Unit 5: Culture and Leisure"
+  ],
+  "description": "Talk about what you are passionate about and how you got into it.",
+  "objectives": [
+   "Use s'intéresser à, être passionné de, se passionner pour",
+   "Use depuis que and depuis + duration for interests",
+   "Use à qui, avec qui, pour qui, chez qui",
+   "Explain how you discovered something"
+  ],
+  "art": {
+   "emoji": "🎨"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b1-unit-by-unit",
+  "number": 21,
+  "id": "everyday-ecology",
+  "title": "Everyday Ecology",
+  "fr": "Les gestes écologiques",
+  "type": "Short dialogue",
+  "level": "Intermediate",
+  "minutes": 10,
+  "topics": [
+   "B1 Unit by Unit",
+   "Unit 6: Environment and Society"
+  ],
+  "description": "Talk about everyday environmental actions and give advice.",
+  "objectives": [
+   "Use trier, recycler, gaspiller, économiser",
+   "Use pour que and afin que + subjunctive",
+   "Use éviter de and penser à",
+   "Compare habits"
+  ],
+  "art": {
+   "emoji": "♻️"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b1-unit-by-unit",
+  "number": 22,
+  "id": "causes-and-consequences",
+  "title": "Causes and Consequences",
+  "fr": "Cause et conséquence",
+  "type": "Short dialogue",
+  "level": "Intermediate",
+  "minutes": 10,
+  "topics": [
+   "B1 Unit by Unit",
+   "Unit 6: Environment and Society"
+  ],
+  "description": "Explain why something happens and what follows, with a range of connectors.",
+  "objectives": [
+   "Use parce que, car, puisque, comme for causes",
+   "Use donc, c'est pourquoi, si bien que, tellement… que for consequences",
+   "Distinguish à cause de and grâce à",
+   "Explain a local problem"
+  ],
+  "art": {
+   "emoji": "⚖️"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b1-unit-by-unit",
+  "number": 23,
+  "id": "taking-part-in-the-community",
+  "title": "Taking Part in the Community",
+  "fr": "S'engager",
+  "type": "Short dialogue",
+  "level": "Intermediate",
+  "minutes": 10,
+  "topics": [
+   "B1 Unit by Unit",
+   "Unit 6: Environment and Society"
+  ],
+  "description": "Talk about volunteering and local associations and use demonstrative pronouns.",
+  "objectives": [
+   "Use bénévole, association, s'engager, organiser",
+   "Use celui, celle, ceux, celles + qui / que / de",
+   "Explain why you volunteer",
+   "Invite others to take part"
+  ],
+  "art": {
+   "emoji": "🤲"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b1-unit-by-unit",
+  "number": 24,
+  "id": "debating-a-local-project",
+  "title": "Debating a Local Project",
+  "fr": "Un projet pour le quartier",
+  "type": "Short dialogue",
+  "level": "Intermediate",
+  "minutes": 10,
+  "topics": [
+   "B1 Unit by Unit",
+   "Unit 6: Environment and Society"
+  ],
+  "description": "Discuss a local project and give opinions with the subjunctive and concessions.",
+  "objectives": [
+   "Use je ne pense pas que + subjunctive",
+   "Use bien que and même si",
+   "Use je suis pour / contre",
+   "Give pros and cons"
+  ],
+  "art": {
+   "emoji": "🏗️"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b1-unit-by-unit",
+  "number": 25,
+  "id": "online-life",
+  "title": "Online Life",
+  "fr": "La vie en ligne",
+  "type": "Short dialogue",
+  "level": "Intermediate",
+  "minutes": 10,
+  "topics": [
+   "B1 Unit by Unit",
+   "Unit 7: Technology and Media"
+  ],
+  "description": "Talk about how you use the internet, apps and social media.",
+  "objectives": [
+   "Use se connecter, télécharger, mettre à jour, s'abonner",
+   "Use passer du temps à + infinitive",
+   "Talk about screen time and habits",
+   "Compare online and offline life"
+  ],
+  "art": {
+   "emoji": "💻"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b1-unit-by-unit",
+  "number": 26,
+  "id": "reported-speech",
+  "title": "Reporting What Was Said",
+  "fr": "Raconter ce qu'on a dit",
+  "type": "Short dialogue",
+  "level": "Intermediate",
+  "minutes": 10,
+  "topics": [
+   "B1 Unit by Unit",
+   "Unit 7: Technology and Media"
+  ],
+  "description": "Report what someone said or asked, with the right tense changes.",
+  "objectives": [
+   "Use dire que, demander si, demander de",
+   "Change the tense after a past reporting verb",
+   "Change pronouns and time expressions",
+   "Report orders and questions"
+  ],
+  "art": {
+   "emoji": "🗣️"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b1-unit-by-unit",
+  "number": 27,
+  "id": "fake-news-and-trust",
+  "title": "Trusting Information",
+  "fr": "Peut-on y croire ?",
+  "type": "Short dialogue",
+  "level": "Intermediate",
+  "minutes": 10,
+  "topics": [
+   "B1 Unit by Unit",
+   "Unit 7: Technology and Media"
+  ],
+  "description": "Talk about how reliable information is and express doubt and probability.",
+  "objectives": [
+   "Use peut-être que, probablement, sans doute",
+   "Use il se peut que, il est possible que, je doute que + subjunctive",
+   "Ask about sources",
+   "Express certainty and doubt"
+  ],
+  "art": {
+   "emoji": "🧐"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b1-unit-by-unit",
+  "number": 28,
+  "id": "tech-support",
+  "title": "Calling Tech Support",
+  "fr": "Assistance technique",
+  "type": "Short dialogue",
+  "level": "Intermediate",
+  "minutes": 10,
+  "topics": [
+   "B1 Unit by Unit",
+   "Unit 7: Technology and Media"
+  ],
+  "description": "Describe a technical problem and follow instructions from support.",
+  "objectives": [
+   "Describe what stopped working with ne… plus, ne… rien, ne… jamais, ne… personne",
+   "Follow instructions with il faut que vous + subjunctive",
+   "Use the imperative with pronouns",
+   "Ask for help"
+  ],
+  "art": {
+   "emoji": "🛠️"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b1-unit-by-unit",
+  "number": 29,
+  "id": "a-professional-email",
+  "title": "A Professional E-mail",
+  "fr": "Un e-mail professionnel",
+  "type": "Short dialogue",
+  "level": "Intermediate",
+  "minutes": 10,
+  "topics": [
+   "B1 Unit by Unit",
+   "Unit 8: Work and Careers"
+  ],
+  "description": "Write a clear professional e-mail with the right tone.",
+  "objectives": [
+   "Use suite à, je vous remercie de, n'hésitez pas à",
+   "Structure a professional e-mail",
+   "Use en pièce jointe and afin de",
+   "Close politely"
+  ],
+  "art": {
+   "emoji": "📧"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b1-unit-by-unit",
+  "number": 30,
+  "id": "leading-a-meeting",
+  "title": "Leading a Meeting",
+  "fr": "Diriger une réunion",
+  "type": "Short dialogue",
+  "level": "Intermediate",
+  "minutes": 10,
+  "topics": [
+   "B1 Unit by Unit",
+   "Unit 8: Work and Careers"
+  ],
+  "description": "Open and run a short meeting with an agenda and proposals.",
+  "objectives": [
+   "Use l'ordre du jour, prendre la parole, passer au point suivant",
+   "Propose with on pourrait + infinitive and je propose que + subjunctive",
+   "Ask for opinions and agree or disagree",
+   "Conclude a meeting"
+  ],
+  "art": {
+   "emoji": "👥"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b1-unit-by-unit",
+  "number": 31,
+  "id": "deadlines-and-planning",
+  "title": "Deadlines and Planning",
+  "fr": "Les délais",
+  "type": "Short dialogue",
+  "level": "Intermediate",
+  "minutes": 10,
+  "topics": [
+   "B1 Unit by Unit",
+   "Unit 8: Work and Careers"
+  ],
+  "description": "Talk about what will be done by a given time, with the futur antérieur.",
+  "objectives": [
+   "Form the futur antérieur",
+   "Use quand, dès que and après que + futur antérieur",
+   "Use d'ici + date and avant que",
+   "Plan a project timeline"
+  ],
+  "art": {
+   "emoji": "⏰"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b1-unit-by-unit",
+  "number": 32,
+  "id": "negotiating-conditions",
+  "title": "Negotiating Conditions",
+  "fr": "Négocier ses conditions",
+  "type": "Short dialogue",
+  "level": "Intermediate",
+  "minutes": 10,
+  "topics": [
+   "B1 Unit by Unit",
+   "Unit 8: Work and Careers"
+  ],
+  "description": "Negotiate working conditions with conditional structures: au cas où, à moins que, sauf si.",
+  "objectives": [
+   "Use au cas où + conditionnel",
+   "Use à moins que + subjunctive and sauf si + present",
+   "Ask for flexible conditions",
+   "Present your arguments politely"
+  ],
+  "art": {
+   "emoji": "🤝"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b1-unit-by-unit",
+  "number": 33,
+  "id": "structuring-an-argument",
+  "title": "Structuring an Argument",
+  "fr": "Construire un argument",
+  "type": "Short dialogue",
+  "level": "Intermediate",
+  "minutes": 10,
+  "topics": [
+   "B1 Unit by Unit",
+   "Unit 9: Debating Ideas"
+  ],
+  "description": "Organise an argument with clear steps and linking words.",
+  "objectives": [
+   "Use d'abord, ensuite, enfin to order points",
+   "Use d'une part… d'autre part, non seulement… mais aussi",
+   "Use en effet and c'est pourquoi",
+   "Open and close an argument"
+  ],
+  "art": {
+   "emoji": "🏗️"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b1-unit-by-unit",
+  "number": 34,
+  "id": "giving-examples-and-evidence",
+  "title": "Giving Examples and Evidence",
+  "fr": "Illustrer ses idées",
+  "type": "Short dialogue",
+  "level": "Intermediate",
+  "minutes": 10,
+  "topics": [
+   "B1 Unit by Unit",
+   "Unit 9: Debating Ideas"
+  ],
+  "description": "Support an argument with examples, figures and sources.",
+  "objectives": [
+   "Use par exemple, notamment, c'est le cas de",
+   "Use selon une étude, d'après les chiffres",
+   "Use ce qui montre que and il ressort que",
+   "Introduce evidence clearly"
+  ],
+  "art": {
+   "emoji": "📈"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b1-unit-by-unit",
+  "number": 35,
+  "id": "conceding-and-contrasting",
+  "title": "Conceding and Contrasting",
+  "fr": "Nuancer son avis",
+  "type": "Short dialogue",
+  "level": "Intermediate",
+  "minutes": 10,
+  "topics": [
+   "B1 Unit by Unit",
+   "Unit 9: Debating Ideas"
+  ],
+  "description": "Concede a point and contrast ideas with alors que, tandis que, au contraire and pourtant.",
+  "objectives": [
+   "Use certes… mais, il est vrai que… mais",
+   "Use alors que and tandis que for contrast",
+   "Use au contraire, pourtant, cependant",
+   "Use plutôt que and au lieu de"
+  ],
+  "art": {
+   "emoji": "⚖️"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b1-unit-by-unit",
+  "number": 36,
+  "id": "summing-up",
+  "title": "Summing Up",
+  "fr": "Conclure",
+  "type": "Short dialogue",
+  "level": "Intermediate",
+  "minutes": 10,
+  "topics": [
+   "B1 Unit by Unit",
+   "Unit 9: Debating Ideas"
+  ],
+  "description": "Conclude a discussion clearly and make a recommendation.",
+  "objectives": [
+   "Use en résumé, pour conclure, en fin de compte",
+   "Use il en résulte que, j'en conclus que",
+   "Use il faudrait que + subjunctive for recommendations",
+   "Summarise in one sentence"
+  ],
+  "art": {
+   "emoji": "🧾"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b1-unit-by-unit",
+  "number": 37,
+  "id": "regrets-and-what-if",
+  "title": "Regrets and What-Ifs",
+  "fr": "Si j'avais su…",
+  "type": "Short dialogue",
+  "level": "Intermediate",
+  "minutes": 10,
+  "topics": [
+   "B1 Unit by Unit",
+   "Unit 10: Looking Forward"
+  ],
+  "description": "Talk about regrets and unreal past situations with the past conditional.",
+  "objectives": [
+   "Form the conditionnel passé",
+   "Say j'aurais dû, j'aurais voulu, j'aurais pu",
+   "Use si + plus-que-parfait + conditionnel passé",
+   "Talk about what might have been"
+  ],
+  "art": {
+   "emoji": "🕰️"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b1-unit-by-unit",
+  "number": 38,
+  "id": "wishes-and-hopes",
+  "title": "Wishes and Hopes",
+  "fr": "Souhaits et espoirs",
+  "type": "Short dialogue",
+  "level": "Intermediate",
+  "minutes": 10,
+  "topics": [
+   "B1 Unit by Unit",
+   "Unit 10: Looking Forward"
+  ],
+  "description": "Express wishes and hopes with souhaiter que, espérer que and pourvu que.",
+  "objectives": [
+   "Use souhaiter que and j'aimerais que + subjunctive",
+   "Use espérer que + indicative",
+   "Use pourvu que + subjunctive",
+   "Wish someone well"
+  ],
+  "art": {
+   "emoji": "🌟"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b1-unit-by-unit",
+  "number": 39,
+  "id": "making-big-plans",
+  "title": "Making Big Plans",
+  "fr": "Mes grands projets",
+  "type": "Short dialogue",
+  "level": "Intermediate",
+  "minutes": 10,
+  "topics": [
+   "B1 Unit by Unit",
+   "Unit 10: Looking Forward"
+  ],
+  "description": "Describe long-term plans and what will have happened by then.",
+  "objectives": [
+   "Combine futur simple, futur antérieur and conditionnel",
+   "Use dans dix ans and d'ici là",
+   "Describe plans and alternatives",
+   "Use si tout se passe bien"
+  ],
+  "art": {
+   "emoji": "🚀"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b1-unit-by-unit",
+  "number": 40,
+  "id": "looking-back-on-b1",
+  "title": "Looking Back on B1",
+  "fr": "Bilan du niveau B1",
+  "type": "Short dialogue",
+  "level": "Intermediate",
+  "minutes": 10,
+  "topics": [
+   "B1 Unit by Unit",
+   "Unit 10: Looking Forward"
+  ],
+  "description": "Review everything you have learned at B1 and tell your own story using all the tenses.",
+  "objectives": [
+   "Combine past, present, future, conditional and subjunctive in one story",
+   "Say what you have learned",
+   "Use ce que j'ai appris, ce dont je suis fier",
+   "Congratulate and say goodbye"
+  ],
+  "art": {
+   "emoji": "🎓"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
  }
 ];
