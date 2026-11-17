@@ -4,13 +4,16 @@
 
 const escH = (s) => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
-export function lockPanelHTML({ course, courseTitle, price, payUrl, site, heading = "This is a premium lesson", intro = "" }) {
+export function lockPanelHTML({ course, courseTitle, price, payUrl, site, heading = "This is a premium lesson", intro = "", includes = [], extraHTML = "" }) {
   const prefix = site === "tiny-french" ? "TF" : "TJ";
   return `<section class="pm-box block" data-pm data-course="${escH(course)}" aria-labelledby="pm-h-${escH(course)}">
  <h2 id="pm-h-${escH(course)}">${escH(heading)}</h2>
  ${intro ? `<p>${escH(intro)}</p>` : ""}
+ ${includes.length ? `<p class="pm-incl-h"><strong>What the full course includes</strong></p><ul class="pm-includes">${includes.map((i) => `<li>${escH(i)}</li>`).join("")}</ul>` : ""}
  <p class="pm-price"><strong>${escH(price)}</strong> · one-time payment for <em>${escH(courseTitle)}</em>, no subscription</p>
- <p class="pm-actions"><a class="btn" href="${escH(payUrl)}" target="_blank" rel="noopener">Buy this course (${escH(price)})</a></p>
+ <p class="pm-actions"><a class="btn fn-buy" data-buy data-course="${escH(course)}" href="${escH(payUrl)}" target="_blank" rel="noopener">Buy this course (${escH(price)})</a></p>
+ <p class="pm-have"><a href="#pm-code-${escH(course)}">Already bought? Enter your code</a></p>
+ ${extraHTML}
  <form class="pm-form" data-unlock>
   <label for="pm-code-${escH(course)}">Already have an access code?</label>
   <div class="pm-row"><input id="pm-code-${escH(course)}" name="code" type="text" placeholder="${prefix}-XXXX-XXXX-XXXX" autocomplete="off" autocapitalize="characters" spellcheck="false" required><button class="btn" type="submit">Unlock</button></div>

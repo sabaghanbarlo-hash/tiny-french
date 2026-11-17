@@ -107,6 +107,35 @@ const allTypes = [...new Set(lessons.map((l) => l.type))];
 const newest = [...lessons].sort((a, b) => b.number - a.number).slice(0, 3);
 const featured = lessons.filter((l) => [1, 2, 3, 4].includes(l.number));
 
+// ---------- funnel: hero product, e-mail sign-up, paywall extras (config in data/site.js) ----------
+const isPh = (u) => !u || /^\s*\[[A-Za-z0-9_ ]+\]\s*$/.test(String(u));
+// Checkout link for a course: its own or the configured one; a missing or [PLACEHOLDER] link falls back to the existing pay link so Buy buttons never break.
+const buyUrl = (c) => { const u = c.checkoutUrl || SITE.checkout?.urls?.[c.id]; return isPh(u) ? SITE.premium.payUrl : u; };
+const contactEmail = isPh(SITE.email) ? "" : SITE.email;
+const refundHTML = () => `<p class="fn-refund">${esc(SITE.refundPolicy)} <a href="${U("/about/#refunds")}">Details</a></p>`;
+const signupHTML = (where, course = "site") => `<form class="fn-signup" data-signup data-course="${esc(course)}" data-lead="${esc(U(SITE.leadMagnet.path))}" data-lead-title="${esc(SITE.leadMagnet.title)}" action="${esc(SITE.newsletter.formAction)}" method="post">
+ <p class="fn-signup-h"><strong>Get the ${esc(SITE.leadMagnet.title)} and new lessons by email</strong></p>
+ <p class="fn-note">No spam. Unsubscribe any time.</p>
+ <div class="fn-row"><label class="fn-sr" for="fn-e-${esc(where)}">Your email</label><input id="fn-e-${esc(where)}" name="${esc(SITE.newsletter.emailField)}" type="email" required autocomplete="email" placeholder="you@example.com"><button class="btn" type="submit">Send it to me</button></div>
+ <p class="pm-msg" data-msg role="status" aria-live="polite"></p>
+</form>`;
+const heroCourse = courses.find((c) => c.id === SITE.checkout.heroCourse);
+// The hero product (Tiny 1000): one big Buy button.
+const heroHTML = (where) => `<section class="fn-hero" aria-labelledby="fn-h-${esc(where)}">
+ <p class="fn-kicker">Free preview + full course</p>
+ <h2 id="fn-h-${esc(where)}">${esc(heroCourse.title)}</h2>
+ <p>${esc(heroCourse.summary.split(". ")[0])}.</p>
+ <p class="fn-free">Try the first ${heroCourse.freeLessons ?? FREE} lessons free. Unlock the full course with a one-time payment.</p>
+ <p class="fn-price"><strong>${money(heroCourse)}</strong> one-time, no subscription</p>
+ <p class="fn-actions"><a class="btn big fn-big fn-buy" data-buy data-course="${esc(heroCourse.id)}" href="${esc(buyUrl(heroCourse))}" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">Get ${esc(heroCourse.title)} (${money(heroCourse)})</a></p>
+ <p class="fn-code"><a href="${U(`/courses/${heroCourse.id}/#pm-code-${heroCourse.id}`)}">Already bought? Enter your code</a></p>
+ ${refundHTML()}
+</section>`;
+// Shown at the end of every free lesson: the hero product, then the e-mail sign-up.
+const funnelEnd = (where = "end") => `<div class="fn-end">${heroHTML(where)}${signupHTML(where)}</div>`;
+// Extra paywall content: what the course includes, refund line, e-mail sign-up.
+const paywallExtras = (c, where) => ({ includes: [`${c.lessonList.length} lessons${c.lessonList.some((l) => l.video) ? " with videos and quizzes" : " with dialogues, vocabulary and quizzes"}`, ...c.outcomes.slice(0, 3)], extraHTML: `${refundHTML()}\n${signupHTML(where, c.id)}` });
+
 // ---------- layout ----------
 const NAV = [["home", "/", "Home"], ["courses", "/courses/", "Courses"], ["lessons", "/lessons/", "Lessons"], ["about", "/about/", "About"]];
 const igIcon = `<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>`;
@@ -148,6 +177,7 @@ ${canon}
 <link rel="stylesheet" href="${U("/assets/css/style.css")}?v=${ver("assets/css/style.css")}">
 <link rel="preload" href="${U("/assets/fonts/caveat-brush.woff2")}" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="${U("/assets/css/v2.css")}?v=${ver("assets/css/v2.css")}">
+<link rel="stylesheet" href="${U("/assets/css/funnel.css")}?v=${ver("assets/css/funnel.css")}">
 <script>document.documentElement.classList.add("js");window.TF={base:${J(BASE)},ig:${J(IG)}}</script>
 <script defer src="${U("/assets/js/app.js")}?v=${ver("assets/js/app.js")}"></script>
 <script type="module" src="${U("/assets/js/auth.js")}?v=${ver("assets/js/auth.js")}"></script>
@@ -176,7 +206,7 @@ ${ld}
   <nav class="foot-nav" aria-label="Footer">${NAV.map(([k, h, t]) => `<a href="${U(h)}">${t}</a>`).join("")}</nav>
   <div class="foot-social">${YT ? `<a href="${YT}" target="_blank" rel="noopener" aria-label="Tiny French on YouTube">${ytIcon}</a>` : ""}${IG ? `<a href="${IG}" target="_blank" rel="noopener" aria-label="Tiny French on Instagram">${igIcon}</a>` : ""}</div>
  </div>
- <ul class="foot-more"><li><a href="${U("/start/")}">Start learning</a></li><li><a href="${U("/vocabulary/")}">Vocabulary</a></li><li><a href="${U("/quizzes/")}">Quizzes</a></li><li><a href="${U("/revise/")}">My revision</a></li><li><a href="${U("/resources/")}">Free resources</a></li></ul>
+ <ul class="foot-more"><li><a href="${U("/start/")}">Start learning</a></li><li><a href="${U("/vocabulary/")}">Vocabulary</a></li><li><a href="${U("/quizzes/")}">Quizzes</a></li><li><a href="${U("/revise/")}">My revision</a></li><li><a href="${U("/resources/")}">Free resources</a></li><li><a href="${U("/about/#contact")}">Contact</a></li><li><a href="${U("/about/#refunds")}">Refund policy</a></li>${contactEmail ? `<li><a href="mailto:${esc(contactEmail)}">${esc(contactEmail)}</a></li>` : ""}</ul>
  <p class="foot-copy">&copy; ${new Date().getFullYear()} Tiny French. All rights reserved. <span class="foot-heart" aria-hidden="true">&hearts;</span></p>
  <p class="foot-note">Your progress is saved in this browser only, even if you have an account, so it will not follow you to another device.</p>
 </footer>
@@ -205,9 +235,7 @@ const lessonCard = (l) => `<article class="card lesson-card" data-id="${l.id}" d
 const homeArt = art;
 const homeLessonCard = (l) => `<article class="card lesson-card home-lesson-card"><a class="card-art" href="${U(l.url)}" tabindex="-1" aria-hidden="true">${homeArt(l)}</a><div class="card-body"><span class="chip ep">Lesson ${l.number}</span><h3><a href="${U(l.url)}">${esc(l.title)}</a></h3><p class="home-card-desc">${esc(l.description)}</p></div></article>`;
 const sayBtn = (t, label = "Listen") => `<button type="button" class="icon-btn say" data-say="${esc(t)}" aria-label="${label}: ${esc(t)}" hidden>🔊</button>`;
-const newsletter = () => SITE.newsletter.formAction
-  ? `<form class="newsletter card" action="${esc(SITE.newsletter.formAction)}" method="post"><h3>Get new lessons by e-mail</h3><label for="nl-email">Your e-mail</label><div class="row"><input id="nl-email" type="email" name="${esc(SITE.newsletter.emailField)}" required autocomplete="email"><button class="btn" type="submit">Subscribe</button></div></form>`
-  : "";
+const newsletter = () => signupHTML("res");
 const share = (title) => `<div class="share" data-title="${esc(title)}"><h2 class="h-small">Share this lesson</h2><div class="row">
  <button type="button" class="btn ghost small" data-share-native hidden>Share…</button>
  <button type="button" class="btn ghost small" data-copy>Copy link</button>
@@ -248,6 +276,7 @@ function roadmapHTML() {
  <div class="feat"><span class="feat-ic purple" aria-hidden="true"><svg viewBox="0 0 32 32" fill="currentColor"><circle cx="16" cy="10" r="4"/><circle cx="7.500" cy="12" r="3"/><circle cx="24.500" cy="12" r="3"/><path d="M9.500 26v-2.500c0-3.600 2.900-6.500 6.500-6.500s6.500 2.900 6.500 6.500V26zM2.500 24v-1.500c0-2.500 2-4.500 4.500-4.500 1 0 1.900.3 2.600.9-1.300 1.300-2.100 3.100-2.100 5.100V24zM29.500 24v-1.500c0-2.500-2-4.500-4.500-4.500-1 0-1.900.3-2.600.9 1.300 1.300 2.100 3.100 2.100 5.100V24z"/></svg></span><div><h2>Beginner Friendly</h2><p>Start from zero,<br>grow at your own pace.</p></div></div>
  <div class="feat"><span class="feat-ic green" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2.600" stroke-linejoin="round"><path d="M16 27C6 20 4 14.500 4 11.200 4 7.600 6.700 5 10 5c2.500 0 4.700 1.400 6 3.600C17.300 6.400 19.500 5 22 5c3.300 0 6 2.600 6 6.200 0 3.300-2 8.800-12 15.800z"/></svg></span><div><h2>Meet New Friends</h2><p>Join a supportive<br>learning community.</p></div></div>
 ${SPARK}</div></section>
+<section class="fn-home wrap" aria-label="Start here">${heroHTML("home")}${signupHTML("home")}</section>
 <section class="popular" aria-labelledby="pop-h"><div class="pop-in">
  <div class="pop-head"><h2 id="pop-h">${EIFFEL}<span class="d-title">Popular <span class="brush">Lessons</span></span></h2><a class="pop-more" href="${U("/lessons/")}">View All Lessons <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.600" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
  <div class="pl-grid">${featured.map(homeCard).join("")}</div>
@@ -317,7 +346,7 @@ function renderLesson(l, X) {
  <section class="block complete" aria-labelledby="c-h"><h2 id="c-h">Finished?</h2><p>Mark this lesson as complete to track your progress. It is saved in this browser only.</p><button type="button" class="btn big" data-complete aria-pressed="false">Mark lesson as complete</button><p class="small muted" role="status" data-complete-msg></p></section>
  ${share(l.title)}`;
   const cc = courses.find((x) => x.id === l.course);
-  const lockSlot = l.premium && cc ? `<div id="premium-slot" data-premium-lesson>${lockPanelHTML({ course: l.course, courseTitle: cc.title, price: money(cc), payUrl: SITE.premium.payUrl, site: "tiny-french", heading: "This lesson is part of the full course", intro: `The first ${cc.freeLessons ?? FREE} lessons of each course are free. Unlock ${cc.title} to watch this lesson, practise the quiz and keep going.` })}</div>` : "";
+  const lockSlot = l.premium && cc ? `<div id="premium-slot" data-premium-lesson>${lockPanelHTML({ course: l.course, courseTitle: cc.title, price: money(cc), payUrl: buyUrl(cc), site: "tiny-french", ...paywallExtras(cc, `pw-${cc.id}`), heading: "This lesson is part of the full course", intro: `The first ${cc.freeLessons ?? FREE} lessons of each course are free. Unlock ${cc.title} to watch this lesson, practise the quiz and keep going.` })}</div>` : "";
   if (EXPORT && l.premium && l.dialogue) { fs.mkdirSync(EXPORT, { recursive: true }); fs.writeFileSync(path.join(EXPORT, `${l.course}__${l.id}.json`), JSON.stringify({ course: l.course, lesson: l.id, payload: { html: inner } })); }
   const body = `<article class="wrap lesson" ${l.locked ? `data-locked-lesson="${l.id}"` : `data-lesson="${l.id}"`}>
  ${breadcrumb(X.crumbs)}
@@ -328,6 +357,7 @@ function renderLesson(l, X) {
   ${ig}
  </header>
  ${l.locked ? lockSlot : inner}
+ ${l.premium ? "" : funnelEnd()}
  <nav class="prevnext" aria-label="Lesson navigation">${prev ? `<a class="pn prev" href="${U(prev.url)}"><span>← Previous</span><b>${esc(prev.title)}</b></a>` : "<span></span>"}${next ? `<a class="pn next" href="${U(next.url)}"><span>Next →</span><b>${esc(next.title)}</b></a>` : `<a class="pn next" href="${U(X.more[0])}"><span>More →</span><b>${esc(X.more[1])}</b></a>`}</nav>
  ${rel.length ? `<section class="block" aria-labelledby="r-h"><h2 id="r-h">Related lessons</h2><div class="grid3">${rel.map(lessonCard).join("")}</div></section>` : ""}
 </article>`;
@@ -397,10 +427,14 @@ add("/about/", page({
   jsonld: [crumbs([["Home", "/"], ["About", "/about/"]]), orgLd],
   body: `<div class="wrap narrow page-head"><h1>About Tiny French</h1><p class="lead">French, one tiny story at a time.</p></div>
 <div class="wrap narrow prose">
- <h2>What is Tiny French?</h2><p>Tiny French is a free place to learn beginner French through short, friendly conversations. Instead of starting with long grammar tables, you listen to real phrases first, then see why they work.</p>
+ <h2>What is Tiny French?</h2><p>Tiny French is a friendly place to learn beginner French through short conversations. The core lessons are free, every course starts with a free preview, and the full courses are one-time purchases with no subscription. Instead of starting with long grammar tables, you listen to real phrases first, then see why they work.</p>
  <h2>Meet Adrien and Marinette</h2><p>Adrien and Marinette are two cheerful friends who walk you through every lesson. They order croissants, meet in cafés and explore Paris, so every new word comes with a little story to remember it by.</p>
  <h2>Our beginner-first approach</h2><ul><li>Start with real phrases you can use today.</li><li>Always show French with the English translation beneath it.</li><li>Keep lessons short enough to finish.</li><li>Explain grammar only when a lesson needs it, in plain English.</li><li>Practise straight away with quizzes and revision.</li></ul>
  <h2>Website and social media</h2><p>Lessons usually begin life as short videos on social media. This website is the full classroom: the complete dialogue, vocabulary with pronunciation help, grammar notes and a quiz for each lesson.${IG ? ` Follow <a href="${IG}" target="_blank" rel="noopener">${esc(SITE.instagramHandle)}</a> on Instagram to see new videos first.` : ""}${YT ? ` You can also watch every video on <a href="${YT}" target="_blank" rel="noopener">our YouTube channel</a>.` : ""}</p>${socialRow()}
+ <h2 id="contact">Contact</h2><p>${contactEmail ? `Questions, corrections, help with an access code? Email <a href="mailto:${esc(contactEmail)}">${esc(contactEmail)}</a>.` : "Questions, corrections or help with an access code? Message us on Instagram or YouTube."}</p>
+ <h2 id="refunds">Refund policy</h2>
+ <!-- [CONFIRM_REFUND_POLICY]: confirm this wording, and keep it in step with SITE.refundPolicy in data/site.js -->
+ <p>If a course isn't right for you, email us within 30 days of buying and we'll refund you in full. Please include the email address you paid with.</p>
  <p><a class="btn" href="${U("/lessons/")}">Browse the lessons</a></p>
 </div>`
 }));
@@ -453,12 +487,14 @@ add("/courses/", page({
  <div class="feat"><span class="feat-ic pink" aria-hidden="true"><svg viewBox="0 0 32 32" fill="currentColor"><path d="M16 27.500C6 20.500 4 15 4 11.700 4 8.100 6.700 5.500 10 5.500c2.500 0 4.700 1.400 6 3.600 1.300-2.200 3.500-3.600 6-3.600 3.300 0 6 2.600 6 6.200 0 3.300-2 8.800-12 15.800z"/></svg></span><div><h2>Fun &amp; Engaging</h2><p>Learn with cute stories!</p></div></div>
  <div class="feat"><span class="feat-ic purple" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2.400" stroke-linecap="round"><circle cx="16" cy="16" r="11"/><ellipse cx="16" cy="16" rx="4.500" ry="11"/><path d="M5 12.500h22M5 19.500h22"/></svg></span><div><h2>Learn Anywhere</h2><p>On any device!</p></div></div>
 ${SPARK2}</div></section>
+<section class="fn-courses-hero wrap" aria-label="Start here">${heroHTML("courses")}</section>
 <section class="courses-main" aria-labelledby="all-courses-h"><div class="cm-in">
+ <details class="fn-more" id="more-paid-courses"><summary>More courses</summary>
  <div class="cm-head"><h2 id="all-courses-h">${flowerIc}<span class="d-title"><span class="brush">All Courses</span></span></h2>
   <label class="sort"><span class="sr">Sort courses</span><select id="course-sort"><option value="pop">Sort by: Popularity</option><option value="az">Sort by: A to Z</option><option value="lessons">Sort by: Most lessons</option><option value="free">Sort by: Free first</option></select></label></div>
- <div class="cc-grid" id="course-grid">${courses.map(courseCardV2).join("")}</div>
+ <div class="cc-grid" id="course-grid">${courses.filter((c) => c.id !== SITE.checkout.heroCourse).map(courseCardV2).join("")}</div>
  <p class="cc-more"><button type="button" class="more-btn" id="more-btn">Load More Courses <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg></button></p>
- <section class="cc-soon" id="more-courses" aria-labelledby="soon-h" hidden><h2 id="soon-h" class="d-title">Coming later</h2><div class="soon-grid">${futureProducts.map((p) => `<div class="soon-card"><span class="soon-chip">Coming later</span><h3>${esc(p.title)}</h3><p>${esc(p.text)}</p></div>`).join("")}</div></section>
+ <section class="cc-soon" id="more-courses" aria-labelledby="soon-h" hidden><h2 id="soon-h" class="d-title">Coming later</h2><div class="soon-grid">${futureProducts.map((p) => `<div class="soon-card"><span class="soon-chip">Coming later</span><h3>${esc(p.title)}</h3><p>${esc(p.text)}</p></div>`).join("")}</div></section></details>
 </div></section>
 <script>(function(){var s=document.getElementById("course-sort"),g=document.getElementById("course-grid");if(s&&g){var all=[].slice.call(g.children);s.addEventListener("change",function(){var v=s.value,a=all.slice();if(v==="az")a.sort(function(x,y){return x.dataset.title.localeCompare(y.dataset.title)});else if(v==="lessons")a.sort(function(x,y){return y.dataset.count-x.dataset.count||x.dataset.i-y.dataset.i});else if(v==="free")a.sort(function(x,y){return y.dataset.free-x.dataset.free||x.dataset.i-y.dataset.i});else a.sort(function(x,y){return x.dataset.i-y.dataset.i});a.forEach(function(c){g.appendChild(c)})})}var m=document.getElementById("more-btn"),d=document.getElementById("more-courses");if(m&&d)m.addEventListener("click",function(){d.hidden=false;m.hidden=true;d.scrollIntoView({behavior:"smooth",block:"nearest"})})})();</script>`
 }));
@@ -469,7 +505,7 @@ for (const c of courses) {
     jsonld: [crumbs([["Home", "/"], ["Courses", "/courses/"], [c.title, `/courses/${c.id}/`]]), ...(c.status === "available" ? [{ "@type": "Course", name: c.title, description: c.summary, provider: orgLd, isAccessibleForFree: !c.premium }] : [])],
     body: `<div class="wrap narrow">${breadcrumb([["Home", "/"], ["Courses", "/courses/"], [c.title, `/courses/${c.id}/`]])}
  <header class="page-head"><div class="chips"><span class="chip ${c.free ? "ok2" : ""}">${c.free ? "Free" : c.premium ? "Free preview + premium" : "Paid"}</span><span class="chip st-${c.status === "available" ? "available" : "planned"}">${c.status === "available" ? "Available now" : "In planning — not for sale yet"}</span><span class="chip">${esc(c.level)}</span></div><h1>${esc(c.title)}</h1><p class="lead">${esc(c.summary)}</p><p class="price">${priceLabel(c)}</p>${cta ? `<p><a class="btn big" href="${esc(cta.href)}"${cta.ext ? ' target="_blank" rel="noopener"' : ""}>${esc(cta.label)}</a></p>` : ""}</header>
- ${c.premium ? `<div data-pm-panel>${lockPanelHTML({ course: c.id, courseTitle: c.title, price: money(c), payUrl: SITE.premium.payUrl, site: "tiny-french", heading: "Unlock the full course", intro: `The first ${c.freeLessons ?? FREE} lessons are free to try. The full course adds ${c.lessonList.length - (c.freeLessons ?? FREE)} more lessons with long videos, vocabulary, grammar and quizzes.` })}<p class="pm-unlocked" data-pm-unlocked hidden><span class="pm-unlocked-tag">✓ Premium unlocked</span> All lessons are open on this device.</p></div>` : ""}
+ ${c.premium ? `<div data-pm-panel>${lockPanelHTML({ course: c.id, courseTitle: c.title, price: money(c), payUrl: buyUrl(c), site: "tiny-french", ...paywallExtras(c, `ov-${c.id}`), heading: "Unlock the full course", intro: `The first ${c.freeLessons ?? FREE} lessons are free to try. The full course adds ${c.lessonList.length - (c.freeLessons ?? FREE)} more lessons with long videos, vocabulary, grammar and quizzes.` })}<p class="pm-unlocked" data-pm-unlocked hidden><span class="pm-unlocked-tag">✓ Premium unlocked</span> All lessons are open on this device.</p></div>` : ""}
  ${courseArt(c, "art-wide big")}
  <section class="block"><h2>What you will be able to do</h2><ul>${c.outcomes.map((o) => `<li>${esc(o)}</li>`).join("")}</ul></section>
  ${c.lessonList.length ? `<section class="block"><h2>Lessons</h2><ol class="modules course-lessons">${c.lessonList.map((l) => `<li><a href="${U(l.url)}"><b>${l.number}. ${esc(l.title)}</b></a>${l.premium ? ' <span class="pm-lock-tag">Premium</span>' : ""} <span class="chip">⏱ ${l.minutes} min</span><p class="small muted">${esc(l.description)}</p></li>`).join("")}</ol></section>` : ""}
@@ -482,9 +518,25 @@ const printable = (title, intro, inner, p) => page({ title, desc: intro, path: p
 const pronHTML = `<dl class="sounds">${sounds.map((s) => `<div><dt>${esc(s.t)}</dt><dd>${esc(s.b)} <span class="muted">Try: <span lang="fr">${esc(s.e)}</span></span></dd></div>`).join("")}</dl>`;
 const numHTML = `<table class="sheet-table"><thead><tr><th scope="col">Number</th><th scope="col">French</th><th scope="col">Say it</th></tr></thead><tbody>${numbers.map(([n, f, s]) => `<tr><td>${n}</td><td lang="fr"><b>${esc(f)}</b></td><td>${esc(s)}</td></tr>`).join("")}</tbody></table><p class="muted">Tip: 17, 18 and 19 are just “ten-seven”, “ten-eight” and “ten-nine”.</p>`;
 const phraseHTML = cats.map((c) => `<h2>${esc(c)}</h2><table class="sheet-table"><thead><tr><th scope="col">French</th><th scope="col">English</th><th scope="col">Say it</th></tr></thead><tbody>${vocab.filter((v) => v.cat === c).map((v) => `<tr><td lang="fr"><b>${esc(v.fr)}</b></td><td>${esc(v.en)}</td><td>${esc(v.say)}</td></tr>`).join("")}</tbody></table>`).join("");
+// "50 essential phrases": one printable page built from the existing vocabulary (no new content). Picks the most-used multi-word phrases per topic.
+const PHRASE_QUOTA = [["Greetings", 8], ["Introductions", 8], ["Everyday Expressions", 10], ["Food & Drink", 6], ["Travel", 6], ["Shopping", 5], ["Directions", 3], ["Daily Life", 4]];
+const isPhrase = (v) => /\s/.test(v.fr.trim()) && !/…|\/|Adrien|Marinette/.test(v.fr) && v.fr.length <= 40 && !/^(le|la|les|un|une|des|du)\s/i.test(v.fr) && !/^l[’']/i.test(v.fr) && !/^to /.test(v.en);
+const byUse = (a, b) => (b.lessons?.length || 0) - (a.lessons?.length || 0) || a.fr.localeCompare(b.fr, "fr");
+const phrases50 = (() => {
+  const used = new Set(), groups = new Map(PHRASE_QUOTA.map(([c]) => [c, []]));
+  const count = () => [...groups.values()].reduce((n, g) => n + g.length, 0);
+  const take = (cat, n) => { for (const v of vocab.filter((x) => x.cat === cat && isPhrase(x) && !used.has(x.fr)).sort(byUse).slice(0, n)) { used.add(v.fr); groups.get(cat).push(v); } };
+  for (const [cat, n] of PHRASE_QUOTA) take(cat, n);
+  // top up to 50, one phrase per topic at a time, if a topic had too few
+  for (let more = true; count() < 50 && more;) { more = false; for (const [cat] of PHRASE_QUOTA) { if (count() >= 50) break; const before = count(); take(cat, 1); if (count() > before) more = true; } }
+  if (count() !== 50) throw new Error(`50 essential phrases: expected 50, got ${count()}`);
+  return [...groups].filter(([, items]) => items.length);
+})();
+const phrases50HTML = (() => { let n = 1; return `<div class="fn-phrases">${phrases50.map(([cat, items]) => { const start = n; n += items.length; return `<h2>${esc(cat)}</h2><ol start="${start}">${items.map((v) => `<li><span class="fn-fr" lang="fr">${esc(v.fr)}</span> <span class="fn-en">${esc(v.en)}</span> <span class="fn-say">${esc(v.say)}</span></li>`).join("")}</ol>`; }).join("")}</div>`; })();
 const resList = [
   { id: "pronunciation-guide", title: "French Alphabet and Pronunciation Guide", text: "Seven sound rules that make French easier to read aloud.", html: pronHTML, desc: "A one-page beginner guide to French sounds: silent letters, accents, nasal vowels, the French R and liaison." },
   { id: "numbers-0-20", title: "French Numbers Cheat Sheet (0–20)", text: "Numbers 0 to 20 with simple pronunciation help.", html: numHTML, desc: "French numbers from zero to twenty with an easy pronunciation guide. Print it and keep it handy." },
+  { id: "50-essential-phrases", title: "50 Essential French Phrases (Printable One-Pager)", text: "The 50 phrases you will use first, with English and pronunciation, on one page.", html: phrases50HTML, desc: "50 essential beginner French phrases with English meanings and simple pronunciation, on one printable page." },
   { id: "starter-phrasebook", title: "Tiny French Starter Phrasebook", text: `${vocab.length} beginner words and phrases by category, with pronunciation.`, html: phraseHTML, desc: `${vocab.length} beginner French words and phrases with English meanings and pronunciation, grouped by topic.` }
 ];
 add("/resources/", page({

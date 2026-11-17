@@ -1,5 +1,6 @@
 // Premium lessons: the lesson content is fetched from the server only after a valid access code is checked.
 import { createPremium } from "./premium-core.js";
+import { trackEvent } from "./track.js";
 
 const cfg = window.TFP;
 if (cfg) {
@@ -19,7 +20,8 @@ if (cfg) {
       return r;
     };
     pm.wireLock(slot, { onUnlock: async (code) => { const r = await show(code); if (!r.ok) { const m = slot.querySelector("[data-unlock] [data-msg]"); if (m) m.textContent = pm.explain(r); } } });
-    await pm.tryStored(show);
+    // Count a paywall view only when no saved code unlocked the lesson.
+    if (!(await pm.tryStored(show))) trackEvent("paywall_view", cfg.course);
   } else {
     const unlocked = () => {
       document.querySelectorAll("[data-pm]").forEach((p) => p.setAttribute("hidden", ""));

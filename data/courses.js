@@ -6,7 +6,7 @@ export const courses = [
  {
   id: "free-lessons", title: "Tiny French Free Lessons", kind: "Free course", status: "available",
   level: "Absolute beginner to A1", free: true, price: null, currency: "USD", checkoutUrl: "", art: "tiny-french-characters",
-  summary: "Every lesson on this website is free. Short dialogues with Marinette and Adrien, vocabulary, simple grammar and quizzes.",
+  summary: "The free Tiny French lessons, no payment needed. Short dialogues with Marinette and Adrien, vocabulary, simple grammar and quizzes.",
   outcomes: ["Greet people and introduce yourself", "Order food and drinks politely", "Understand and use your first 50+ phrases"],
   modules: [{ title: "All published lessons", status: "available", note: "Start with Lesson 1 and work through in order." }],
   cta: { label: "Start learning free", href: "/start/" }
