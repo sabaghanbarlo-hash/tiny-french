@@ -1,0 +1,28 @@
+/* Funnel blocks: hero product, e-mail sign-up, "More courses", printable phrases. */
+.fn-hero,.fn-signup,.fn-more{max-width:46rem;margin:1.5rem auto;padding:1.25rem 1.25rem 1rem;border:2px solid var(--pink,#f0587a);border-radius:18px;background:#fff;color:inherit;font-family:inherit;line-height:1.45;text-align:left}
+.fn-hero h2{margin:.1rem 0 .4rem}
+.fn-kicker{margin:0;font-size:.8rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--pink,#f0587a)}
+.fn-price{font-size:1.1rem;margin:.5rem 0}
+.fn-note{font-size:.9rem;opacity:.8}
+.fn-actions{margin:.75rem 0 .5rem}
+.fn-big{display:block;text-align:center;font-size:1.25rem;padding:1rem 1.25rem}
+.fn-code,.pm-have{margin:.25rem 0;font-size:.95rem;text-align:center}
+.fn-refund{margin:.5rem 0 0;font-size:.9rem;opacity:.85;text-align:center}
+.fn-signup{border-style:dashed}
+.fn-signup-h{margin:0 0 .25rem}
+.fn-row{display:flex;gap:.5rem;flex-wrap:wrap}
+.fn-row input{flex:1 1 12rem;font:inherit;padding:.65rem .8rem;border:1.5px solid #cdbfb2;border-radius:10px;min-width:0}
+.fn-sr{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.fn-end{margin-top:2rem}
+.fn-more summary{cursor:pointer;font-weight:800}
+.fn-more[open]{max-width:none;border:0;padding:0;background:transparent}
+.fn-more[open]>summary{max-width:46rem;margin:0 auto 1rem}
+.pm-includes{padding-left:1.2rem;margin:.25rem 0 .75rem}
+/* 50 essential phrases: compact two-column sheet that prints on one page */
+.fn-phrases{columns:2 18rem;column-gap:2rem;font-size:.85rem}
+.fn-phrases h2{font-size:1rem;margin:.6rem 0 .2rem;break-after:avoid}
+.fn-phrases ol{margin:0;padding-left:1.4rem}
+.fn-phrases li{margin:0 0 .25rem;break-inside:avoid}
+.fn-fr{font-weight:800}
+.fn-say{display:block;opacity:.7;font-style:italic}
+@media print{.fn-phrases{font-size:9pt;column-gap:1.2rem}.fn-phrases h2{font-size:10pt;margin:.3rem 0 .1rem}.fn-phrases li{margin:0 0 .12rem}}

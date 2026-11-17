@@ -2,6 +2,7 @@
 // Powered by Supabase Auth. The key below is a *publishable* key: it is meant to be public and is safe in front-end code.
 // Lesson progress is still saved in each visitor's own browser; an account does not sync it (yet).
 import "./track.js";
+import "./funnel.js";
 const SB = "https://pwenjqeclxxpfryxygzb.supabase.co";
 const KEY = "sb_publishable_zqkjcNltzjgrACSiARNPIw_0HXOg-hK";
 const SK = "tiny:auth";

@@ -10,3 +10,14 @@ try {
       body: JSON.stringify({ action: "hit", site: SITE, path: location.pathname, ref: document.referrer, s }) }).catch(() => {});
   }
 } catch { /* never break the page */ }
+
+// Logs one funnel event (buy_click, email_signup, paywall_view) with the site name and course id, using the same "hit" call.
+// The dashboard function is unchanged, so each event also shows up as a page path /_event/<event>/<course>. No cookies, no personal data.
+export function trackEvent(event, course) {
+  try {
+    if (/^(localhost|127\.|\[::1\])/.test(location.hostname)) return;
+    const c = course || "site";
+    fetch(API, { method: "POST", headers: { "content-type": "text/plain" }, keepalive: true,
+      body: JSON.stringify({ action: "hit", site: SITE, path: `/_event/${event}/${c}`, ref: "", s: 0, event, course: c }) }).catch(() => {});
+  } catch { /* never break the page */ }
+}
