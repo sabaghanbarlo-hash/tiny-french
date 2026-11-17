@@ -24736,5 +24736,1479 @@ export const courseLessons = [
   "instagram": "",
   "video": null,
   "premium": true
+ },
+ {
+  "course": "tiny-b2-unit-by-unit",
+  "number": 1,
+  "type": "Short dialogue",
+  "level": "Upper-intermediate",
+  "minutes": 11,
+  "video": {
+   "src": "https://sabaghanbarlo-hash.github.io/tiny-french-b2-videos/videos/ud-01-living-abroad.mp4",
+   "poster": "https://sabaghanbarlo-hash.github.io/tiny-french-b2-videos/videos/ud-01-living-abroad.thumbnail.png",
+   "vtt": "assets/video/ud-01-living-abroad.vtt",
+   "uploaded": "2026-11-17",
+   "note": "Long-format lesson video (16:9) with the story, vocabulary, grammar and a quiz. French and English subtitles."
+  },
+  "instagram": "",
+  "art": {
+   "emoji": "🌍"
+  },
+  "topics": [
+   "B2 Unit by Unit",
+   "Unit 1: Perspectives"
+  ],
+  "id": "living-abroad",
+  "title": "Living Abroad",
+  "fr": "Vivre à l'étranger",
+  "description": "Describe the experience of living in another country and your feelings about it.",
+  "objectives": [
+   "Use the past subjunctive: bien que j'aie vécu, je suis content que tu sois venu",
+   "Express emotions with je suis ravi que, je regrette que, il est dommage que",
+   "Use plus… plus… and d'autant plus que",
+   "Talk about culture shock and adaptation"
+  ],
+  "intro": "Adrien comes back from six months in Montréal and tells Marinette about the experience.",
+  "dialogue": [
+   {
+    "scene": "After six months in Québec"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Alors, ce séjour à Montréal ? Je suis ravie que tu aies pu partir si longtemps.",
+    "en": "So, that stay in Montréal? I'm delighted you were able to go for so long."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Bien que je parle la langue, j'ai subi un vrai choc culturel au début.",
+    "en": "Although I speak the language, I experienced real culture shock at first."
+   },
+   {
+    "who": "Marinette",
+    "fr": "Pourtant, le français est le même, non ?",
+    "en": "But the French is the same, isn't it?"
+   },
+   {
+    "who": "Adrien",
+    "fr": "Pas tout à fait. Plus je restais, plus je découvrais des expressions que je ne connaissais pas. C'était d'autant plus déroutant que tout le monde parlait vite.",
+    "en": "Not quite. The longer I stayed, the more expressions I discovered that I didn't know. It was all the more confusing as everyone spoke fast."
+   },
+   {
+    "who": "Marinette",
+    "fr": "Tu as eu le mal du pays ?",
+    "en": "Did you get homesick?"
+   },
+   {
+    "who": "Adrien",
+    "fr": "Parfois. Il est dommage que je n'aie pas pu rentrer pour les fêtes, mais je me suis fait de vrais amis. Je ne regrette pas d'être parti.",
+    "en": "Sometimes. It's a pity I couldn't come home for the holidays, but I made real friends. I don't regret having gone."
+   }
+  ],
+  "vocab": [
+   {
+    "fr": "le choc culturel",
+    "en": "culture shock",
+    "say": "luh SHOHK kewl-tew-REHL",
+    "cat": "Everyday Expressions",
+    "ex": "J'ai eu un choc culturel.",
+    "exEn": "I experienced culture shock."
+   },
+   {
+    "fr": "le dépaysement",
+    "en": "disorientation, change of scenery",
+    "say": "luh day-pay-eez-MAHN",
+    "cat": "Everyday Expressions",
+    "ex": "Le dépaysement est total.",
+    "exEn": "The change of scenery is total."
+   },
+   {
+    "fr": "le mal du pays",
+    "en": "homesickness",
+    "say": "luh MAHL dew pay-EE",
+    "cat": "Everyday Expressions",
+    "ex": "Il a le mal du pays.",
+    "exEn": "He's homesick."
+   },
+   {
+    "fr": "s'adapter à",
+    "en": "to adapt to",
+    "say": "sah-dahp-TAY ah",
+    "cat": "Common Verbs",
+    "ex": "Je m'adapte à la vie ici.",
+    "exEn": "I'm adapting to life here."
+   },
+   {
+    "fr": "s'intégrer",
+    "en": "to integrate, fit in",
+    "say": "san-tay-GRAY",
+    "cat": "Common Verbs",
+    "ex": "Il s'est bien intégré.",
+    "exEn": "He's integrated well."
+   },
+   {
+    "fr": "déroutant / déroutante",
+    "en": "confusing, disorienting",
+    "say": "day-roo-TAHN",
+    "cat": "Everyday Expressions",
+    "ex": "L'accent était déroutant.",
+    "exEn": "The accent was disorienting."
+   },
+   {
+    "fr": "le séjour",
+    "en": "stay",
+    "say": "luh say-ZHOOR",
+    "cat": "Travel",
+    "ex": "Ce séjour était enrichissant.",
+    "exEn": "This stay was enriching."
+   },
+   {
+    "fr": "enrichissant / enrichissante",
+    "en": "enriching",
+    "say": "ahn-ree-shee-SAHN",
+    "cat": "Everyday Expressions",
+    "ex": "C'est une expérience enrichissante.",
+    "exEn": "It's an enriching experience."
+   },
+   {
+    "fr": "d'autant plus que",
+    "en": "all the more so as",
+    "say": "doh-tahn PLEW kuh",
+    "cat": "Everyday Expressions",
+    "ex": "C'était d'autant plus dur que j'étais seul.",
+    "exEn": "It was all the harder as I was alone."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "The past subjunctive",
+    "body": "Form it with the subjunctive of avoir or être + the past participle: que j'aie vécu, que tu aies pu, qu'il soit parti, que nous soyons arrivés. Use it when the action in the subordinate clause happened before the main verb: je suis ravi que tu aies pu partir; il est dommage que je n'aie pas pu rentrer; bien que j'aie vécu là-bas pendant deux ans. Emotions (je suis ravi que, je regrette que, il est dommage que, je suis surpris que) take the subjunctive.",
+    "examples": [
+     {
+      "fr": "Je suis ravie que tu aies pu partir.",
+      "en": "I'm delighted you were able to go."
+     },
+     {
+      "fr": "Bien qu'il soit parti jeune, il s'est adapté.",
+      "en": "Although he left young, he adapted."
+     }
+    ]
+   },
+   {
+    "title": "Proportion: plus… plus…",
+    "body": "Plus… plus… (and moins… moins…, plus… moins…) links two changes that grow together: plus je restais, plus je découvrais des expressions. D'autant plus que gives a reason that reinforces what you say: c'était d'autant plus déroutant que tout le monde parlait vite. Use the same tense in both halves.",
+    "examples": [
+     {
+      "fr": "Plus je restais, plus je m'adaptais.",
+      "en": "The longer I stayed, the more I adapted."
+     },
+     {
+      "fr": "C'était d'autant plus dur que j'étais seul.",
+      "en": "It was all the harder as I was alone."
+     }
+    ]
+   }
+  ],
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "Which is the past subjunctive of “je pars”?",
+    "options": [
+     "que je parte",
+     "que je sois parti",
+     "que je suis parti",
+     "que je serais parti"
+    ],
+    "answer": "que je sois parti",
+    "explain": "Subjunctive of être + participle."
+   },
+   {
+    "type": "fill",
+    "q": "Complete: Je suis ravi que tu ___ pu partir. (could have, past subjunctive)",
+    "hint": "avoir, subjunctive",
+    "answer": "aies",
+    "explain": "Que tu aies pu."
+   },
+   {
+    "type": "mc",
+    "q": "What does “plus je restais, plus je découvrais” express?",
+    "options": [
+     "a comparison of two places",
+     "a past habit only",
+     "two changes growing together",
+     "a condition"
+    ],
+    "answer": "two changes growing together",
+    "explain": "Plus… plus… = the more… the more."
+   },
+   {
+    "type": "mc",
+    "q": "What does “d'autant plus que” mean?",
+    "options": [
+     "although",
+     "unless",
+     "instead of",
+     "all the more so as"
+    ],
+    "answer": "all the more so as",
+    "explain": "Reinforces a reason."
+   },
+   {
+    "type": "fill",
+    "q": "Complete: Il est dommage que je n'___ pas pu rentrer. (subjunctive of avoir)",
+    "hint": "past subjunctive",
+    "answer": "aie",
+    "explain": "N'aie pas pu."
+   }
+  ]
+ },
+ {
+  "course": "tiny-b2-unit-by-unit",
+  "number": 2,
+  "type": "Short dialogue",
+  "level": "Upper-intermediate",
+  "minutes": 11,
+  "video": {
+   "src": "https://sabaghanbarlo-hash.github.io/tiny-french-b2-videos/videos/ud-02-stereotypes-and-identity.mp4",
+   "poster": "https://sabaghanbarlo-hash.github.io/tiny-french-b2-videos/videos/ud-02-stereotypes-and-identity.thumbnail.png",
+   "vtt": "assets/video/ud-02-stereotypes-and-identity.vtt",
+   "uploaded": "2026-11-17",
+   "note": "Long-format lesson video (16:9) with the story, vocabulary, grammar and a quiz. French and English subtitles."
+  },
+  "instagram": "",
+  "art": {
+   "emoji": "🎭"
+  },
+  "topics": [
+   "B2 Unit by Unit",
+   "Unit 1: Perspectives"
+  ],
+  "id": "stereotypes-and-identity",
+  "title": "Stereotypes and Identity",
+  "fr": "Les clichés",
+  "description": "Generalise with nuance and talk about stereotypes about nationalities and groups.",
+  "objectives": [
+   "Use avoir tendance à, en général, dans l'ensemble",
+   "Use certains… d'autres…, la plupart, nombre de",
+   "Use aucun(e), chacun(e), plusieurs, quelques",
+   "Say il ne faut pas généraliser"
+  ],
+  "intro": "Adrien and Marinette discuss stereotypes about French people that Adrien heard in Montréal.",
+  "dialogue": [
+   {
+    "scene": "Clichés and reality"
+   },
+   {
+    "who": "Marinette",
+    "fr": "Qu'est-ce que les gens disent sur les Français, là-bas ?",
+    "en": "What do people say about the French over there?"
+   },
+   {
+    "who": "Adrien",
+    "fr": "Ils pensent que nous râlons tout le temps et que nous mangeons tous du fromage à chaque repas.",
+    "en": "They think we complain all the time and that we all eat cheese at every meal."
+   },
+   {
+    "who": "Marinette",
+    "fr": "En général, on a tendance à exagérer. Certains Français râlent beaucoup, d'autres pas du tout.",
+    "en": "Generally, people tend to exaggerate. Some French people complain a lot, others not at all."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Exactement. Aucun peuple ne correspond entièrement à son cliché. Il ne faut pas généraliser.",
+    "en": "Exactly. No people fully matches its cliché. You mustn't generalise."
+   },
+   {
+    "who": "Marinette",
+    "fr": "Pourtant, plusieurs études montrent que chacun a des habitudes liées à sa culture.",
+    "en": "Yet several studies show that everyone has habits linked to their culture."
+   },
+   {
+    "who": "Adrien",
+    "fr": "Dans l'ensemble, c'est vrai, mais la plupart des gens sont bien plus nuancés qu'on ne le dit.",
+    "en": "On the whole that's true, but most people are far more nuanced than people say."
+   }
+  ],
+  "vocab": [
+   {
+    "fr": "le cliché",
+    "en": "cliché, stereotype",
+    "say": "luh klee-SHAY",
+    "cat": "Everyday Expressions",
+    "ex": "C'est un cliché sur les Français.",
+    "exEn": "That's a cliché about the French."
+   },
+   {
+    "fr": "le préjugé",
+    "en": "prejudice",
+    "say": "luh pray-zhew-ZHAY",
+    "cat": "Everyday Expressions",
+    "ex": "Il faut combattre les préjugés.",
+    "exEn": "We must fight prejudice."
+   },
+   {
+    "fr": "généraliser",
+    "en": "to generalise",
+    "say": "zhay-nay-rah-lee-ZAY",
+    "cat": "Common Verbs",
+    "ex": "Il ne faut pas généraliser.",
+    "exEn": "You mustn't generalise."
+   },
+   {
+    "fr": "avoir tendance à",
+    "en": "to tend to",
+    "say": "ah-VWAHR tahn-DAHNSS ah",
+    "cat": "Everyday Expressions",
+    "ex": "On a tendance à exagérer.",
+    "exEn": "People tend to exaggerate."
+   },
+   {
+    "fr": "dans l'ensemble",
+    "en": "on the whole",
+    "say": "dahn lahn-SAHN-bluh",
+    "cat": "Everyday Expressions",
+    "ex": "Dans l'ensemble, c'est vrai.",
+    "exEn": "On the whole, it's true."
+   },
+   {
+    "fr": "nuancé / nuancée",
+    "en": "nuanced",
+    "say": "new-ahn-SAY",
+    "cat": "Everyday Expressions",
+    "ex": "Son avis est nuancé.",
+    "exEn": "His opinion is nuanced."
+   },
+   {
+    "fr": "râler",
+    "en": "to grumble, to complain",
+    "say": "rah-LAY",
+    "cat": "Common Verbs",
+    "ex": "Les gens râlent beaucoup.",
+    "exEn": "People grumble a lot."
+   },
+   {
+    "fr": "aucun / aucune",
+    "en": "no, not any",
+    "say": "oh-KUHN",
+    "cat": "Everyday Expressions",
+    "ex": "Aucun peuple n'est identique.",
+    "exEn": "No people is identical."
+   },
+   {
+    "fr": "chacun / chacune",
+    "en": "each one, everyone",
+    "say": "shah-KUHN",
+    "cat": "Everyday Expressions",
+    "ex": "Chacun a ses habitudes.",
+    "exEn": "Everyone has their habits."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Generalising with nuance",
+    "body": "To avoid absolute statements, use avoir tendance à + infinitive (on a tendance à exagérer), en général, dans l'ensemble, souvent, la plupart des (la plupart des gens sont nuancés), nombre de (nombre de Français râlent). Contrast groups with certains… d'autres… (certains râlent, d'autres pas). Correct yourself with pas toujours, pas forcément, loin de là. Say il ne faut pas généraliser.",
+    "examples": [
+     {
+      "fr": "On a tendance à exagérer.",
+      "en": "People tend to exaggerate."
+     },
+     {
+      "fr": "Certains râlent, d'autres pas du tout.",
+      "en": "Some complain, others not at all."
+     }
+    ]
+   },
+   {
+    "title": "Indefinite adjectives and pronouns",
+    "body": "Aucun(e) ne + verb: aucun peuple ne correspond à son cliché. Chacun(e) (each one): chacun a ses habitudes. Plusieurs (several) and quelques (a few) are always plural: plusieurs études montrent que… Certains / certaines (some): certains pensent que… Tout le monde (everyone) takes a singular verb: tout le monde parle vite. Personne ne and rien ne work like aucun ne.",
+    "examples": [
+     {
+      "fr": "Aucun peuple ne correspond à son cliché.",
+      "en": "No people matches its cliché."
+     },
+     {
+      "fr": "Plusieurs études montrent que c'est vrai.",
+      "en": "Several studies show it's true."
+     }
+    ]
+   }
+  ],
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "Which phrase softens a generalisation?",
+    "options": [
+     "avoir tendance à",
+     "il est certain que",
+     "tout le monde",
+     "à coup sûr"
+    ],
+    "answer": "avoir tendance à",
+    "explain": "Avoir tendance à = to tend to."
+   },
+   {
+    "type": "fill",
+    "q": "Complete: ___ peuple ne correspond entièrement à son cliché. (no)",
+    "hint": "indefinite adjective",
+    "answer": "Aucun",
+    "explain": "Aucun."
+   },
+   {
+    "type": "mc",
+    "q": "Which is correct?",
+    "options": [
+     "Chacun ont ses habitudes.",
+     "Chacun a ses habitudes.",
+     "Chaque ont ses habitudes.",
+     "Chacun avons ses habitudes."
+    ],
+    "answer": "Chacun a ses habitudes.",
+    "explain": "Chacun takes a singular verb."
+   },
+   {
+    "type": "mc",
+    "q": "What does “dans l'ensemble” mean?",
+    "options": [
+     "all together, in a group",
+     "in the set",
+     "on the whole",
+     "all the time"
+    ],
+    "answer": "on the whole",
+    "explain": "Dans l'ensemble = overall."
+   },
+   {
+    "type": "fill",
+    "q": "Complete: Il ne faut pas ___ . (generalise)",
+    "hint": "verb",
+    "answer": "généraliser",
+    "explain": "Généraliser."
+   }
+  ]
+ },
+ {
+  "course": "tiny-b2-unit-by-unit",
+  "number": 3,
+  "id": "first-impressions",
+  "title": "First Impressions",
+  "fr": "Les premières impressions",
+  "type": "Short dialogue",
+  "level": "Upper-intermediate",
+  "minutes": 11,
+  "topics": [
+   "B2 Unit by Unit",
+   "Unit 1: Perspectives"
+  ],
+  "description": "Talk about impressions and how they changed, with sembler, paraître and avoir l'impression que.",
+  "objectives": [
+   "Use il me semble que + indicative and il semble que + subjunctive",
+   "Use avoir l'impression que, paraître, sembler",
+   "Use au premier abord… en réalité…",
+   "Say when you were wrong"
+  ],
+  "art": {
+   "emoji": "👀"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b2-unit-by-unit",
+  "number": 4,
+  "id": "telling-an-anecdote",
+  "title": "Telling an Anecdote",
+  "fr": "Raconter une anecdote",
+  "type": "Short dialogue",
+  "level": "Upper-intermediate",
+  "minutes": 11,
+  "topics": [
+   "B2 Unit by Unit",
+   "Unit 1: Perspectives"
+  ],
+  "description": "Tell a lively story and recognise the passé simple in written narratives.",
+  "objectives": [
+   "Use à peine… que, aussitôt, tout à coup",
+   "Use il m'est arrivé de + infinitive",
+   "Recognise the passé simple in written stories",
+   "Keep a listener interested with tenses and connectors"
+  ],
+  "art": {
+   "emoji": "📚"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b2-unit-by-unit",
+  "number": 5,
+  "id": "how-we-learn",
+  "title": "How We Learn",
+  "fr": "Comment apprend-on ?",
+  "type": "Short dialogue",
+  "level": "Upper-intermediate",
+  "minutes": 11,
+  "topics": [
+   "B2 Unit by Unit",
+   "Unit 2: Education and Learning"
+  ],
+  "description": "Discuss learning methods and memory with compound relative pronouns.",
+  "objectives": [
+   "Use lequel, laquelle, lesquels, auquel, duquel after prepositions",
+   "Use ce à quoi, ce dont, ce par quoi",
+   "Talk about memory and methods",
+   "Explain what works for you"
+  ],
+  "art": {
+   "emoji": "🧠"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b2-unit-by-unit",
+  "number": 6,
+  "id": "schools-and-methods",
+  "title": "Schools and Methods",
+  "fr": "Systèmes scolaires",
+  "type": "Short dialogue",
+  "level": "Upper-intermediate",
+  "minutes": 11,
+  "topics": [
+   "B2 Unit by Unit",
+   "Unit 2: Education and Learning"
+  ],
+  "description": "Compare education systems and teaching methods with nuanced connectors.",
+  "objectives": [
+   "Use quant à, en ce qui concerne, par rapport à",
+   "Use tandis que, alors que, contrairement à, à l'inverse",
+   "Use autant… autant…",
+   "Compare two systems"
+  ],
+  "art": {
+   "emoji": "🏫"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b2-unit-by-unit",
+  "number": 7,
+  "id": "lifelong-learning",
+  "title": "Lifelong Learning",
+  "fr": "Se former tout au long de la vie",
+  "type": "Short dialogue",
+  "level": "Upper-intermediate",
+  "minutes": 11,
+  "topics": [
+   "B2 Unit by Unit",
+   "Unit 2: Education and Learning"
+  ],
+  "description": "Talk about retraining and continuing education, with participles.",
+  "objectives": [
+   "Use the present participle and the gérondif correctly",
+   "Use ayant + past participle for an earlier action",
+   "Talk about retraining and skills",
+   "Describe a career change"
+  ],
+  "art": {
+   "emoji": "🔄"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b2-unit-by-unit",
+  "number": 8,
+  "id": "exams-and-stress",
+  "title": "Exams and Stress",
+  "fr": "Examens et stress",
+  "type": "Short dialogue",
+  "level": "Upper-intermediate",
+  "minutes": 11,
+  "topics": [
+   "B2 Unit by Unit",
+   "Unit 2: Education and Learning"
+  ],
+  "description": "Talk about pressure, results and how to cope, with avoir beau, quoique and de peur que.",
+  "objectives": [
+   "Use avoir beau + infinitive",
+   "Use quoique and bien que with the subjunctive",
+   "Use de peur de / de peur que, de crainte que",
+   "Use il n'empêche que"
+  ],
+  "art": {
+   "emoji": "📝"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b2-unit-by-unit",
+  "number": 9,
+  "id": "reading-the-press",
+  "title": "Reading the Press",
+  "fr": "La presse écrite",
+  "type": "Short dialogue",
+  "level": "Upper-intermediate",
+  "minutes": 11,
+  "topics": [
+   "B2 Unit by Unit",
+   "Unit 3: Media and Information"
+  ],
+  "description": "Read and discuss newspaper articles, and use nominalisation.",
+  "objectives": [
+   "Name the parts of an article: la une, le titre, le chapeau, la rubrique",
+   "Turn verbs into nouns: augmenter → l'augmentation",
+   "Read headlines written in a nominal style",
+   "Summarise an article in your own words"
+  ],
+  "art": {
+   "emoji": "📰"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b2-unit-by-unit",
+  "number": 10,
+  "id": "analysing-an-article",
+  "title": "Analysing an Article",
+  "fr": "Analyser un article",
+  "type": "Short dialogue",
+  "level": "Upper-intermediate",
+  "minutes": 11,
+  "topics": [
+   "B2 Unit by Unit",
+   "Unit 3: Media and Information"
+  ],
+  "description": "Identify an author's position and arguments, and use reporting verbs and the journalistic conditional.",
+  "objectives": [
+   "Use reporting verbs: affirmer, soutenir, prétendre, estimer, souligner",
+   "Use the conditional to report unconfirmed information",
+   "Identify arguments and counter-arguments",
+   "Summarise an author's position"
+  ],
+  "art": {
+   "emoji": "🔍"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b2-unit-by-unit",
+  "number": 11,
+  "id": "bias-and-objectivity",
+  "title": "Bias and Objectivity",
+  "fr": "Objectivité et parti pris",
+  "type": "Short dialogue",
+  "level": "Upper-intermediate",
+  "minutes": 11,
+  "topics": [
+   "B2 Unit by Unit",
+   "Unit 3: Media and Information"
+  ],
+  "description": "Discuss how reliable and balanced a source is, and use concessive structures.",
+  "objectives": [
+   "Use biaisé, partial, objectif, nuancer",
+   "Use pourtant, néanmoins, toutefois, en dépit de",
+   "Use qu'il s'agisse de… ou de…, quoi qu'il en soit",
+   "Judge the quality of a source"
+  ],
+  "art": {
+   "emoji": "⚖️"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b2-unit-by-unit",
+  "number": 12,
+  "id": "social-media-and-influence",
+  "title": "Social Media and Influence",
+  "fr": "Réseaux sociaux et influence",
+  "type": "Short dialogue",
+  "level": "Upper-intermediate",
+  "minutes": 11,
+  "topics": [
+   "B2 Unit by Unit",
+   "Unit 3: Media and Information"
+  ],
+  "description": "Discuss social media and influence with the causative faire and laisser + infinitive.",
+  "objectives": [
+   "Use faire + infinitive (faire réagir, faire connaître)",
+   "Use laisser + infinitive and se faire + infinitive",
+   "Use il est probable que + indicative and il se peut que + subjunctive",
+   "Talk about virality and influence"
+  ],
+  "art": {
+   "emoji": "📱"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b2-unit-by-unit",
+  "number": 13,
+  "id": "consumer-rights",
+  "title": "Consumer Rights",
+  "fr": "Les droits du consommateur",
+  "type": "Short dialogue",
+  "level": "Upper-intermediate",
+  "minutes": 11,
+  "topics": [
+   "B2 Unit by Unit",
+   "Unit 4: Rules and Rights"
+  ],
+  "description": "Talk about warranties, refunds and your rights as a buyer.",
+  "objectives": [
+   "Use avoir le droit de, être en droit de, être tenu de",
+   "Use dans le cas où + conditional and sous réserve que",
+   "Talk about warranty and returns",
+   "Assert your rights politely and firmly"
+  ],
+  "art": {
+   "emoji": "🛒"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b2-unit-by-unit",
+  "number": 14,
+  "id": "reading-a-contract",
+  "title": "Reading a Contract",
+  "fr": "Lire un contrat",
+  "type": "Short dialogue",
+  "level": "Upper-intermediate",
+  "minutes": 11,
+  "topics": [
+   "B2 Unit by Unit",
+   "Unit 4: Rules and Rights"
+  ],
+  "description": "Understand the main clauses of a lease and use legal register.",
+  "objectives": [
+   "Understand legal vocabulary: le bail, la clause, résilier, le préavis",
+   "Use le locataire s'engage à + infinitive",
+   "Use sauf disposition contraire and the formal register",
+   "Ask about clauses before signing"
+  ],
+  "art": {
+   "emoji": "📜"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b2-unit-by-unit",
+  "number": 15,
+  "id": "disputes-and-mediation",
+  "title": "Disputes and Mediation",
+  "fr": "Régler un différend",
+  "type": "Short dialogue",
+  "level": "Upper-intermediate",
+  "minutes": 11,
+  "topics": [
+   "B2 Unit by Unit",
+   "Unit 4: Rules and Rights"
+  ],
+  "description": "Negotiate a settlement and find a compromise.",
+  "objectives": [
+   "Use à l'amiable, un compromis, faire des concessions",
+   "Use quitte à + infinitive and quitte à ce que + subjunctive",
+   "Use à condition de, pourvu que, à moins que",
+   "Propose a solution diplomatically"
+  ],
+  "art": {
+   "emoji": "🕊️"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b2-unit-by-unit",
+  "number": 16,
+  "id": "rights-at-work",
+  "title": "Rights at Work",
+  "fr": "Droits et devoirs au travail",
+  "type": "Short dialogue",
+  "level": "Upper-intermediate",
+  "minutes": 11,
+  "topics": [
+   "B2 Unit by Unit",
+   "Unit 4: Rules and Rights"
+  ],
+  "description": "Talk about employment rights, notice and obligations.",
+  "objectives": [
+   "Use avoir droit à, être en droit de, être tenu de in a work context",
+   "Talk about notice, leave and resignation",
+   "Use il est nécessaire que + subjunctive",
+   "Explain what an employer may or may not do"
+  ],
+  "art": {
+   "emoji": "👔"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b2-unit-by-unit",
+  "number": 17,
+  "id": "scientific-progress",
+  "title": "Scientific Progress",
+  "fr": "Les avancées scientifiques",
+  "type": "Short dialogue",
+  "level": "Upper-intermediate",
+  "minutes": 11,
+  "topics": [
+   "B2 Unit by Unit",
+   "Unit 5: Science and Innovation"
+  ],
+  "description": "Talk about discoveries and research results with advanced passive structures.",
+  "objectives": [
+   "Use il a été démontré que, il a été prouvé que",
+   "Use s'avérer + adjective",
+   "Use grâce aux progrès de",
+   "Talk about research and discoveries"
+  ],
+  "art": {
+   "emoji": "🔬"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b2-unit-by-unit",
+  "number": 18,
+  "id": "ethics-of-technology",
+  "title": "The Ethics of Technology",
+  "fr": "Les enjeux éthiques",
+  "type": "Short dialogue",
+  "level": "Upper-intermediate",
+  "minutes": 11,
+  "topics": [
+   "B2 Unit by Unit",
+   "Unit 5: Science and Innovation"
+  ],
+  "description": "Discuss the benefits and risks of technology with subjunctive conjunctions.",
+  "objectives": [
+   "Use sans que, avant que, jusqu'à ce que, pour que + subjunctive",
+   "Use l'enjeu, le risque, le bénéfice, encadrer, réglementer",
+   "Present both sides of a debate",
+   "Make recommendations"
+  ],
+  "art": {
+   "emoji": "🤖"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b2-unit-by-unit",
+  "number": 19,
+  "id": "explaining-a-process",
+  "title": "Explaining How Something Works",
+  "fr": "Comment ça marche ?",
+  "type": "Short dialogue",
+  "level": "Upper-intermediate",
+  "minutes": 11,
+  "topics": [
+   "B2 Unit by Unit",
+   "Unit 5: Science and Innovation"
+  ],
+  "description": "Explain a mechanism or process clearly.",
+  "objectives": [
+   "Use consister à / en, permettre de, il s'agit de",
+   "Use ce qui permet de, grâce auquel, au moyen de",
+   "Describe stages in order",
+   "Explain cause and effect in a process"
+  ],
+  "art": {
+   "emoji": "⚙️"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b2-unit-by-unit",
+  "number": 20,
+  "id": "presenting-results",
+  "title": "Presenting Results",
+  "fr": "Présenter des résultats",
+  "type": "Short dialogue",
+  "level": "Upper-intermediate",
+  "minutes": 11,
+  "topics": [
+   "B2 Unit by Unit",
+   "Unit 5: Science and Innovation"
+  ],
+  "description": "Describe data and trends in a short presentation.",
+  "objectives": [
+   "Describe change with augmenter de, passer de… à…, atteindre, rester stable",
+   "Use comme le montre, ainsi que, de même que",
+   "Use plus… que prévu, moins… qu'attendu",
+   "Structure a short presentation"
+  ],
+  "art": {
+   "emoji": "📊"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b2-unit-by-unit",
+  "number": 21,
+  "id": "reading-a-novel-extract",
+  "title": "Reading a Novel Extract",
+  "fr": "Lire un extrait de roman",
+  "type": "Short dialogue",
+  "level": "Upper-intermediate",
+  "minutes": 11,
+  "topics": [
+   "B2 Unit by Unit",
+   "Unit 6: Arts and Culture"
+  ],
+  "description": "Analyse a short literary extract: narrator, point of view, imagery.",
+  "objectives": [
+   "Use le narrateur, le point de vue, la métaphore, le champ lexical",
+   "Use comme si + imperfect",
+   "Recognise literary tenses",
+   "Comment on style and atmosphere"
+  ],
+  "art": {
+   "emoji": "📖"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b2-unit-by-unit",
+  "number": 22,
+  "id": "reviewing-an-exhibition",
+  "title": "Reviewing an Exhibition",
+  "fr": "Critiquer une exposition",
+  "type": "Short dialogue",
+  "level": "Upper-intermediate",
+  "minutes": 11,
+  "topics": [
+   "B2 Unit by Unit",
+   "Unit 6: Arts and Culture"
+  ],
+  "description": "Write and say an informed opinion on an art exhibition with emphatic structures.",
+  "objectives": [
+   "Use c'est… qui / que, ce qui… c'est…, ce que… c'est…",
+   "Use évoquer, susciter, dégager, faire penser à",
+   "Describe style, themes and impact",
+   "Give a balanced critique"
+  ],
+  "art": {
+   "emoji": "🖼️"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b2-unit-by-unit",
+  "number": 23,
+  "id": "music-and-emotion",
+  "title": "Music and Emotion",
+  "fr": "La musique et les émotions",
+  "type": "Short dialogue",
+  "level": "Upper-intermediate",
+  "minutes": 11,
+  "topics": [
+   "B2 Unit by Unit",
+   "Unit 6: Arts and Culture"
+  ],
+  "description": "Describe music and the feelings it gives you.",
+  "objectives": [
+   "Use mélodie, paroles, rythme, ambiance and adjectives like entraînant, bouleversant",
+   "Use donner envie de, faire + infinitive (faire danser, faire pleurer)",
+   "Use rappeler, faire penser à, ressembler à",
+   "Express strong feelings with nuance"
+  ],
+  "art": {
+   "emoji": "🎶"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b2-unit-by-unit",
+  "number": 24,
+  "id": "cultural-heritage",
+  "title": "Cultural Heritage",
+  "fr": "Le patrimoine",
+  "type": "Short dialogue",
+  "level": "Upper-intermediate",
+  "minutes": 11,
+  "topics": [
+   "B2 Unit by Unit",
+   "Unit 6: Arts and Culture"
+  ],
+  "description": "Talk about monuments, restoration and the transmission of heritage.",
+  "objectives": [
+   "Use faire l'objet de, dater de, être classé",
+   "Use participe présent datant de",
+   "Use il convient de, il importe que + subjunctive",
+   "Discuss why heritage matters"
+  ],
+  "art": {
+   "emoji": "🏛️"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b2-unit-by-unit",
+  "number": 25,
+  "id": "the-economy-in-the-news",
+  "title": "The Economy in the News",
+  "fr": "L'économie dans l'actualité",
+  "type": "Short dialogue",
+  "level": "Upper-intermediate",
+  "minutes": 11,
+  "topics": [
+   "B2 Unit by Unit",
+   "Unit 7: Economy and Consumption"
+  ],
+  "description": "Talk about economic news and explain causes and effects with precision.",
+  "objectives": [
+   "Use le pouvoir d'achat, l'inflation, la croissance, le taux",
+   "Use provoquer, entraîner, résulter de, découler de, être dû à",
+   "Use en raison de, du fait de, faute de",
+   "Explain causes and consequences"
+  ],
+  "art": {
+   "emoji": "📉"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b2-unit-by-unit",
+  "number": 26,
+  "id": "responsible-consumption",
+  "title": "Responsible Consumption",
+  "fr": "Consommer autrement",
+  "type": "Short dialogue",
+  "level": "Upper-intermediate",
+  "minutes": 11,
+  "topics": [
+   "B2 Unit by Unit",
+   "Unit 7: Economy and Consumption"
+  ],
+  "description": "Discuss responsible and sustainable consumption and compare options.",
+  "objectives": [
+   "Use mieux vaut + infinitive (que de), il vaut mieux que + subjunctive",
+   "Use plutôt que de, au lieu de",
+   "Talk about seconde main, circuit court, durable, label",
+   "Argue for lasting choices"
+  ],
+  "art": {
+   "emoji": "🛍️"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b2-unit-by-unit",
+  "number": 27,
+  "id": "personal-finances",
+  "title": "Personal Finances",
+  "fr": "Gérer son budget",
+  "type": "Short dialogue",
+  "level": "Upper-intermediate",
+  "minutes": 11,
+  "topics": [
+   "B2 Unit by Unit",
+   "Unit 7: Economy and Consumption"
+  ],
+  "description": "Talk about budgeting, saving and borrowing with hypothetical structures.",
+  "objectives": [
+   "Use épargner, emprunter, rembourser, le taux d'intérêt",
+   "Use à supposer que, en admettant que, au cas où, dans l'hypothèse où",
+   "Compare scenarios with si + imparfait and the conditional",
+   "Discuss a budget plan"
+  ],
+  "art": {
+   "emoji": "💶"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b2-unit-by-unit",
+  "number": 28,
+  "id": "advertising-and-persuasion",
+  "title": "Advertising and Persuasion",
+  "fr": "Publicité et persuasion",
+  "type": "Short dialogue",
+  "level": "Upper-intermediate",
+  "minutes": 11,
+  "topics": [
+   "B2 Unit by Unit",
+   "Unit 7: Economy and Consumption"
+  ],
+  "description": "Analyse how advertising persuades and use structures of consequence and purpose.",
+  "objectives": [
+   "Use inciter à, pousser à, séduire, cibler",
+   "Use faire en sorte que + subjunctive",
+   "Use tellement… que, tant de… que, de façon à ce que",
+   "Analyse a slogan"
+  ],
+  "art": {
+   "emoji": "📢"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b2-unit-by-unit",
+  "number": 29,
+  "id": "public-health-debates",
+  "title": "Public Health Debates",
+  "fr": "La santé publique",
+  "type": "Short dialogue",
+  "level": "Upper-intermediate",
+  "minutes": 11,
+  "topics": [
+   "B2 Unit by Unit",
+   "Unit 8: Health and Well-being"
+  ],
+  "description": "Discuss prevention and public health policy with le fait que + subjunctive.",
+  "objectives": [
+   "Use la prévention, le dépistage, l'espérance de vie, une campagne",
+   "Use le fait que + subjunctive",
+   "Use il vaut mieux prévenir que guérir",
+   "Argue a position on public policy"
+  ],
+  "art": {
+   "emoji": "🏥"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b2-unit-by-unit",
+  "number": 30,
+  "id": "stress-and-overwork",
+  "title": "Stress and Overwork",
+  "fr": "Surmenage et burn-out",
+  "type": "Short dialogue",
+  "level": "Upper-intermediate",
+  "minutes": 11,
+  "topics": [
+   "B2 Unit by Unit",
+   "Unit 8: Health and Well-being"
+  ],
+  "description": "Talk about work pressure and how to take a step back.",
+  "objectives": [
+   "Use le surmenage, l'épuisement, la charge de travail, prendre du recul",
+   "Use au point de + infinitive / au point que + indicative",
+   "Use tellement… que, à force de",
+   "Offer supportive advice"
+  ],
+  "art": {
+   "emoji": "😮‍💨"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b2-unit-by-unit",
+  "number": 31,
+  "id": "sleep-and-routines",
+  "title": "Sleep and Routines",
+  "fr": "Sommeil et rythme de vie",
+  "type": "Short dialogue",
+  "level": "Upper-intermediate",
+  "minutes": 11,
+  "topics": [
+   "B2 Unit by Unit",
+   "Unit 8: Health and Well-being"
+  ],
+  "description": "Discuss sleep habits and healthy routines with impersonal recommendations.",
+  "objectives": [
+   "Use il est recommandé de, il est conseillé de, il est préférable de",
+   "Use ne… que, seulement, uniquement",
+   "Talk about sleep, rhythm and recovery",
+   "Give general health advice"
+  ],
+  "art": {
+   "emoji": "😴"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b2-unit-by-unit",
+  "number": 32,
+  "id": "supporting-someone",
+  "title": "Supporting Someone",
+  "fr": "Être là pour quelqu'un",
+  "type": "Short dialogue",
+  "level": "Upper-intermediate",
+  "minutes": 11,
+  "topics": [
+   "B2 Unit by Unit",
+   "Unit 8: Health and Well-being"
+  ],
+  "description": "Offer support to a friend who is going through a difficult time, with emotions and the subjunctive.",
+  "objectives": [
+   "Use se confier, soutenir, être à l'écoute, prendre soin de soi",
+   "Use avoir besoin que + subjunctive, je voudrais que",
+   "Express feelings with je suis touché que, ça me soulage que",
+   "Offer reassurance without giving false promises"
+  ],
+  "art": {
+   "emoji": "🤲"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b2-unit-by-unit",
+  "number": 33,
+  "id": "leading-a-team",
+  "title": "Leading a Team",
+  "fr": "Diriger une équipe",
+  "type": "Short dialogue",
+  "level": "Upper-intermediate",
+  "minutes": 11,
+  "topics": [
+   "B2 Unit by Unit",
+   "Unit 9: Work and Management"
+  ],
+  "description": "Talk about leadership, delegation and motivation.",
+  "objectives": [
+   "Use veiller à ce que + subjunctive and s'assurer que",
+   "Use déléguer, motiver, fixer des objectifs, évaluer",
+   "Use chacun d'entre eux, quiconque",
+   "Describe a leadership style"
+  ],
+  "art": {
+   "emoji": "🧭"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b2-unit-by-unit",
+  "number": 34,
+  "id": "writing-a-report",
+  "title": "Writing a Report",
+  "fr": "Rédiger un rapport",
+  "type": "Short dialogue",
+  "level": "Upper-intermediate",
+  "minutes": 11,
+  "topics": [
+   "B2 Unit by Unit",
+   "Unit 9: Work and Management"
+  ],
+  "description": "Structure and write a clear professional report with formal connectors.",
+  "objectives": [
+   "Use constat, analyse, recommandations as structure",
+   "Use en outre, par ailleurs, ainsi, par conséquent",
+   "Use il ressort de… que, force est de constater que",
+   "Write a short formal synthesis"
+  ],
+  "art": {
+   "emoji": "📑"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b2-unit-by-unit",
+  "number": 35,
+  "id": "handling-conflict-at-work",
+  "title": "Handling Conflict at Work",
+  "fr": "Gérer un désaccord",
+  "type": "Short dialogue",
+  "level": "Upper-intermediate",
+  "minutes": 11,
+  "topics": [
+   "B2 Unit by Unit",
+   "Unit 9: Work and Management"
+  ],
+  "description": "Manage a tense conversation with a colleague diplomatically.",
+  "objectives": [
+   "Use reprocher à quelqu'un de + infinitive",
+   "Use regretter que + subjunctive / regretter de + infinitive",
+   "Use tenir compte de, prendre en compte",
+   "Use s'excuser de, être à l'origine de"
+  ],
+  "art": {
+   "emoji": "🗣️"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b2-unit-by-unit",
+  "number": 36,
+  "id": "recruiting-and-interviews",
+  "title": "Recruiting and Interviews",
+  "fr": "Recruter",
+  "type": "Short dialogue",
+  "level": "Upper-intermediate",
+  "minutes": 11,
+  "topics": [
+   "B2 Unit by Unit",
+   "Unit 9: Work and Management"
+  ],
+  "description": "Talk about hiring from the recruiter's and the candidate's side.",
+  "objectives": [
+   "Use recruiter, candidat, poste à pourvoir, valoriser",
+   "Use dès lors que, à mesure que, à partir du moment où",
+   "Use si + plus-que-parfait + conditionnel passé in interviews",
+   "Justify a choice"
+  ],
+  "art": {
+   "emoji": "🤝"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b2-unit-by-unit",
+  "number": 37,
+  "id": "register-and-tone",
+  "title": "Register and Tone",
+  "fr": "Les registres de langue",
+  "type": "Short dialogue",
+  "level": "Upper-intermediate",
+  "minutes": 11,
+  "topics": [
+   "B2 Unit by Unit",
+   "Unit 10: Nuance and Style"
+  ],
+  "description": "Recognise and switch between formal, standard and informal French.",
+  "objectives": [
+   "Distinguish registre soutenu, courant and familier",
+   "Use inversion and cela / ça, ne dropping",
+   "Rephrase a message for different readers",
+   "Choose vocabulary that fits the situation"
+  ],
+  "art": {
+   "emoji": "🎚️"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b2-unit-by-unit",
+  "number": 38,
+  "id": "idioms-and-expressions",
+  "title": "Idioms and Expressions",
+  "fr": "Expressions imagées",
+  "type": "Short dialogue",
+  "level": "Upper-intermediate",
+  "minutes": 11,
+  "topics": [
+   "B2 Unit by Unit",
+   "Unit 10: Nuance and Style"
+  ],
+  "description": "Understand and use common French idioms in context.",
+  "objectives": [
+   "Use idioms such as avoir le cafard, coûter les yeux de la tête, poser un lapin",
+   "Understand the literal and the figurative meaning",
+   "Use similes with comme",
+   "Choose the right idiom for the situation"
+  ],
+  "art": {
+   "emoji": "🗯️"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b2-unit-by-unit",
+  "number": 39,
+  "id": "humour-and-irony",
+  "title": "Humour and Irony",
+  "fr": "Humour et ironie",
+  "type": "Short dialogue",
+  "level": "Upper-intermediate",
+  "minutes": 11,
+  "topics": [
+   "B2 Unit by Unit",
+   "Unit 10: Nuance and Style"
+  ],
+  "description": "Understand irony, understatement and wordplay in conversation.",
+  "objectives": [
+   "Use litotes: ce n'est pas mauvais, ce n'est pas sans intérêt",
+   "Use il n'est pas rare que + subjunctive",
+   "Recognise irony, understatement and double meanings",
+   "Play with words and puns"
+  ],
+  "art": {
+   "emoji": "😏"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
+ },
+ {
+  "course": "tiny-b2-unit-by-unit",
+  "number": 40,
+  "id": "looking-back-on-b2",
+  "title": "Looking Back on B2",
+  "fr": "Bilan du niveau B2",
+  "type": "Short dialogue",
+  "level": "Upper-intermediate",
+  "minutes": 11,
+  "topics": [
+   "B2 Unit by Unit",
+   "Unit 10: Nuance and Style"
+  ],
+  "description": "Review everything you have learned at B2 and tell your own story with nuance and style.",
+  "objectives": [
+   "Combine subjunctive, relative pronouns, participles and concessive structures",
+   "Express nuanced opinions",
+   "Say what you have learned and what you want to improve",
+   "Congratulate and look ahead to C1"
+  ],
+  "art": {
+   "emoji": "🎓"
+  },
+  "instagram": "",
+  "video": null,
+  "premium": true
  }
 ];

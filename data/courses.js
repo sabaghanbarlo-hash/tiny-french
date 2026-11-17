@@ -100,6 +100,14 @@ export const courses = [
   cta: { label: "Start Lesson 1", href: "/courses/tiny-b1-unit-by-unit/the-story-of-my-life/" }
  },
  {
+  id: "tiny-b2-unit-by-unit", title: "Tiny French B2: Unit by Unit", kind: "Free preview + premium course", status: "available",
+  level: "Upper-intermediate (B2)", free: false, premium: true, price: 19, currency: "USD", checkoutUrl: "", art: "tiny-french-characters",
+  summary: "The next step after B1: a full B2 French course in ten units, taught the Tiny French way. Every lesson has a dialogue with Adrien and Marinette, pronunciation help, vocabulary, clear grammar and a quiz. It follows the same ten unit themes as a standard B2 textbook, so it works alongside your textbook or on its own.",
+  outcomes: ["Express nuanced opinions and argue a case with precision", "Understand and write longer texts: articles, reports, formal letters", "Use the subjunctive, relative pronouns and participles with confidence", "Handle abstract topics in work, society and culture"],
+  modules: [],
+  cta: { label: "Start Lesson 1", href: "/courses/tiny-b2-unit-by-unit/living-abroad/" }
+ },
+ {
   id: "from-zero-to-first-conversations", title: "Tiny French: From Zero to Your First Conversations", kind: "Paid beginner course", status: "planned",
   level: "Absolute beginner (A1)", free: false, price: null, currency: "USD", checkoutUrl: "", art: "tiny-french-characters",
   summary: "A structured, step-by-step beginner course that builds on the free lessons. Still in planning: nothing here is for sale yet.",
