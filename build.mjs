@@ -421,7 +421,8 @@ const COURSE_ART = {
   "tiny-conversations": "cover-tiny-conversations.png",
   "tiny-a1-unit-by-unit": "cover-tiny-a1-unit-by-unit.png",
   "tiny-a2-unit-by-unit": "cover-tiny-a2-unit-by-unit.png",
-  "tiny-b1-unit-by-unit": "cover-tiny-b1-unit-by-unit.png"
+  "tiny-b1-unit-by-unit": "cover-tiny-b1-unit-by-unit.png",
+  "tiny-b2-unit-by-unit": "cover-tiny-b2-unit-by-unit.png"
 };
 const courseArt = (c, cls) => COURSE_ART[c.id]
   ? `<img class="${cls}" src="${U(`/assets/img/${COURSE_ART[c.id]}`)}" alt="" width="1200" height="675" loading="lazy">`
