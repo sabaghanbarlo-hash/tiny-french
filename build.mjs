@@ -148,6 +148,9 @@ ${canon}
 <link rel="stylesheet" href="${U("/assets/css/style.css")}?v=${ver("assets/css/style.css")}">
 <link rel="preload" href="${U("/assets/fonts/caveat-brush.woff2")}" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="${U("/assets/css/v2.css")}?v=${ver("assets/css/v2.css")}">
+<link rel="stylesheet" href="${U("/assets/css/dark.css")}?v=${ver("assets/css/dark.css")}">
+<script>!function(){var d=document.documentElement,t;try{t=localStorage.getItem("tiny-theme")}catch(e){}"light"!==t&&"dark"!==t&&(t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");d.setAttribute("data-theme",t)}()</script>
+<script defer src="${U("/assets/js/theme-toggle.js")}?v=${ver("assets/js/theme-toggle.js")}"></script>
 <script>document.documentElement.classList.add("js");window.TF={base:${J(BASE)},ig:${J(IG)}}</script>
 <script defer src="${U("/assets/js/app.js")}?v=${ver("assets/js/app.js")}"></script>
 <script type="module" src="${U("/assets/js/auth.js")}?v=${ver("assets/js/auth.js")}"></script>
