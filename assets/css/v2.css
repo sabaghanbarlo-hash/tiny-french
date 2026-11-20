@@ -223,3 +223,33 @@ body .site-footer a{color:var(--v2-navy)}
   .feat-ic{width:56px;height:56px}
 }
 @media(prefers-reduced-motion:reduce){.pl-card,.cc{transition:none}.pl-card:hover,.cc:hover{transform:none}}
+
+/* Practice sentences (Tiny 1000 lessons) */
+.practice{margin-top:2rem}
+.practice .pr-count{margin:0 0 6px;font-weight:800;color:var(--muted);font-size:.9rem}
+.pr-bar{height:8px;border-radius:99px;background:var(--sky-l);overflow:hidden;margin-bottom:16px}
+.pr-bar span{display:block;height:100%;background:var(--coral);border-radius:99px;transition:width .25s}
+.pr-word{margin:0 0 4px;color:var(--muted);font-size:.95rem}
+.pr-prompt{margin:0 0 14px;font-size:1.15rem}
+.pr-answer,.pr-bank{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.pr-answer{min-height:76px;padding:12px;border:2px dashed var(--coral);border-radius:16px;background:#fff;margin-bottom:14px}
+.pr-answer:empty::before{content:"Tap the words below, in order";color:var(--muted);font-size:.95rem}
+.pr-answer.ok{border-style:solid;border-color:#3d9a63;background:#eefaf3}
+.pr-answer.no{border-style:solid;border-color:#c0392b}
+.pr-tile{display:inline-flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;min-width:54px;min-height:54px;padding:8px 14px;border:2px solid var(--line);border-radius:14px;background:#fff;color:var(--navy);font:inherit;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.pr-tile .pj{font-size:1.3rem;font-weight:700;line-height:1.2}
+.pr-tile .pt-gl{font-size:.75rem;color:var(--muted)}
+.pr-tile:hover{border-color:var(--coral)}
+.pr-tile:focus-visible{outline:3px solid var(--coral);outline-offset:2px}
+.pr-tile[disabled]{cursor:default}
+.pr-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+.pr-fb{display:none;margin-top:14px;padding:14px 16px;border-radius:14px}
+.pr-fb.show{display:block}
+.pr-fb.ok{background:#e4f1df;color:#2f4d2b}
+.pr-fb.no{background:#fbe3df;color:#7d2a22}
+.pr-fb p{margin:6px 0 0}
+.pr-fb .pro{display:none}
+.pr-fb .pja{font-size:1.35rem;font-weight:700}
+.pr-result{text-align:center;padding:8px 0}
+.pr-result .big{font-size:2.4rem;font-weight:800;margin:0}
+.pr-result .pr-actions{justify-content:center}

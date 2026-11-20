@@ -203,6 +203,61 @@ if (grid) {
 }
 
 // ---------- lesson page ----------
+
+// ---------- practice sentences (Tiny 1000 lessons) ----------
+// Built from the lesson's own example sentences (vocab-data + the word-by-word tiles), so it also works for premium lessons that arrive as ready-made HTML.
+function initPractice(lessonEl) {
+  if (!/\/courses\/tiny-1000\//.test(location.pathname) || $("#practice", lessonEl)) return;
+  const vd = jsonOf("vocab-data") || [];
+  const items = vd.map((v) => {
+    const card = $(`.vcard[data-vid="${(window.CSS && CSS.escape) ? CSS.escape(v.id) : v.id}"]`, lessonEl), wb = card && $(".v-ex", card)?.nextElementSibling;
+    const tokens = wb && wb.classList.contains("wbw") ? $$(".wbw-w", wb).map((w) => ({ fr: $("b", w)?.textContent || "", gl: $("em", w)?.textContent || "" })).filter((t) => t.fr) : [];
+    return v.ex && v.exEn ? { word: v.fr, fr: v.ex, en: v.exEn, tokens: tokens.length ? tokens : [{ fr: v.ex, gl: "" }] } : null;
+  }).filter(Boolean);
+  const quiz = $("#quiz", lessonEl);
+  if (!items.length || !quiz) return;
+  const sec = document.createElement("section");
+  sec.className = "block practice"; sec.setAttribute("aria-labelledby", "pr-h");
+  sec.innerHTML = `<h2 id="pr-h">Practice sentences</h2><p class="muted">Use the words you just learned. Rebuild each sentence in French by tapping the words in order, then say it out loud.</p><div id="practice"></div>`;
+  quiz.after(sec);
+  const box = $("#practice", sec);
+  let order, i, placed, bank, firstTry, state, fresh = true; // state: build | ok | no | shown
+  const start = () => { order = shuffle(items); i = 0; firstTry = 0; load(); };
+  const load = () => { const s = order[i]; placed = []; bank = shuffle(s.tokens.map((_, k) => k)); if (bank.length > 1 && bank.every((k, n) => k === n)) bank.reverse(); state = "build"; fresh = true; draw(); };
+  const tile = (s, k, w) => `<button type="button" class="pr-tile" data-${w}="${k}" lang="fr"${state === "ok" || state === "shown" ? " disabled" : ""}><span class="pj">${esc(s.tokens[k].fr)}</span>${s.tokens[k].gl ? `<span class="pt-gl">${esc(s.tokens[k].gl)}</span>` : ""}</button>`;
+  const solved = (s) => placed.length === s.tokens.length && placed.every((k, n) => s.tokens[k].fr === s.tokens[n].fr);
+  const sentence = (s) => `<p class="pja" lang="fr">${esc(s.fr)}</p><p class="pen">${esc(s.en)}</p>`;
+  const draw = () => {
+    const s = order[i], n = order.length, done = state === "ok" || state === "shown", left = bank.filter((k) => !placed.includes(k));
+    box.innerHTML = `<p class="pr-count">Sentence ${i + 1} of ${n}</p><div class="pr-bar" aria-hidden="true"><span style="width:${(i / n) * 100}%"></span></div>
+<p class="pr-word">Word: <b lang="fr">${esc(s.word)}</b></p><p class="pr-prompt">Say it in French: <strong>“${esc(s.en)}”</strong></p>
+<div class="pr-answer${done ? " ok" : state === "no" ? " no" : ""}" aria-live="polite">${placed.map((k) => tile(s, k, "p")).join("")}</div>
+${done ? "" : `<div class="pr-bank" aria-label="Word tiles">${left.map((k) => tile(s, k, "b")).join("")}</div>`}
+<div class="pr-actions">${done ? `<button type="button" class="btn" data-a="next">${i + 1 < n ? "Next sentence →" : "See my result"}</button>` : `<button type="button" class="btn ghost" data-a="undo"${placed.length ? "" : " disabled"}>Undo</button><button type="button" class="btn ghost" data-a="show">Show answer</button>`}${done && canSpeak ? `<button type="button" class="btn ghost" data-a="say">🔊 Listen</button>` : ""}</div>
+<div class="pr-fb${state === "build" ? "" : " show " + (state === "no" ? "no" : "ok")}" role="status" aria-live="polite">${
+      state === "ok" ? `<strong>Correct!</strong> Now say it out loud.${sentence(s)}` : state === "shown" ? `<strong>Here it is.</strong> Read it, then say it out loud.${sentence(s)}`
+      : state === "no" ? "Not quite. Tap a word in your sentence to take it back, or press Undo." : ""}</div>`;
+  };
+  const finish = () => { box.innerHTML = `<div class="pr-result"><p class="big">${firstTry} / ${order.length}</p><p><strong>${firstTry === order.length ? "Perfect! Every sentence on the first try." : "sentences built correctly on the first try."}</strong></p><p class="muted">Say each sentence out loud once more. Speaking it helps the words stick.</p><div class="pr-actions"><button type="button" class="btn" data-a="again">Practise again</button></div></div>`; };
+  box.addEventListener("click", (e) => {
+    const s = order[i], b = e.target.closest("[data-b]"), p = e.target.closest("[data-p]"), a = e.target.closest("[data-a]");
+    if (b && state !== "ok" && state !== "shown") {
+      placed.push(+b.dataset.b); state = "build";
+      if (placed.length === s.tokens.length) { if (solved(s)) { state = "ok"; if (fresh) firstTry++; } else { state = "no"; fresh = false; } }
+      draw();
+    } else if (p && (state === "build" || state === "no")) { placed.splice(placed.indexOf(+p.dataset.p), 1); state = "build"; draw(); }
+    else if (a) {
+      const act = a.dataset.a;
+      if (act === "undo") { placed.pop(); state = "build"; draw(); }
+      else if (act === "show") { placed = s.tokens.map((_, k) => k); state = "shown"; fresh = false; draw(); }
+      else if (act === "say") speak(s.fr);
+      else if (act === "next") { if (i + 1 < order.length) { i++; load(); } else finish(); }
+      else if (act === "again") { start(); sec.scrollIntoView({ behavior: "smooth", block: "start" }); }
+    }
+  });
+  start();
+}
+
 function initLesson() {
 const lessonEl = $("article.lesson[data-lesson]");
 if (lessonEl) {
@@ -220,6 +275,7 @@ if (lessonEl) {
   const qd = jsonOf("quiz-data"), vd = jsonOf("vocab-data") || [];
   const box = $("[data-quiz=lesson]");
   if (qd && box) runQuiz(box, qd.questions, { id: qd.id, endNote: 'Done? <a href="#c-h">Mark the lesson as complete ↓</a>' });
+  initPractice(lessonEl);
   const fcRoot = $("[data-flash=lesson]"), det = $(".fc-wrap");
   if (fcRoot && det) { let inst; det.addEventListener("toggle", () => { if (det.open && !inst) inst = flash(fcRoot, vd); }); }
 }

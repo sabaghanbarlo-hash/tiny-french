@@ -87,12 +87,18 @@ textarea,input[type=text]{flex:1;min-width:0;min-height:44px;max-height:110px;pa
 @keyframes b{0%,80%,100%{transform:none}40%{transform:translateY(-4px);opacity:.8}}
 @media (prefers-reduced-motion:reduce){.fab{transition:none}.dots i{animation:none}}
 @media (max-width:480px){.panel{right:8px;bottom:8px;width:calc(100vw - 16px);height:calc(100dvh - 16px)}.fab{right:12px;bottom:12px}}
+
+:host([data-theme="dark"]){--ink:#eef2fb;--bg:#18223a;--soft:#243153;--line:#3a4a74}
+:host([data-theme="dark"]) .chip,:host([data-theme="dark"]) .form,:host([data-theme="dark"]) textarea,:host([data-theme="dark"]) input[type=text],:host([data-theme="dark"]) .btn.ghost{background:var(--bg)}
+:host([data-theme="dark"]) .msg.no{color:#ff8a80}:host([data-theme="dark"]) .msg.ok{color:#7fd6a8}
 `;
 
 function boot() {
   if (document.getElementById("tiny-tutor")) return;
   const host = document.createElement("div"); host.id = "tiny-tutor";
   const root = host.attachShadow({ mode: "open" });
+  const syncTheme = () => host.setAttribute("data-theme", document.documentElement.getAttribute("data-theme") === "dark" ? "dark" : "light");
+  syncTheme(); new MutationObserver(syncTheme).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
   root.innerHTML = `<style>${CSS}</style>
   <button class="fab" type="button" aria-haspopup="dialog" aria-expanded="false"><span aria-hidden="true">${CFG.icon}</span> Ask the tutor</button>
   <section class="panel" role="dialog" aria-label="${esc(CFG.name)}">
